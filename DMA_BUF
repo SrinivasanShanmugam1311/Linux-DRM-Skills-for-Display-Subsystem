@@ -1,0 +1,84 @@
+https://blog.csdn.net/hexiaolong2009/category_10838100.html
+
+DRM Driver Development (Beginning)
+https://blog.csdn.net/hexiaolong2009/article/details/89810355
+
+DRM Driver Development (VKMS)
+https://blog.csdn.net/hexiaolong2009/article/details/105180621
+
+dma-buf series:
+dma-buf from shallow to deep (1) - the simplest dma-buf driver
+https://blog.csdn.net/hexiaolong2009/article/details/102596744
+
+dma-buf from shallow to deep (2) - kmap / vmap
+https://blog.csdn.net/hexiaolong2009/article/details/102596761
+
+dma-buf from shallow to deep (3) - map attachment
+https://blog.csdn.net/hexiaolong2009/article/details/102596772
+
+dma-buf from shallow to deep (4) - mmap
+https://blog.csdn.net/hexiaolong2009/article/details/102596791
+
+dma-buf from shallow to deep (5) - File
+https://blog.csdn.net/hexiaolong2009/article/details/102596802
+
+dma-buf from shallow to deep (6) - begin / end cpu_access
+
+dma-buf From shallow to deep (vii) - alloc page version
+https://blog.csdn.net/hexiaolong2009/article/details/102596845
+
+dma-buf from shallow to deep (viii) - ION simplified LWN
+translation: DMA-BUF cache handling: Off the DMA API map (part 1
+). 
+https://blog.csdn.net/hexiaolong2009/article/details/106745686
+
+LWN translation: DMA-BUF cache handling: Off the DMA API map (part 2).
+https://blog.csdn.net/hexiaolong2009/article/details/106843185
+
+
+Others:
+DMA_BUF
+https://blog.csdn.net/qq_18998145/article/details/99406944?spm=1001.2101.3001.6650.10&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-10.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-10.pc_relevant_antiscanv2
+
+The difference between DMABUF, DMA mapping, IOMMU
+https://blog.csdn.net/prike/article/details/72874879?spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-5.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-5.pc_relevant_antiscanv2
+
+DMA_BUF of Linux Kernel Notes
+https://blog.csdn.net/abc3240660/article/details/81942190?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8.pc_relevant_default
+
+DMA_BUF of Linux Kernel Notes
+https://blog.csdn.net/zhong29/article/details/89644321?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_antiscanv2
+
+dma-buf subsystem(一)
+https://blog.csdn.net/jun_8018/article/details/118895751
+
+Linux DMA-BUF API Usage Guide
+https://blog.csdn.net/crazyjiang/article/details/7940330?spm=1001.2101.3001.6650.7&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-7.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-7.pc_relevant_default
+
+Linux open source graphics driver dma, DMA_BUF of Linux kernel notes
+https://blog.csdn.net/weixin_42509614/article/details/116969368?spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-11.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-11.pc_relevant_antiscanv2
+
+ABOUT THE ORIGIN OF THE NAMES DUMB AND PRIME IN DRM
+https://blog.csdn.net/hexiaolong2009/article/details/105961192
+
+DRM dumb, prime introduction
+https://blog.csdn.net/dljaye/article/details/105591399
+
+DRM GEM Driver Development (DUMB)
+https://blog.csdn.net/hexiaolong2009/article/details/106532966
+
+drm-memory
+https://blog.csdn.net/qingsong1001/article/details/108599262
+
+Simple example showing how to use DRM to : allocate a Dumb buffer on the GPU, use it as a framebuffer, use this CRTC on the currently connected screen (expecting 1 connected screen), export the buffer, reimport it implicitly with mmap and write in it.
+https://gist.github.com/Miouyouyou/2f227fd9d4116189625f501c0dcf0542
+
+
+DMA CACHE SHARING MECHANISM (TRANSLATED VERSION)
+https://blog.csdn.net/stoneboy_z/article/details/88615561?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_antiscanv2
+
+udmabuf: User space-mapped DMA buffer device driver for Linux
+https://download.csdn.net/download/weixin_42122340/18374926?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-download-2%7Edefault%7EBlogCommendFromBaidu%7EPaid-1.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-download-2%7Edefault%7EBlogCommendFromBaidu%7EPaid-1.pc_relevant_antiscanv2
+
+Allwinner H3 platform DMA framework
+https://blog.csdn.net/dlijun/article/details/51718688

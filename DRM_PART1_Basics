@@ -1,0 +1,44 @@
+Linux DRM (1) Display Server
+https://blog.csdn.net/dearsq/article/details/78312052
+
+Linux DRM (2) Basic Concepts and Features
+https://blog.csdn.net/dearsq/article/details/78394388?spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-5.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-5.pc_relevant_default
+
+Linux DRM subsystem, Linux DRM things - basic concepts
+https://blog.csdn.net/weixin_32239819/article/details/117212276?spm=1001.2101.3001.6650.17&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-17.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-17.pc_relevant_default
+
+Introduction to DRM in Linux
+https://qingsong.blog.csdn.net/article/details/120630040?spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6.pc_relevant_default
+
+Understanding Linux DRM
+https://blog.csdn.net/xiaoqiaoq0/article/details/113885473?spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-9.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-9.pc_relevant_default
+
+linux drm architecture
+https://blog.csdn.net/walletiger/article/details/46289619?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_antiscan&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_antiscan
+
+The principle and application of linux drm
+https://blog.csdn.net/user_jiang/article/details/105178965?spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-11.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-11.pc_relevant_default
+
+Basic concepts and usage examples of Linux DRM (C language)
+https://blog.csdn.net/weixin_40026797/article/details/111058814?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_default
+
+
+[RK3399][Android7.1] DRM module introduction in Display
+https://blog.csdn.net/kris_fei/article/details/79046380?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8.pc_relevant_default
+
+[Linux Foundation] -- Linux DRM (three) RK platform DRM code analysis- Rockchip
+https://blog.csdn.net/u014674293/article/details/105774238?spm=1001.2101.3001.6650.10&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-10.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-10.pc_relevant_default
+
+Code analysis of linux drm architecture
+https://blog.csdn.net/walletiger/article/details/46596399?spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-14.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-14.pc_relevant_default
+
+
+VERY IMPORTANT THE BELOW ONES:
+Linux DRM Mode-Setting API
+https://dvdhrm.wordpress.com/2012/09/13/linux-drm-mode-setting-api/
+
+Advanced DRM Mode-Setting API
+https://dvdhrm.wordpress.com/2012/12/21/advanced-drm-mode-setting-api/
+
+Splitting DRM and KMS device nodes
+https://dvdhrm.wordpress.com/2013/09/01/splitting-drm-and-kms-device-nodes/

@@ -1,0 +1,31 @@
+
+DRM (Direct Rendering Manager) Learning Introduction - ---> Very important
+https://blog.csdn.net/hexiaolong2009/article/details/83720940
+
+DAY 1 (VERY IMPORTANT):
+https://blog.csdn.net/hexiaolong2009/article/details/83721242 - 最简单的DRM应用程序 （single-buffer）
+https://blog.csdn.net/hexiaolong2009/article/details/84452020 - 最简单的DRM应用程序 （double-buffer）
+https://blog.csdn.net/hexiaolong2009/article/details/84674127 - The simplest DRM application (page-flip)
+https://blog.csdn.net/hexiaolong2009/article/details/84934294 - Simplest DRM application (plane-test)
+https://blog.csdn.net/hexiaolong2009/article/details/87211230 - DRM application advanced (Property)
+https://blog.csdn.net/hexiaolong2009/article/details/87392266 - DRM应用程序进阶 （atomic-crtc）
+https://blog.csdn.net/hexiaolong2009/article/details/87824581 - DRM application advanced (atomic-plane)
+https://www.kernel.org/doc/html/latest/gpu/drm-kms.html#kms-properties
+
+DAY 2 (VERY IMPORTANT):
+https://blog.csdn.net/xjq163/article/details/85681572 - Linux DRM driver usage example
+https://blog.csdn.net/hexiaolong2009/article/details/89810355 - DRM driver development (opening)
+https://blog.csdn.net/jingxia2008/article/details/48804859 - How does the drm driver create the fb device?
+[PATCH v4 1/6] drm: add SimpleDRM driver
+https://lists.freedesktop.org/archives/dri-devel/2013-September/044639.html
+Using DRM Driver
+https://www.linux4sam.org/bin/view/Linux4SAM/UsingAtmelDRMDriver
+
+DAY 3 (VERY IMPORTANT):
+https://blog.csdn.net/kris_fei/article/details/79046380?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8.pc_relevant_default - [RK3399][Android7.1] DRM module introduction in Display
+https://blog.csdn.net/u014674293/article/details/105774238?spm=1001.2101.3001.6650.10&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-10.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-10.pc_relevant_default - Linux DRM (three) RK platform DRM code analysis- Rockchip
+https://blog.csdn.net/kris_fei/article/details/79088907 - [RK3399][Android7.1] DRM Framebuffer in Display
+https://blog.csdn.net/zhuyong006/article/details/80942455 - [RK3399][Android7.1] Display中的DRM和Framebuffer注册流程 - [RK3399][Android7.1] DRM and Framebuffer registration process in Display -  ---> Very important
+
+https://blog.csdn.net/boyemachao/article/details/83576684 - Code analysis of linux drm architecture and linux drm architecture
+https://blog.csdn.net/walletiger/article/details/46596399 - Code analysis of linux drm architecture
