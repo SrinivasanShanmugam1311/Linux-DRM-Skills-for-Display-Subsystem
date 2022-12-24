@@ -1,0 +1,1 @@
+drm.debug=0x1FF log_buf_len=128M
