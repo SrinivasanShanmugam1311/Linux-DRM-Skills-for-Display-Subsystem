@@ -1,0 +1,78 @@
+
+https://github.com/CPFL/drm/blob/master/tests/modetest/modetest.c
+
+
+localhost / # modetest --help
+usage: modetest [-acDdefMPpsCvrw]
+
+ Query options:
+
+	-c	list connectors
+	-e	list encoders
+	-f	list framebuffers
+	-p	list CRTCs and planes (pipes)
+
+ Test options:
+
+	-P <plane_id>@<crtc_id>:<w>x<h>[+<x>+<y>][*<scale>][@<format>]	set a plane
+	-s <connector_id>[,<connector_id>][@<crtc_id>]:[#<mode index>]<mode>[-<vrefresh>][@<format>]	set a mode
+	-C	test hw cursor
+	-v	test vsynced page flipping
+	-r	set the preferred mode for all connectors
+	-w <obj_id>:<prop_name>:<value>	set property
+	-a 	use atomic API
+	-F pattern1,pattern2	specify fill patterns
+
+ Generic options:
+
+	-d	drop master after mode set
+	-M module	use the given driver
+	-D device	use the given device
+
+	Default is to dump all info.
+localhost / # 
+
+
+
+dmesg -w | grep -i drm
+
+	Line    3: [    0.000000] Command line: cros_secure console= loglevel=7 init=/sbin/init cros_secure drm.trace=0x106 root=PARTUUID=29bec251-ee22-ee48-972e-cc69b125ea77/PARTNROFF=1 rootwait rw dm_verity.error_behavior=3 dm_verity.max_bios=-1 dm_verity.dev_wait=0 dm="1 vroot none rw 1,0 5324800 verity payload=ROOT_DEV hashtree=HASH_DEV hashstart=5324800 alg=sha256 root_hexdigest=c48ed953b3d27ba37c536890ae715cec2bced973c0341a4e866aac37f67ae83c salt=e1140d7a7570603760296ccd3a3566f0837b719c26a7af674e47ec82dbf41b91" noinitrd cros_debug vt.global_cursor_default=0 kern_guid=29bec251-ee22-ee48-972e-cc69b125ea77 add_efi_memmap boot=local noresume noswap i915.modeset=1 amdgpu.abmlevel=0x4 amdgpu.dcfeaturemask=0x8 rtc-cmos.use_acpi_alarm=1 amd-pmc.enable_stb=1
+	Line   96: [    0.019739] Kernel command line: cros_secure console= loglevel=7 init=/sbin/init cros_secure drm.trace=0x106 root=PARTUUID=29bec251-ee22-ee48-972e-cc69b125ea77/PARTNROFF=1 rootwait rw dm_verity.error_behavior=3 dm_verity.max_bios=-1 dm_verity.dev_wait=0 dm="1 vroot none rw 1,0 5324800 verity payload=ROOT_DEV hashtree=HASH_DEV hashstart=5324800 alg=sha256 root_hexdigest=c48ed953b3d27ba37c536890ae715cec2bced973c0341a4e866aac37f67ae83c salt=e1140d7a7570603760296ccd3a3566f0837b719c26a7af674e47ec82dbf41b91" noinitrd cros_debug vt.global_cursor_default=0 kern_guid=29bec251-ee22-ee48-972e-cc69b125ea77 add_efi_memmap boot=local noresume noswap i915.modeset=1 amdgpu.abmlevel=0x4 amdgpu.dcfeaturemask=0x8 rtc-cmos.use_acpi_alarm=1 amd-pmc.enable_stb=1
+	Line  606: [    0.478687] ACPI: bus type drm_connector registered
+	Line  607: [    0.478713] [drm] amdgpu kernel modesetting enabled.
+	Line  612: [    0.478975] [drm] initializing kernel modesetting (IP DISCOVERY 0x1002:0x1506 0x1002:0x1506 0xDD).
+	Line  613: [    0.478983] [drm] register mmio base: 0xD0500000
+	Line  614: [    0.478985] [drm] register mmio size: 524288
+	Line  615: [    0.480492] [drm] add ip block number 0 <nv_common>
+	Line  616: [    0.480494] [drm] add ip block number 1 <gmc_v10_0>
+	Line  617: [    0.480496] [drm] add ip block number 2 <navi10_ih>
+	Line  618: [    0.480497] [drm] add ip block number 3 <psp>
+	Line  619: [    0.480499] [drm] add ip block number 4 <smu>
+	Line  620: [    0.480500] [drm] add ip block number 5 <dm>
+	Line  621: [    0.480501] [drm] add ip block number 6 <gfx_v10_0>
+	Line  622: [    0.480502] [drm] add ip block number 7 <sdma_v5_2>
+	Line  623: [    0.480504] [drm] add ip block number 8 <vcn_v3_0>
+	Line  624: [    0.480505] [drm] add ip block number 9 <jpeg_v3_0>
+	Line  627: [    0.480534] [drm] VCN(0) decode is enabled in VM mode
+	Line  628: [    0.480535] [drm] VCN(0) encode is enabled in VM mode
+	Line  629: [    0.480537] [drm] JPEG decode is enabled in VM mode
+	Line  632: [    0.480570] [drm] vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+	Line  636: [    0.480586] [drm] Detected VRAM RAM=64M, BAR=64M
+	Line  637: [    0.480587] [drm] RAM width 128bits LPDDR5
+	Line  638: [    0.480625] [drm] amdgpu: 64M of VRAM memory ready
+	Line  639: [    0.480626] [drm] amdgpu: 3072M of GTT memory ready.
+	Line  640: [    0.480637] [drm] GART: num cpu pages 262144, num gpu pages 262144
+	Line  641: [    0.480959] [drm] PCIE GART of 1024M enabled (table at 0x000000F403C00000).
+	Line  644: [    0.481091] [drm] Loading DMUB firmware via PSP: version=0x06000800
+	Line  645: [    0.481588] [drm] use_doorbell being set to: [true]
+	Line  646: [    0.481619] [drm] Found VCN firmware Version ENC: 1.23 DEC: 2 VEP: 0 Revision: 5
+	Line  648: [    0.505392] [drm] reserve 0xa00000 from 0xf402000000 for PSP TMR
+	Line  653: [    0.640339] [drm] Display Core initialized with v3.2.198!
+	Line  654: [    0.641529] [drm] DMUB hardware initialized: version=0x06000800
+	Line  655: [    0.781907] [drm] PSR support 0, DC PSR ver -1, sink PSR ver 0 DPCD caps 0x0 su_y_granularity 0
+	Line  656: [    0.782969] [drm] kiq ring mec 2 pipe 1 q 0
+	Line  657: [    0.786770] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+	Line  658: [    0.786796] [drm] JPEG decode initialized successfully.
+	Line  680: [    0.789009] [drm] Initialized amdgpu 3.48.0 20150101 for 0000:04:00.0 on minor 0
+	Line  935: [    1.731030] frecon[454]: Frecon using drm driver amdgpu, version 3.48, date(20150101), desc(AMD GPU) using atomic
+	Line  936: [    1.765328] [drm] DSC precompute is not needed.

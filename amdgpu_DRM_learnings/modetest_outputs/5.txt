@@ -1,0 +1,799 @@
+
+localhost / # modetest -M amdgpu -s 78@67:1920x1080-60 -P 55@67:480x480@AR24 -a
+setting mode 1920x1080-60.00Hz on connectors 78, crtc 67
+testing 480x480@AR24 on plane 55, crtc 67
+
+
+
+
+
+[11476.719130] [drm:mod_hdcp_process_event] [Link 0] > HDCP_CP_NOT_DESIRED
+[11515.197046] [drm:drm_stub_open] 
+[11515.197071] [drm:drm_open] comm="modetest", pid=14359, minor=0
+[11515.197094] [drm:amdgpu_vm_init] VM update mode is SDMA
+[11515.197172] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_VERSION
+[11515.197191] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_VERSION
+[11515.197200] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[11515.197207] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_GET_UNIQUE
+[11515.197216] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x00009840 upper_32_bits(ring->wptr << 2) == 0x00000000
+[11515.197219] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_GET_UNIQUE
+[11515.197230] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_SET_CLIENT_CAP
+[11515.197231] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x0000000000009840)
+[11515.197242] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_SET_CLIENT_CAP
+[11515.197253] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETRESOURCES
+[11515.197272] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETRESOURCES
+[11515.197288] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCRTC
+[11515.197303] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCRTC
+[11515.197315] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCRTC
+[11515.197326] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCRTC
+[11515.197337] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETENCODER
+[11515.197351] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETENCODER
+[11515.197362] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETENCODER
+[11515.197373] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETENCODER
+[11515.197384] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETENCODER
+[11515.197395] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETENCODER
+[11515.197406] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETENCODER
+[11515.197417] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETENCODER
+[11515.197428] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[11515.197439] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:78:eDP-1]
+[11515.197466] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+[11515.197480] [drm:update_display_info] eDP-1: Assigning EDID-1.4 digital sink color depth as 8 bpc.
+[11515.197488] [drm:_drm_edid_connector_update] ELD monitor 
+[11515.197497] [drm:_drm_edid_connector_update] ELD size 20, SAD count 0
+[11515.197834] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 188864, wptr 188896
+[11515.197844] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[11515.217645] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_access] AMDGPU DM aux hw bus 0: Too many retries, giving up. First error: -5
+[11515.217676] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret= -5)
+[11515.217877] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[11515.218153] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[11515.218357] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1680  height:1050
+[11515.218553] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:1024
+[11515.218749] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1440  height:900
+[11515.219019] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:800
+[11515.219242] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:720
+[11515.219440] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1024  height:768
+[11515.219610] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:800  height:600
+[11515.219784] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:640  height:480
+[11515.219838] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:78:eDP-1] probed modes :
+[11515.219854] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 141370 1920 1968 2000 2142 1080 1083 1089 1100 0x48 0x9
+[11515.219879] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 48 113090 1920 1968 2000 2142 1080 1083 1089 1100 0x40 0x9
+[11515.219905] [drm:drm_mode_debug_printmodeline] Modeline "1680x1050": 60 141370 1680 1968 2000 2142 1050 1083 1089 1100 0x40 0x9
+[11515.219929] [drm:drm_mode_debug_printmodeline] Modeline "1280x1024": 60 141370 1280 1968 2000 2142 1024 1083 1089 1100 0x40 0x9
+[11515.219954] [drm:drm_mode_debug_printmodeline] Modeline "1440x900": 60 141370 1440 1968 2000 2142 900 1083 1089 1100 0x40 0x9
+[11515.219979] [drm:drm_mode_debug_printmodeline] Modeline "1280x800": 60 141370 1280 1968 2000 2142 800 1083 1089 1100 0x40 0x9
+[11515.220004] [drm:drm_mode_debug_printmodeline] Modeline "1280x720": 60 141370 1280 1968 2000 2142 720 1083 1089 1100 0x40 0x9
+[11515.220030] [drm:drm_mode_debug_printmodeline] Modeline "1024x768": 60 141370 1024 1968 2000 2142 768 1083 1089 1100 0x40 0x9
+[11515.220057] [drm:drm_mode_debug_printmodeline] Modeline "800x600": 60 141370 800 1968 2000 2142 600 1083 1089 1100 0x40 0x9
+[11515.220083] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 141370 640 1968 2000 2142 480 1083 1089 1100 0x40 0x9
+[11515.220110] [drm:drm_mode_object_put] OBJ ID: 78 (2)
+[11515.220136] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[11515.220168] [drm:drm_mode_object_put] OBJ ID: 78 (2)
+[11515.220193] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[11515.220206] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:85:HDMI-A-1]
+[11515.220226] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:85:HDMI-A-1] disconnected
+[11515.220248] [drm:drm_mode_object_put] OBJ ID: 85 (2)
+[11515.220260] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[11515.220278] [drm:drm_mode_object_put] OBJ ID: 85 (2)
+[11515.220290] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[11515.220302] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:89:DP-1]
+[11515.220321] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:89:DP-1] disconnected
+[11515.220339] [drm:drm_mode_object_put] OBJ ID: 89 (2)
+[11515.220352] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[11515.220368] [drm:drm_mode_object_put] OBJ ID: 89 (2)
+[11515.220381] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[11515.220394] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:94:DP-2]
+[11515.220413] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:94:DP-2] disconnected
+[11515.220431] [drm:drm_mode_object_put] OBJ ID: 94 (2)
+[11515.220441] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[11515.220454] [drm:drm_mode_object_put] OBJ ID: 94 (2)
+[11515.220472] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.220488] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.220505] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220517] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220529] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220540] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220551] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220561] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220573] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220583] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220594] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220604] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220615] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220626] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220637] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220647] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220658] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220668] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220679] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220690] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220701] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.220718] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.220734] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220745] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220757] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220781] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220795] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220810] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220826] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220839] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220851] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220861] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220872] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220882] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220893] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220904] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220914] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220925] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220935] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220946] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220957] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.220970] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.220985] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.220996] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221011] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221025] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221039] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221053] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221067] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221081] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221096] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221109] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221123] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221137] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221152] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221165] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221179] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221193] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221208] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221222] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221237] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.221255] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.221275] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221290] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221306] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221319] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221333] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221347] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221361] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221376] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221389] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221403] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221417] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221431] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221446] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221459] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221474] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221487] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221501] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221516] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221530] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.221544] [drm:drm_mode_object_put] OBJ ID: 78 (2)
+[11515.221562] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.221581] [drm:drm_mode_object_put] OBJ ID: 78 (2)
+[11515.221594] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221608] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221622] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221637] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221655] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221669] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221685] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221698] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221713] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221726] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221741] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221755] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221810] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221826] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221843] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221858] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221873] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221888] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221903] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221917] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221932] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221946] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221962] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221975] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.221990] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222003] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222018] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222032] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222047] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222062] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222078] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222093] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222113] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.222127] [drm:drm_mode_object_put] OBJ ID: 85 (2)
+[11515.222140] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.222157] [drm:drm_mode_object_put] OBJ ID: 85 (2)
+[11515.222170] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222185] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222199] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222213] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222229] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222244] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222259] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222273] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222288] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222301] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222315] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222329] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222344] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222358] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222374] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222389] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222406] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222420] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222436] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222451] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222466] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222480] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222495] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222509] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222523] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222532] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222539] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222545] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222551] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222555] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222559] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.222562] [drm:drm_mode_object_put] OBJ ID: 89 (2)
+[11515.222567] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.222571] [drm:drm_mode_object_put] OBJ ID: 89 (2)
+[11515.222574] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222578] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222581] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222585] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222589] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222592] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222596] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222599] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222603] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222606] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222610] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222613] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222617] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222620] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222624] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222628] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222632] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222635] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222639] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222642] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222646] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222649] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222653] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222656] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222659] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222663] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222666] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222670] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222673] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222677] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222681] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222686] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222690] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.222694] [drm:drm_mode_object_put] OBJ ID: 94 (2)
+[11515.222696] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.222700] [drm:drm_mode_object_put] OBJ ID: 94 (2)
+[11515.222704] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222707] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222710] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222714] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222718] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222721] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222725] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222728] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222732] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222735] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222739] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222742] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222746] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222749] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222753] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222757] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222761] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222764] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222771] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222775] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222779] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222782] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222786] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222789] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222793] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222796] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222800] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222803] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222807] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222811] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222815] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222820] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222824] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANERESOURCES
+[11515.222829] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANERESOURCES
+[11515.222833] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222837] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222842] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222845] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222849] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222853] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222856] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222860] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222864] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222867] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222872] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222875] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222879] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222883] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222887] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222890] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222894] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222898] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPLANE
+[11515.222902] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.222906] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.222912] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222916] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222920] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222923] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222926] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222930] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222933] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222937] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222940] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222943] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222947] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222950] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222954] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222957] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222960] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222964] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222967] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222971] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222974] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222977] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222981] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222984] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222989] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222992] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222995] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.222999] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223002] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223006] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223010] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223013] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223017] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223021] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223025] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223030] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223036] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223039] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223043] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223047] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223051] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223054] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223058] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223061] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223065] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223068] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223072] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223075] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223079] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223082] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223085] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223089] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223092] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223095] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223099] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223102] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223106] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223109] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223113] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223116] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223120] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223123] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223126] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223130] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223134] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223137] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223141] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223144] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223150] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223155] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223161] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223164] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223168] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223171] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223175] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223178] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223182] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223185] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223189] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223192] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223196] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223199] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223203] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223206] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223210] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223214] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223217] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223221] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223224] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223227] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223231] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223234] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223238] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223241] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223244] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223248] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223251] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223255] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223259] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223262] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223266] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223269] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223273] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223278] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223283] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223287] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223291] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223294] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223297] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223301] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223304] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223308] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223311] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223314] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223318] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223321] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223326] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223330] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223333] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223336] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223340] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223343] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223347] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223350] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223354] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223357] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223360] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223364] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223367] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223371] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223374] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223378] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223381] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223385] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223389] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223393] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223397] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223401] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223407] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223410] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223414] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223418] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223421] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223425] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223428] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223431] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223435] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223439] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223442] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223446] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223449] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223453] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223456] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223460] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223464] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223467] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223470] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223474] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223477] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223480] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223484] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223487] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223491] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223494] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223498] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223501] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223505] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223508] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223515] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223519] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223523] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223528] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223534] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223537] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223541] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223544] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223548] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223552] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223555] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223558] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223562] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223565] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223569] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223572] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223576] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223579] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223583] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223586] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223590] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223593] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223596] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223600] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223603] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223607] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223610] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223613] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223617] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223620] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223624] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223628] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223633] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223637] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223641] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223644] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223648] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223651] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223655] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223658] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223661] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223665] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223668] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223671] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223676] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223680] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223683] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223686] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223690] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223693] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223697] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223700] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223703] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223707] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223710] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223713] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223717] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223720] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223724] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223728] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223733] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223736] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223740] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223744] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223747] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223751] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223754] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223758] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223761] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223768] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223771] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223775] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223778] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223782] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223785] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223788] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223792] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223795] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223799] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223802] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223806] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223809] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223812] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223815] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223819] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223822] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223826] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223830] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
+[11515.223836] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223839] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223843] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223846] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223850] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223853] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223858] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223861] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223865] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223868] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223872] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223875] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223879] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223882] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223886] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223889] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223893] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223896] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223900] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223903] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223907] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223910] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223914] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223917] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223921] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223924] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+[11515.223928] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_GET_CAP
+[11515.223959] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
+[11515.223971] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATE_DUMB
+[11515.223990] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_MAP_DUMB
+[11515.225133] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
+[11515.225142] [drm:drm_mode_addfb2] [FB:106]
+[11515.225156] [drm:drm_ioctl] comm="modetest" pid=14359, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
+[11515.225162] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000f81c318e
+[11515.225167] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:55:plane-3] 00000000e9005fa9 state to 00000000f81c318e
+[11515.225173] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:106] for [PLANE:55:plane-3] state 00000000e9005fa9
+[11515.225177] [drm:drm_mode_object_get] OBJ ID: 106 (3)
+[11515.225180] [drm:drm_mode_object_put] OBJ ID: 106 (4)
+[11515.225182] [drm:drm_mode_object_put] OBJ ID: 106 (3)
+[11515.225185] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:67:crtc-0] 00000000736d1bd9 state to 00000000f81c318e
+[11515.225189] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_plane] Link [PLANE:55:plane-3] state 00000000e9005fa9 to [CRTC:67:crtc-0]
+[11515.225194] [drm:drm_mode_object_get] OBJ ID: 105 (3)
+[11515.225196] amdgpu 0000:04:00.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [MODE:1920x1080] for [CRTC:67:crtc-0] state 00000000736d1bd9
+[11515.225199] [drm:drm_mode_object_put] OBJ ID: 105 (4)
+[11515.225201] [drm:drm_mode_object_put] OBJ ID: 105 (3)
+[11515.225205] [drm:drm_mode_object_get] OBJ ID: 78 (2)
+[11515.225207] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:78:eDP-1] 00000000d57eb4f7 state to 00000000f81c318e
+[11515.225211] [drm:drm_mode_object_get] OBJ ID: 78 (3)
+[11515.225213] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_connector] Link [CONNECTOR:78:eDP-1] state 00000000d57eb4f7 to [CRTC:67:crtc-0]
+[11515.225217] [drm:drm_mode_object_put] OBJ ID: 78 (4)
+[11515.225219] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000f81c318e
+[11515.225223] commit_state plane[55]: plane-3
+[11515.225225] commit_state 	crtc=crtc-0
+[11515.225226] commit_state 	fb=106
+[11515.225227] commit_state 		allocated by = modetest
+[11515.225229] commit_state 		refcount=2
+[11515.225230] commit_state 		format=AR24 little-endian (0x34325241)
+[11515.225233] commit_state 		modifier=0x0
+[11515.225234] commit_state 		size=480x480
+[11515.225236] commit_state 		layers:
+[11515.225236] commit_state 			size[0]=480x480
+[11515.225238] commit_state 			pitch[0]=2048
+[11515.225240] commit_state 			offset[0]=0
+[11515.225241] commit_state 			obj[0]:
+[11515.225243] commit_state 				name=0
+[11515.225244] commit_state 				refcount=2
+[11515.225245] commit_state 				start=001025a8
+[11515.225247] commit_state 				size=983040
+[11515.225248] commit_state 				imported=no
+[11515.225249] commit_state 	crtc-pos=480x480+720+300
+[11515.225252] commit_state 	src-pos=480.000000x480.000000+0.000000+0.000000
+[11515.225254] commit_state 	rotation=1
+[11515.225255] commit_state 	normalized-zpos=0
+[11515.225257] commit_state 	color-encoding=ITU-R BT.601 YCbCr
+[11515.225258] commit_state 	color-range=YCbCr limited range
+[11515.225260] commit_state crtc[67]: crtc-0
+[11515.225261] commit_state 	enable=1
+[11515.225262] commit_state 	active=1
+[11515.225263] commit_state 	self_refresh_active=0
+[11515.225264] commit_state 	planes_changed=0
+[11515.225265] commit_state 	mode_changed=0
+[11515.225266] commit_state 	active_changed=0
+[11515.225267] commit_state 	connectors_changed=0
+[11515.225269] commit_state 	color_mgmt_changed=0
+[11515.225270] commit_state 	plane_mask=8
+[11515.225271] commit_state 	connector_mask=1
+[11515.225272] commit_state 	encoder_mask=0
+[11515.225273] commit_state 	mode: "1920x1080": 60 141370 1920 1968 2000 2142 1080 1083 1089 1100 0x48 0x9
+[11515.225276] commit_state connector[78]: eDP-1
+[11515.225277] commit_state 	crtc=crtc-0
+[11515.225278] commit_state 	self_refresh_aware=0
+[11515.225280] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000f81c318e
+[11515.225284] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:67:crtc-0] mode changed
+[11515.225287] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:67:crtc-0] enable changed
+[11515.225289] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:67:crtc-0] active changed
+[11515.225293] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:78:eDP-1]
+[11515.225296] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CONNECTOR:78:eDP-1] using [ENCODER:77:TMDS-77] on [CRTC:67:crtc-0]
+[11515.225299] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:67:crtc-0] needs all connectors, enable: y, active: y
+[11515.225302] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:67:crtc-0] to 00000000f81c318e
+[11515.225306] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:67:crtc-0] to 00000000f81c318e
+[11515.225310] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 00000000f81c318e
+[11515.225316] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:67:crtc-0] to 00000000f81c318e
+[11515.225319] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:67:crtc-0] to 00000000f81c318e
+[11515.225323] [drm:drm_atomic_normalize_zpos] [CRTC:67:crtc-0] calculating normalized zpos values
+[11515.225326] [drm:drm_atomic_normalize_zpos] [PLANE:55:plane-3] processing zpos value 0
+[11515.225329] [drm:drm_atomic_normalize_zpos] [PLANE:55:plane-3] normalized zpos value 0
+[11515.225332] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:0 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[11515.225379] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[11515.225386] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:0 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[11515.225412] amdgpu 0000:04:00.0: [drm:drm_atomic_get_private_obj_state] Added new private object 000000006babddf4 state 00000000e0dd2083 to 00000000f81c318e
+[11515.225416] [drm:dm_update_crtc_state] Enabling DRM crtc: 67
+[11515.225422] [drm:dm_update_crtc_state] Destination Rectangle x:0  y:0  width:1920  height:1080
+[11515.225451] [drm:dm_update_plane_state] Enabling DRM plane: 55 on DRM crtc 67
+[11515.225495] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000f81c318e
+[11515.226185] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 67: hwmode: htotal 2142, vtotal 1100, vdisplay 1080
+[11515.226190] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 67: clock 141370 kHz framedur 16666902 linedur 15151
+[11515.226194] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:0 crtc_state_flags: enable:1, active:1, planes_changed:1, mode_changed:1,active_changed:1,connectors_changed:1
+[11515.226198] [drm:amdgpu_dm_atomic_commit_tail] Atomic commit: SET crtc id 0: [000000001f8cbea6]
+[11515.226203] [drm:amdgpu_dm_psr_disable_all] Disabling psr if psr is enabled on any stream
+[11515.226207] [drm:dc_commit_state] dc_commit_state: 1 streams
+[11515.226212] [drm:dc_stream_log] core_stream 0x000000002b0423f5: src: 0, 0, 1920, 1080; dst: 0, 0, 1920, 1080, colorSpace:1
+[11515.226218] [drm:dc_stream_log] 	pix_clk_khz: 141370, h_total: 2142, v_total: 1100, pixelencoder:1, displaycolorDepth:2
+[11515.226222] [drm:dc_stream_log] 	link: 0
+[11515.226225] [drm:dc_stream_log] 	dsc: 0, mst_pbn: 0
+[11515.226227] [drm:dc_commit_state] 	dispname:  signal: 80
+[11515.226307] [drm:link_enc_cfg_link_encs_assign] link_enc_cfg_link_encs_assign: NEW PHY(0) - enc_id(0)
+[11515.227011] [drm:dce110_apply_ctx_to_hw] link_enc_cfg_set_transient_mode: current_state(00000000039e01eb) mode(1)
+[11515.227260] [drm:core_link_enable_stream] core_link_enable_stream pipe_ctx dispname= signal=80
+[11515.227330] [drm:dce110_edp_power_control] dce110_edp_power_control: transition: power_up=1 current_ts=11514996067377 edp_poweroff=11473465857976 edp_poweron=1792760246278 time_since_edp_poweroff_ms=41530 time_since_edp_poweron_ms=9722235
+[11515.227336] [drm:dce110_edp_power_control] dce110_edp_power_control: remaining_min_edp_poweroff_time_ms=0: no wait required.
+[11515.227340] [drm:dce110_edp_power_control] dce110_edp_power_control: BEGIN: Panel Power action: On
+[11515.227368] [drm:dce110_edp_power_control] dce110_edp_power_control: END: Panel Power action: On bp_result=0
+[11515.227371] [drm:dce110_edp_power_control] dce110_edp_power_control: updated values: edp_poweroff=11473465857976 edp_poweron=11514996108744
+[11515.302735] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 188896, wptr 188928
+[11515.311415] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.311762] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00300 AUX -> (ret=  3) 00 00 00
+[11515.312121] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00300 AUX <- (ret=  3) 00 00 1a
+[11515.342939] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_access] AMDGPU DM aux hw bus 0: Too many retries, giving up. First error: -5
+[11515.342960] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00303 AUX <- (ret= -5)
+[11515.342977] [drm:dpcd_set_source_specific_data] Sink device does not support 00340h DPCD write. Skipping on purpose.
+[11515.343041] [drm:dce110_edp_power_control] dce110_edp_power_control: Skipping Panel Power action: On
+[11515.343070] [drm:dcn31_link_encoder_enable_dp_output] dcn31_link_encoder_enable_dp_output: enc_id(0)
+[11515.344821] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00600 AUX <- (ret=  1) 01
+[11515.345433] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.345724] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x0010a AUX -> (ret=  1) 00
+[11515.346015] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x0010a AUX <- (ret=  1) 01
+[11515.346020] [drm:dp_set_panel_mode] Link: 0 eDP panel mode supported: 1 eDP panel mode enabled: 1 
+[11515.346313] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00102 AUX <- (ret=  1) 00
+[11515.346604] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.346901] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[11515.347196] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00108 AUX <- (ret=  1) 01
+[11515.347487] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00107 AUX <- (ret=  1) 10
+[11515.347776] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00101 AUX <- (ret=  1) 82
+[11515.348062] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00100 AUX <- (ret=  1) 0a
+[11515.348500] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00102 AUX <- (ret=  3) 21 00 00
+[11515.348896] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.349231] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00202 AUX -> (ret=  6) 00 00 80 00 11 00
+[11515.349644] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00103 AUX <- (ret=  2) 01 01
+[11515.350035] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.350369] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00202 AUX -> (ret=  6) 00 00 80 00 11 00
+[11515.350781] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00103 AUX <- (ret=  2) 01 01
+[11515.351169] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.351502] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00202 AUX -> (ret=  6) 11 00 00 00 11 00
+[11515.351920] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00102 AUX <- (ret=  3) 22 01 01
+[11515.352609] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.352941] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00202 AUX -> (ret=  6) 77 00 81 00 11 00
+[11515.353223] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00102 AUX <- (ret=  1) 00
+[11515.353506] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.353787] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[11515.353798] [drm:print_status_message] HBRx2 pass VS=1, PE=0, DS=0.5% 30KHz
+[11515.353983] [drm:dce110_edp_backlight_control] dce110_edp_backlight_control: backlight action: On
+[11515.354264] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.354545] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00700 AUX -> (ret=  1) 01
+[11515.354828] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.355111] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[11515.355418] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.355700] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[11515.356006] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.356288] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[11515.356595] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.356876] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[11515.357186] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.357468] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[11515.357781] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.358062] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[11515.358369] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.358650] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[11515.358959] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.359241] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[11515.359548] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.359830] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[11515.360138] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.360420] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[11515.360727] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.361008] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 01
+[11515.361321] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[11515.361603] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00107 AUX -> (ret=  1) 10
+[11515.361608] [drm:update_config] [HDCP_DM] display 0, CP 0, type 0
+[11515.361614] [drm:reset_authentication] [Link 0] > HDCP_INITIALIZED
+[11515.377162] [drm:optc1_wait_for_state] REG_WAIT taking a while: 6ms in optc1_wait_for_state line:821
+[11515.377476] [drm:dcn20_program_pipe] Un-gated front end for pipe 0
+[11515.393865] [drm:dc_commit_state_no_check] {1920x1080, 2142x1100@141370Khz}
+[11515.393872] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 188928, wptr 188960
+[11515.393957] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_on] crtc 0, vblank enabled 0, inmodeset 1
+[11515.393966] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1091
+[11515.393972] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(896,-11)@ 11514.393195 -> 11514.393355 [e 2 us, 0 rep]
+[11515.393980] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1091
+[11515.394204] [drm:amdgpu_dm_audio_eld_notify] Notify ELD: -1
+[11515.394210] [drm:amdgpu_dm_audio_eld_notify] Notify ELD: -1
+[11515.394217] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000f81c318e
+[11515.394222] [drm:drm_mode_object_put] OBJ ID: 78 (3)
+[11515.394228] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000f81c318e
+[11515.410554] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 188960, wptr 188992
