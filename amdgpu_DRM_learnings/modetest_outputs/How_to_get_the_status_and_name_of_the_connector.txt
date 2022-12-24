@@ -1,0 +1,7 @@
+localhost / # for p in /sys/class/drm/*/status; do con=${p%/status}; echo -n "${con#*/card?-}: "; cat $p; done
+DP-1: disconnected
+DP-2: disconnected
+HDMI-A-1: disconnected
+eDP-1: connected
+localhost / # 
+
