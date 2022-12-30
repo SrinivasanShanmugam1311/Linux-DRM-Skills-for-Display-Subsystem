@@ -49,7 +49,7 @@ localhost / #
 
 
 
-
+dmesg o/p:
 
 
 [  336.228331] [drm:mod_hdcp_process_event] [Link 0] > HDCP_CP_NOT_DESIRED
