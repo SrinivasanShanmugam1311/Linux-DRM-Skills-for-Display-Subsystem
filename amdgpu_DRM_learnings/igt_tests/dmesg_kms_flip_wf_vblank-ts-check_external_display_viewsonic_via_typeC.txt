@@ -17264,16 +17264,23 @@
 
 
 Highlights:
-
 [  144.451705] [drm:mod_hdcp_process_event] [Link 0] > HDCP_CP_NOT_DESIRED
+
+
 [  231.333293] [IGT] kms_flip: executing
 [  231.365926] [drm:drm_stub_open] 
+
+
 [  231.365946] [drm:drm_open] comm="kms_flip", pid=4394, minor=0
 [  231.365967] [drm:amdgpu_vm_init] VM update mode is SDMA
+
 [  231.366048] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
+
 [  231.366060] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
 [  231.366077] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x000079c0 upper_32_bits(ring->wptr << 2) == 0x00000000
 [  231.366090] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x00000000000079c0)
+
+
 [  231.366091] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
 [  231.366104] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_SET_MASTER
 [  231.366117] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETRESOURCES
@@ -17284,8 +17291,12 @@ Highlights:
 [  231.366200] [drm:update_display_info] eDP-1: Assigning EDID-1.4 digital sink color depth as 8 bpc.
 [  231.366208] [drm:_drm_edid_connector_update] ELD monitor 
 [  231.366217] [drm:_drm_edid_connector_update] ELD size 20, SAD count 0
+
+
 [  231.366628] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 248448, wptr 248480
 [  231.366643] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+
+
 [  231.386334] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_access] AMDGPU DM aux hw bus 0: Too many retries, giving up. First error: -5
 [  231.386372] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret= -5)
 [  231.386556] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
@@ -17309,15 +17320,22 @@ Highlights:
 [  231.388332] [drm:drm_mode_debug_printmodeline] Modeline "1024x768": 60 141370 1024 1968 2000 2142 768 1083 1089 1100 0x40 0x9
 [  231.388352] [drm:drm_mode_debug_printmodeline] Modeline "800x600": 60 141370 800 1968 2000 2142 600 1083 1089 1100 0x40 0x9
 [  231.388394] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 141370 640 1968 2000 2142 480 1083 1089 1100 0x40 0x9
+
+
 [  231.388425] [drm:drm_mode_object_put] OBJ ID: 78 (2)
 [  231.388449] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
 [  231.388481] [drm:drm_mode_object_put] OBJ ID: 78 (2)
+
 [  231.388497] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
 [  231.388510] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:85:HDMI-A-1]
 [  231.388530] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:85:HDMI-A-1] disconnected
+
+
 [  231.388553] [drm:drm_mode_object_put] OBJ ID: 85 (2)
 [  231.388565] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
 [  231.388583] [drm:drm_mode_object_put] OBJ ID: 85 (2)
+
+
 [  231.388597] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
 [  231.388609] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:89:DP-1]
 [  231.388640] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
@@ -17366,6 +17384,8 @@ Highlights:
 [  231.391258] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:640  height:480
 [  231.391263] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:640  height:480
 [  231.391294] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:720  height:400
+
+
 [  231.391300] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:89:DP-1] probed modes :
 [  231.391303] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
 [  231.391309] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x40 0x5
@@ -17412,11 +17432,16 @@ Highlights:
 [  231.391573] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:94:DP-2]
 [  231.391578] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:94:DP-2] disconnected
 [  231.391583] [drm:drm_mode_object_put] OBJ ID: 94 (2)
+
+
 [  231.391586] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
 [  231.391590] [drm:drm_mode_object_put] OBJ ID: 94 (2)
 [  231.391662] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_GET_CAP
 [  231.391679] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
 [  231.391683] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
+
+
+
 [  231.391711] [IGT] kms_flip: starting subtest wf_vblank-ts-check
 [  231.391729] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETRESOURCES
 [  231.391734] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETRESOURCES
@@ -18161,6 +18186,8 @@ Highlights:
 [  231.394866] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_GET_CAP
 [  231.394871] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [  231.394879] [drm:drm_mode_addfb2] [FB:105]
+
+
 [  231.394889] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
 [  231.394893] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
 [  231.394897] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
@@ -18174,6 +18201,8 @@ Highlights:
 [  231.394950] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_GET_CAP
 [  231.394955] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [  231.394959] [drm:drm_mode_addfb2] [FB:106]
+
+
 [  231.394964] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
 [  231.394968] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
 [  231.394972] [drm:drm_ioctl] invalid ioctl: comm="kms_flip", pid=4394, dev=0xe200, auth=1, cmd=0xc0106464, nr=0x64
@@ -18183,6 +18212,8 @@ Highlights:
 [  231.408065] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_DIRTYFB
 [  231.408075] [drm:drm_mode_object_put] OBJ ID: 105 (2)
 [  231.408078] [drm:drm_ioctl] comm="kms_flip", pid=4394, ret=-38
+
+
 [  231.408083] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
 [  231.408088] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
 [  231.408091] [drm:drm_ioctl] invalid ioctl: comm="kms_flip", pid=4394, dev=0xe200, auth=1, cmd=0xc0106464, nr=0x64
@@ -18192,6 +18223,8 @@ Highlights:
 [  231.415101] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_DIRTYFB
 [  231.415107] [drm:drm_mode_object_put] OBJ ID: 106 (2)
 [  231.415109] [drm:drm_ioctl] comm="kms_flip", pid=4394, ret=-38
+
+
 [  231.435528] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_SETCRTC
 [  231.435553] [drm:drm_mode_setcrtc] [CRTC:67:crtc-0]
 [  231.435578] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000f5e5e371
@@ -18231,6 +18264,8 @@ Highlights:
 [  231.435829] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000f5e5e371
 [  231.435836] [drm:drm_mode_object_put] OBJ ID: 113 (2)
 [  231.435842] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000f5e5e371
+
+
 [  231.435851] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_SETCRTC
 [  231.435858] [drm:drm_mode_setcrtc] [CRTC:70:crtc-1]
 [  231.435867] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000f5e5e371
@@ -18270,6 +18305,8 @@ Highlights:
 [  231.436045] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000f5e5e371
 [  231.436050] [drm:drm_mode_object_put] OBJ ID: 114 (2)
 [  231.436054] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000f5e5e371
+
+
 [  231.436062] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_SETCRTC
 [  231.436068] [drm:drm_mode_setcrtc] [CRTC:73:crtc-2]
 [  231.436077] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000f5e5e371
@@ -18307,6 +18344,8 @@ Highlights:
 [  231.436209] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:2 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:0,connectors_changed:0
 [  231.436214] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000f5e5e371
 [  231.436217] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000f5e5e371
+
+
 [  231.436220] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_SETCRTC
 [  231.436222] [drm:drm_mode_setcrtc] [CRTC:76:crtc-3]
 [  231.436226] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000f5e5e371
@@ -18344,6 +18383,10 @@ Highlights:
 [  231.436309] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:3 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:0,connectors_changed:0
 [  231.436313] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000f5e5e371
 [  231.436317] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000f5e5e371
+
+
+V.V.IMP
+
 [  231.436337] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_SETCRTC
 [  231.436340] [drm:drm_mode_setcrtc] [CRTC:67:crtc-0]
 [  231.436347] [drm:drm_mode_setcrtc] [CONNECTOR:78:eDP-1]
@@ -18542,6 +18585,7 @@ Highlights:
 [  231.621998] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1076
 [  231.622002] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3680, diff=1, hw=12 hw_last=11
 [  231.622075] amdgpu 0000:04:00.0: [drm:drm_wait_vblank_ioctl] crtc 0 returning 3681 to client
+
 [  231.622113] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_WAIT_VBLANK
 [  231.622130] amdgpu 0000:04:00.0: [drm:drm_queue_vblank_event] event on vblank count 3682, current 3681, crtc 0
 [  231.622140] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_WAIT_VBLANK
@@ -18702,6 +18746,8 @@ Highlights:
 [  231.888722] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1073
 [  231.888730] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3696, diff=1, hw=28 hw_last=27
 [  231.888748] amdgpu 0000:04:00.0: [drm:drm_handle_vblank_events] vblank event on 3697, current 3697
+
+
 [  231.888999] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
 [  231.889037] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_PAGE_FLIP
 [  231.889067] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000a3fb0f50
@@ -18844,6 +18890,8 @@ Highlights:
 [  232.238751] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1071
 [  232.238759] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3717, diff=1, hw=49 hw_last=48
 [  232.238777] amdgpu 0000:04:00.0: [drm:drm_handle_vblank_events] vblank event on 3718, current 3718
+
+
 [  232.239076] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_WAIT_VBLANK
 [  232.239112] amdgpu 0000:04:00.0: [drm:drm_queue_vblank_event] event on vblank count 3728, current 3718, crtc 0
 [  232.255310] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 249824, wptr 249856
@@ -19958,6 +20006,8 @@ Highlights:
 [  235.738803] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1071
 [  235.738811] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3927, diff=1, hw=259 hw_last=258
 [  235.738829] amdgpu 0000:04:00.0: [drm:drm_handle_vblank_events] vblank event on 3928, current 3928
+
+
 [  235.739074] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
 [  235.739106] [drm:drm_mode_object_put] OBJ ID: 106 (3)
 [  235.739139] amdgpu 0000:04:00.0: [drm:drm_mode_rmfb_work_fn] Removing [FB:106] from all active usage due to RMFB ioctl
@@ -20189,6 +20239,7 @@ Highlights:
 
 ...
 
+V.V.IMP
 
 [  250.339800] [IGT] kms_flip: starting dynamic subtest A-DP1
 [  250.339904] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 18688, wptr 18720
@@ -20388,6 +20439,8 @@ Highlights:
 [  250.377425] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:3 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:0,connectors_changed:0
 [  250.377455] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000cd7a18f1
 [  250.377473] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000cd7a18f1
+
+
 [  250.377517] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_SETCRTC
 [  250.377532] [drm:drm_mode_setcrtc] [CRTC:67:crtc-0]
 [  250.377560] [drm:drm_mode_setcrtc] [CONNECTOR:89:DP-1]
@@ -20488,7 +20541,9 @@ Highlights:
 [  250.380848] [drm:dpcd_set_source_specific_data] Sink device does not support 00340h DPCD write. Skipping on purpose.
 [  250.380857] [drm:dcn31_link_encoder_enable_dp_output] dcn31_link_encoder_enable_dp_output: enc_id(2)
 [  250.382384] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00600 AUX <- (ret=  1) 01
+
 [  250.382389] [drm:dp_set_panel_mode] Link: 2 eDP panel mode supported: 0 eDP panel mode enabled: 0 
+
 [  250.382676] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
 [  250.382964] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 00
 [  250.383257] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
@@ -20520,6 +20575,8 @@ Highlights:
 [  250.404350] [drm:print_status_message] HBRx2 pass VS=2, PE=0, DS=0.5% 30KHz
 [  250.404804] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
 [  250.405093] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00107 AUX -> (ret=  1) 10
+
+
 [  250.405098] [drm:update_config] [HDCP_DM] display 2, CP 0, type 0
 [  250.405103] [drm:reset_authentication] [Link 0] > HDCP_INITIALIZED
 [  250.413079] [drm:optc1_wait_for_state] REG_WAIT taking a while: 3ms in optc1_wait_for_state line:821
@@ -20539,10 +20596,12 @@ Highlights:
 [  250.430114] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000e6bd47a0
 [  250.430118] [drm:drm_mode_object_put] OBJ ID: 105 (3)
 [  250.430119] [drm:drm_mode_object_put] OBJ ID: 89 (3)
+
 [  250.430134] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCRTC
 [  250.430143] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_WAIT_VBLANK
 [  250.430154] amdgpu 0000:04:00.0: [drm:drm_vblank_enable] enabling vblank on crtc 0, ret: 0
 [  250.430159] [drm:vblank_control_worker] Allow idle optimizations (MALL): 0
+
 [  250.430161] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1098
 [  250.430165] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(657,-17)@ 250.429599 -> 250.429846 [e 1 us, 0 rep]
 [  250.430173] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1097
@@ -20720,8 +20779,12 @@ Highlights:
 [  250.713498] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1097
 [  250.713507] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3945, diff=1, hw=21 hw_last=20
 [  250.713525] amdgpu 0000:04:00.0: [drm:drm_handle_vblank_events] vblank event on 3946, current 3946
+
+
 [  250.713819] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_VERSION
 [  250.713859] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_PAGE_FLIP
+
+
 [  250.713891] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000a797e5fa
 [  250.713915] [drm:drm_mode_object_get] OBJ ID: 107 (1)
 [  250.713928] [drm:drm_mode_object_get] OBJ ID: 113 (1)
@@ -20756,6 +20819,8 @@ Highlights:
 [  250.730422] [drm:drm_mode_object_put] OBJ ID: 113 (2)
 [  250.730434] [drm:drm_mode_object_put] OBJ ID: 105 (2)
 [  250.730444] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000a797e5fa
+
+
 [  250.730480] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_WAIT_VBLANK
 [  250.730510] amdgpu 0000:04:00.0: [drm:drm_queue_vblank_event] event on vblank count 3957, current 3947, crtc 0
 [  250.746724] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 19392, wptr 19424
@@ -20809,6 +20874,8 @@ Highlights:
 [  250.896831] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1097
 [  250.896839] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3956, diff=1, hw=32 hw_last=31
 [  250.896857] amdgpu 0000:04:00.0: [drm:drm_handle_vblank_events] vblank event on 3957, current 3957
+
+
 [  250.897237] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_WAIT_VBLANK
 [  250.897276] amdgpu 0000:04:00.0: [drm:drm_queue_vblank_event] event on vblank count 3967, current 3957, crtc 0
 [  250.913394] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 19712, wptr 19744
@@ -21978,12 +22045,16 @@ Highlights:
 [  254.563503] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1097
 [  254.563511] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=4176, diff=1, hw=252 hw_last=251
 [  254.563529] amdgpu 0000:04:00.0: [drm:drm_handle_vblank_events] vblank event on 4177, current 4177
+
+
 [  254.563859] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
 [  254.563893] [drm:drm_mode_object_put] OBJ ID: 106 (3)
 [  254.563929] amdgpu 0000:04:00.0: [drm:drm_mode_rmfb_work_fn] Removing [FB:106] from all active usage due to RMFB ioctl
 [  254.563973] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000ebe33f57
 [  254.564001] amdgpu 0000:04:00.0: [drm:drm_framebuffer_remove] Disabling [PLANE:55:plane-3] because [FB:106] is removed
+
 [  254.564030] [drm:drm_mode_object_get] OBJ ID: 106 (2)
+
 [  254.564043] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:55:plane-3] 00000000a5de3890 state to 00000000ebe33f57
 [  254.564065] [drm:drm_mode_object_get] OBJ ID: 107 (1)
 [  254.564074] [drm:drm_mode_object_get] OBJ ID: 113 (1)
@@ -22027,6 +22098,8 @@ Highlights:
 [  254.564596] [drm:drm_mode_object_put] OBJ ID: 107 (2)
 [  254.564607] [drm:drm_mode_object_put] OBJ ID: 113 (2)
 [  254.564626] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000ebe33f57
+
+
 [  254.564646] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000ebe33f57
 [  254.564663] amdgpu 0000:04:00.0: [drm:drm_framebuffer_remove] Disabling [PLANE:55:plane-3] because [FB:106] is removed
 [  254.564689] [drm:drm_mode_object_get] OBJ ID: 106 (2)
@@ -22038,6 +22111,8 @@ Highlights:
 [  254.564778] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:67:crtc-0] to 00000000ebe33f57
 [  254.564801] [drm:drm_mode_object_get] OBJ ID: 89 (3)
 [  254.564810] [drm:drm_mode_object_get] OBJ ID: 89 (4)
+
+
 [  254.564819] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:89:DP-1] 0000000019dd5d19 state to 00000000ebe33f57
 [  254.564837] [drm:drm_mode_object_put] OBJ ID: 107 (2)
 [  254.564847] amdgpu 0000:04:00.0: [drm:drm_atomic_set_mode_for_crtc] Set [NOMODE] for [CRTC:67:crtc-0] state 00000000d6ec00d2
@@ -22108,6 +22183,8 @@ Highlights:
 [  254.579792] [drm:dcn20_post_unlock_program_front_end] Power down front end 0
 [  254.596436] [drm:optc31_disable_crtc] REG_WAIT taking a while: 7ms in optc31_disable_crtc line:138
 [  254.596446] [drm:core_link_disable_stream] core_link_disable_stream pipe_ctx dispname=VX2476 Series signal=20
+
+
 [  254.596476] [drm:reset_authentication] [Link 0] > HDCP_INITIALIZED
 [  254.658971] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00600 AUX <- (ret=  1) 02
 [  254.659004] [drm:dcn31_link_encoder_disable_output] dcn31_link_encoder_disable_output: enc_id(2)
@@ -22123,6 +22200,8 @@ Highlights:
 [  254.659984] [drm:drm_mode_object_put] OBJ ID: 106 (2)
 [  254.659997] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000ebe33f57
 [  254.660005] [drm:drm_mode_object_put] OBJ ID: 106 (1)
+
+
 [  254.660033] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROY_DUMB
 [  254.660944] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
 [  254.660950] [drm:drm_mode_object_put] OBJ ID: 105 (2)
@@ -22142,6 +22221,8 @@ Highlights:
 [  254.661918] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
 [  254.661922] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
 [  254.661926] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
+
+
 [  254.661929] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
 [  254.661933] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
 [  254.661936] [drm:drm_ioctl] comm="kms_flip" pid=4394, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
