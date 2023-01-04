@@ -1,0 +1,38 @@
+    +----------------------------------------------------------------------+
+    ¦                 • MobaXterm Personal Edition v21.5 •                 ¦
+    ¦               (SSH client, X server and network tools)               ¦
+    ¦                                                                      ¦
+    ¦ ? SSH session to srishanm@10.138.129.9                               ¦
+    ¦   • Direct SSH      :  ?                                             ¦
+    ¦   • SSH compression :  ?                                             ¦
+    ¦   • SSH-browser     :  ?                                             ¦
+    ¦   • X11-forwarding  :  ?  (remote display is forwarded through SSH)  ¦
+    ¦                                                                      ¦
+    ¦ ? For more info, ctrl+click on help or visit our website.            ¦
+    +----------------------------------------------------------------------+
+
+Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.15.0-56-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+107 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+New release '22.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+Last login: Tue Jan  3 14:55:08 2023 from 10.136.38.122
+srishanm@TRX40-1:~$
+srishanm@TRX40-1:~$
+srishanm@TRX40-1:~$ ssh root@10.136.44.89
+Password:
+localhost ~ # cd /
+localhost / #
+localhost / # dmesg -C
+localhost / # dmesg -w
+[ 4077.277856] PM: suspend entry (s2idle)
+[ 4077.306696] Filesystems sync: 0.028 seconds
+[ 4077.306713] PM: Preparing system for sleep (s2idle)

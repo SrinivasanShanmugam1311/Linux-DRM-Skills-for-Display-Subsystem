@@ -1,0 +1,1628 @@
+[  132.472702] Freezing user space processes ... (elapsed 0.001 seconds) done.
+[  132.474363] OOM killer disabled.
+[  132.474366] Freezing remaining freezable tasks ... (elapsed 0.000 seconds) done.
+[  132.475373] PM: Suspending system (s2idle)
+[  132.475695] rfkill rfkill1: PM: calling rfkill_suspend+0x0/0x21 @ 4640, parent: hci0
+[  132.475712] rfkill rfkill1: PM: rfkill_suspend+0x0/0x21 returned 0 after 0 usecs
+[  132.475729] input input13: PM: calling input_dev_suspend+0x0/0x47 @ 4640, parent: card1
+[  132.475741] input input13: PM: input_dev_suspend+0x0/0x47 returned 0 after 1 usecs
+[  132.475751] sound pcmC1D6c: PM: calling do_pcm_suspend+0x0/0x23 @ 4640, parent: card1
+[  132.475763] sound pcmC1D6c: PM: do_pcm_suspend+0x0/0x23 returned 0 after 0 usecs
+[  132.475773] sound pcmC1D0c: PM: calling do_pcm_suspend+0x0/0x23 @ 4640, parent: card1
+[  132.475782] sound pcmC1D0c: PM: do_pcm_suspend+0x0/0x23 returned 0 after 0 usecs
+[  132.475791] sound pcmC1D0p: PM: calling do_pcm_suspend+0x0/0x23 @ 4640, parent: card1
+[  132.475800] sound pcmC1D0p: PM: do_pcm_suspend+0x0/0x23 returned 0 after 0 usecs
+[  132.475810] sound pcmC1D1p: PM: calling do_pcm_suspend+0x0/0x23 @ 4640, parent: card1
+[  132.475819] sound pcmC1D1p: PM: do_pcm_suspend+0x0/0x23 returned 0 after 0 usecs
+[  132.475835] sof_mach rt5682s-hs-rt1019: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: 0000:04:00.5
+[  132.475848] sof_mach rt5682s-hs-rt1019: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.475859] input input12: PM: calling input_dev_suspend+0x0/0x47 @ 4640, parent: card0
+[  132.475868] input input12: PM: input_dev_suspend+0x0/0x47 returned 0 after 0 usecs
+[  132.475878] input input11: PM: calling input_dev_suspend+0x0/0x47 @ 4640, parent: card0
+[  132.475887] input input11: PM: input_dev_suspend+0x0/0x47 returned 0 after 0 usecs
+[  132.475896] input input10: PM: calling input_dev_suspend+0x0/0x47 @ 4640, parent: card0
+[  132.475905] input input10: PM: input_dev_suspend+0x0/0x47 returned 0 after 0 usecs
+[  132.475914] input input9: PM: calling input_dev_suspend+0x0/0x47 @ 4640, parent: card0
+[  132.475923] input input9: PM: input_dev_suspend+0x0/0x47 returned 0 after 0 usecs
+[  132.475932] dmic-codec dmic-codec: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: 0000:04:00.5
+[  132.475942] dmic-codec dmic-codec: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.475952] sound pcmC0D9p: PM: calling do_pcm_suspend+0x0/0x23 @ 4640, parent: card0
+[  132.475963] sound pcmC0D9p: PM: do_pcm_suspend+0x0/0x23 returned 0 after 1 usecs
+[  132.475972] sound pcmC0D8p: PM: calling do_pcm_suspend+0x0/0x23 @ 4640, parent: card0
+[  132.475982] sound pcmC0D8p: PM: do_pcm_suspend+0x0/0x23 returned 0 after 0 usecs
+[  132.475991] sound pcmC0D7p: PM: calling do_pcm_suspend+0x0/0x23 @ 4640, parent: card0
+[  132.476001] sound pcmC0D7p: PM: do_pcm_suspend+0x0/0x23 returned 0 after 0 usecs
+[  132.476010] sound pcmC0D3p: PM: calling do_pcm_suspend+0x0/0x23 @ 4640, parent: card0
+[  132.476020] sound pcmC0D3p: PM: do_pcm_suspend+0x0/0x23 returned 0 after 0 usecs
+[  132.476035] rfkill rfkill0: PM: calling rfkill_suspend+0x0/0x21 @ 4640, parent: phy0
+[  132.476044] rfkill rfkill0: PM: rfkill_suspend+0x0/0x21 returned 0 after 0 usecs
+[  132.476062] platform regulatory.0: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.476077] platform regulatory.0: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.476091] cros-ec-sensors cros-ec-accel.10.auto: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: cros-ec-sensorhub.2.auto
+[  132.476067] ieee80211 phy0: PM: calling wiphy_suspend+0x0/0x123 [cfg80211] @ 4004, parent: 0000:01:00.0
+[  132.476105] cros-ec-sensors cros-ec-accel.10.auto: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.476133] wlan0: deauthenticating from bc:9f:e4:05:42:93 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  132.476136] input input7: PM: calling input_dev_suspend+0x0/0x47 @ 4640, parent: 0018:27C6:0D50.0001
+[  132.476149] input input7: PM: input_dev_suspend+0x0/0x47 returned 0 after 0 usecs
+[  132.476162] input input6: PM: calling input_dev_suspend+0x0/0x47 @ 4640, parent: 0018:27C6:0D50.0001
+[  132.476159] usb 1-2: PM: calling usb_dev_suspend+0x0/0x14 @ 1849, parent: usb1
+[  132.476173] input input6: PM: input_dev_suspend+0x0/0x47 returned 0 after 0 usecs
+[  132.476171] usb 5-1: PM: calling usb_dev_suspend+0x0/0x14 @ 204, parent: usb5
+[  132.476180] usb 1-2: PM: usb_dev_suspend+0x0/0x14 returned 0 after 1 usecs
+[  132.476189] input input5: PM: calling input_dev_suspend+0x0/0x47 @ 4640, parent: PRP0001:01
+[  132.476201] input input5: PM: input_dev_suspend+0x0/0x47 returned 0 after 0 usecs
+[  132.476212] cros-ec-pd-update cros-ec-pd-update.9.auto: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: cros-ec-dev.1.auto
+[  132.476226] cros-ec-pd-update cros-ec-pd-update.9.auto: PM: platform_pm_suspend+0x0/0x4a returned 0 after 1 usecs
+[  132.476237] input input4: PM: calling input_dev_suspend+0x0/0x47 @ 4640, parent: GOOG0007:00
+[  132.476246] input input4: PM: input_dev_suspend+0x0/0x47 returned 0 after 0 usecs
+[  132.476256] cros-ec-keyb GOOG0007:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4640, parent: GOOG0004:00
+[  132.476269] cros-ec-keyb GOOG0007:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 1 usecs
+[  132.476280] platform microcode: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.476289] platform microcode: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.476306] snd-soc-dummy snd-soc-dummy: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.476322] snd-soc-dummy snd-soc-dummy: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.476338] leds chromeos::kbd_backlight: PM: calling led_suspend+0x0/0x3f @ 4640, parent: GOOG0002:00
+[  132.476556] usb 5-1: PM: usb_dev_suspend+0x0/0x14 returned 0 after 361 usecs
+[  132.478239] leds chromeos::kbd_backlight: PM: led_suspend+0x0/0x3f returned 0 after 1890 usecs
+[  132.478248] cros-ec-sysfs cros-ec-sysfs.8.auto: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: cros-ec-dev.1.auto
+[  132.478254] cros-ec-sysfs cros-ec-sysfs.8.auto: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.478260] cros-ec-pd-sysfs cros-ec-pd-sysfs.7.auto: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: cros-ec-dev.1.auto
+[  132.478266] cros-ec-pd-sysfs cros-ec-pd-sysfs.7.auto: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.478273] cros-ec-debugfs cros-ec-debugfs.6.auto: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: cros-ec-dev.1.auto
+[  132.478280] cros-ec-debugfs cros-ec-debugfs.6.auto: PM: platform_pm_suspend+0x0/0x4a returned 0 after 1 usecs
+[  132.478288] cros-ec-chardev cros-ec-chardev.5.auto: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: cros-ec-dev.1.auto
+[  132.478298] cros-ec-chardev cros-ec-chardev.5.auto: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.478308] cros-usbpd-logger cros-usbpd-logger.4.auto: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: cros-ec-dev.1.auto
+[  132.478327] cros-usbpd-logger cros-usbpd-logger.4.auto: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.478342] cros-usbpd-charger cros-usbpd-charger.3.auto: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: cros-ec-dev.1.auto
+[  132.478352] cros-usbpd-charger cros-usbpd-charger.3.auto: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.478362] cros-ec-sensorhub cros-ec-sensorhub.2.auto: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: cros-ec-dev.1.auto
+[  132.479053] cros-ec-sensorhub cros-ec-sensorhub.2.auto: PM: platform_pm_suspend+0x0/0x4a returned 0 after 682 usecs
+[  132.479066] cros-ec-dev cros-ec-dev.1.auto: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: GOOG0004:00
+[  132.479075] cros-ec-dev cros-ec-dev.1.auto: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.479086] ramoops ramoops.0: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.479095] ramoops ramoops.0: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.479107] leds input3::scrolllock: PM: calling led_suspend+0x0/0x3f @ 4640, parent: input3
+[  132.479116] leds input3::scrolllock: PM: led_suspend+0x0/0x3f returned 0 after 0 usecs
+[  132.479126] leds input3::capslock: PM: calling led_suspend+0x0/0x3f @ 4640, parent: input3
+[  132.479134] leds input3::capslock: PM: led_suspend+0x0/0x3f returned 0 after 0 usecs
+[  132.479144] leds input3::numlock: PM: calling led_suspend+0x0/0x3f @ 4640, parent: input3
+[  132.479152] leds input3::numlock: PM: led_suspend+0x0/0x3f returned 0 after 0 usecs
+[  132.479162] input input3: PM: calling input_dev_suspend+0x0/0x47 @ 4640, parent: serio0
+[  132.479172] input input3: PM: input_dev_suspend+0x0/0x47 returned 0 after 0 usecs
+[  132.479216] gsmi gsmi: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.479225] gsmi gsmi: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.479237] sp5100-tco sp5100-tco: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.479247] sp5100-tco sp5100-tco: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.479262] alarmtimer alarmtimer.0.auto: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: rtc0
+[  132.479449] alarmtimer alarmtimer.0.auto: PM: platform_pm_suspend+0x0/0x4a returned 0 after 177 usecs
+[  132.479462] atkbd serio0: PM: calling serio_suspend+0x0/0x1d @ 4640, parent: i8042
+[  132.480463] atkbd serio0: PM: serio_suspend+0x0/0x1d returned 0 after 990 usecs
+[  132.480474] i8042 i8042: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.480485] i8042 i8042: PM: platform_pm_suspend+0x0/0x4a returned 0 after 1 usecs
+[  132.480521] usb usb6: PM: calling usb_dev_suspend+0x0/0x14 @ 199, parent: 0000:05:00.0
+[  132.480536] usb usb5: PM: calling usb_dev_suspend+0x0/0x14 @ 204, parent: 0000:05:00.0
+[  132.480543] platform Fixed MDIO bus.0: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.480544] usb usb6: PM: usb_dev_suspend+0x0/0x14 returned 0 after 0 usecs
+[  132.480547] usb usb4: PM: calling usb_dev_suspend+0x0/0x14 @ 167, parent: 0000:04:00.4
+[  132.480563] platform Fixed MDIO bus.0: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.480564] usb usb3: PM: calling usb_dev_suspend+0x0/0x14 @ 1849, parent: 0000:04:00.4
+[  132.480579] usb usb2: PM: calling usb_dev_suspend+0x0/0x14 @ 199, parent: 0000:04:00.3
+[  132.480587] usb usb1: PM: calling usb_dev_suspend+0x0/0x14 @ 174, parent: 0000:04:00.3
+[  132.480704] backlight amdgpu_bl0: PM: calling backlight_suspend+0x0/0x79 @ 4640, parent: 0000:04:00.0
+[  132.480718] [drm:dc_link_set_backlight_level] New Backlight level: 3084 (0xC0C)
+[  132.480742] usb usb1: PM: usb_dev_suspend+0x0/0x14 returned 0 after 137 usecs
+[  132.480754] usb usb3: PM: usb_dev_suspend+0x0/0x14 returned 0 after 174 usecs
+[  132.480778] backlight amdgpu_bl0: PM: backlight_suspend+0x0/0x79 returned 0 after 62 usecs
+[  132.480804] serial8250 serial8250: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.480815] serial8250 serial8250: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.480833] input input1: PM: calling input_dev_suspend+0x0/0x47 @ 4640, parent: LNXPWRBN:00
+[  132.480842] input input1: PM: input_dev_suspend+0x0/0x47 returned 0 after 0 usecs
+[  132.480852] input input0: PM: calling input_dev_suspend+0x0/0x47 @ 4640, parent: PNP0C0D:00
+[  132.480861] input input0: PM: input_dev_suspend+0x0/0x47 returned 0 after 0 usecs
+[  132.480911] intel_rapl_msr intel_rapl_msr.0: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.480920] intel_rapl_msr intel_rapl_msr.0: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.480918] snd_hda_intel 0000:04:00.1: PM: calling pci_pm_suspend+0x0/0x1da @ 527, parent: 0000:00:08.1
+[  132.480978] i8042 kbd 00:05: PM: calling pnp_bus_suspend+0x0/0x14 @ 4640, parent: pnp0
+[  132.480990] i8042 kbd 00:05: PM: pnp_bus_suspend+0x0/0x14 returned 0 after 0 usecs
+[  132.481001] system 00:04: PM: calling pnp_bus_suspend+0x0/0x14 @ 4640, parent: pnp0
+[  132.481011] system 00:04: PM: pnp_bus_suspend+0x0/0x14 returned 0 after 0 usecs
+[  132.481022] system 00:03: PM: calling pnp_bus_suspend+0x0/0x14 @ 4640, parent: pnp0
+[  132.481032] system 00:03: PM: pnp_bus_suspend+0x0/0x14 returned 0 after 0 usecs
+[  132.481032] snd_hda_intel 0000:04:00.1: PM: pci_pm_suspend+0x0/0x1da returned 0 after 98 usecs
+[  132.481044] system 00:02: PM: calling pnp_bus_suspend+0x0/0x14 @ 4640, parent: pnp0
+[  132.481054] system 00:02: PM: pnp_bus_suspend+0x0/0x14 returned 0 after 0 usecs
+[  132.481066] rtc_cmos 00:01: PM: calling pnp_bus_suspend+0x0/0x14 @ 4640, parent: pnp0
+[  132.481108] rtc_cmos 00:01: PM: pnp_bus_suspend+0x0/0x14 returned 0 after 32 usecs
+[  132.481119] system 00:00: PM: calling pnp_bus_suspend+0x0/0x14 @ 4640, parent: pnp0
+[  132.481129] system 00:00: PM: pnp_bus_suspend+0x0/0x14 returned 0 after 0 usecs
+[  132.481143] platform chromeos_acpi: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.481152] platform chromeos_acpi: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481171] button LNXPWRBN:00: PM: calling acpi_button_suspend+0x0/0x19 @ 4640, parent: LNXSYSTM:00
+[  132.481173] cr50_i2c i2c-GOOG0005:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 527, parent: i2c-3
+[  132.481182] button LNXPWRBN:00: PM: acpi_button_suspend+0x0/0x19 returned 0 after 0 usecs
+[  132.481183] rt1019 i2c-10EC1019:01: PM: calling acpi_subsys_suspend+0x0/0x55 @ 174, parent: i2c-2
+[  132.481188] cr50_i2c i2c-GOOG0005:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 1 usecs
+[  132.481195] rt1019 i2c-10EC1019:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 11, parent: i2c-2
+[  132.481197] rt1019 i2c-10EC1019:01: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.481200] coreboot_table BOOT0000:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4640, parent: platform
+[  132.481201] rt5682s i2c-RTL5682:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 1862, parent: i2c-2
+[  132.481208] coreboot_table BOOT0000:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.481208] rt1019 i2c-10EC1019:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.481213] i2c_hid_acpi i2c-GXTP7863:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 1849, parent: i2c-0
+[  132.481219] platform GOOG0016:00: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.481223] rt5682s i2c-RTL5682:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.481232] platform GOOG0016:00: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481245] chromeos-keyboard-leds GOOG0002:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4640, parent: platform
+[  132.481258] chromeos-keyboard-leds GOOG0002:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.481270] amd_pmc AMDI0005:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4640, parent: platform
+[  132.481282] amd_pmc AMDI0005:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.481294] platform GOOG0014:00: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: GOOG0004:00
+[  132.481307] platform GOOG0014:00: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481328] cros-usbpd-notify-acpi GOOG0003:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4640, parent: GOOG0004:00
+[  132.481338] cros-usbpd-notify-acpi GOOG0003:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.481353] cros_ec_lpcs GOOG0004:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4640, parent: PNP0C09:00
+[  132.481367] cros_ec_lpcs GOOG0004:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.481378] platform PNP0C0A:00: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: PNP0C09:00
+[  132.481384] platform PNP0C0A:00: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481390] platform ACPI0003:00: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: PNP0C09:00
+[  132.481396] platform ACPI0003:00: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481402] platform PNP0C0D:00: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: PNP0C09:00
+[  132.481408] platform PNP0C0D:00: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481414] platform PNP0C09:00: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: 0000:00:14.3
+[  132.481420] platform PNP0C09:00: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481425] platform PNP0C04:00: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: 0000:00:14.3
+[  132.481431] platform PNP0C04:00: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481448] pci 0000:04:00.7: PM: calling pci_pm_suspend+0x0/0x1da @ 526, parent: 0000:00:08.1
+[  132.481453] snd_sof_amd_rembrandt 0000:04:00.5: PM: calling pci_pm_suspend+0x0/0x1da @ 527, parent: 0000:00:08.1
+[  132.481456] platform AMD0040:00: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.481458] pci 0000:04:00.7: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481461] platform AMD0040:00: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481470] clk-fch clk-fch: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: AMD0040:00
+[  132.481471] snd_sof_amd_rembrandt 0000:04:00.5: PM: pci_pm_suspend+0x0/0x1da returned 0 after 7 usecs
+[  132.481477] ccp 0000:04:00.2: PM: calling pci_pm_suspend+0x0/0x1da @ 527, parent: 0000:00:08.1
+[  132.481479] clk-fch clk-fch: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481483] ccp 0000:04:00.2: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481489] gpio-keys PRP0001:01: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4640, parent: AMDI0010:01
+[  132.481494] amdgpu 0000:04:00.0: PM: calling pci_pm_suspend+0x0/0x1da @ 527, parent: 0000:00:08.1
+[  132.481497] nvme 0000:02:00.0: PM: calling pci_pm_suspend+0x0/0x1da @ 11, parent: 0000:00:02.2
+[  132.481505] gpio-keys PRP0001:01: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 9 usecs
+[  132.481514] platform AMDI0020:04: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.481515] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000b16f3fe5
+[  132.481521] platform AMDI0020:04: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481524] [drm:drm_mode_object_get] OBJ ID: 106 (1)
+[  132.481529] platform AMDI0020:03: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.481529] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:67:crtc-0] 00000000d0f3f114 state to 00000000b16f3fe5
+[  132.481536] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:70:crtc-1] 0000000037ec401b state to 00000000b16f3fe5
+[  132.481538] platform AMDI0020:03: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481541] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:73:crtc-2] 0000000053eccb91 state to 00000000b16f3fe5
+[  132.481546] platform AMDI0020:02: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.481547] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:76:crtc-3] 0000000081221e77 state to 00000000b16f3fe5
+[  132.481553] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:40:plane-0] 000000001aa474d3 state to 00000000b16f3fe5
+[  132.481554] platform AMDI0020:02: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.481559] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:45:plane-1] 0000000088061cd4 state to 00000000b16f3fe5
+[  132.481563] dw-apb-uart AMDI0020:01: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4640, parent: platform
+[  132.481564] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:50:plane-2] 00000000ca7d39b6 state to 00000000b16f3fe5
+[  132.481569] [drm:drm_mode_object_get] OBJ ID: 105 (2)
+[  132.481573] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:55:plane-3] 000000003318198f state to 00000000b16f3fe5
+[  132.481573] pci 0000:00:18.7: PM: calling pci_pm_suspend+0x0/0x1da @ 4649, parent: pci0000:00
+[  132.481581] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:60:plane-4] 000000003230e1d2 state to 00000000b16f3fe5
+[  132.481584] pci 0000:00:18.7: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481588] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:65:plane-5] 00000000683211a8 state to 00000000b16f3fe5
+[  132.481592] pci 0000:00:18.6: PM: calling pci_pm_suspend+0x0/0x1da @ 4649, parent: pci0000:00
+[  132.481595] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:68:plane-6] 00000000eecdc758 state to 00000000b16f3fe5
+[  132.481597] pci 0000:00:18.6: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481602] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:71:plane-7] 00000000b78b458e state to 00000000b16f3fe5
+[  132.481604] pci 0000:00:18.5: PM: calling pci_pm_suspend+0x0/0x1da @ 4649, parent: pci0000:00
+[  132.481606] pci 0000:00:18.4: PM: calling pci_pm_suspend+0x0/0x1da @ 4650, parent: pci0000:00
+[  132.481609] pci 0000:00:18.5: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481607] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:74:plane-8] 0000000099096fab state to 00000000b16f3fe5
+[  132.481610] pci 0000:00:18.4: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481614] pci 0000:00:18.3: PM: calling pci_pm_suspend+0x0/0x1da @ 4650, parent: pci0000:00
+[  132.481615] pci 0000:00:18.2: PM: calling pci_pm_suspend+0x0/0x1da @ 4649, parent: pci0000:00
+[  132.481618] pci 0000:00:18.3: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481619] [drm:drm_mode_object_get] OBJ ID: 78 (3)
+[  132.481620] pci 0000:00:18.2: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481623] pci 0000:00:18.1: PM: calling pci_pm_suspend+0x0/0x1da @ 4650, parent: pci0000:00
+[  132.481623] [drm:drm_mode_object_get] OBJ ID: 78 (4)
+[  132.481627] pci 0000:00:18.1: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481626] pci 0000:00:18.0: PM: calling pci_pm_suspend+0x0/0x1da @ 4649, parent: pci0000:00
+[  132.481627] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:78:eDP-1] 00000000af0e575f state to 00000000b16f3fe5
+[  132.481630] pci 0000:00:14.3: PM: calling pci_pm_suspend+0x0/0x1da @ 4650, parent: pci0000:00
+[  132.481631] pci 0000:00:18.0: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481633] pci 0000:00:14.3: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481636] piix4_smbus 0000:00:14.0: PM: calling pci_pm_suspend+0x0/0x1da @ 4650, parent: pci0000:00
+[  132.481639] [drm:drm_mode_object_get] OBJ ID: 85 (2)
+[  132.481640] piix4_smbus 0000:00:14.0: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481643] pci 0000:00:08.0: PM: calling pci_pm_suspend+0x0/0x1da @ 4650, parent: pci0000:00
+[  132.481647] pci 0000:00:08.0: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481645] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:85:HDMI-A-1] 00000000e1def659 state to 00000000b16f3fe5
+[  132.481651] pcieport 0000:00:02.3: PM: calling pci_pm_suspend+0x0/0x1da @ 4650, parent: pci0000:00
+[  132.481652] [drm:drm_mode_object_get] OBJ ID: 89 (2)
+[  132.481657] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:89:DP-1] 00000000bd1ce880 state to 00000000b16f3fe5
+[  132.481664] [drm:drm_mode_object_get] OBJ ID: 94 (2)
+[  132.481669] pcieport 0000:00:02.3: PM: pci_pm_suspend+0x0/0x1da returned 0 after 14 usecs
+[  132.481668] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:94:DP-2] 00000000e4d517d0 state to 00000000b16f3fe5
+[  132.481676] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000440d91ba
+[  132.481682] [drm:drm_mode_object_get] OBJ ID: 106 (2)
+[  132.481686] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:67:crtc-0] 00000000441cef71 state to 00000000440d91ba
+[  132.481688] pci 0000:00:02.0: PM: calling pci_pm_suspend+0x0/0x1da @ 4653, parent: pci0000:00
+[  132.481693] [drm:drm_mode_object_put] OBJ ID: 106 (3)
+[  132.481698] pci 0000:00:02.0: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481697] amdgpu 0000:04:00.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [NOMODE] for [CRTC:67:crtc-0] state 00000000441cef71
+[  132.481704] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:67:crtc-0] to 00000000440d91ba
+[  132.481708] pci 0000:00:01.0: PM: calling pci_pm_suspend+0x0/0x1da @ 4653, parent: pci0000:00
+[  132.481712] [drm:drm_mode_object_get] OBJ ID: 105 (3)
+[  132.481716] pci 0000:00:01.0: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481716] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:55:plane-3] 0000000019e07ec0 state to 00000000440d91ba
+[  132.481717] pci 0000:00:00.2: PM: calling pci_pm_suspend+0x0/0x1da @ 4654, parent: pci0000:00
+[  132.481724] pci 0000:00:00.0: PM: calling pci_pm_suspend+0x0/0x1da @ 4653, parent: pci0000:00
+[  132.481725] pci 0000:00:00.2: PM: pci_pm_suspend+0x0/0x1da returned 0 after 1 usecs
+[  132.481726] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:67:crtc-0] to 00000000440d91ba
+[  132.481731] pci 0000:00:00.0: PM: pci_pm_suspend+0x0/0x1da returned 0 after 0 usecs
+[  132.481735] [drm:drm_mode_object_get] OBJ ID: 78 (5)
+[  132.481739] [drm:drm_mode_object_get] OBJ ID: 78 (6)
+[  132.481742] i2c_designware AMDI0019:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4653, parent: platform
+[  132.481743] i2c_designware AMDI0010:02: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4655, parent: platform
+[  132.481743] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:78:eDP-1] 00000000f73e6cfe state to 00000000440d91ba
+[  132.481750] i2c_designware AMDI0010:02: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.481751] i2c_designware AMDI0019:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.481754] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:70:crtc-1] 000000001a24182c state to 00000000440d91ba
+[  132.481757] i2c_designware AMDI0010:01: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4655, parent: platform
+[  132.481761] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:70:crtc-1] to 00000000440d91ba
+[  132.481763] i2c_designware AMDI0010:01: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.481767] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:70:crtc-1] to 00000000440d91ba
+[  132.481773] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:73:crtc-2] 000000009ef71189 state to 00000000440d91ba
+[  132.481778] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:73:crtc-2] to 00000000440d91ba
+[  132.481783] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:73:crtc-2] to 00000000440d91ba
+[  132.481788] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:76:crtc-3] 000000008d83f173 state to 00000000440d91ba
+[  132.481793] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:76:crtc-3] to 00000000440d91ba
+[  132.481798] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:76:crtc-3] to 00000000440d91ba
+[  132.481803] [drm:drm_mode_object_put] OBJ ID: 78 (6)
+[  132.481806] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_connector] Link [CONNECTOR:78:eDP-1] state 00000000f73e6cfe to [NOCRTC]
+[  132.481810] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_plane] Link [PLANE:55:plane-3] state 0000000019e07ec0 to [NOCRTC]
+[  132.481815] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:55:plane-3] state 0000000019e07ec0
+[  132.481819] [drm:drm_mode_object_put] OBJ ID: 105 (4)
+[  132.481822] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000440d91ba
+[  132.481827] commit_state plane[55]: plane-3
+[  132.481829] commit_state     crtc=(null)
+[  132.481831] commit_state     fb=0
+[  132.481832] commit_state     crtc-pos=1920x1080+0+0
+[  132.481835] commit_state     src-pos=1920.000000x1080.000000+0.000000+0.000000
+[  132.481838] commit_state     rotation=1
+[  132.481840] commit_state     normalized-zpos=0
+[  132.481842] commit_state     color-encoding=ITU-R BT.601 YCbCr
+[  132.481844] commit_state     color-range=YCbCr limited range
+[  132.481846] commit_state crtc[67]: crtc-0
+[  132.481848] commit_state     enable=0
+[  132.481849] commit_state     active=0
+[  132.481851] commit_state     self_refresh_active=0
+[  132.481852] commit_state     planes_changed=0
+[  132.481854] commit_state     mode_changed=0
+[  132.481855] commit_state     active_changed=0
+[  132.481857] commit_state     connectors_changed=0
+[  132.481858] commit_state     color_mgmt_changed=0
+[  132.481859] commit_state     plane_mask=0
+[  132.481861] commit_state     connector_mask=0
+[  132.481862] commit_state     encoder_mask=1
+[  132.481864] commit_state     mode: "": 0 0 0 0 0 0 0 0 0 0 0x0 0x0
+[  132.481868] commit_state crtc[70]: crtc-1
+[  132.481870] commit_state     enable=0
+[  132.481871] commit_state     active=0
+[  132.481872] commit_state     self_refresh_active=0
+[  132.481874] commit_state     planes_changed=0
+[  132.481875] commit_state     mode_changed=0
+[  132.481876] commit_state     active_changed=0
+[  132.481877] commit_state     connectors_changed=0
+[  132.481879] commit_state     color_mgmt_changed=0
+[  132.481880] commit_state     plane_mask=0
+[  132.481881] commit_state     connector_mask=0
+[  132.481883] commit_state     encoder_mask=0
+[  132.481884] commit_state     mode: "": 0 0 0 0 0 0 0 0 0 0 0x0 0x0
+[  132.481888] commit_state crtc[73]: crtc-2
+[  132.481889] commit_state     enable=0
+[  132.481890] commit_state     active=0
+[  132.481892] commit_state     self_refresh_active=0
+[  132.481893] commit_state     planes_changed=0
+[  132.481894] commit_state     mode_changed=0
+[  132.481895] commit_state     active_changed=0
+[  132.481897] commit_state     connectors_changed=0
+[  132.481898] commit_state     color_mgmt_changed=0
+[  132.481899] commit_state     plane_mask=0
+[  132.481900] commit_state     connector_mask=0
+[  132.481902] commit_state     encoder_mask=0
+[  132.481903] commit_state     mode: "": 0 0 0 0 0 0 0 0 0 0 0x0 0x0
+[  132.481907] commit_state crtc[76]: crtc-3
+[  132.481908] commit_state     enable=0
+[  132.481909] commit_state     active=0
+[  132.481910] commit_state     self_refresh_active=0
+[  132.481912] commit_state     planes_changed=0
+[  132.481913] commit_state     mode_changed=0
+[  132.481914] commit_state     active_changed=0
+[  132.481916] commit_state     connectors_changed=0
+[  132.481917] commit_state     color_mgmt_changed=0
+[  132.481918] commit_state     plane_mask=0
+[  132.481919] commit_state     connector_mask=0
+[  132.481921] commit_state     encoder_mask=0
+[  132.481922] commit_state     mode: "": 0 0 0 0 0 0 0 0 0 0 0x0 0x0
+[  132.481925] commit_state connector[78]: eDP-1
+[  132.481927] commit_state     crtc=(null)
+[  132.481929] commit_state     self_refresh_aware=0
+[  132.481930] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000440d91ba
+[  132.481936] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:67:crtc-0] mode changed
+[  132.481941] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:67:crtc-0] enable changed
+[  132.481944] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:67:crtc-0] active changed
+[  132.481947] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:78:eDP-1]
+[  132.481951] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Disabling [CONNECTOR:78:eDP-1]
+[  132.481955] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:67:crtc-0] needs all connectors, enable: n, active: n
+[  132.481959] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:67:crtc-0] to 00000000440d91ba
+[  132.481964] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:67:crtc-0] to 00000000440d91ba
+[  132.481969] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 00000000440d91ba
+[  132.481977] [drm:drm_atomic_normalize_zpos] [CRTC:67:crtc-0] calculating normalized zpos values
+[  132.481981] [drm:dm_update_plane_state] Disabling DRM plane: 55 on DRM crtc 67
+[  132.482012] amdgpu 0000:04:00.0: [drm:drm_atomic_get_private_obj_state] Added new private object 00000000c0c73f8f state 000000007452338a to 00000000440d91ba
+[  132.482019] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:0 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[  132.482026] [drm:dm_update_crtc_state] Disabling DRM crtc: 67
+[  132.482036] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:0 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[  132.482051] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000440d91ba
+[  132.482057] [drm:dm_plane_helper_prepare_fb] No FB bound
+[  132.482074] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_off] crtc 0, vblank enabled 0, inmodeset 0
+[  132.482091] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:0 crtc_state_flags: enable:0, active:0, planes_changed:1, mode_changed:1,active_changed:1,connectors_changed:1
+[  132.482106] [drm:amdgpu_dm_atomic_commit_tail] Atomic commit: RESET. crtc id 0:[00000000cf0e7a18]
+[  132.482110] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:1 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:0,connectors_changed:0
+[  132.482114] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:2 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:0,connectors_changed:0
+[  132.482118] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:3 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:0,connectors_changed:0
+[  132.482122] [drm:amdgpu_dm_psr_disable_all] Disabling psr if psr is enabled on any stream
+[  132.482128] [drm:dc_commit_state] dc_commit_state: 0 streams
+[  132.482138] [drm:link_enc_cfg_link_encs_assign] link_enc_cfg_link_encs_assign: CUR PHY(0) - enc_id(0)
+[  132.482292] [drm:dcn20_program_front_end_for_ctx] Reset mpcc for pipe 0
+[  132.482740] dw-apb-uart AMDI0020:01: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 1169 usecs
+[  132.482751] dw-apb-uart AMDI0020:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4640, parent: platform
+[  132.482820] dw-apb-uart AMDI0020:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 39 usecs
+[  132.482827] amd_gpio AMD0030:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4640, parent: platform
+[  132.482833] amd_gpio AMD0030:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.482840] platform AAHB0000:00: PM: calling platform_pm_suspend+0x0/0x4a @ 4640, parent: platform
+[  132.482845] platform AAHB0000:00: PM: platform_pm_suspend+0x0/0x4a returned 0 after 0 usecs
+[  132.482852] chromeos_pstore GOOG9999:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4640, parent: platform
+[  132.482858] chromeos_pstore GOOG9999:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.482866] thermal LNXTHERM:03: PM: calling acpi_thermal_suspend+0x0/0x1d @ 4640, parent: LNXSYBUS:01
+[  132.482874] thermal LNXTHERM:03: PM: acpi_thermal_suspend+0x0/0x1d returned 0 after 1 usecs
+[  132.482880] thermal LNXTHERM:02: PM: calling acpi_thermal_suspend+0x0/0x1d @ 4640, parent: LNXSYBUS:01
+[  132.482886] thermal LNXTHERM:02: PM: acpi_thermal_suspend+0x0/0x1d returned 0 after 0 usecs
+[  132.482892] thermal LNXTHERM:01: PM: calling acpi_thermal_suspend+0x0/0x1d @ 4640, parent: LNXSYBUS:01
+[  132.482897] thermal LNXTHERM:01: PM: acpi_thermal_suspend+0x0/0x1d returned 0 after 0 usecs
+[  132.482903] thermal LNXTHERM:00: PM: calling acpi_thermal_suspend+0x0/0x1d @ 4640, parent: LNXSYBUS:01
+[  132.482909] thermal LNXTHERM:00: PM: acpi_thermal_suspend+0x0/0x1d returned 0 after 0 usecs
+[  132.482958] button PNP0C0D:00: PM: calling acpi_button_suspend+0x0/0x19 @ 4640, parent: PNP0C09:00
+[  132.482964] button PNP0C0D:00: PM: acpi_button_suspend+0x0/0x19 returned 0 after 0 usecs
+[  132.482972] ec PNP0C09:00: PM: calling acpi_ec_suspend+0x0/0x7d @ 4640, parent: device:00
+[  132.482978] ec PNP0C09:00: PM: acpi_ec_suspend+0x0/0x7d returned 0 after 0 usecs
+[  132.484711] i2c_hid_acpi i2c-GXTP7863:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 3483 usecs
+[  132.484751] i2c_designware AMDI0010:00: PM: calling acpi_subsys_suspend+0x0/0x55 @ 4653, parent: platform
+[  132.484768] i2c_designware AMDI0010:00: PM: acpi_subsys_suspend+0x0/0x55 returned 0 after 0 usecs
+[  132.490786] usb usb5: PM: usb_dev_suspend+0x0/0x14 returned 0 after 10237 usecs
+[  132.490814] xhci_hcd 0000:05:00.0: PM: calling pci_pm_suspend+0x0/0x1da @ 4647, parent: 0000:00:08.3
+[  132.491824] xhci_hcd 0000:05:00.0: PM: pci_pm_suspend+0x0/0x1da returned 0 after 996 usecs
+[  132.491848] pcieport 0000:00:08.3: PM: calling pci_pm_suspend+0x0/0x1da @ 4649, parent: pci0000:00
+[  132.491869] pcieport 0000:00:08.3: PM: pci_pm_suspend+0x0/0x1da returned 0 after 9 usecs
+[  132.493190] [drm:mpc2_assert_idle_mpcc] REG_WAIT taking a while: 3ms in mpc2_assert_idle_mpcc line:480
+[  132.493222] [drm:dcn20_plane_atomic_disable] Power gated front end 0
+[  132.493233] [drm:dcn20_post_unlock_program_front_end] Power down front end 0
+[  132.502354] usb usb2: PM: usb_dev_suspend+0x0/0x14 returned 0 after 21771 usecs
+[  132.502376] xhci_hcd 0000:04:00.3: PM: calling pci_pm_suspend+0x0/0x1da @ 526, parent: 0000:00:08.1
+[  132.502418] usb usb4: PM: usb_dev_suspend+0x0/0x14 returned 0 after 21869 usecs
+[  132.502448] xhci_hcd 0000:04:00.4: PM: calling pci_pm_suspend+0x0/0x1da @ 1862, parent: 0000:00:08.1
+[  132.503208] xhci_hcd 0000:04:00.3: PM: pci_pm_suspend+0x0/0x1da returned 0 after 818 usecs
+[  132.503334] xhci_hcd 0000:04:00.4: PM: pci_pm_suspend+0x0/0x1da returned 0 after 875 usecs
+[  132.509846] [drm:optc31_disable_crtc] REG_WAIT taking a while: 5ms in optc31_disable_crtc line:138
+[  132.509866] [drm:core_link_disable_stream] core_link_disable_stream pipe_ctx dispname= signal=80
+[  132.509882] [drm:reset_authentication] [Link 0] > HDCP_INITIALIZED
+[  132.510349] [drm:dce110_edp_backlight_control] dce110_edp_backlight_control: backlight action: Off
+[  132.510737] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  132.511029] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00700 AUX -> (ret=  1) 01
+[  132.511314] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  132.511609] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  132.511912] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00600 AUX <- (ret=  1) 02
+[  132.511960] [drm:dce110_edp_backlight_control] dce110_edp_backlight_control: panel already powered up/off. Do nothing.
+[  132.511967] [drm:dcn31_link_encoder_disable_output] dcn31_link_encoder_disable_output: enc_id(0)
+[  132.512249] [drm:dce110_edp_power_control] dce110_edp_power_control: transition: power_up=0 current_ts=132286815587 edp_poweroff=22388367506 edp_poweron=106455897882 time_since_edp_poweroff_ms=109898 time_since_edp_poweron_ms=25830
+[  132.512262] [drm:dce110_edp_power_control] dce110_edp_power_control: BEGIN: Panel Power action: Off
+[  132.512311] [drm:dce110_edp_power_control] dce110_edp_power_control: END: Panel Power action: Off bp_result=0
+[  132.512318] [drm:dce110_edp_power_control] dce110_edp_power_control: updated values: edp_poweroff=132286885227 edp_poweron=106455897882
+[  132.512329] [drm:dcn31_reset_hw_ctx_wrap] Reset back end for pipe 0, tg:0
+[  132.512339] [drm:dce110_apply_ctx_to_hw] link_enc_cfg_set_transient_mode: current_state(00000000ab69ae87) mode(1)
+[  132.512583] [drm:amdgpu_dm_audio_eld_notify] Notify ELD: -1
+[  132.512600] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000440d91ba
+[  132.512609] [drm:drm_mode_object_put] OBJ ID: 78 (5)
+[  132.512615] [drm:drm_mode_object_put] OBJ ID: 78 (4)
+[  132.512620] [drm:drm_mode_object_put] OBJ ID: 106 (2)
+[  132.512627] [drm:drm_mode_object_put] OBJ ID: 105 (3)
+[  132.512634] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000440d91ba
+[  132.512646] [drm:amdgpu_dm_irq_suspend] DM_IRQ: suspend
+[  132.514910] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 83232, wptr 83264
+[  132.518887] amdgpu 0000:04:00.0: PM: pci_pm_suspend+0x0/0x1da returned 0 after 37404 usecs
+[  132.518920] pcieport 0000:00:08.1: PM: calling pci_pm_suspend+0x0/0x1da @ 4651, parent: pci0000:00
+[  132.518939] pcieport 0000:00:08.1: PM: pci_pm_suspend+0x0/0x1da returned 0 after 4 usecs
+[  132.609779] nvme 0000:02:00.0: PM: pci_pm_suspend+0x0/0x1da returned 0 after 128334 usecs
+[  132.609857] pcieport 0000:00:02.2: PM: calling pci_pm_suspend+0x0/0x1da @ 4652, parent: pci0000:00
+[  132.609911] pcieport 0000:00:02.2: PM: pci_pm_suspend+0x0/0x1da returned 0 after 30 usecs
+[  132.760855] ieee80211 phy0: PM: wiphy_suspend+0x0/0x123 [cfg80211] returned 0 after 284866 usecs
+[  132.760962] mt7921e 0000:01:00.0: PM: calling pci_pm_suspend+0x0/0x1da @ 4648, parent: 0000:00:02.1
+[  132.780602] mt7921e 0000:01:00.0: PM: pci_pm_suspend+0x0/0x1da returned 0 after 19618 usecs
+[  132.780686] pcieport 0000:00:02.1: PM: calling pci_pm_suspend+0x0/0x1da @ 4650, parent: pci0000:00
+[  132.780735] pcieport 0000:00:02.1: PM: pci_pm_suspend+0x0/0x1da returned 0 after 30 usecs
+[  132.780798] PM: suspend of devices complete after 305.324 msecs
+[  132.780810] PM: start suspend of devices complete after 305.583 msecs
+[  132.780957] cros-ec-keyb GOOG0007:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4640, parent: GOOG0004:00
+[  132.780978] cros-ec-keyb GOOG0007:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 2 usecs
+[  132.781388] snd_hda_intel 0000:04:00.1: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4648, parent: 0000:00:08.1
+[  132.781410] snd_hda_intel 0000:04:00.1: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 1 usecs
+[  132.781467] coreboot_table BOOT0000:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4640, parent: platform
+[  132.781475] coreboot_table BOOT0000:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 0 usecs
+[  132.781478] cr50_i2c i2c-GOOG0005:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4648, parent: i2c-3
+[  132.781483] chromeos-keyboard-leds GOOG0002:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4640, parent: platform
+[  132.781488] chromeos-keyboard-leds GOOG0002:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 0 usecs
+[  132.781493] cr50_i2c i2c-GOOG0005:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 1 usecs
+[  132.781495] amd_pmc AMDI0005:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4640, parent: platform
+[  132.781503] amd_pmc AMDI0005:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 0 usecs
+[  132.781502] rt1019 i2c-10EC1019:01: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4648, parent: i2c-2
+[  132.781510] cros-usbpd-notify-acpi GOOG0003:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4640, parent: GOOG0004:00
+[  132.781511] rt1019 i2c-10EC1019:01: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 1 usecs
+[  132.781512] rt1019 i2c-10EC1019:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4004, parent: i2c-2
+[  132.781516] cros-usbpd-notify-acpi GOOG0003:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 0 usecs
+[  132.781516] rt5682s i2c-RTL5682:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4650, parent: i2c-2
+[  132.781521] rt5682s i2c-RTL5682:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 0 usecs
+[  132.781522] cros_ec_lpcs GOOG0004:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4640, parent: PNP0C09:00
+[  132.781526] i2c_hid_acpi i2c-GXTP7863:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4650, parent: i2c-0
+[  132.781531] rt1019 i2c-10EC1019:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 0 usecs
+[  132.781563] i2c_hid_acpi i2c-GXTP7863:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 29 usecs
+[  132.783114] cros_ec_lpcs GOOG0004:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 1587 usecs
+[  132.783141] xhci_hcd 0000:05:00.0: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4654, parent: 0000:00:08.3
+[  132.783153] pci 0000:04:00.7: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4650, parent: 0000:00:08.1
+[  132.783154] xhci_hcd 0000:05:00.0: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783164] gpio-keys PRP0001:01: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4640, parent: AMDI0010:01
+[  132.783166] pci 0000:04:00.7: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783166] snd_sof_amd_rembrandt 0000:04:00.5: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4648, parent: 0000:00:08.1
+[  132.783169] xhci_hcd 0000:04:00.4: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4654, parent: 0000:00:08.1
+[  132.783171] xhci_hcd 0000:04:00.3: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4650, parent: 0000:00:08.1
+[  132.783174] xhci_hcd 0000:04:00.3: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783174] gpio-keys PRP0001:01: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 0 usecs
+[  132.783175] xhci_hcd 0000:04:00.4: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783177] snd_sof_amd_rembrandt 0000:04:00.5: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783180] ccp 0000:04:00.2: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4650, parent: 0000:00:08.1
+[  132.783184] nvme 0000:02:00.0: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4648, parent: 0000:00:02.2
+[  132.783186] mt7921e 0000:01:00.0: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4654, parent: 0000:00:02.1
+[  132.783187] ccp 0000:04:00.2: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783186] dw-apb-uart AMDI0020:01: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4640, parent: platform
+[  132.783190] pci 0000:00:18.7: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4650, parent: pci0000:00
+[  132.783192] pci 0000:00:18.7: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783191] mt7921e 0000:01:00.0: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783188] amdgpu 0000:04:00.0: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4004, parent: 0000:00:08.1
+[  132.783193] nvme 0000:02:00.0: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783198] pci 0000:00:18.5: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4650, parent: pci0000:00
+[  132.783199] pci 0000:00:18.4: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4648, parent: pci0000:00
+[  132.783201] pci 0000:00:18.5: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783197] pci 0000:00:18.6: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4652, parent: pci0000:00
+[  132.783200] amdgpu 0000:04:00.0: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783204] pci 0000:00:18.2: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4650, parent: pci0000:00
+[  132.783205] pci 0000:00:18.3: PM: calling pci_pm_suspend_late+0x0/0x3a @ 11, parent: pci0000:00
+[  132.783207] pci 0000:00:18.2: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783206] pci 0000:00:18.1: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4654, parent: pci0000:00
+[  132.783207] pci 0000:00:18.6: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783207] pci 0000:00:18.4: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783210] pci 0000:00:18.3: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783212] pci 0000:00:18.1: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783214] pci 0000:00:14.3: PM: calling pci_pm_suspend_late+0x0/0x3a @ 11, parent: pci0000:00
+[  132.783214] pcieport 0000:00:08.3: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4650, parent: pci0000:00
+[  132.783214] pci 0000:00:18.0: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4004, parent: pci0000:00
+[  132.783216] piix4_smbus 0000:00:14.0: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4648, parent: pci0000:00
+[  132.783217] pci 0000:00:14.3: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783217] pcieport 0000:00:08.3: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783220] pci 0000:00:18.0: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783221] pci 0000:00:08.0: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4654, parent: pci0000:00
+[  132.783223] pcieport 0000:00:02.3: PM: calling pci_pm_suspend_late+0x0/0x3a @ 11, parent: pci0000:00
+[  132.783223] pcieport 0000:00:02.2: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4650, parent: pci0000:00
+[  132.783226] pcieport 0000:00:02.2: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783225] pcieport 0000:00:02.1: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4652, parent: pci0000:00
+[  132.783226] pci 0000:00:02.0: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4004, parent: pci0000:00
+[  132.783227] pci 0000:00:08.0: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783227] piix4_smbus 0000:00:14.0: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783225] pcieport 0000:00:08.1: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4651, parent: pci0000:00
+[  132.783229] pcieport 0000:00:02.3: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783232] pci 0000:00:01.0: PM: calling pci_pm_suspend_late+0x0/0x3a @ 11, parent: pci0000:00
+[  132.783231] pci 0000:00:02.0: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783232] pci 0000:00:00.2: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4650, parent: pci0000:00
+[  132.783234] pci 0000:00:00.0: PM: calling pci_pm_suspend_late+0x0/0x3a @ 4654, parent: pci0000:00
+[  132.783235] pci 0000:00:01.0: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783235] pci 0000:00:00.2: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783234] pcieport 0000:00:02.1: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783238] pcieport 0000:00:08.1: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783239] i2c_designware AMDI0019:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 11, parent: platform
+[  132.783239] i2c_designware AMDI0010:02: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4650, parent: platform
+[  132.783239] pci 0000:00:00.0: PM: pci_pm_suspend_late+0x0/0x3a returned 0 after 0 usecs
+[  132.783242] i2c_designware AMDI0010:02: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 0 usecs
+[  132.783242] i2c_designware AMDI0010:01: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4004, parent: platform
+[  132.783246] i2c_designware AMDI0010:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4651, parent: platform
+[  132.783252] i2c_designware AMDI0010:01: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 0 usecs
+[  132.783339] i2c_designware AMDI0019:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 96 usecs
+[  132.783513] dw-apb-uart AMDI0020:01: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 317 usecs
+[  132.783534] dw-apb-uart AMDI0020:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4640, parent: platform
+[  132.783770] i2c_designware AMDI0010:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 508 usecs
+[  132.783945] dw-apb-uart AMDI0020:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 398 usecs
+[  132.783959] amd_gpio AMD0030:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4640, parent: platform
+[  132.784001] amd_gpio AMD0030:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 31 usecs
+[  132.784014] chromeos_pstore GOOG9999:00: PM: calling acpi_subsys_suspend_late+0x0/0x52 @ 4640, parent: platform
+[  132.784024] chromeos_pstore GOOG9999:00: PM: acpi_subsys_suspend_late+0x0/0x52 returned 0 after 0 usecs
+[  132.784232] PM: late suspend of devices complete after 3.418 msecs
+[  132.784473] cros-ec-keyb GOOG0007:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4640, parent: GOOG0004:00
+[  132.784482] cros-ec-keyb GOOG0007:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.784511] gsmi gsmi: PM: calling gsmi_log_s0ix_suspend+0x0/0x24 @ 4640, parent: platform
+[  132.792019] gsmi gsmi: PM: gsmi_log_s0ix_suspend+0x0/0x24 returned 0 after 7503 usecs
+[  132.792130] snd_hda_intel 0000:04:00.1: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 11, parent: 0000:00:08.1
+[  132.792150] cr50_i2c i2c-GOOG0005:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4648, parent: i2c-3
+[  132.792156] coreboot_table BOOT0000:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4640, parent: platform
+[  132.792165] cr50_i2c i2c-GOOG0005:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792165] coreboot_table BOOT0000:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792171] chromeos-keyboard-leds GOOG0002:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4640, parent: platform
+[  132.792178] chromeos-keyboard-leds GOOG0002:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792179] rt1019 i2c-10EC1019:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4648, parent: i2c-2
+[  132.792178] rt1019 i2c-10EC1019:01: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4004, parent: i2c-2
+[  132.792183] rt5682s i2c-RTL5682:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4651, parent: i2c-2
+[  132.792185] rt1019 i2c-10EC1019:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792187] rt1019 i2c-10EC1019:01: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792191] amd_pmc AMDI0005:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4640, parent: platform
+[  132.792193] i2c_hid_acpi i2c-GXTP7863:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4648, parent: i2c-0
+[  132.792194] rt5682s i2c-RTL5682:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792198] i2c_hid_acpi i2c-GXTP7863:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792553] amd_pmc AMDI0005:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 356 usecs
+[  132.792561] cros-usbpd-notify-acpi GOOG0003:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4640, parent: GOOG0004:00
+[  132.792567] cros-usbpd-notify-acpi GOOG0003:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792573] cros_ec_lpcs GOOG0004:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4640, parent: PNP0C09:00
+[  132.792579] cros_ec_lpcs GOOG0004:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792597] gpio-keys PRP0001:01: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4640, parent: AMDI0010:01
+[  132.792603] gpio-keys PRP0001:01: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792614] dw-apb-uart AMDI0020:01: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4640, parent: platform
+[  132.792613] xhci_hcd 0000:05:00.0: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4654, parent: 0000:00:08.3
+[  132.792618] pci 0000:04:00.7: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4651, parent: 0000:00:08.1
+[  132.792625] dw-apb-uart AMDI0020:01: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792631] snd_sof_amd_rembrandt 0000:04:00.5: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4650, parent: 0000:00:08.1
+[  132.792632] dw-apb-uart AMDI0020:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4640, parent: platform
+[  132.792639] dw-apb-uart AMDI0020:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792642] xhci_hcd 0000:04:00.4: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4648, parent: 0000:00:08.1
+[  132.792645] amd_gpio AMD0030:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4640, parent: platform
+[  132.792650] amd_gpio AMD0030:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792658] chromeos_pstore GOOG9999:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 4640, parent: platform
+[  132.792665] chromeos_pstore GOOG9999:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792667] xhci_hcd 0000:04:00.3: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4004, parent: 0000:00:08.1
+[  132.792678] ccp 0000:04:00.2: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4652, parent: 0000:00:08.1
+[  132.792691] nvme 0000:02:00.0: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 1862, parent: 0000:00:02.2
+[  132.792697] pci 0000:04:00.7: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 69 usecs
+[  132.792696] ec PNP0C09:00: PM: calling acpi_ec_suspend_noirq+0x0/0x4c @ 4640, parent: device:00
+[  132.792703] ACPI: EC: interrupt blocked
+[  132.792706] mt7921e 0000:01:00.0: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4651, parent: 0000:00:02.1
+[  132.792709] ec PNP0C09:00: PM: acpi_ec_suspend_noirq+0x0/0x4c returned 0 after 6 usecs
+[  132.792715] mt7921e 0000:01:00.0: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 0 usecs
+[  132.792717] snd_sof_amd_rembrandt 0000:04:00.5: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 80 usecs
+[  132.792721] pci 0000:00:18.7: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4650, parent: pci0000:00
+[  132.792725] pci 0000:00:18.6: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4651, parent: pci0000:00
+[  132.792752] pci 0000:00:18.5: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 526, parent: pci0000:00
+[  132.792761] pci 0000:00:18.4: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 167, parent: pci0000:00
+[  132.792790] pci 0000:00:18.7: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 65 usecs
+[  132.792794] pci 0000:00:18.3: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4650, parent: pci0000:00
+[  132.792797] pci 0000:00:18.6: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 63 usecs
+[  132.792799] pci 0000:00:18.2: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 199, parent: pci0000:00
+[  132.792804] pci 0000:00:18.1: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4651, parent: pci0000:00
+[  132.792808] pci 0000:00:18.5: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 47 usecs
+[  132.792812] pci 0000:00:18.4: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 43 usecs
+[  132.792817] pci 0000:00:18.0: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 526, parent: pci0000:00
+[  132.792820] pci 0000:00:18.3: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 23 usecs
+[  132.792820] pci 0000:00:14.3: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 167, parent: pci0000:00
+[  132.792824] piix4_smbus 0000:00:14.0: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4649, parent: pci0000:00
+[  132.792828] pci 0000:00:18.2: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 21 usecs
+[  132.792828] pci 0000:00:18.1: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 18 usecs
+[  132.792835] pci 0000:00:08.0: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 204, parent: pci0000:00
+[  132.792835] pcieport 0000:00:02.3: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4651, parent: pci0000:00
+[  132.792839] pcieport 0000:00:02.1: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 199, parent: pci0000:00
+[  132.792846] pci 0000:00:02.0: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4653, parent: pci0000:00
+[  132.792850] pci 0000:00:01.0: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 174, parent: pci0000:00
+[  132.792886] pci 0000:00:18.0: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 60 usecs
+[  132.792893] pci 0000:00:00.2: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 526, parent: pci0000:00
+[  132.792902] pci 0000:00:14.3: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 74 usecs
+[  132.792909] pci 0000:00:00.0: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 167, parent: pci0000:00
+[  132.792923] piix4_smbus 0000:00:14.0: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 90 usecs
+[  132.792931] pci 0000:00:08.0: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 92 usecs
+[  132.792936] i2c_designware AMDI0019:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 204, parent: platform
+[  132.792939] i2c_designware AMDI0019:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792943] i2c_designware AMDI0010:01: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 204, parent: platform
+[  132.792942] i2c_designware AMDI0010:02: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 1849, parent: platform
+[  132.792946] i2c_designware AMDI0010:01: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792947] pci 0000:00:01.0: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 92 usecs
+[  132.792947] pci 0000:00:02.0: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 93 usecs
+[  132.792949] i2c_designware AMDI0010:00: PM: calling acpi_subsys_suspend_noirq+0x0/0x49 @ 204, parent: platform
+[  132.792953] i2c_designware AMDI0010:02: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792956] i2c_designware AMDI0010:00: PM: acpi_subsys_suspend_noirq+0x0/0x49 returned 0 after 0 usecs
+[  132.792987] pci 0000:00:00.2: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 87 usecs
+[  132.792997] pci 0000:00:00.0: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 81 usecs
+[  132.793032] pcieport 0000:00:02.3: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 190 usecs
+[  132.793037] pcieport 0000:00:02.1: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 191 usecs
+[  132.804401] nvme 0000:02:00.0: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 11709 usecs
+[  132.804418] ccp 0000:04:00.2: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 11733 usecs
+[  132.804426] snd_hda_intel 0000:04:00.1: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 12294 usecs
+[  132.804433] pcieport 0000:00:02.2: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 9, parent: pci0000:00
+[  132.804435] xhci_hcd 0000:05:00.0: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 11817 usecs
+[  132.804435] xhci_hcd 0000:04:00.4: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 11782 usecs
+[  132.804444] xhci_hcd 0000:04:00.3: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 11767 usecs
+[  132.804462] amdgpu 0000:04:00.0: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 527, parent: 0000:00:08.1
+[  132.804472] pcieport 0000:00:08.3: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4650, parent: pci0000:00
+[  132.804516] pcieport 0000:00:02.2: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 73 usecs
+[  132.816196] amdgpu 0000:04:00.0: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 11726 usecs
+[  132.816198] pcieport 0000:00:08.3: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 11709 usecs
+[  132.816292] pcieport 0000:00:08.1: PM: calling pci_pm_suspend_noirq+0x0/0x20d @ 4647, parent: pci0000:00
+[  132.828191] pcieport 0000:00:08.1: PM: pci_pm_suspend_noirq+0x0/0x20d returned 0 after 11883 usecs
+[  132.828253] PM: noirq suspend of devices complete after 43.871 msecs
+[  132.828423] PM: suspend-to-idle
+[  220.396330] PM: Timekeeping suspended for 87.341 seconds
+[  220.396381] PM: pm_system_irq_wakeup: 9 triggered acpi
+[  220.396379] PM: pm_system_irq_wakeup: 1 triggered i8042
+[  220.396478] PM: ACPI non-EC GPE wakeup
+[  220.396484] PM: resume from suspend-to-idle
+[  220.396987] i2c_designware AMDI0019:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 527, parent: platform
+[  220.396992] pci 0000:00:01.0: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 9, parent: pci0000:00
+[  220.396987] i2c_designware AMDI0010:02: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4650, parent: platform
+[  220.396987] i2c_designware AMDI0010:01: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4647, parent: platform
+[  220.396987] i2c_designware AMDI0010:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4649, parent: platform
+[  220.396990] pci 0000:00:00.0: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4004, parent: pci0000:00
+[  220.396990] pci 0000:00:00.2: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4648, parent: pci0000:00
+[  220.397009] i2c_designware AMDI0019:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397008] i2c_designware AMDI0010:02: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 1 usecs
+[  220.397009] i2c_designware AMDI0010:01: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397011] ec PNP0C09:00: PM: calling acpi_ec_resume_noirq+0x0/0x4c @ 4640, parent: device:00
+[  220.397020] i2c_designware AMDI0010:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397025] pcieport 0000:00:02.1: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 527, parent: pci0000:00
+[  220.397024] pci 0000:00:02.0: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4650, parent: pci0000:00
+[  220.397034] ACPI: EC: interrupt unblocked
+[  220.397033] pcieport 0000:00:02.3: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4649, parent: pci0000:00
+[  220.397033] pcieport 0000:00:02.2: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4647, parent: pci0000:00
+[  220.397046] ec PNP0C09:00: PM: acpi_ec_resume_noirq+0x0/0x4c returned 0 after 12 usecs
+[  220.397061] pcieport 0000:00:02.1: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 24 usecs
+[  220.397072] pcieport 0000:00:02.2: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 26 usecs
+[  220.397077] pcieport 0000:00:02.3: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 21 usecs
+[  220.397079] pci 0000:00:08.0: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 527, parent: pci0000:00
+[  220.397092] pci 0000:00:01.0: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 86 usecs
+[  220.397097] pcieport 0000:00:08.1: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4647, parent: pci0000:00
+[  220.397101] chromeos_pstore GOOG9999:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4640, parent: platform
+[  220.397108] pci 0000:00:00.0: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 96 usecs
+[  220.397108] pci 0000:00:00.2: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 96 usecs
+[  220.397114] pcieport 0000:00:08.3: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4649, parent: pci0000:00
+[  220.397133] piix4_smbus 0000:00:14.0: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 9, parent: pci0000:00
+[  220.397132] pci 0000:00:02.0: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 96 usecs
+[  220.397137] chromeos_pstore GOOG9999:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397148] pci 0000:00:14.3: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4004, parent: pci0000:00
+[  220.397150] pci 0000:00:18.0: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4648, parent: pci0000:00
+[  220.397160] pci 0000:00:08.0: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 64 usecs
+[  220.397166] amd_gpio AMD0030:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4640, parent: platform
+[  220.397188] pci 0000:00:18.1: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4650, parent: pci0000:00
+[  220.397193] amd_gpio AMD0030:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 1 usecs
+[  220.397220] dw-apb-uart AMDI0020:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4640, parent: platform
+[  220.397221] pci 0000:00:18.3: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 11, parent: pci0000:00
+[  220.397251] dw-apb-uart AMDI0020:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 1 usecs
+[  220.397260] pci 0000:00:18.4: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4652, parent: pci0000:00
+[  220.397281] dw-apb-uart AMDI0020:01: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4640, parent: platform
+[  220.397289] piix4_smbus 0000:00:14.0: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 134 usecs
+[  220.397289] pci 0000:00:18.6: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 1862, parent: pci0000:00
+[  220.397302] dw-apb-uart AMDI0020:01: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397308] pci 0000:00:14.3: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 135 usecs
+[  220.397308] pci 0000:00:18.7: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 199, parent: pci0000:00
+[  220.397313] mt7921e 0000:01:00.0: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 9, parent: 0000:00:02.1
+[  220.397320] gpio-keys PRP0001:01: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4640, parent: AMDI0010:01
+[  220.397329] pci 0000:00:18.1: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 117 usecs
+[  220.397331] gpio-keys PRP0001:01: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397338] nvme 0000:02:00.0: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4004, parent: 0000:00:02.2
+[  220.397345] pci 0000:00:18.5: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 527, parent: pci0000:00
+[  220.397346] pci 0000:00:18.3: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 85 usecs
+[  220.397356] pci 0000:00:18.4: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 65 usecs
+[  220.397355] cros_ec_lpcs GOOG0004:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4640, parent: PNP0C09:00
+[  220.397361] pci 0000:00:18.6: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 57 usecs
+[  220.397366] cros_ec_lpcs GOOG0004:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397366] pci 0000:00:18.7: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 46 usecs
+[  220.397366] pci 0000:00:18.2: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4654, parent: pci0000:00
+[  220.397373] pci 0000:00:18.5: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 18 usecs
+[  220.397378] pci 0000:00:18.0: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 203 usecs
+[  220.397382] cros-usbpd-notify-acpi GOOG0003:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4640, parent: GOOG0004:00
+[  220.397391] pci 0000:00:18.2: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 14 usecs
+[  220.397396] rt1019 i2c-10EC1019:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 527, parent: i2c-2
+[  220.397396] cros-usbpd-notify-acpi GOOG0003:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397394] i2c_hid_acpi i2c-GXTP7863:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 526, parent: i2c-0
+[  220.397397] rt5682s i2c-RTL5682:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4648, parent: i2c-2
+[  220.397407] rt5682s i2c-RTL5682:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397408] rt1019 i2c-10EC1019:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397406] rt1019 i2c-10EC1019:01: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 1849, parent: i2c-2
+[  220.397408] amd_pmc AMDI0005:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4640, parent: platform
+[  220.397408] cr50_i2c i2c-GOOG0005:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4654, parent: i2c-3
+[  220.397416] i2c_hid_acpi i2c-GXTP7863:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397419] rt1019 i2c-10EC1019:01: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397425] cr50_i2c i2c-GOOG0005:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397647] amd_pmc AMDI0005:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 228 usecs
+[  220.397661] chromeos-keyboard-leds GOOG0002:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4640, parent: platform
+[  220.397672] chromeos-keyboard-leds GOOG0002:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.397683] coreboot_table BOOT0000:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4640, parent: platform
+[  220.397693] coreboot_table BOOT0000:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.411431] nvme 0000:02:00.0: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 14086 usecs
+[  220.411617] pcieport 0000:00:08.1: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 14505 usecs
+[  220.411642] pci 0000:04:00.7: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 199, parent: 0000:00:08.1
+[  220.411642] ccp 0000:04:00.2: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 11, parent: 0000:00:08.1
+[  220.411643] xhci_hcd 0000:04:00.3: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4651, parent: 0000:00:08.1
+[  220.411655] amdgpu 0000:04:00.0: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4650, parent: 0000:00:08.1
+[  220.411662] snd_sof_amd_rembrandt 0000:04:00.5: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 1862, parent: 0000:00:08.1
+[  220.411704] mt7921e 0000:01:00.0: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 14391 usecs
+[  220.411709] xhci_hcd 0000:04:00.4: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 4652, parent: 0000:00:08.1
+[  220.411732] pcieport 0000:00:08.3: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 14579 usecs
+[  220.411770] xhci_hcd 0000:05:00.0: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 167, parent: 0000:00:08.3
+[  220.411774] snd_sof_amd_rembrandt 0000:04:00.5: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 104 usecs
+[  220.411785] pci 0000:04:00.7: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 134 usecs
+[  220.423221] xhci_hcd 0000:05:00.0: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 11442 usecs
+[  220.423227] xhci_hcd 0000:04:00.3: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 11580 usecs
+[  220.423242] xhci_hcd 0000:04:00.4: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 11529 usecs
+[  220.423305] ccp 0000:04:00.2: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 11653 usecs
+[  220.423361] amdgpu 0000:04:00.0: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 11697 usecs
+[  220.423397] snd_hda_intel 0000:04:00.1: PM: calling pci_pm_resume_noirq+0x0/0xe3 @ 204, parent: 0000:00:08.1
+[  220.423410] i8042 i8042: PM: calling i8042_pm_resume_noirq+0x0/0x21 @ 4640, parent: platform
+[  220.423444] i8042 i8042: PM: i8042_pm_resume_noirq+0x0/0x21 returned 0 after 12 usecs
+[  220.423462] gsmi gsmi: PM: calling gsmi_log_s0ix_resume+0x0/0x24 @ 4640, parent: platform
+[  220.460359] gsmi gsmi: PM: gsmi_log_s0ix_resume+0x0/0x24 returned 0 after 36902 usecs
+[  220.460382] cros-ec-keyb GOOG0007:00: PM: calling acpi_subsys_resume_noirq+0x0/0x29 @ 4640, parent: GOOG0004:00
+[  220.460389] cros-ec-keyb GOOG0007:00: PM: acpi_subsys_resume_noirq+0x0/0x29 returned 0 after 0 usecs
+[  220.460448] snd_hda_intel 0000:04:00.1: PM: pci_pm_resume_noirq+0x0/0xe3 returned 0 after 37055 usecs
+[  220.460497] PM: noirq resume of devices complete after 63.845 msecs
+[  220.460672] i2c_designware AMDI0010:01: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4650, parent: platform
+[  220.460673] i2c_designware AMDI0010:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 204, parent: platform
+[  220.460691] i2c_designware AMDI0010:02: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 11, parent: platform
+[  220.460695] chromeos_pstore GOOG9999:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4640, parent: platform
+[  220.460701] i2c_designware AMDI0019:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4654, parent: platform
+[  220.460712] chromeos_pstore GOOG9999:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 0 usecs
+[  220.460716] pci 0000:00:00.0: PM: calling pci_pm_resume_early+0x0/0x29 @ 4666, parent: pci0000:00
+[  220.460720] amd_gpio AMD0030:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4640, parent: platform
+[  220.460730] pci 0000:00:00.0: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460739] pci 0000:00:01.0: PM: calling pci_pm_resume_early+0x0/0x29 @ 4666, parent: pci0000:00
+[  220.460741] pci 0000:00:00.2: PM: calling pci_pm_resume_early+0x0/0x29 @ 4663, parent: pci0000:00
+[  220.460744] pci 0000:00:01.0: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460752] pcieport 0000:00:02.1: PM: calling pci_pm_resume_early+0x0/0x29 @ 4666, parent: pci0000:00
+[  220.460752] pci 0000:00:02.0: PM: calling pci_pm_resume_early+0x0/0x29 @ 4648, parent: pci0000:00
+[  220.460758] pci 0000:00:00.2: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460759] pcieport 0000:00:02.2: PM: calling pci_pm_resume_early+0x0/0x29 @ 526, parent: pci0000:00
+[  220.460760] pcieport 0000:00:02.1: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460763] amd_gpio AMD0030:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 37 usecs
+[  220.460765] pcieport 0000:00:02.3: PM: calling pci_pm_resume_early+0x0/0x29 @ 4662, parent: pci0000:00
+[  220.460765] pcieport 0000:00:02.2: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460766] pci 0000:00:08.0: PM: calling pci_pm_resume_early+0x0/0x29 @ 4663, parent: pci0000:00
+[  220.460767] pcieport 0000:00:08.1: PM: calling pci_pm_resume_early+0x0/0x29 @ 4666, parent: pci0000:00
+[  220.460769] dw-apb-uart AMDI0020:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4640, parent: platform
+[  220.460772] pcieport 0000:00:02.3: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460771] pci 0000:00:02.0: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460772] pcieport 0000:00:08.1: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460772] pcieport 0000:00:08.3: PM: calling pci_pm_resume_early+0x0/0x29 @ 4656, parent: pci0000:00
+[  220.460773] piix4_smbus 0000:00:14.0: PM: calling pci_pm_resume_early+0x0/0x29 @ 526, parent: pci0000:00
+[  220.460775] pci 0000:00:14.3: PM: calling pci_pm_resume_early+0x0/0x29 @ 4662, parent: pci0000:00
+[  220.460775] dw-apb-uart AMDI0020:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 0 usecs
+[  220.460778] pci 0000:00:14.3: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460778] pci 0000:00:08.0: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460778] pci 0000:00:18.0: PM: calling pci_pm_resume_early+0x0/0x29 @ 4648, parent: pci0000:00
+[  220.460779] piix4_smbus 0000:00:14.0: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460779] pcieport 0000:00:08.3: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460782] pci 0000:00:18.1: PM: calling pci_pm_resume_early+0x0/0x29 @ 4666, parent: pci0000:00
+[  220.460782] dw-apb-uart AMDI0020:01: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4640, parent: platform
+[  220.460784] pci 0000:00:18.2: PM: calling pci_pm_resume_early+0x0/0x29 @ 4662, parent: pci0000:00
+[  220.460784] pci 0000:00:18.0: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460786] pci 0000:00:18.2: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460785] pci 0000:00:18.3: PM: calling pci_pm_resume_early+0x0/0x29 @ 526, parent: pci0000:00
+[  220.460787] pci 0000:00:18.4: PM: calling pci_pm_resume_early+0x0/0x29 @ 4656, parent: pci0000:00
+[  220.460787] pci 0000:00:18.1: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460790] pci 0000:00:18.7: PM: calling pci_pm_resume_early+0x0/0x29 @ 4662, parent: pci0000:00
+[  220.460789] pci 0000:00:18.5: PM: calling pci_pm_resume_early+0x0/0x29 @ 4663, parent: pci0000:00
+[  220.460790] pci 0000:00:18.6: PM: calling pci_pm_resume_early+0x0/0x29 @ 4648, parent: pci0000:00
+[  220.460791] pci 0000:00:18.3: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460792] pci 0000:00:18.4: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460793] dw-apb-uart AMDI0020:01: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 0 usecs
+[  220.460795] pci 0000:00:18.7: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460794] mt7921e 0000:01:00.0: PM: calling pci_pm_resume_early+0x0/0x29 @ 4666, parent: 0000:00:02.1
+[  220.460795] pci 0000:00:18.6: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460797] nvme 0000:02:00.0: PM: calling pci_pm_resume_early+0x0/0x29 @ 526, parent: 0000:00:02.2
+[  220.460799] ccp 0000:04:00.2: PM: calling pci_pm_resume_early+0x0/0x29 @ 4662, parent: 0000:00:08.1
+[  220.460798] pci 0000:00:18.5: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460799] amdgpu 0000:04:00.0: PM: calling pci_pm_resume_early+0x0/0x29 @ 4656, parent: 0000:00:08.1
+[  220.460801] ccp 0000:04:00.2: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460800] mt7921e 0000:01:00.0: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460804] xhci_hcd 0000:04:00.4: PM: calling pci_pm_resume_early+0x0/0x29 @ 4662, parent: 0000:00:08.1
+[  220.460804] amdgpu 0000:04:00.0: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460804] xhci_hcd 0000:04:00.3: PM: calling pci_pm_resume_early+0x0/0x29 @ 4663, parent: 0000:00:08.1
+[  220.460806] xhci_hcd 0000:04:00.4: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460805] snd_sof_amd_rembrandt 0000:04:00.5: PM: calling pci_pm_resume_early+0x0/0x29 @ 4648, parent: 0000:00:08.1
+[  220.460806] pci 0000:04:00.7: PM: calling pci_pm_resume_early+0x0/0x29 @ 4666, parent: 0000:00:08.1
+[  220.460808] xhci_hcd 0000:05:00.0: PM: calling pci_pm_resume_early+0x0/0x29 @ 4662, parent: 0000:00:08.3
+[  220.460811] xhci_hcd 0000:05:00.0: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460810] nvme 0000:02:00.0: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460810] xhci_hcd 0000:04:00.3: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460811] snd_sof_amd_rembrandt 0000:04:00.5: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460811] pci 0000:04:00.7: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460843] i2c_designware AMDI0019:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 133 usecs
+[  220.460846] snd_hda_intel 0000:04:00.1: PM: calling pci_pm_resume_early+0x0/0x29 @ 4661, parent: 0000:00:08.1
+[  220.460850] snd_hda_intel 0000:04:00.1: PM: pci_pm_resume_early+0x0/0x29 returned 0 after 0 usecs
+[  220.460883] cr50_i2c i2c-GOOG0005:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4657, parent: i2c-3
+[  220.460892] cr50_i2c i2c-GOOG0005:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 0 usecs
+[  220.463124] i2c_designware AMDI0010:01: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 2445 usecs
+[  220.463137] i2c_designware AMDI0010:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 2450 usecs
+[  220.463141] i2c_designware AMDI0010:02: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 2434 usecs
+[  220.463179] gpio-keys PRP0001:01: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4640, parent: AMDI0010:01
+[  220.463186] i2c_hid_acpi i2c-GXTP7863:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4663, parent: i2c-0
+[  220.463193] rt1019 i2c-10EC1019:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4662, parent: i2c-2
+[  220.463194] rt1019 i2c-10EC1019:01: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4658, parent: i2c-2
+[  220.463199] i2c_hid_acpi i2c-GXTP7863:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 0 usecs
+[  220.463203] gpio-keys PRP0001:01: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 0 usecs
+[  220.463207] rt1019 i2c-10EC1019:01: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 0 usecs
+[  220.463209] rt1019 i2c-10EC1019:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 0 usecs
+[  220.463205] rt5682s i2c-RTL5682:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4666, parent: i2c-2
+[  220.463221] cros_ec_lpcs GOOG0004:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4640, parent: PNP0C09:00
+[  220.463221] rt5682s i2c-RTL5682:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 1 usecs
+[  220.466170] cros_ec_lpcs GOOG0004:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 2934 usecs
+[  220.466193] cros-usbpd-notify-acpi GOOG0003:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4640, parent: GOOG0004:00
+[  220.466206] cros-usbpd-notify-acpi GOOG0003:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 1 usecs
+[  220.466217] amd_pmc AMDI0005:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4640, parent: platform
+[  220.466227] amd_pmc AMDI0005:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 0 usecs
+[  220.466236] chromeos-keyboard-leds GOOG0002:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4640, parent: platform
+[  220.466246] chromeos-keyboard-leds GOOG0002:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 0 usecs
+[  220.466257] coreboot_table BOOT0000:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4640, parent: platform
+[  220.466266] coreboot_table BOOT0000:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 0 usecs
+[  220.466354] cros-ec-keyb GOOG0007:00: PM: calling acpi_subsys_resume_early+0x0/0x6b @ 4640, parent: GOOG0004:00
+[  220.466364] cros-ec-keyb GOOG0007:00: PM: acpi_subsys_resume_early+0x0/0x6b returned 0 after 0 usecs
+[  220.466400] PM: early resume of devices complete after 5.779 msecs
+[  220.466508] i2c_designware AMDI0010:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4666, parent: platform
+[  220.466509] i2c_designware AMDI0010:01: PM: calling acpi_subsys_resume+0x0/0x5a @ 4658, parent: platform
+[  220.466511] i2c_designware AMDI0019:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4663, parent: platform
+[  220.466512] pci 0000:00:00.2: PM: calling pci_pm_resume+0x0/0xef @ 4656, parent: pci0000:00
+[  220.466513] pci 0000:00:01.0: PM: calling pci_pm_resume+0x0/0xef @ 4662, parent: pci0000:00
+[  220.466511] i2c_designware AMDI0010:02: PM: calling acpi_subsys_resume+0x0/0x5a @ 4661, parent: platform
+[  220.466513] pci 0000:00:00.0: PM: calling pci_pm_resume+0x0/0xef @ 4648, parent: pci0000:00
+[  220.466520] i2c_designware AMDI0010:01: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.466523] pci 0000:00:01.0: PM: pci_pm_resume+0x0/0xef returned 0 after 2 usecs
+[  220.466522] i2c_designware AMDI0019:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.466527] i2c_designware AMDI0010:02: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.466529] pci 0000:00:02.0: PM: calling pci_pm_resume+0x0/0xef @ 4662, parent: pci0000:00
+[  220.466531] pci 0000:00:00.0: PM: pci_pm_resume+0x0/0xef returned 0 after 1 usecs
+[  220.466531] ec PNP0C09:00: PM: calling acpi_ec_resume+0x0/0x1a @ 4640, parent: device:00
+[  220.466535] pci 0000:00:00.2: can't derive routing for PCI INT A
+[  220.466532] pcieport 0000:00:02.1: PM: calling pci_pm_resume+0x0/0xef @ 4658, parent: pci0000:00
+[  220.466534] i2c_designware AMDI0010:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.466540] pci 0000:00:02.0: PM: pci_pm_resume+0x0/0xef returned 0 after 0 usecs
+[  220.466538] pcieport 0000:00:02.2: PM: calling pci_pm_resume+0x0/0xef @ 4661, parent: pci0000:00
+[  220.466539] pcieport 0000:00:02.3: PM: calling pci_pm_resume+0x0/0xef @ 4663, parent: pci0000:00
+[  220.466543] pci 0000:00:00.2: PCI INT A: no GSI
+[  220.466544] pci 0000:00:08.0: PM: calling pci_pm_resume+0x0/0xef @ 4648, parent: pci0000:00
+[  220.466545] pcieport 0000:00:08.1: PM: calling pci_pm_resume+0x0/0xef @ 4666, parent: pci0000:00
+[  220.466548] pcieport 0000:00:08.3: PM: calling pci_pm_resume+0x0/0xef @ 4662, parent: pci0000:00
+[  220.466550] ec PNP0C09:00: PM: acpi_ec_resume+0x0/0x1a returned 0 after 7 usecs
+[  220.466553] pci 0000:00:08.0: PM: pci_pm_resume+0x0/0xef returned 0 after 0 usecs
+[  220.466555] pci 0000:00:00.2: PM: pci_pm_resume+0x0/0xef returned 0 after 34 usecs
+[  220.466562] piix4_smbus 0000:00:14.0: PM: calling pci_pm_resume+0x0/0xef @ 4656, parent: pci0000:00
+[  220.466560] button PNP0C0D:00: PM: calling acpi_button_resume+0x0/0xa6 @ 4640, parent: PNP0C09:00
+[  220.466563] pci 0000:00:14.3: PM: calling pci_pm_resume+0x0/0xef @ 4648, parent: pci0000:00
+[  220.466569] piix4_smbus 0000:00:14.0: PM: pci_pm_resume+0x0/0xef returned 0 after 0 usecs
+[  220.466573] pci 0000:00:14.3: PM: pci_pm_resume+0x0/0xef returned 0 after 0 usecs
+[  220.466576] pci 0000:00:18.0: PM: calling pci_pm_resume+0x0/0xef @ 4656, parent: pci0000:00
+[  220.466582] pci 0000:00:18.0: PM: pci_pm_resume+0x0/0xef returned 0 after 0 usecs
+[  220.466583] pci 0000:00:18.1: PM: calling pci_pm_resume+0x0/0xef @ 4648, parent: pci0000:00
+[  220.466586] pcieport 0000:00:08.3: PM: pci_pm_resume+0x0/0xef returned 0 after 31 usecs
+[  220.466592] pci 0000:00:18.1: PM: pci_pm_resume+0x0/0xef returned 0 after 0 usecs
+[  220.466594] pci 0000:00:18.2: PM: calling pci_pm_resume+0x0/0xef @ 4656, parent: pci0000:00
+[  220.466594] pcieport 0000:00:08.1: PM: pci_pm_resume+0x0/0xef returned 0 after 5 usecs
+[  220.466601] pci 0000:00:18.2: PM: pci_pm_resume+0x0/0xef returned 0 after 0 usecs
+[  220.466601] pci 0000:00:18.3: PM: calling pci_pm_resume+0x0/0xef @ 4648, parent: pci0000:00
+[  220.466603] pci 0000:00:18.4: PM: calling pci_pm_resume+0x0/0xef @ 4666, parent: pci0000:00
+[  220.466609] pci 0000:00:18.5: PM: calling pci_pm_resume+0x0/0xef @ 4662, parent: pci0000:00
+[  220.466609] pci 0000:00:18.3: PM: pci_pm_resume+0x0/0xef returned 0 after 0 usecs
+[  220.466612] pci 0000:00:18.4: PM: pci_pm_resume+0x0/0xef returned 0 after 1 usecs
+[  220.466615] pci 0000:00:18.5: PM: pci_pm_resume+0x0/0xef returned 0 after 0 usecs
+[  220.466618] pci 0000:00:18.6: PM: calling pci_pm_resume+0x0/0xef @ 4648, parent: pci0000:00
+[  220.466621] pci 0000:00:18.7: PM: calling pci_pm_resume+0x0/0xef @ 4666, parent: pci0000:00
+[  220.466628] pci 0000:00:18.7: PM: pci_pm_resume+0x0/0xef returned 0 after 0 usecs
+[  220.466635] amdgpu 0000:04:00.0: PM: calling pci_pm_resume+0x0/0xef @ 11, parent: 0000:00:08.1
+[  220.466637] pci 0000:00:18.6: PM: pci_pm_resume+0x0/0xef returned 0 after 0 usecs
+[  220.466647] ccp 0000:04:00.2: PM: calling pci_pm_resume+0x0/0xef @ 4648, parent: 0000:00:08.1
+[  220.466650] button PNP0C0D:00: PM: acpi_button_resume+0x0/0xa6 returned 0 after 77 usecs
+[  220.466657] xhci_hcd 0000:04:00.3: PM: calling pci_pm_resume+0x0/0xef @ 4666, parent: 0000:00:08.1
+[  220.466662] ccp 0000:04:00.2: PM: pci_pm_resume+0x0/0xef returned 0 after 1 usecs
+[  220.466667] battery PNP0C0A:00: PM: calling acpi_battery_resume+0x0/0x3a @ 4640, parent: PNP0C09:00
+[  220.466676] xhci_hcd 0000:04:00.4: PM: calling pci_pm_resume+0x0/0xef @ 4648, parent: 0000:00:08.1
+[  220.466714] snd_sof_amd_rembrandt 0000:04:00.5: PM: calling pci_pm_resume+0x0/0xef @ 204, parent: 0000:00:08.1
+[  220.466728] xhci_hcd 0000:05:00.0: PM: calling pci_pm_resume+0x0/0xef @ 4657, parent: 0000:00:08.3
+[  220.466743] pci 0000:04:00.7: PM: calling pci_pm_resume+0x0/0xef @ 4650, parent: 0000:00:08.1
+[  220.466751] pci 0000:04:00.7: PM: pci_pm_resume+0x0/0xef returned 0 after 0 usecs
+[  220.466755] i2c_hid_acpi i2c-GXTP7863:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4660, parent: i2c-0
+[  220.466762] rt5682s i2c-RTL5682:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4650, parent: i2c-2
+[  220.466769] rt5682s i2c-RTL5682:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.466775] rt1019 i2c-10EC1019:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4654, parent: i2c-2
+[  220.466782] cr50_i2c i2c-GOOG0005:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4650, parent: i2c-3
+[  220.466782] rt1019 i2c-10EC1019:01: PM: calling acpi_subsys_resume+0x0/0x5a @ 4669, parent: i2c-2
+[  220.466791] rt1019 i2c-10EC1019:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.466792] rt1019 i2c-10EC1019:01: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.466837] pcieport 0000:00:02.1: PM: pci_pm_resume+0x0/0xef returned 0 after 289 usecs
+[  220.466846] pcieport 0000:00:02.3: PM: pci_pm_resume+0x0/0xef returned 0 after 296 usecs
+[  220.466849] pcieport 0000:00:02.2: PM: pci_pm_resume+0x0/0xef returned 0 after 294 usecs
+[  220.466861] mt7921e 0000:01:00.0: PM: calling pci_pm_resume+0x0/0xef @ 4662, parent: 0000:00:02.1
+[  220.466881] nvme 0000:02:00.0: PM: calling pci_pm_resume+0x0/0xef @ 4656, parent: 0000:00:02.2
+[  220.466912] nvme 0000:02:00.0: PM: pci_pm_resume+0x0/0xef returned 0 after 7 usecs
+[  220.466939] cr50_i2c i2c-GOOG0005:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 144 usecs
+[  220.467526] xhci_hcd 0000:04:00.3: PM: pci_pm_resume+0x0/0xef returned 0 after 857 usecs
+[  220.467546] usb usb1: PM: calling usb_dev_resume+0x0/0x14 @ 4665, parent: 0000:04:00.3
+[  220.467551] usb usb2: PM: calling usb_dev_resume+0x0/0x14 @ 174, parent: 0000:04:00.3
+[  220.467575] battery PNP0C0A:00: PM: acpi_battery_resume+0x0/0x3a returned 0 after 894 usecs
+[  220.467596] thermal LNXTHERM:00: PM: calling acpi_thermal_resume+0x0/0x125 @ 4640, parent: LNXSYBUS:01
+[  220.467608] thermal LNXTHERM:00: PM: acpi_thermal_resume+0x0/0x125 returned 0 after 5 usecs
+[  220.467621] thermal LNXTHERM:01: PM: calling acpi_thermal_resume+0x0/0x125 @ 4640, parent: LNXSYBUS:01
+[  220.467627] thermal LNXTHERM:01: PM: acpi_thermal_resume+0x0/0x125 returned 0 after 1 usecs
+[  220.467636] thermal LNXTHERM:02: PM: calling acpi_thermal_resume+0x0/0x125 @ 4640, parent: LNXSYBUS:01
+[  220.467642] thermal LNXTHERM:02: PM: acpi_thermal_resume+0x0/0x125 returned 0 after 0 usecs
+[  220.467650] thermal LNXTHERM:03: PM: calling acpi_thermal_resume+0x0/0x125 @ 4640, parent: LNXSYBUS:01
+[  220.467657] thermal LNXTHERM:03: PM: acpi_thermal_resume+0x0/0x125 returned 0 after 0 usecs
+[  220.467665] chromeos_pstore GOOG9999:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4640, parent: platform
+[  220.467671] chromeos_pstore GOOG9999:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.467677] platform AAHB0000:00: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.467685] platform AAHB0000:00: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.467692] amd_gpio AMD0030:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4640, parent: platform
+[  220.467700] amd_gpio AMD0030:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.467708] dw-apb-uart AMDI0020:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4640, parent: platform
+[  220.467870] dw-apb-uart AMDI0020:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 154 usecs
+[  220.467872] [drm] PCIE GART of 1024M enabled (table at 0x000000F403C00000).
+[  220.467879] dw-apb-uart AMDI0020:01: PM: calling acpi_subsys_resume+0x0/0x5a @ 4640, parent: platform
+[  220.467892] amdgpu 0000:04:00.0: amdgpu: SMU is resuming...
+[  220.467940] amdgpu 0000:04:00.0: amdgpu: dpm has been enabled
+[  220.467942] amdgpu 0000:04:00.0: amdgpu: SMU is resumed successfully!
+[  220.468634] dw-apb-uart AMDI0020:01: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 749 usecs
+[  220.468640] platform AMDI0020:02: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.468645] platform AMDI0020:02: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468651] platform AMDI0020:03: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.468656] platform AMDI0020:03: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468662] platform AMDI0020:04: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.468667] platform AMDI0020:04: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468673] gpio-keys PRP0001:01: PM: calling acpi_subsys_resume+0x0/0x5a @ 4640, parent: AMDI0010:01
+[  220.468690] gpio-keys PRP0001:01: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 11 usecs
+[  220.468696] clk-fch clk-fch: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: AMD0040:00
+[  220.468702] clk-fch clk-fch: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468708] platform AMD0040:00: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.468713] platform AMD0040:00: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468722] platform PNP0C04:00: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: 0000:00:14.3
+[  220.468727] platform PNP0C04:00: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468733] platform PNP0C09:00: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: 0000:00:14.3
+[  220.468738] platform PNP0C09:00: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468744] platform PNP0C0D:00: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: PNP0C09:00
+[  220.468749] platform PNP0C0D:00: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468754] platform ACPI0003:00: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: PNP0C09:00
+[  220.468760] platform ACPI0003:00: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468766] platform PNP0C0A:00: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: PNP0C09:00
+[  220.468771] platform PNP0C0A:00: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468776] cros_ec_lpcs GOOG0004:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4640, parent: PNP0C09:00
+[  220.468782] cros_ec_lpcs GOOG0004:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.468788] cros-usbpd-notify-acpi GOOG0003:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4640, parent: GOOG0004:00
+[  220.468794] cros-usbpd-notify-acpi GOOG0003:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.468800] platform GOOG0014:00: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: GOOG0004:00
+[  220.468806] platform GOOG0014:00: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468811] amd_pmc AMDI0005:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4640, parent: platform
+[  220.468817] amd_pmc AMDI0005:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.468823] chromeos-keyboard-leds GOOG0002:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4640, parent: platform
+[  220.468829] chromeos-keyboard-leds GOOG0002:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.468835] platform GOOG0016:00: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.468840] platform GOOG0016:00: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468846] coreboot_table BOOT0000:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4640, parent: platform
+[  220.468852] coreboot_table BOOT0000:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 0 usecs
+[  220.468858] button LNXPWRBN:00: PM: calling acpi_button_resume+0x0/0xa6 @ 4640, parent: LNXSYSTM:00
+[  220.468864] button LNXPWRBN:00: PM: acpi_button_resume+0x0/0xa6 returned 0 after 0 usecs
+[  220.468871] platform chromeos_acpi: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.468877] platform chromeos_acpi: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.468883] system 00:00: PM: calling pnp_bus_resume+0x0/0x9d @ 4640, parent: pnp0
+[  220.468891] system 00:00: PM: pnp_bus_resume+0x0/0x9d returned 0 after 0 usecs
+[  220.468900] rtc_cmos 00:01: PM: calling pnp_bus_resume+0x0/0x9d @ 4640, parent: pnp0
+[  220.468956] rtc_cmos 00:01: PM: pnp_bus_resume+0x0/0x9d returned 0 after 50 usecs
+[  220.468963] system 00:02: PM: calling pnp_bus_resume+0x0/0x9d @ 4640, parent: pnp0
+[  220.468969] system 00:02: PM: pnp_bus_resume+0x0/0x9d returned 0 after 0 usecs
+[  220.468975] system 00:03: PM: calling pnp_bus_resume+0x0/0x9d @ 4640, parent: pnp0
+[  220.468981] system 00:03: PM: pnp_bus_resume+0x0/0x9d returned 0 after 0 usecs
+[  220.468987] system 00:04: PM: calling pnp_bus_resume+0x0/0x9d @ 4640, parent: pnp0
+[  220.468993] system 00:04: PM: pnp_bus_resume+0x0/0x9d returned 0 after 0 usecs
+[  220.468999] i8042 kbd 00:05: PM: calling pnp_bus_resume+0x0/0x9d @ 4640, parent: pnp0
+[  220.469006] i8042 kbd 00:05: PM: pnp_bus_resume+0x0/0x9d returned 0 after 0 usecs
+[  220.469022] intel_rapl_msr intel_rapl_msr.0: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.469028] intel_rapl_msr intel_rapl_msr.0: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.469041] input input0: PM: calling input_dev_resume+0x0/0x42 @ 4640, parent: PNP0C0D:00
+[  220.469048] input input0: PM: input_dev_resume+0x0/0x42 returned 0 after 0 usecs
+[  220.469054] input input1: PM: calling input_dev_resume+0x0/0x42 @ 4640, parent: LNXPWRBN:00
+[  220.469059] input input1: PM: input_dev_resume+0x0/0x42 returned 0 after 0 usecs
+[  220.469066] serial8250 serial8250: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.469073] serial8250 serial8250: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.470373] nvme nvme0: 1/0/0 default/read/poll queues
+[  220.470554] [drm:dcn20_plane_atomic_disable] Power gated front end 0
+[  220.470561] [drm:dcn10_init_pipes] Power down front end 0
+[  220.470580] [drm:dcn20_plane_atomic_disable] Power gated front end 1
+[  220.470582] [drm:dcn10_init_pipes] Power down front end 1
+[  220.470596] [drm:dcn20_plane_atomic_disable] Power gated front end 2
+[  220.470599] [drm:dcn10_init_pipes] Power down front end 2
+[  220.470612] [drm:dcn20_plane_atomic_disable] Power gated front end 3
+[  220.470615] [drm:dcn10_init_pipes] Power down front end 3
+[  220.471480] [drm:amdgpu_dm_irq_resume_early] DM_IRQ: early resume
+[  220.471532] [drm:dce110_edp_power_control] dce110_edp_power_control: Skipping Panel Power action: On
+[  220.477963] snd_sof_amd_rembrandt 0000:04:00.5: PM: pci_pm_resume+0x0/0xef returned 0 after 11240 usecs
+[  220.489006] usb usb2: PM: usb_dev_resume+0x0/0x14 returned 0 after 21449 usecs
+[  220.503305] mt7921e 0000:01:00.0: PM: pci_pm_resume+0x0/0xef returned 0 after 36452 usecs
+[  220.503399] ieee80211 phy0: PM: calling wiphy_resume+0x0/0x15d [cfg80211] @ 4649, parent: 0000:01:00.0
+[  220.530924] i2c_hid_acpi i2c-GXTP7863:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 64178 usecs
+[  220.543222] [drm:amdgpu_dm_update_connector_after_detect] DCHPD: connector_id=0: Old sink=0000000000000000 New sink=000000005bc9569c
+[  220.544089] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.544932] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x03000 AUX -> (ret=  1) 00
+[  220.544939] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+[  220.544944] [drm:update_display_info] eDP-1: Assigning EDID-1.4 digital sink color depth as 6 bpc.
+[  220.544951] [drm:drm_mode_object_put] OBJ ID: 84 (1)
+[  220.545776] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.546599] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00007 AUX -> (ret=  1) c0
+[  220.546624] [drm:dc_link_detect] link=1, dc_sink_in=0000000000000000 is now Disconnected prev_sink=0000000000000000 edid same=0
+[  220.546629] [drm:amdgpu_dm_update_connector_after_detect] DCHPD: connector_id=1: dc_sink didn't change.
+[  220.546651] [drm:dc_link_detect] link=2, dc_sink_in=0000000000000000 is now Disconnected prev_sink=0000000000000000 edid same=0
+[  220.546654] [drm:amdgpu_dm_update_connector_after_detect] DCHPD: connector_id=2: dc_sink didn't change.
+[  220.546675] [drm:dc_link_detect] link=3, dc_sink_in=0000000000000000 is now Disconnected prev_sink=0000000000000000 edid same=0
+[  220.546678] [drm:amdgpu_dm_update_connector_after_detect] DCHPD: connector_id=3: dc_sink didn't change.
+[  220.546716] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000b16f3fe5
+[  220.546720] commit_state plane[40]: plane-0
+[  220.546722] commit_state     crtc=(null)
+[  220.546723] commit_state     fb=0
+[  220.546724] commit_state     crtc-pos=0x0+0+0
+[  220.546725] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
+[  220.546726] commit_state     rotation=1
+[  220.546727] commit_state     normalized-zpos=0
+[  220.546728] commit_state     color-encoding=ITU-R BT.709 YCbCr
+[  220.546729] commit_state     color-range=YCbCr limited range
+[  220.546731] commit_state plane[45]: plane-1
+[  220.546731] commit_state     crtc=(null)
+[  220.546732] commit_state     fb=0
+[  220.546733] commit_state     crtc-pos=0x0+0+0
+[  220.546733] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
+[  220.546734] commit_state     rotation=1
+[  220.546735] commit_state     normalized-zpos=0
+[  220.546736] commit_state     color-encoding=ITU-R BT.709 YCbCr
+[  220.546736] commit_state     color-range=YCbCr limited range
+[  220.546737] commit_state plane[50]: plane-2
+[  220.546737] commit_state     crtc=(null)
+[  220.546738] commit_state     fb=0
+[  220.546738] commit_state     crtc-pos=0x0+0+0
+[  220.546739] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
+[  220.546740] commit_state     rotation=1
+[  220.546741] commit_state     normalized-zpos=0
+[  220.546741] commit_state     color-encoding=ITU-R BT.709 YCbCr
+[  220.546742] commit_state     color-range=YCbCr limited range
+[  220.546742] commit_state plane[55]: plane-3
+[  220.546743] commit_state     crtc=crtc-0
+[  220.546744] commit_state     fb=105
+[  220.546745] commit_state             allocated by = modetest
+[  220.546746] commit_state             refcount=2
+[  220.546747] commit_state             format=XR24 little-endian (0x34325258)
+[  220.546749] commit_state             modifier=0x0
+[  220.546750] commit_state             size=1920x1080
+[  220.546750] commit_state             layers:
+[  220.546751] commit_state                     size[0]=1920x1080
+[  220.546752] commit_state                     pitch[0]=7680
+[  220.546753] commit_state                     offset[0]=0
+[  220.546754] commit_state                     obj[0]:
+[  220.546756] commit_state                             name=0
+[  220.546757] commit_state                             refcount=2
+[  220.546758] commit_state                             start=001025a8
+[  220.546759] commit_state                             size=8294400
+[  220.546759] commit_state                             imported=no
+[  220.546761] commit_state     crtc-pos=1920x1080+0+0
+[  220.546762] commit_state     src-pos=1920.000000x1080.000000+0.000000+0.000000
+[  220.546763] commit_state     rotation=1
+[  220.546764] commit_state     normalized-zpos=0
+[  220.546764] commit_state     color-encoding=ITU-R BT.601 YCbCr
+[  220.546765] commit_state     color-range=YCbCr limited range
+[  220.546766] commit_state plane[60]: plane-4
+[  220.546767] commit_state     crtc=(null)
+[  220.546767] commit_state     fb=0
+[  220.546768] commit_state     crtc-pos=0x0+0+0
+[  220.546768] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
+[  220.546770] commit_state     rotation=1
+[  220.546770] commit_state     normalized-zpos=0
+[  220.546771] commit_state     color-encoding=ITU-R BT.601 YCbCr
+[  220.546771] commit_state     color-range=YCbCr limited range
+[  220.546772] commit_state plane[65]: plane-5
+[  220.546773] commit_state     crtc=(null)
+[  220.546773] commit_state     fb=0
+[  220.546774] commit_state     crtc-pos=0x0+0+0
+[  220.546774] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
+[  220.546776] commit_state     rotation=1
+[  220.546776] commit_state     normalized-zpos=0
+[  220.546777] commit_state     color-encoding=ITU-R BT.601 YCbCr
+[  220.546777] commit_state     color-range=YCbCr limited range
+[  220.546778] commit_state plane[68]: plane-6
+[  220.546778] commit_state     crtc=(null)
+[  220.546779] commit_state     fb=0
+[  220.546779] commit_state     crtc-pos=0x0+0+0
+[  220.546780] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
+[  220.546781] commit_state     rotation=1
+[  220.546782] commit_state     normalized-zpos=0
+[  220.546782] commit_state     color-encoding=ITU-R BT.601 YCbCr
+[  220.546783] commit_state     color-range=YCbCr limited range
+[  220.546783] commit_state plane[71]: plane-7
+[  220.546784] commit_state     crtc=(null)
+[  220.546785] commit_state     fb=0
+[  220.546785] commit_state     crtc-pos=0x0+0+0
+[  220.546786] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
+[  220.546787] commit_state     rotation=1
+[  220.546788] commit_state     normalized-zpos=0
+[  220.546788] commit_state     color-encoding=ITU-R BT.601 YCbCr
+[  220.546789] commit_state     color-range=YCbCr limited range
+[  220.546790] commit_state plane[74]: plane-8
+[  220.546790] commit_state     crtc=(null)
+[  220.546791] commit_state     fb=0
+[  220.546791] commit_state     crtc-pos=0x0+0+0
+[  220.546792] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
+[  220.546793] commit_state     rotation=1
+[  220.546794] commit_state     normalized-zpos=0
+[  220.546794] commit_state     color-encoding=ITU-R BT.601 YCbCr
+[  220.546795] commit_state     color-range=YCbCr limited range
+[  220.546796] commit_state crtc[67]: crtc-0
+[  220.546796] commit_state     enable=1
+[  220.546797] commit_state     active=1
+[  220.546798] commit_state     self_refresh_active=0
+[  220.546798] commit_state     planes_changed=0
+[  220.546799] commit_state     mode_changed=0
+[  220.546800] commit_state     active_changed=1
+[  220.546801] commit_state     connectors_changed=0
+[  220.546801] commit_state     color_mgmt_changed=0
+[  220.546802] commit_state     plane_mask=8
+[  220.546803] commit_state     connector_mask=1
+[  220.546803] commit_state     encoder_mask=1
+[  220.546804] commit_state     mode: "1920x1080": 60 141000 1920 1936 1952 2104 1080 1083 1097 1116 0x48 0x9
+[  220.546807] commit_state crtc[70]: crtc-1
+[  220.546807] commit_state     enable=0
+[  220.546808] commit_state     active=0
+[  220.546808] commit_state     self_refresh_active=0
+[  220.546809] commit_state     planes_changed=0
+[  220.546810] commit_state     mode_changed=0
+[  220.546810] commit_state     active_changed=1
+[  220.546811] commit_state     connectors_changed=0
+[  220.546811] commit_state     color_mgmt_changed=0
+[  220.546812] commit_state     plane_mask=0
+[  220.546812] commit_state     connector_mask=0
+[  220.546813] commit_state     encoder_mask=0
+[  220.546814] commit_state     mode: "": 0 0 0 0 0 0 0 0 0 0 0x0 0x0
+[  220.546815] commit_state crtc[73]: crtc-2
+[  220.546816] commit_state     enable=0
+[  220.546816] commit_state     active=0
+[  220.546817] commit_state     self_refresh_active=0
+[  220.546818] commit_state     planes_changed=0
+[  220.546818] commit_state     mode_changed=0
+[  220.546819] commit_state     active_changed=1
+[  220.546819] commit_state     connectors_changed=0
+[  220.546820] commit_state     color_mgmt_changed=0
+[  220.546820] commit_state     plane_mask=0
+[  220.546821] commit_state     connector_mask=0
+[  220.546821] commit_state     encoder_mask=0
+[  220.546822] commit_state     mode: "": 0 0 0 0 0 0 0 0 0 0 0x0 0x0
+[  220.546824] commit_state crtc[76]: crtc-3
+[  220.546824] commit_state     enable=0
+[  220.546825] commit_state     active=0
+[  220.546826] commit_state     self_refresh_active=0
+[  220.546826] commit_state     planes_changed=0
+[  220.546827] commit_state     mode_changed=0
+[  220.546827] commit_state     active_changed=1
+[  220.546828] commit_state     connectors_changed=0
+[  220.546828] commit_state     color_mgmt_changed=0
+[  220.546829] commit_state     plane_mask=0
+[  220.546829] commit_state     connector_mask=0
+[  220.546830] commit_state     encoder_mask=0
+[  220.546831] commit_state     mode: "": 0 0 0 0 0 0 0 0 0 0 0x0 0x0
+[  220.546832] commit_state connector[78]: eDP-1
+[  220.546833] commit_state     crtc=crtc-0
+[  220.546833] commit_state     self_refresh_aware=0
+[  220.546834] commit_state connector[85]: HDMI-A-1
+[  220.546835] commit_state     crtc=(null)
+[  220.546836] commit_state     self_refresh_aware=0
+[  220.546836] commit_state connector[89]: DP-1
+[  220.546837] commit_state     crtc=(null)
+[  220.546838] commit_state     self_refresh_aware=0
+[  220.546838] commit_state connector[94]: DP-2
+[  220.546839] commit_state     crtc=(null)
+[  220.546840] commit_state     self_refresh_aware=0
+[  220.546841] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000b16f3fe5
+[  220.546845] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:67:crtc-0] mode changed
+[  220.546848] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:67:crtc-0] enable changed
+[  220.546849] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:67:crtc-0] active changed
+[  220.546852] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:78:eDP-1]
+[  220.546855] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CONNECTOR:78:eDP-1] keeps [ENCODER:77:TMDS-77], now on [CRTC:67:crtc-0]
+[  220.546858] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:85:HDMI-A-1]
+[  220.546859] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Disabling [CONNECTOR:85:HDMI-A-1]
+[  220.546860] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:89:DP-1]
+[  220.546861] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Disabling [CONNECTOR:89:DP-1]
+[  220.546863] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:94:DP-2]
+[  220.546864] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Disabling [CONNECTOR:94:DP-2]
+[  220.546865] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:67:crtc-0] needs all connectors, enable: y, active: y
+[  220.546868] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:67:crtc-0] to 00000000b16f3fe5
+[  220.546870] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:67:crtc-0] to 00000000b16f3fe5
+[  220.546873] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] needs all connectors, enable: n, active: n
+[  220.546874] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:70:crtc-1] to 00000000b16f3fe5
+[  220.546877] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:70:crtc-1] to 00000000b16f3fe5
+[  220.546879] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:73:crtc-2] needs all connectors, enable: n, active: n
+[  220.546880] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:73:crtc-2] to 00000000b16f3fe5
+[  220.546882] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:73:crtc-2] to 00000000b16f3fe5
+[  220.546884] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:76:crtc-3] needs all connectors, enable: n, active: n
+[  220.546886] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:76:crtc-3] to 00000000b16f3fe5
+[  220.546888] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:76:crtc-3] to 00000000b16f3fe5
+[  220.546890] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 00000000b16f3fe5
+[  220.546894] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:67:crtc-0] to 00000000b16f3fe5
+[  220.546897] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:67:crtc-0] to 00000000b16f3fe5
+[  220.546899] [drm:drm_atomic_normalize_zpos] [CRTC:67:crtc-0] calculating normalized zpos values
+[  220.546901] [drm:drm_atomic_normalize_zpos] [PLANE:55:plane-3] processing zpos value 0
+[  220.546903] [drm:drm_atomic_normalize_zpos] [PLANE:55:plane-3] normalized zpos value 0
+[  220.546905] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:0 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[  220.546909] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:1 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:1,connectors_changed:0
+[  220.546911] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:2 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:1,connectors_changed:0
+[  220.546914] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:3 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:1,connectors_changed:0
+[  220.546949] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[  220.546956] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:0 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[  220.546998] amdgpu 0000:04:00.0: [drm:drm_atomic_get_private_obj_state] Added new private object 00000000c0c73f8f state 0000000024ccc914 to 00000000b16f3fe5
+[  220.547000] [drm:dm_update_crtc_state] Enabling DRM crtc: 67
+[  220.547007] [drm:dm_update_crtc_state] Destination Rectangle x:0  y:0  width:1920  height:1080
+[  220.547010] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:1 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:1,connectors_changed:0
+[  220.547012] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:2 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:1,connectors_changed:0
+[  220.547015] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:3 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:1,connectors_changed:0
+[  220.547052] [drm:dm_update_plane_state] Enabling DRM plane: 55 on DRM crtc 67
+[  220.547093] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000b16f3fe5
+[  220.547098] [drm:dm_plane_helper_prepare_fb] No FB bound
+[  220.547100] [drm:dm_plane_helper_prepare_fb] No FB bound
+[  220.547101] [drm:dm_plane_helper_prepare_fb] No FB bound
+[  220.547109] [drm:dm_plane_helper_prepare_fb] No FB bound
+[  220.547110] [drm:dm_plane_helper_prepare_fb] No FB bound
+[  220.547111] [drm:dm_plane_helper_prepare_fb] No FB bound
+[  220.547113] [drm:dm_plane_helper_prepare_fb] No FB bound
+[  220.547114] [drm:dm_plane_helper_prepare_fb] No FB bound
+[  220.547117] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 67: hwmode: htotal 2104, vtotal 1116, vdisplay 1080
+[  220.547120] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 67: clock 141000 kHz framedur 16652936 linedur 14921
+[  220.547123] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:0 crtc_state_flags: enable:1, active:1, planes_changed:1, mode_changed:1,active_changed:1,connectors_changed:1
+[  220.547125] [drm:amdgpu_dm_atomic_commit_tail] Atomic commit: SET crtc id 0: [00000000cf0e7a18]
+[  220.547127] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:1 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:1,connectors_changed:0
+[  220.547129] [drm:amdgpu_dm_atomic_commit_tail] Atomic commit: RESET. crtc id 1:[00000000d5b37109]
+[  220.547130] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:2 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:1,connectors_changed:0
+[  220.547132] [drm:amdgpu_dm_atomic_commit_tail] Atomic commit: RESET. crtc id 2:[000000001dcb5f9f]
+[  220.547133] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:3 crtc_state_flags: enable:0, active:0, planes_changed:0, mode_changed:0,active_changed:1,connectors_changed:0
+[  220.547135] [drm:amdgpu_dm_atomic_commit_tail] Atomic commit: RESET. crtc id 3:[000000002906fe91]
+[  220.547136] [drm:amdgpu_dm_psr_disable_all] Disabling psr if psr is enabled on any stream
+[  220.547140] [drm:dc_commit_state] dc_commit_state: 1 streams
+[  220.547144] [drm:dc_stream_log] core_stream 0x000000000ab4c175: src: 0, 0, 1920, 1080; dst: 0, 0, 1920, 1080, colorSpace:1
+[  220.547148] [drm:dc_stream_log]      pix_clk_khz: 141000, h_total: 2104, v_total: 1116, pixelencoder:1, displaycolorDepth:1
+[  220.547151] [drm:dc_stream_log]      link: 0
+[  220.547152] [drm:dc_stream_log]      dsc: 0, mst_pbn: 0
+[  220.547154] [drm:dc_commit_state]    dispname:  signal: 80
+[  220.547207] [drm:link_enc_cfg_link_encs_assign] link_enc_cfg_link_encs_assign: NEW PHY(0) - enc_id(0)
+[  220.547698] [drm:dce110_apply_ctx_to_hw] link_enc_cfg_set_transient_mode: current_state(000000001cfd0186) mode(1)
+[  220.547970] [drm:core_link_enable_stream] core_link_enable_stream pipe_ctx dispname= signal=80
+[  220.548046] [drm:dce110_edp_power_control] dce110_edp_power_control: Skipping Panel Power action: On
+[  220.548896] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.549728] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00300 AUX -> (ret=  3) 00 00 00
+[  220.550562] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00300 AUX <- (ret=  3) 00 00 1a
+[  220.551451] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00303 AUX <- (ret=  9) 06 15 00 00 00 00 19 00 00
+[  220.551454] [drm:dpcd_set_source_specific_data] Sink device does not support 00340h DPCD write. Skipping on purpose.
+[  220.551494] [drm:dce110_edp_power_control] dce110_edp_power_control: Skipping Panel Power action: On
+[  220.551504] [drm:dcn31_link_encoder_enable_dp_output] dcn31_link_encoder_enable_dp_output: enc_id(0)
+[  220.568893] usb usb1: PM: usb_dev_resume+0x0/0x14 returned 0 after 101389 usecs
+[  220.569054] usb 1-2: PM: calling usb_dev_resume+0x0/0x14 @ 199, parent: usb1
+[  220.569064] usb 1-2: PM: usb_dev_resume+0x0/0x14 returned 0 after 0 usecs
+[  220.574089] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00600 AUX <- (ret=  1) 01
+[  220.575219] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.576035] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x0010a AUX -> (ret=  1) 00
+[  220.576859] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x0010a AUX <- (ret=  1) 01
+[  220.576862] [drm:dp_set_panel_mode] Link: 0 eDP panel mode supported: 1 eDP panel mode enabled: 1
+[  220.577675] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00102 AUX <- (ret=  1) 00
+[  220.578485] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.579310] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.580130] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00108 AUX <- (ret=  1) 01
+[  220.580943] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00107 AUX <- (ret=  1) 10
+[  220.581759] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00101 AUX <- (ret=  1) 82
+[  220.582574] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00100 AUX <- (ret=  1) 0a
+[  220.583540] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00102 AUX <- (ret=  3) 21 00 00
+[  220.584455] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.585321] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00202 AUX -> (ret=  6) 33 00 80 00 00 00
+[  220.586273] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00102 AUX <- (ret=  3) 22 00 00
+[  220.587489] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.588240] ieee80211 phy0: PM: wiphy_resume+0x0/0x15d [cfg80211] returned 0 after 84831 usecs
+[  220.588348] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00202 AUX -> (ret=  6) 77 00 81 00 00 00
+[  220.589168] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 0: 0x00102 AUX <- (ret=  1) 00
+[  220.589979] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.590790] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.590800] [drm:print_status_message] HBRx2 pass VS=0, PE=0, DS=0.5% 30KHz
+[  220.590980] [drm:dce110_edp_backlight_control] dce110_edp_backlight_control: backlight action: On
+[  220.591790] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.592607] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00700 AUX -> (ret=  1) 01
+[  220.592901] xhci_hcd 0000:05:00.0: PM: pci_pm_resume+0x0/0xef returned 0 after 126223 usecs
+[  220.592904] xhci_hcd 0000:04:00.4: PM: pci_pm_resume+0x0/0xef returned 0 after 126277 usecs
+[  220.592937] usb usb4: PM: calling usb_dev_resume+0x0/0x14 @ 4656, parent: 0000:04:00.4
+[  220.593078] usb usb3: PM: calling usb_dev_resume+0x0/0x14 @ 4661, parent: 0000:04:00.4
+[  220.593080] usb usb6: PM: calling usb_dev_resume+0x0/0x14 @ 4667, parent: 0000:05:00.0
+[  220.593080] usb usb5: PM: calling usb_dev_resume+0x0/0x14 @ 1849, parent: 0000:05:00.0
+[  220.593125] usb usb6: PM: usb_dev_resume+0x0/0x14 returned 0 after 28 usecs
+[  220.593222] usb usb3: PM: usb_dev_resume+0x0/0x14 returned 0 after 120 usecs
+[  220.593431] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.594250] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.595087] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.595895] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.596739] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.597553] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.598404] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.599217] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.600062] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.600887] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.601728] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.602547] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.603394] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.604215] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.605061] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.605890] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.606734] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.607555] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.608410] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.609229] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.610079] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.610907] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.611751] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.612574] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.613430] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.614249] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.614877] usb usb4: PM: usb_dev_resume+0x0/0x14 returned 0 after 21935 usecs
+[  220.615091] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.615910] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.616755] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.617577] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.618431] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.619250] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.620095] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.620910] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.621760] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.622582] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.623437] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.624256] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.625101] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.625917] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.626766] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.627586] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.628426] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.629259] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.630114] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.630933] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 00
+[  220.631777] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.632600] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00205 AUX -> (ret=  1) 01
+[  220.633473] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  220.634292] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00107 AUX -> (ret=  1) 10
+[  220.634295] [drm:update_config] [HDCP_DM] display 0, CP 0, type 0
+[  220.645931] usb usb5: PM: usb_dev_resume+0x0/0x14 returned 0 after 52861 usecs
+[  220.646080] usb 5-1: PM: calling usb_dev_resume+0x0/0x14 @ 167, parent: usb5
+[  220.647786] [drm:optc1_wait_for_state] REG_WAIT taking a while: 6ms in optc1_wait_for_state line:821
+[  220.648333] [drm:dcn20_program_pipe] Un-gated front end for pipe 0
+[  220.664473] [drm:dc_commit_state_no_check] {1920x1080, 2104x1116@141000Khz}
+[  220.664491] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 0, wptr 32
+[  220.664547] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_on] crtc 0, vblank enabled 0, inmodeset 1
+[  220.664554] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1109
+[  220.664558] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(50,-28)@ 133.150681 -> 133.151098 [e 1 us, 0 rep]
+[  220.664564] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1108
+[  220.664736] [drm:amdgpu_dm_audio_eld_notify] Notify ELD: -1
+[  220.664739] [drm:amdgpu_dm_audio_eld_notify] Notify ELD: -1
+[  220.664743] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000b16f3fe5
+[  220.664746] [drm:drm_mode_object_put] OBJ ID: 78 (3)
+[  220.664747] [drm:drm_mode_object_put] OBJ ID: 85 (2)
+[  220.664749] [drm:drm_mode_object_put] OBJ ID: 89 (2)
+[  220.664750] [drm:drm_mode_object_put] OBJ ID: 94 (2)
+[  220.664754] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000b16f3fe5
+[  220.664756] [drm:amdgpu_dm_irq_resume_late] DM_IRQ: resume
+[  220.666180] amdgpu 0000:04:00.0: [drm:amdgpu_ring_test_helper] ring test on vcn_dec_0 succeeded
+[  220.666184] [drm:vcn_v3_0_pause_dpg_mode] dpg pause state changed 0 -> 1
+[  220.666483] amdgpu 0000:04:00.0: [drm:amdgpu_ring_test_helper] ring test on vcn_enc_0.0 succeeded
+[  220.666508] amdgpu 0000:04:00.0: [drm:amdgpu_ring_test_helper] ring test on vcn_enc_0.1 succeeded
+[  220.666509] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[  220.666573] amdgpu 0000:04:00.0: [drm:amdgpu_ring_test_helper] ring test on jpeg_dec succeeded
+[  220.666574] [drm] JPEG decode initialized successfully.
+[  220.666581] amdgpu 0000:04:00.0: amdgpu: ring gfx_0.0.0 uses VM inv eng 0 on hub 0
+[  220.666583] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[  220.666585] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[  220.666587] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[  220.666589] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[  220.666591] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[  220.666592] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[  220.666594] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[  220.666596] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[  220.666598] amdgpu 0000:04:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[  220.666600] amdgpu 0000:04:00.0: amdgpu: ring sdma0 uses VM inv eng 12 on hub 0
+[  220.666602] amdgpu 0000:04:00.0: amdgpu: ring vcn_dec_0 uses VM inv eng 0 on hub 1
+[  220.666603] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc_0.0 uses VM inv eng 1 on hub 1
+[  220.666605] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc_0.1 uses VM inv eng 4 on hub 1
+[  220.666607] amdgpu 0000:04:00.0: amdgpu: ring jpeg_dec uses VM inv eng 5 on hub 1
+[  220.667377] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 32, wptr 64
+[  220.667385] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[  220.667394] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on gfx_0.0.0 succeeded
+[  220.667460] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 64, wptr 96
+[  220.667467] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[  220.667474] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on comp_1.0.0 succeeded
+[  220.667517] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 96, wptr 128
+[  220.667524] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[  220.667531] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on comp_1.1.0 succeeded
+[  220.667569] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 128, wptr 160
+[  220.667576] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[  220.667582] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on comp_1.2.0 succeeded
+[  220.667625] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 160, wptr 192
+[  220.667633] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[  220.667638] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on comp_1.3.0 succeeded
+[  220.667693] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 192, wptr 224
+[  220.667701] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[  220.667706] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on comp_1.0.1 succeeded
+[  220.667750] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 224, wptr 256
+[  220.667757] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[  220.667763] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on comp_1.1.1 succeeded
+[  220.667812] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 256, wptr 288
+[  220.667819] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[  220.667825] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on comp_1.2.1 succeeded
+[  220.667868] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 288, wptr 320
+[  220.667876] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[  220.667882] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on comp_1.3.1 succeeded
+[  220.667926] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 320, wptr 352
+[  220.667934] [drm:gfx_v10_0_kiq_irq] IH: CPC GENERIC2_INT, me:2, pipe:1, queue:0
+[  220.667941] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on kiq_2.1.0 succeeded
+[  220.667945] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[  220.667947] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x00006fc0 upper_32_bits(ring->wptr << 2) == 0x00000000
+[  220.667949] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x0000000000006fc0)
+[  220.667985] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 352, wptr 384
+[  220.667989] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[  220.667995] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on sdma0 succeeded
+[  220.667998] [drm:vcn_v3_0_pause_dpg_mode] dpg pause state changed 1 -> 0
+[  220.668577] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 384, wptr 416
+[  220.668580] [drm:vcn_v3_0_process_interrupt] IH: VCN TRAP
+[  220.668637] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 416, wptr 448
+[  220.668639] [drm:vcn_v3_0_process_interrupt] IH: VCN TRAP
+[  220.668643] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on vcn_dec_0 succeeded
+[  220.668646] [drm:vcn_v3_0_pause_dpg_mode] dpg pause state changed 0 -> 1
+[  220.668974] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 448, wptr 480
+[  220.668977] [drm:vcn_v3_0_process_interrupt] IH: VCN TRAP
+[  220.669632] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 480, wptr 512
+[  220.669634] [drm:vcn_v3_0_process_interrupt] IH: VCN TRAP
+[  220.669638] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on vcn_enc_0.0 succeeded
+[  220.670902] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 512, wptr 544
+[  220.670906] [drm:vcn_v3_0_process_interrupt] IH: VCN TRAP
+[  220.671720] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 544, wptr 576
+[  220.671724] [drm:vcn_v3_0_process_interrupt] IH: VCN TRAP
+[  220.671735] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on vcn_enc_0.1 succeeded
+[  220.671758] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 576, wptr 608
+[  220.671762] [drm:jpeg_v3_0_process_interrupt] IH: JPEG TRAP
+[  220.671776] amdgpu 0000:04:00.0: [drm:amdgpu_ib_ring_tests] ib test on jpeg_dec succeeded
+[  220.671785] [drm:drm_sysfs_hotplug_event] generating hotplug event
+[  220.671833] amdgpu 0000:04:00.0: PM: pci_pm_resume+0x0/0xef returned 0 after 205294 usecs
+[  220.671868] backlight amdgpu_bl0: PM: calling backlight_resume+0x0/0x7c @ 4640, parent: 0000:04:00.0
+[  220.671888] [drm:dc_link_set_backlight_level] New Backlight level: 3084 (0xC0C)
+[  220.671886] snd_hda_intel 0000:04:00.1: PM: calling pci_pm_resume+0x0/0xef @ 4669, parent: 0000:00:08.1
+[  220.671936] backlight amdgpu_bl0: PM: backlight_resume+0x0/0x7c returned 0 after 49 usecs
+[  220.671962] platform Fixed MDIO bus.0: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.671975] platform Fixed MDIO bus.0: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.672005] i8042 i8042: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.672016] i8042 i8042: PM: platform_pm_resume+0x0/0x41 returned 0 after 2 usecs
+[  220.672026] atkbd serio0: PM: calling serio_resume+0x0/0x94 @ 4640, parent: i8042
+[  220.672063] atkbd serio0: PM: serio_resume+0x0/0x94 returned 0 after 26 usecs
+[  220.672076] alarmtimer alarmtimer.0.auto: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: rtc0
+[  220.672102] alarmtimer alarmtimer.0.auto: PM: platform_pm_resume+0x0/0x41 returned 0 after 15 usecs
+[  220.672116] sp5100-tco sp5100-tco: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.672125] sp5100-tco sp5100-tco: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.672136] gsmi gsmi: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.672145] gsmi gsmi: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.672176] input input3: PM: calling input_dev_resume+0x0/0x42 @ 4640, parent: serio0
+[  220.672198] input input3: PM: input_dev_resume+0x0/0x42 returned 0 after 12 usecs
+[  220.672208] leds input3::numlock: PM: calling led_resume+0x0/0x20 @ 4640, parent: input3
+[  220.672218] leds input3::numlock: PM: led_resume+0x0/0x20 returned 0 after 0 usecs
+[  220.672228] leds input3::capslock: PM: calling led_resume+0x0/0x20 @ 4640, parent: input3
+[  220.672237] leds input3::capslock: PM: led_resume+0x0/0x20 returned 0 after 0 usecs
+[  220.672246] leds input3::scrolllock: PM: calling led_resume+0x0/0x20 @ 4640, parent: input3
+[  220.672254] leds input3::scrolllock: PM: led_resume+0x0/0x20 returned 0 after 0 usecs
+[  220.672264] ramoops ramoops.0: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.672274] ramoops ramoops.0: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.672284] cros-ec-dev cros-ec-dev.1.auto: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: GOOG0004:00
+[  220.672295] cros-ec-dev cros-ec-dev.1.auto: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.672305] cros-ec-sensorhub cros-ec-sensorhub.2.auto: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: cros-ec-dev.1.auto
+[  220.674061] snd_hda_intel 0000:04:00.1: PM: pci_pm_resume+0x0/0xef returned 0 after 2154 usecs
+[  220.678274] cros-ec-sensorhub cros-ec-sensorhub.2.auto: PM: platform_pm_resume+0x0/0x41 returned 0 after 5961 usecs
+[  220.678287] cros-usbpd-charger cros-usbpd-charger.3.auto: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: cros-ec-dev.1.auto
+[  220.678374] cros-usbpd-charger cros-usbpd-charger.3.auto: PM: platform_pm_resume+0x0/0x41 returned 0 after 77 usecs
+[  220.678403] cros-usbpd-logger cros-usbpd-logger.4.auto: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: cros-ec-dev.1.auto
+[  220.678414] cros-usbpd-logger cros-usbpd-logger.4.auto: PM: platform_pm_resume+0x0/0x41 returned 0 after 1 usecs
+[  220.678424] cros-ec-chardev cros-ec-chardev.5.auto: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: cros-ec-dev.1.auto
+[  220.678433] cros-ec-chardev cros-ec-chardev.5.auto: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.678443] cros-ec-debugfs cros-ec-debugfs.6.auto: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: cros-ec-dev.1.auto
+[  220.678455] cros-ec-debugfs cros-ec-debugfs.6.auto: PM: platform_pm_resume+0x0/0x41 returned 0 after 3 usecs
+[  220.678470] cros-ec-pd-sysfs cros-ec-pd-sysfs.7.auto: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: cros-ec-dev.1.auto
+[  220.678480] cros-ec-pd-sysfs cros-ec-pd-sysfs.7.auto: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.678490] cros-ec-sysfs cros-ec-sysfs.8.auto: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: cros-ec-dev.1.auto
+[  220.678499] cros-ec-sysfs cros-ec-sysfs.8.auto: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.678509] leds chromeos::kbd_backlight: PM: calling led_resume+0x0/0x20 @ 4640, parent: GOOG0002:00
+[  220.679837] leds chromeos::kbd_backlight: PM: led_resume+0x0/0x20 returned 0 after 1318 usecs
+[  220.679864] snd-soc-dummy snd-soc-dummy: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.679877] snd-soc-dummy snd-soc-dummy: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.679893] platform microcode: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.679902] platform microcode: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.679913] cros-ec-keyb GOOG0007:00: PM: calling acpi_subsys_resume+0x0/0x5a @ 4640, parent: GOOG0004:00
+[  220.681131] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 608, wptr 640
+[  220.687528] cros-ec-keyb GOOG0007:00: PM: acpi_subsys_resume+0x0/0x5a returned 0 after 7605 usecs
+[  220.687550] input input4: PM: calling input_dev_resume+0x0/0x42 @ 4640, parent: GOOG0007:00
+[  220.687562] input input4: PM: input_dev_resume+0x0/0x42 returned 0 after 0 usecs
+[  220.687574] cros-ec-pd-update cros-ec-pd-update.9.auto: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: cros-ec-dev.1.auto
+[  220.687587] cros-ec-pd-update cros-ec-pd-update.9.auto: PM: platform_pm_resume+0x0/0x41 returned 0 after 2 usecs
+[  220.687597] input input5: PM: calling input_dev_resume+0x0/0x42 @ 4640, parent: PRP0001:01
+[  220.687606] input input5: PM: input_dev_resume+0x0/0x42 returned 0 after 0 usecs
+[  220.687616] input input6: PM: calling input_dev_resume+0x0/0x42 @ 4640, parent: 0018:27C6:0D50.0001
+[  220.687625] input input6: PM: input_dev_resume+0x0/0x42 returned 0 after 0 usecs
+[  220.687634] input input7: PM: calling input_dev_resume+0x0/0x42 @ 4640, parent: 0018:27C6:0D50.0001
+[  220.687643] input input7: PM: input_dev_resume+0x0/0x42 returned 0 after 0 usecs
+[  220.687660] cros-ec-sensors cros-ec-accel.10.auto: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: cros-ec-sensorhub.2.auto
+[  220.695518] cros-ec-sensors cros-ec-accel.10.auto: PM: platform_pm_resume+0x0/0x41 returned 0 after 7850 usecs
+[  220.695542] platform regulatory.0: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: platform
+[  220.695553] platform regulatory.0: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.695570] rfkill rfkill0: PM: calling rfkill_resume+0x0/0x69 @ 4640, parent: phy0
+[  220.695587] rfkill rfkill0: PM: rfkill_resume+0x0/0x69 returned 0 after 5 usecs
+[  220.695609] dmic-codec dmic-codec: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: 0000:04:00.5
+[  220.695620] dmic-codec dmic-codec: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.695629] input input9: PM: calling input_dev_resume+0x0/0x42 @ 4640, parent: card0
+[  220.695639] input input9: PM: input_dev_resume+0x0/0x42 returned 0 after 0 usecs
+[  220.695649] input input10: PM: calling input_dev_resume+0x0/0x42 @ 4640, parent: card0
+[  220.695657] input input10: PM: input_dev_resume+0x0/0x42 returned 0 after 0 usecs
+[  220.695666] input input11: PM: calling input_dev_resume+0x0/0x42 @ 4640, parent: card0
+[  220.695675] input input11: PM: input_dev_resume+0x0/0x42 returned 0 after 0 usecs
+[  220.695683] input input12: PM: calling input_dev_resume+0x0/0x42 @ 4640, parent: card0
+[  220.695692] input input12: PM: input_dev_resume+0x0/0x42 returned 0 after 0 usecs
+[  220.695702] sof_mach rt5682s-hs-rt1019: PM: calling platform_pm_resume+0x0/0x41 @ 4640, parent: 0000:04:00.5
+[  220.695712] sof_mach rt5682s-hs-rt1019: PM: platform_pm_resume+0x0/0x41 returned 0 after 0 usecs
+[  220.695727] input input13: PM: calling input_dev_resume+0x0/0x42 @ 4640, parent: card1
+[  220.695736] input input13: PM: input_dev_resume+0x0/0x42 returned 0 after 0 usecs
+[  220.726178] cros-ec-sensorhub cros-ec-sensorhub.2.auto: Sensor 1: lost: 2 out of 1917
+[  221.720632] [drm:vcn_v3_0_pause_dpg_mode] dpg pause state changed 1 -> 0
+[  223.639409] [drm:mod_hdcp_process_event] [Link 0] > HDCP_CP_NOT_DESIRED
+[  231.059986] xhci_hcd 0000:05:00.0: xHCI host not responding to stop endpoint command
+[  231.062141] xhci_hcd 0000:05:00.0: xHCI host controller not responding, assume dead
+[  231.062154] xhci_hcd 0000:05:00.0: HC died; cleaning up
+[  231.062316] PM: dpm_run_callback(): usb_dev_resume+0x0/0x14 returns -5
+[  231.062335] usb 5-1: PM: usb_dev_resume+0x0/0x14 returned -5 after 10421450 usecs
+[  231.062351] usb 5-1: PM: failed to resume async: error -5
+[  231.062396] rfkill rfkill1: PM: calling rfkill_resume+0x0/0x69 @ 4640, parent: hci0
+[  231.062414] rfkill rfkill1: PM: rfkill_resume+0x0/0x69 returned 0 after 6 usecs
+[  231.062439] PM: resume of devices complete after 10601.329 msecs
+[  231.062891] PM: Finishing wakeup.
+[  231.062894] OOM killer enabled.
+[  231.062899] Restarting tasks ...
+[  231.063949] usb 5-1: USB disconnect, device number 2
+[  231.064861] usb 1-2: USB disconnect, device number 2
+[  231.065135] done.
+[  231.066200] Resume caused by IRQ 1, i8042
+[  231.066212] Resume caused by IRQ 9, acpi
+[  231.066231] PM: suspend exit
+[  231.078620] [drm:dc_link_set_backlight_level] New Backlight level: 3084 (0xC0C)
+[  231.078694] [drm:dc_link_set_backlight_level] New Backlight level: 43004 (0xA7FC)
+[  231.182547] usb 1-2: new high-speed USB device number 3 using xhci_hcd
+[  231.312435] usb 1-2: New USB device found, idVendor=0bda, idProduct=5522, bcdDevice= 2.65
+[  231.312448] usb 1-2: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+[  231.312452] usb 1-2: Product: Integrated_Webcam_HD
+[  231.312456] usb 1-2: Manufacturer: C7FKH37F301030014130
+[  231.312459] usb 1-2: SerialNumber: 200901010001
+[  231.320798] usb 1-2: GPIO lookup for consumer privacy
+[  231.320804] usb 1-2: using ACPI for GPIO lookup
+[  231.320808] acpi device:0d: GPIO: looking up privacy-gpios
+[  231.320818] acpi device:0d: GPIO: looking up privacy-gpio
+[  231.320820] usb 1-2: using lookup tables for GPIO lookup
+[  231.320822] usb 1-2: No GPIO consumer privacy found
+[  231.320825] usb 1-2: Found UVC 1.10 device Integrated_Webcam_HD (0bda:5522)
+[  234.263918] wlan0: authenticate with bc:9f:e4:05:7f:93
+[  234.306151] wlan0: send auth to bc:9f:e4:05:7f:93 (try 1/3)
+[  234.309694] wlan0: authenticated
+[  234.310985] wlan0: associate with bc:9f:e4:05:7f:93 (try 1/3)
+[  234.314884] wlan0: RX AssocResp from bc:9f:e4:05:7f:93 (capab=0x411 status=0 aid=2)
+[  234.855147] wlan0: associated
+[  236.529356] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_access] AMDGPU DM aux hw bus 2: Too many retries, giving up. First error: -5
+[  236.529384] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret= -5)
+[  236.549411] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_access] AMDGPU DM aux hw bus 3: Too many retries, giving up. First error: -5
+[  236.549427] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= -5)
+[  236.550338] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[  236.551168] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x004b0 AUX -> (ret=  1) 00
