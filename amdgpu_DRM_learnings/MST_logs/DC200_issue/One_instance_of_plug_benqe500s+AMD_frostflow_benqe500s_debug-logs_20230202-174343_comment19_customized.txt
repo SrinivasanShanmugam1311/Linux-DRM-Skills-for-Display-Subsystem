@@ -1,0 +1,526 @@
+2023-02-02T09:33:26.447984Z WARNING kernel: [  266.780557] [drm] DP Alt mode state on HPD: 1
+2023-02-02T09:33:26.453180Z DEBUG kernel: [  266.785362] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.453229Z DEBUG kernel: [  266.785744] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0xf0000 AUX -> (ret=  8) 00 00 00 00 00 00 00 00
+2023-02-02T09:33:26.454034Z DEBUG kernel: [  266.786051] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.454047Z DEBUG kernel: [  266.786362] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0xe000d AUX -> (ret=  3) 00 00 00
+2023-02-02T09:33:26.454050Z DEBUG kernel: [  266.786657] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.455033Z DEBUG kernel: [  266.786988] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0xe001b AUX -> (ret=  5) 00 00 00 00 00
+2023-02-02T09:33:26.455043Z DEBUG kernel: [  266.787283] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.455045Z DEBUG kernel: [  266.787579] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00600 AUX -> (ret=  1) 01
+2023-02-02T09:33:26.456046Z DEBUG kernel: [  266.787875] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.456059Z DEBUG kernel: [  266.788183] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00300 AUX -> (ret=  3) 00 00 00
+2023-02-02T09:33:26.456062Z DEBUG kernel: [  266.788490] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00300 AUX <- (ret=  3) 00 00 1a
+
+2023-02-02T09:33:26.457035Z DEBUG kernel: [  266.788845] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00303 AUX <- (ret=  9) 06 15 00 00 00 00 19 00 00
+
+2023-02-02T09:33:26.485082Z DEBUG kernel: [  266.817004] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_access] AMDGPU DM aux hw bus 2: Too many retries, giving up. First error: -5
+2023-02-02T09:33:26.485104Z DEBUG kernel: [  266.817017] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00340 AUX <- (ret= -5)
+
+2023-02-02T09:33:26.517149Z DEBUG kernel: [  266.849351] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.517225Z DEBUG kernel: [  266.849813] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret= 16) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00 00
+2023-02-02T09:33:26.518072Z DEBUG kernel: [  266.850123] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.518092Z DEBUG kernel: [  266.850505] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00500 AUX -> (ret=  9) 00 00 00 00 00 00 00 00 00
+2023-02-02T09:33:26.519060Z DEBUG kernel: [  266.850808] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.519081Z DEBUG kernel: [  266.851110] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.519086Z DEBUG kernel: [  266.851410] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.519089Z DEBUG kernel: [  266.851707] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00021 AUX -> (ret=  1) 00
+2023-02-02T09:33:26.520058Z DEBUG kernel: [  266.852002] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.520078Z DEBUG kernel: [  266.852295] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00200 AUX -> (ret=  1) 41
+2023-02-02T09:33:26.520081Z DEBUG kernel: [  266.852588] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.521073Z DEBUG kernel: [  266.852962] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00400 AUX -> (ret=  9) 00 1b c5 41 47 36 33 32 30
+2023-02-02T09:33:26.521092Z DEBUG kernel: [  266.853255] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.521096Z DEBUG kernel: [  266.853573] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00409 AUX -> (ret=  3) 13 01 00
+2023-02-02T09:33:26.522022Z DEBUG kernel: [  266.853866] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.522031Z DEBUG kernel: [  266.854159] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00317 AUX -> (ret=  1) 00
+2023-02-02T09:33:26.522034Z DEBUG kernel: [  266.854452] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.523076Z DEBUG kernel: [  266.854745] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x02217 AUX -> (ret=  1) 00
+2023-02-02T09:33:26.523094Z DEBUG kernel: [  266.854771] [drm:retrieve_link_cap] Rx Caps: 
+
+
+2023-02-02T09:33:26.540112Z DEBUG kernel: [  266.872264] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+2023-02-02T09:33:26.540114Z DEBUG kernel: [  266.872274] [drm:update_display_info] HDMI: DVI dual 0, max TMDS clock 300000 kHz
+2023-02-02T09:33:26.540115Z DEBUG kernel: [  266.872280] [drm:update_display_info] DP-1: No deep color support on this HDMI sink.
+2023-02-02T09:33:26.540118Z DEBUG kernel: [  266.872285] [drm:update_display_info] CEA VCDB 0x0f
+2023-02-02T09:33:26.540120Z DEBUG kernel: [  266.872300] [drm:drm_edid_to_sad] Found 0 Short Audio Descriptors
+2023-02-02T09:33:26.540121Z DEBUG kernel: [  266.872590] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.541060Z DEBUG kernel: [  266.872886] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00201 AUX -> (ret=  1) 04
+2023-02-02T09:33:26.541079Z DEBUG kernel: [  266.873180] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.541083Z DEBUG kernel: [  266.873473] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00218 AUX -> (ret=  1) 00
+2023-02-02T09:33:26.541085Z DEBUG kernel: [  266.873484] amdgpu 0000:04:00.0: [drm:drm_dp_send_real_edid_checksum] AMDGPU DM aux hw bus 2: Source DUT does not support TEST_EDID_READ
+2023-02-02T09:33:26.542065Z DEBUG kernel: [  266.873788] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.542083Z DEBUG kernel: [  266.874107] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x6921d AUX -> (ret=  3) 00 00 00
+2023-02-02T09:33:26.542085Z DEBUG kernel: [  266.874401] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.542088Z DEBUG kernel: [  266.874693] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x68028 AUX -> (ret=  1) 01
+2023-02-02T09:33:26.542090Z DEBUG kernel: [  266.874714] [drm:dc_link_detect] 1080p60    : [Block 0] 
+2023-02-02T09:33:26.542092Z DEBUG kernel: [  266.874725] [drm:dc_link_detect] 1080p60    : [Block 1] 
+2023-02-02T09:33:26.542094Z DEBUG kernel: [  266.874734] [drm:dc_link_detect] detect_link_and_local_sink: manufacturer_id = F404, product_id = 1080, serial_number = 1, manufacture_week = 15, manufacture_year = 24, display_name = 1080p60    , speaker_flag = 0, audio_mode_count = 0
+2023-02-02T09:33:26.542106Z DEBUG kernel: [  266.874751] [drm:dc_link_detect] link=2, dc_sink_in=0000000072208d5b is now Connected prev_sink=0000000000000000 edid same=0
+
+2023-02-02T09:33:26.543058Z DEBUG kernel: [  266.875113] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00600 AUX <- (ret=  1) 02
+2023-02-02T09:33:26.543076Z DEBUG kernel: [  266.875127] [drm:dcn31_link_encoder_disable_output] dcn31_link_encoder_disable_output: enc_id(2)
+2023-02-02T09:33:26.543079Z DEBUG kernel: [  266.875154] [drm:dcn31_link_encoder_enable_dp_output] dcn31_link_encoder_enable_dp_output: enc_id(2)
+2023-02-02T09:33:26.545074Z DEBUG kernel: [  266.876718] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00600 AUX <- (ret=  1) 01
+2023-02-02T09:33:26.545092Z DEBUG kernel: [  266.877018] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.545095Z DEBUG kernel: [  266.877315] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 00
+2023-02-02T09:33:26.545097Z DEBUG kernel: [  266.877612] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.546058Z DEBUG kernel: [  266.877909] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 00
+2023-02-02T09:33:26.546076Z DEBUG kernel: [  266.878207] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  1) 00
+2023-02-02T09:33:26.546079Z DEBUG kernel: [  266.878503] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.547060Z DEBUG kernel: [  266.878798] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00205 AUX -> (ret=  1) 00
+2023-02-02T09:33:26.547079Z DEBUG kernel: [  266.879096] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00108 AUX <- (ret=  1) 01
+2023-02-02T09:33:26.547081Z DEBUG kernel: [  266.879391] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00107 AUX <- (ret=  1) 10
+2023-02-02T09:33:26.547083Z DEBUG kernel: [  266.879685] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00101 AUX <- (ret=  1) 82
+2023-02-02T09:33:26.548078Z DEBUG kernel: [  266.879983] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00100 AUX <- (ret=  1) 14
+
+
+2023-02-02T09:33:26.549058Z DEBUG kernel: [  266.881556] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  3) 21 00 00
+2023-02-02T09:33:26.550070Z DEBUG kernel: [  266.881950] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.550088Z DEBUG kernel: [  266.882284] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 00 00 00 00 cc cc
+2023-02-02T09:33:26.552059Z DEBUG kernel: [  266.883918] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00103 AUX <- (ret=  2) 38 38
+2023-02-02T09:33:26.552077Z DEBUG kernel: [  266.884322] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.552080Z DEBUG kernel: [  266.884658] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 11 00 00 00 cc cc
+2023-02-02T09:33:26.554055Z DEBUG kernel: [  266.886239] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  3) 22 38 38
+2023-02-02T09:33:26.555057Z DEBUG kernel: [  266.886951] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.555078Z DEBUG kernel: [  266.887294] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 11 00 00 00 22 22
+
+
+2023-02-02T09:33:26.557057Z DEBUG kernel: [  266.888900] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00103 AUX <- (ret=  2) 02 02
+2023-02-02T09:33:26.557075Z DEBUG kernel: [  266.889596] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.558039Z DEBUG kernel: [  266.889930] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 77 00 01 00 22 22
+2023-02-02T09:33:26.558049Z DEBUG kernel: [  266.890225] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  1) 00
+2023-02-02T09:33:26.558051Z DEBUG kernel: [  266.890510] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.559030Z DEBUG kernel: [  266.890795] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00205 AUX -> (ret=  1) 00
+
+
+2023-02-02T09:33:26.566033Z DEBUG kernel: [  266.898070] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.566044Z DEBUG kernel: [  266.898431] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00200 AUX -> (ret=  6) 41 04 77 00 01 00
+2023-02-02T09:33:26.568065Z DEBUG kernel: [  266.898435] [drm:print_status_message] HBR2x2 pass VS=2, PE=0, DS=0.5% 30KHz
+2023-02-02T09:33:26.568083Z DEBUG kernel: [  266.899728] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.568086Z DEBUG kernel: [  266.900062] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00200 AUX -> (ret=  6) 41 04 77 00 01 00
+2023-02-02T09:33:26.568088Z DEBUG kernel: [  266.900358] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00600 AUX <- (ret=  1) 02
+2023-02-02T09:33:26.568091Z DEBUG kernel: [  266.900369] [drm:dcn31_link_encoder_disable_output] dcn31_link_encoder_disable_output: enc_id(2)
+
+2023-02-02T09:33:26.568093Z DEBUG kernel: [  266.900566] [drm:amdgpu_dm_update_connector_after_detect] DCHPD: connector_id=2: Old sink=0000000000000000 New sink=0000000072208d5b
+2023-02-02T09:33:26.569037Z DEBUG kernel: [  266.900860] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.569048Z DEBUG kernel: [  266.901156] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x03000 AUX -> (ret=  1) 00
+2023-02-02T09:33:26.569049Z DEBUG kernel: [  266.901168] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+2023-02-02T09:33:26.569050Z DEBUG kernel: [  266.901177] [drm:update_display_info] HDMI: DVI dual 0, max TMDS clock 300000 kHz
+2023-02-02T09:33:26.569051Z DEBUG kernel: [  266.901182] [drm:update_display_info] DP-1: No deep color support on this HDMI sink.
+2023-02-02T09:33:26.569052Z DEBUG kernel: [  266.901186] [drm:update_display_info] CEA VCDB 0x0f
+2023-02-02T09:33:26.569054Z DEBUG kernel: [  266.901197] [drm:drm_mode_object_put] OBJ ID: 119 (1)
+2023-02-02T09:33:26.569055Z DEBUG kernel: [  266.901492] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:26.570033Z DEBUG kernel: [  266.901779] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00007 AUX -> (ret=  1) 00
+2023-02-02T09:33:26.570044Z DEBUG kernel: [  266.901786] amdgpu 0000:04:00.0: [drm:drm_sysfs_connector_hotplug_event] [CONNECTOR:89:DP-1] generating connector hotplug event
+
+2023-02-02T09:33:27.598033Z DEBUG kernel: [  267.930541] [drm:drm_ioctl] comm="DrmThread" pid=2102, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+2023-02-02T09:33:27.598033Z DEBUG kernel: [  267.930543] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:89:DP-1]
+2023-02-02T09:33:27.598034Z DEBUG kernel: [  267.930546] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:89:DP-1] status updated from disconnected to connected
+2023-02-02T09:33:27.598035Z DEBUG kernel: [  267.930551] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+2023-02-02T09:33:27.598035Z DEBUG kernel: [  267.930554] [drm:update_display_info] HDMI: DVI dual 0, max TMDS clock 300000 kHz
+2023-02-02T09:33:27.598036Z DEBUG kernel: [  267.930556] [drm:update_display_info] DP-1: No deep color support on this HDMI sink.
+2023-02-02T09:33:27.598036Z DEBUG kernel: [  267.930557] [drm:update_display_info] CEA VCDB 0x0f
+2023-02-02T09:33:27.598037Z DEBUG kernel: [  267.930559] [drm:_drm_edid_connector_update] ELD monitor 1080p60    
+2023-02-02T09:33:27.598037Z DEBUG kernel: [  267.930561] [drm:_drm_edid_connector_update] HDMI: latency present 0 0, video latency 0 0, audio latency 0 0
+2023-02-02T09:33:27.598038Z DEBUG kernel: [  267.930564] [drm:_drm_edid_connector_update] ELD size 32, SAD count 0
+2023-02-02T09:33:27.599063Z DEBUG kernel: [  267.930884] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:27.599073Z DEBUG kernel: [  267.931161] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00007 AUX -> (ret=  1) 00
+2023-02-02T09:33:27.599074Z DEBUG kernel: [  267.931171] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+2023-02-02T09:33:27.599076Z DEBUG kernel: [  267.931178] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+2023-02-02T09:33:27.599081Z DEBUG kernel: [  267.931184] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+2023-02-02T09:33:27.599082Z DEBUG kernel: [  267.931210] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:1024
+2023-02-02T09:33:27.599082Z DEBUG kernel: [  267.931236] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:1024
+2023-02-02T09:33:27.599083Z DEBUG kernel: [  267.931240] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:720
+2023-02-02T09:33:27.599084Z DEBUG kernel: [  267.931244] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:720
+2023-02-02T09:33:27.599084Z DEBUG kernel: [  267.931270] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1024  height:768
+2023-02-02T09:33:27.599085Z DEBUG kernel: [  267.931295] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:800  height:600
+2023-02-02T09:33:27.599086Z DEBUG kernel: [  267.931299] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:640  height:480
+2023-02-02T09:33:27.599087Z DEBUG kernel: [  267.931302] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:640  height:480
+2023-02-02T09:33:27.599087Z DEBUG kernel: [  267.931329] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:800
+2023-02-02T09:33:27.599088Z DEBUG kernel: [  267.931356] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1440  height:900
+2023-02-02T09:33:27.599089Z DEBUG kernel: [  267.931382] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1680  height:1050
+2023-02-02T09:33:27.599089Z DEBUG kernel: [  267.931385] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:89:DP-1] probed modes :
+2023-02-02T09:33:27.599090Z DEBUG kernel: [  267.931388] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+2023-02-02T09:33:27.599092Z DEBUG kernel: [  267.931392] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x40 0x5
+2023-02-02T09:33:27.599093Z DEBUG kernel: [  267.931396] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 148352 1920 2008 2052 2200 1080 1084 1089 1125 0x40 0x5
+2023-02-02T09:33:27.599093Z DEBUG kernel: [  267.931400] [drm:drm_mode_debug_printmodeline] Modeline "1680x1050": 60 148500 1680 2008 2052 2200 1050 1084 1089 1125 0x40 0x5
+2023-02-02T09:33:27.599094Z DEBUG kernel: [  267.931404] [drm:drm_mode_debug_printmodeline] Modeline "1280x1024": 75 135000 1280 1296 1440 1688 1024 1025 1028 1066 0x40 0x5
+2023-02-02T09:33:27.599095Z DEBUG kernel: [  267.931408] [drm:drm_mode_debug_printmodeline] Modeline "1280x1024": 60 108000 1280 1328 1440 1688 1024 1025 1028 1066 0x40 0x5
+2023-02-02T09:33:27.599095Z DEBUG kernel: [  267.931412] [drm:drm_mode_debug_printmodeline] Modeline "1440x900": 60 148500 1440 2008 2052 2200 900 1084 1089 1125 0x40 0x5
+2023-02-02T09:33:27.599096Z DEBUG kernel: [  267.931416] [drm:drm_mode_debug_printmodeline] Modeline "1280x800": 60 148500 1280 2008 2052 2200 800 1084 1089 1125 0x40 0x5
+2023-02-02T09:33:27.599096Z DEBUG kernel: [  267.931420] [drm:drm_mode_debug_printmodeline] Modeline "1280x720": 60 74250 1280 1390 1430 1650 720 725 730 750 0x40 0x5
+2023-02-02T09:33:27.599097Z DEBUG kernel: [  267.931424] [drm:drm_mode_debug_printmodeline] Modeline "1280x720": 60 74176 1280 1390 1430 1650 720 725 730 750 0x40 0x5
+2023-02-02T09:33:27.599098Z DEBUG kernel: [  267.931427] [drm:drm_mode_debug_printmodeline] Modeline "1024x768": 60 65000 1024 1048 1184 1344 768 771 777 806 0x40 0xa
+2023-02-02T09:33:27.599098Z DEBUG kernel: [  267.931431] [drm:drm_mode_debug_printmodeline] Modeline "800x600": 60 40000 800 840 968 1056 600 601 605 628 0x40 0x5
+2023-02-02T09:33:27.599103Z DEBUG kernel: [  267.931435] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 25200 640 656 752 800 480 490 492 525 0x40 0xa
+2023-02-02T09:33:27.599103Z DEBUG kernel: [  267.931439] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 25175 640 656 752 800 480 490 492 525 0x40 0xa
+
+2023-02-02T09:33:27.600798Z DEBUG kernel: [  267.933302] [drm:drm_ioctl] comm="DrmThread" pid=2102, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATE_DUMB
+
+2023-02-02T09:33:27.600802Z DEBUG kernel: [  267.933410] [drm:drm_ioctl] comm="DrmThread" pid=2102, dev=0xe200, auth=1, DRM_IOCTL_MODE_MAP_DUMB
+
+2023-02-02T09:33:27.602068Z DEBUG kernel: [  267.934679] [drm:drm_ioctl] comm="DrmThread" pid=2102, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+2023-02-02T09:33:27.602070Z DEBUG kernel: [  267.934684] [drm:drm_ioctl] comm="DrmThread" pid=2102, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
+2023-02-02T09:33:27.602070Z DEBUG kernel: [  267.934692] [drm:drm_mode_addfb2] [FB:119]
+
+2023-02-02T09:33:27.602080Z DEBUG kernel: [  267.934762] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 000000007216c2f8
+2023-02-02T09:33:27.602081Z DEBUG kernel: [  267.934769] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:50:plane-2] 000000006060f8c9 state to 000000007216c2f8
+
+2023-02-02T09:33:27.602857Z DEBUG kernel: [  267.934820] amdgpu 0000:04:00.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [MODE:1920x1080] for [CRTC:70:crtc-1] state 00000000e6485896
+2023-02-02T09:33:27.602858Z DEBUG kernel: [  267.934822] [drm:drm_mode_object_put] OBJ ID: 122 (4)
+2023-02-02T09:33:27.602859Z DEBUG kernel: [  267.934823] [drm:drm_mode_object_put] OBJ ID: 122 (3)
+2023-02-02T09:33:27.602860Z DEBUG kernel: [  267.934826] [drm:drm_mode_object_get] OBJ ID: 78 (3)
+2023-02-02T09:33:27.602860Z DEBUG kernel: [  267.934827] [drm:drm_mode_object_get] OBJ ID: 78 (4)
+2023-02-02T09:33:27.602861Z DEBUG kernel: [  267.934829] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:78:eDP-1] 00000000b2a48613 state to 000000007216c2f8
+2023-02-02T09:33:27.602861Z DEBUG kernel: [  267.934832] [drm:drm_mode_object_put] OBJ ID: 78 (5)
+2023-02-02T09:33:27.602862Z DEBUG kernel: [  267.934834] [drm:drm_mode_object_get] OBJ ID: 89 (2)
+2023-02-02T09:33:27.602863Z DEBUG kernel: [  267.934836] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:89:DP-1] 000000003fa72318 state to 000000007216c2f8
+2023-02-02T09:33:27.602864Z DEBUG kernel: [  267.934838] [drm:drm_mode_object_get] OBJ ID: 89 (3)
+2023-02-02T09:33:27.602865Z DEBUG kernel: [  267.934840] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_connector] Link [CONNECTOR:89:DP-1] state 000000003fa72318 to [CRTC:70:crtc-1]
+2023-02-02T09:33:27.602865Z DEBUG kernel: [  267.934842] [drm:drm_mode_object_put] OBJ ID: 89 (4)
+2023-02-02T09:33:27.602866Z DEBUG kernel: [  267.934843] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 000000007216c2f8
+2023-02-02T09:33:27.602867Z DEBUG kernel: [  267.934847] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] mode changed
+2023-02-02T09:33:27.602867Z DEBUG kernel: [  267.934850] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] enable changed
+2023-02-02T09:33:27.602868Z DEBUG kernel: [  267.934852] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] active changed
+2023-02-02T09:33:27.602869Z DEBUG kernel: [  267.934857] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:78:eDP-1]
+2023-02-02T09:33:27.602870Z DEBUG kernel: [  267.934860] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CONNECTOR:78:eDP-1] keeps [ENCODER:77:TMDS-77], now on [CRTC:67:crtc-0]
+2023-02-02T09:33:27.602871Z DEBUG kernel: [  267.934864] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:89:DP-1]
+2023-02-02T09:33:27.602871Z DEBUG kernel: [  267.934866] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CONNECTOR:89:DP-1] using [ENCODER:88:TMDS-88] on [CRTC:70:crtc-1]
+2023-02-02T09:33:27.602872Z DEBUG kernel: [  267.934869] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] needs all connectors, enable: y, active: y
+2023-02-02T09:33:27.602873Z DEBUG kernel: [  267.934872] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:70:crtc-1] to 000000007216c2f8
+2023-02-02T09:33:27.602874Z DEBUG kernel: [  267.934875] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:70:crtc-1] to 000000007216c2f8
+2023-02-02T09:33:27.602875Z DEBUG kernel: [  267.934879] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 000000007216c2f8
+2023-02-02T09:33:27.602876Z DEBUG kernel: [  267.934881] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 000000007216c2f8
+2023-02-02T09:33:27.602876Z DEBUG kernel: [  267.934883] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:88:TMDS-88] to 000000007216c2f8
+2023-02-02T09:33:27.602877Z DEBUG kernel: [  267.934888] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:70:crtc-1] to 000000007216c2f8
+2023-02-02T09:33:27.602878Z DEBUG kernel: [  267.934890] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:70:crtc-1] to 000000007216c2f8
+2023-02-02T09:33:27.602879Z DEBUG kernel: [  267.934893] [drm:drm_atomic_normalize_zpos] [CRTC:70:crtc-1] calculating normalized zpos values
+2023-02-02T09:33:27.602879Z DEBUG kernel: [  267.934895] [drm:drm_atomic_normalize_zpos] [PLANE:50:plane-2] processing zpos value 0
+2023-02-02T09:33:27.602880Z DEBUG kernel: [  267.934896] [drm:drm_atomic_normalize_zpos] [PLANE:50:plane-2] normalized zpos value 0
+2023-02-02T09:33:27.602881Z DEBUG kernel: [  267.934898] [drm:dm_update_plane_state] Disabling DRM plane: 55 on DRM crtc 67
+2023-02-02T09:33:27.602882Z DEBUG kernel: [  267.934939] amdgpu 0000:04:00.0: [drm:drm_atomic_get_private_obj_state] Added new private object 000000000d5d60e7 state 0000000090800e11 to 000000007216c2f8
+2023-02-02T09:33:27.602883Z DEBUG kernel: [  267.934943] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:1 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+2023-02-02T09:33:27.602884Z DEBUG kernel: [  267.934958] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+2023-02-02T09:33:27.602885Z DEBUG kernel: [  267.934967] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:1 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+2023-02-02T09:33:27.602886Z DEBUG kernel: [  267.934969] [drm:dm_update_crtc_state] Enabling DRM crtc: 70
+2023-02-02T09:33:27.602887Z DEBUG kernel: [  267.934976] [drm:dm_update_crtc_state] Destination Rectangle x:0  y:0  width:1920  height:1080
+2023-02-02T09:33:27.602888Z DEBUG kernel: [  267.935009] [drm:dm_update_plane_state] Enabling DRM plane: 55 on DRM crtc 67
+2023-02-02T09:33:27.602888Z DEBUG kernel: [  267.935045] [drm:dm_update_plane_state] Enabling DRM plane: 50 on DRM crtc 70
+2023-02-02T09:33:27.602889Z DEBUG kernel: [  267.935092] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 000000007216c2f8
+
+2023-02-02T09:33:27.614169Z DEBUG kernel: [  267.946218] [drm:drm_ioctl] comm="DrmThread" pid=2102, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
+2023-02-02T09:33:27.614171Z DEBUG kernel: [  267.946235] [drm:drm_mode_addfb2] [FB:119]
+
+2023-02-02T09:33:27.620171Z DEBUG kernel: [  267.951949] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c83c13fb
+2023-02-02T09:33:27.620174Z DEBUG kernel: [  267.951957] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:50:plane-2] 0000000093aff3b2 state to 00000000c83c13fb
+2023-02-02T09:33:27.620176Z DEBUG kernel: [  267.951963] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:119] for [PLANE:50:plane-2] state 0000000093aff3b2
+2023-02-02T09:33:27.620180Z DEBUG kernel: [  267.951966] [drm:drm_mode_object_get] OBJ ID: 119 (3)
+2023-02-02T09:33:27.620182Z DEBUG kernel: [  267.951968] [drm:drm_mode_object_put] OBJ ID: 119 (4)
+2023-02-02T09:33:27.620184Z DEBUG kernel: [  267.951969] [drm:drm_mode_object_put] OBJ ID: 119 (3)
+2023-02-02T09:33:27.620186Z DEBUG kernel: [  267.951973] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:70:crtc-1] 00000000b2d5f9f1 state to 00000000c83c13fb
+2023-02-02T09:33:27.620189Z DEBUG kernel: [  267.951976] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_plane] Link [PLANE:50:plane-2] state 0000000093aff3b2 to [CRTC:70:crtc-1]
+2023-02-02T09:33:27.620191Z DEBUG kernel: [  267.951981] [drm:drm_mode_object_get] OBJ ID: 117 (2)
+2023-02-02T09:33:27.620193Z DEBUG kernel: [  267.951982] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:55:plane-3] 00000000677ab05c state to 00000000c83c13fb
+2023-02-02T09:33:27.620196Z DEBUG kernel: [  267.951986] [drm:drm_mode_object_get] OBJ ID: 113 (1)
+2023-02-02T09:33:27.620198Z DEBUG kernel: [  267.951987] [drm:drm_mode_object_get] OBJ ID: 106 (2)
+2023-02-02T09:33:27.620200Z DEBUG kernel: [  267.951988] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:67:crtc-0] 0000000061a09abe state to 00000000c83c13fb
+2023-02-02T09:33:27.620202Z DEBUG kernel: [  267.951991] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:117] for [PLANE:55:plane-3] state 00000000677ab05c
+2023-02-02T09:33:27.620204Z DEBUG kernel: [  267.951992] [drm:drm_mode_object_get] OBJ ID: 117 (5)
+2023-02-02T09:33:27.620206Z DEBUG kernel: [  267.951993] [drm:drm_mode_object_put] OBJ ID: 117 (6)
+2023-02-02T09:33:27.620208Z DEBUG kernel: [  267.951994] [drm:drm_mode_object_put] OBJ ID: 117 (5)
+2023-02-02T09:33:27.620210Z DEBUG kernel: [  267.951995] [drm:drm_mode_object_put] OBJ ID: 117 (4)
+2023-02-02T09:33:27.620212Z DEBUG kernel: [  267.951999] [drm:drm_mode_object_put] OBJ ID: 113 (2)
+2023-02-02T09:33:27.620214Z DEBUG kernel: [  267.952001] [drm:drm_mode_object_get] OBJ ID: 121 (3)
+2023-02-02T09:33:27.620216Z DEBUG kernel: [  267.952002] amdgpu 0000:04:00.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [MODE:2560x1600] for [CRTC:67:crtc-0] state 0000000061a09abe
+2023-02-02T09:33:27.620219Z DEBUG kernel: [  267.952005] [drm:drm_mode_object_put] OBJ ID: 121 (4)
+2023-02-02T09:33:27.620221Z DEBUG kernel: [  267.952006] [drm:drm_mode_object_put] OBJ ID: 121 (3)
+2023-02-02T09:33:27.620223Z DEBUG kernel: [  267.952008] [drm:drm_mode_object_get] OBJ ID: 122 (3)
+2023-02-02T09:33:27.620224Z DEBUG kernel: [  267.952009] amdgpu 0000:04:00.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [MODE:1920x1080] for [CRTC:70:crtc-1] state 00000000b2d5f9f1
+2023-02-02T09:33:27.620227Z DEBUG kernel: [  267.952010] [drm:drm_mode_object_put] OBJ ID: 122 (4)
+2023-02-02T09:33:27.620229Z DEBUG kernel: [  267.952011] [drm:drm_mode_object_put] OBJ ID: 122 (3)
+2023-02-02T09:33:27.620232Z DEBUG kernel: [  267.952016] [drm:drm_mode_object_get] OBJ ID: 78 (3)
+2023-02-02T09:33:27.620233Z DEBUG kernel: [  267.952017] [drm:drm_mode_object_get] OBJ ID: 78 (4)
+2023-02-02T09:33:27.620235Z DEBUG kernel: [  267.952018] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:78:eDP-1] 00000000b6fcbd90 state to 00000000c83c13fb
+2023-02-02T09:33:27.620237Z DEBUG kernel: [  267.952022] [drm:drm_mode_object_put] OBJ ID: 78 (5)
+2023-02-02T09:33:27.620240Z DEBUG kernel: [  267.952024] [drm:drm_mode_object_get] OBJ ID: 89 (2)
+2023-02-02T09:33:27.620241Z DEBUG kernel: [  267.952025] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:89:DP-1] 00000000122a446c state to 00000000c83c13fb
+2023-02-02T09:33:27.620244Z DEBUG kernel: [  267.952027] [drm:drm_mode_object_get] OBJ ID: 89 (3)
+2023-02-02T09:33:27.620246Z DEBUG kernel: [  267.952029] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_connector] Link [CONNECTOR:89:DP-1] state 00000000122a446c to [CRTC:70:crtc-1]
+2023-02-02T09:33:27.620249Z DEBUG kernel: [  267.952031] [drm:drm_mode_object_put] OBJ ID: 89 (4)
+2023-02-02T09:33:27.620251Z DEBUG kernel: [  267.952032] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000c83c13fb
+2023-02-02T09:33:27.620253Z DEBUG kernel: [  267.952035] commit_state plane[50]: plane-2
+2023-02-02T09:33:27.620255Z DEBUG kernel: [  267.952036] commit_state 	crtc=crtc-1
+2023-02-02T09:33:27.620257Z DEBUG kernel: [  267.952036] commit_state 	fb=119
+2023-02-02T09:33:27.620259Z DEBUG kernel: [  267.952037] commit_state 		allocated by = DrmThread
+2023-02-02T09:33:27.620260Z DEBUG kernel: [  267.952039] commit_state 		refcount=2
+2023-02-02T09:33:27.620262Z DEBUG kernel: [  267.952040] commit_state 		format=XR24 little-endian (0x34325258)
+2023-02-02T09:33:27.620266Z DEBUG kernel: [  267.952042] commit_state 		modifier=0x200000000367b03
+2023-02-02T09:33:27.620267Z DEBUG kernel: [  267.952043] commit_state 		size=1920x1080
+2023-02-02T09:33:27.620269Z DEBUG kernel: [  267.952044] commit_state 		layers:
+2023-02-02T09:33:27.620271Z DEBUG kernel: [  267.952044] commit_state 			size[0]=1920x1080
+2023-02-02T09:33:27.620273Z DEBUG kernel: [  267.952045] commit_state 			pitch[0]=7680
+2023-02-02T09:33:27.620275Z DEBUG kernel: [  267.952047] commit_state 			offset[0]=0
+2023-02-02T09:33:27.620277Z DEBUG kernel: [  267.952047] commit_state 			obj[0]:
+2023-02-02T09:33:27.620278Z DEBUG kernel: [  267.952049] commit_state 				name=0
+2023-02-02T09:33:27.620281Z DEBUG kernel: [  267.952049] commit_state 				refcount=3
+2023-02-02T09:33:27.620282Z DEBUG kernel: [  267.952050] commit_state 				start=00116e6c
+2023-02-02T09:33:27.620284Z DEBUG kernel: [  267.952051] commit_state 				size=8945664
+2023-02-02T09:33:27.620286Z DEBUG kernel: [  267.952052] commit_state 				imported=no
+2023-02-02T09:33:27.620301Z DEBUG kernel: [  267.952053] commit_state 			size[1]=1920x1080
+2023-02-02T09:33:27.620303Z DEBUG kernel: [  267.952054] commit_state 			pitch[1]=2048
+2023-02-02T09:33:27.620305Z DEBUG kernel: [  267.952055] commit_state 			offset[1]=8847360
+2023-02-02T09:33:27.620307Z DEBUG kernel: [  267.952055] commit_state 			obj[1]:
+2023-02-02T09:33:27.620310Z DEBUG kernel: [  267.952056] commit_state 				name=0
+2023-02-02T09:33:27.620313Z DEBUG kernel: [  267.952057] commit_state 				refcount=3
+2023-02-02T09:33:27.620315Z DEBUG kernel: [  267.952058] commit_state 				start=00116e6c
+2023-02-02T09:33:27.620317Z DEBUG kernel: [  267.952058] commit_state 				size=8945664
+2023-02-02T09:33:27.620318Z DEBUG kernel: [  267.952059] commit_state 				imported=no
+2023-02-02T09:33:27.620320Z DEBUG kernel: [  267.952059] commit_state 			size[2]=1920x1080
+2023-02-02T09:33:27.620322Z DEBUG kernel: [  267.952060] commit_state 			pitch[2]=2048
+2023-02-02T09:33:27.620324Z DEBUG kernel: [  267.952061] commit_state 			offset[2]=8896512
+2023-02-02T09:33:27.620326Z DEBUG kernel: [  267.952062] commit_state 			obj[2]:
+2023-02-02T09:33:27.620328Z DEBUG kernel: [  267.952062] commit_state 				name=0
+2023-02-02T09:33:27.620330Z DEBUG kernel: [  267.952063] commit_state 				refcount=3
+2023-02-02T09:33:27.620332Z DEBUG kernel: [  267.952063] commit_state 				start=00116e6c
+2023-02-02T09:33:27.620334Z DEBUG kernel: [  267.952064] commit_state 				size=8945664
+2023-02-02T09:33:27.620336Z DEBUG kernel: [  267.952065] commit_state 				imported=no
+2023-02-02T09:33:27.620338Z DEBUG kernel: [  267.952065] commit_state 	crtc-pos=1920x1080+0+0
+2023-02-02T09:33:27.620340Z DEBUG kernel: [  267.952067] commit_state 	src-pos=1920.000000x1080.000000+0.000000+0.000000
+2023-02-02T09:33:27.620342Z DEBUG kernel: [  267.952068] commit_state 	rotation=1
+2023-02-02T09:33:27.620344Z DEBUG kernel: [  267.952069] commit_state 	normalized-zpos=0
+2023-02-02T09:33:27.620346Z DEBUG kernel: [  267.952070] commit_state 	color-encoding=ITU-R BT.601 YCbCr
+2023-02-02T09:33:27.620348Z DEBUG kernel: [  267.952071] commit_state 	color-range=YCbCr limited range
+2023-02-02T09:33:27.620350Z DEBUG kernel: [  267.952072] commit_state plane[55]: plane-3
+2023-02-02T09:33:27.620351Z DEBUG kernel: [  267.952073] commit_state 	crtc=crtc-0
+2023-02-02T09:33:27.620353Z DEBUG kernel: [  267.952074] commit_state 	fb=117
+2023-02-02T09:33:27.620355Z DEBUG kernel: [  267.952074] commit_state 		allocated by = DrmThread
+2023-02-02T09:33:27.620357Z DEBUG kernel: [  267.952075] commit_state 		refcount=3
+2023-02-02T09:33:27.620359Z DEBUG kernel: [  267.952076] commit_state 		format=XR24 little-endian (0x34325258)
+2023-02-02T09:33:27.620361Z DEBUG kernel: [  267.952076] commit_state 		modifier=0x200000000367b03
+2023-02-02T09:33:27.620363Z DEBUG kernel: [  267.952077] commit_state 		size=2560x1600
+2023-02-02T09:33:27.620365Z DEBUG kernel: [  267.952078] commit_state 		layers:
+2023-02-02T09:33:27.620367Z DEBUG kernel: [  267.952078] commit_state 			size[0]=2560x1600
+2023-02-02T09:33:27.620369Z DEBUG kernel: [  267.952079] commit_state 			pitch[0]=10240
+2023-02-02T09:33:27.620371Z DEBUG kernel: [  267.952080] commit_state 			offset[0]=0
+2023-02-02T09:33:27.620373Z DEBUG kernel: [  267.952081] commit_state 			obj[0]:
+2023-02-02T09:33:27.620375Z DEBUG kernel: [  267.952081] commit_state 				name=0
+2023-02-02T09:33:27.620377Z DEBUG kernel: [  267.952082] commit_state 				refcount=8
+2023-02-02T09:33:27.620379Z DEBUG kernel: [  267.952083] commit_state 				start=0010f1c4
+2023-02-02T09:33:27.620381Z DEBUG kernel: [  267.952084] commit_state 				size=17203200
+2023-02-02T09:33:27.620382Z DEBUG kernel: [  267.952084] commit_state 				imported=no
+2023-02-02T09:33:27.620384Z DEBUG kernel: [  267.952085] commit_state 			size[1]=2560x1600
+2023-02-02T09:33:27.620386Z DEBUG kernel: [  267.952086] commit_state 			pitch[1]=2560
+2023-02-02T09:33:27.620389Z DEBUG kernel: [  267.952086] commit_state 			offset[1]=17039360
+2023-02-02T09:33:27.620391Z DEBUG kernel: [  267.952087] commit_state 			obj[1]:
+2023-02-02T09:33:27.620393Z DEBUG kernel: [  267.952088] commit_state 				name=0
+2023-02-02T09:33:27.620395Z DEBUG kernel: [  267.952088] commit_state 				refcount=8
+2023-02-02T09:33:27.620397Z DEBUG kernel: [  267.952089] commit_state 				start=0010f1c4
+2023-02-02T09:33:27.620399Z DEBUG kernel: [  267.952090] commit_state 				size=17203200
+2023-02-02T09:33:27.620401Z DEBUG kernel: [  267.952090] commit_state 				imported=no
+2023-02-02T09:33:27.620403Z DEBUG kernel: [  267.952091] commit_state 			size[2]=2560x1600
+2023-02-02T09:33:27.620406Z DEBUG kernel: [  267.952092] commit_state 			pitch[2]=2560
+2023-02-02T09:33:27.620408Z DEBUG kernel: [  267.952092] commit_state 			offset[2]=17121280
+2023-02-02T09:33:27.620410Z DEBUG kernel: [  267.952093] commit_state 			obj[2]:
+2023-02-02T09:33:27.620412Z DEBUG kernel: [  267.952094] commit_state 				name=0
+2023-02-02T09:33:27.620414Z DEBUG kernel: [  267.952094] commit_state 				refcount=8
+2023-02-02T09:33:27.620416Z DEBUG kernel: [  267.952095] commit_state 				start=0010f1c4
+2023-02-02T09:33:27.620418Z DEBUG kernel: [  267.952096] commit_state 				size=17203200
+2023-02-02T09:33:27.620420Z DEBUG kernel: [  267.952096] commit_state 				imported=no
+2023-02-02T09:33:27.620422Z DEBUG kernel: [  267.952097] commit_state 	crtc-pos=2560x1600+0+0
+2023-02-02T09:33:27.620424Z DEBUG kernel: [  267.952098] commit_state 	src-pos=2560.000000x1600.000000+0.000000+0.000000
+2023-02-02T09:33:27.620426Z DEBUG kernel: [  267.952099] commit_state 	rotation=1
+2023-02-02T09:33:27.620428Z DEBUG kernel: [  267.952099] commit_state 	normalized-zpos=0
+2023-02-02T09:33:27.620541Z DEBUG kernel: [  267.952100] commit_state 	color-encoding=ITU-R BT.601 YCbCr
+2023-02-02T09:33:27.620543Z DEBUG kernel: [  267.952101] commit_state 	color-range=YCbCr limited range
+2023-02-02T09:33:27.620545Z DEBUG kernel: [  267.952101] commit_state crtc[67]: crtc-0
+2023-02-02T09:33:27.620547Z DEBUG kernel: [  267.952102] commit_state 	enable=1
+2023-02-02T09:33:27.620549Z DEBUG kernel: [  267.952103] commit_state 	active=1
+2023-02-02T09:33:27.620552Z DEBUG kernel: [  267.952103] commit_state 	self_refresh_active=0
+2023-02-02T09:33:27.620554Z DEBUG kernel: [  267.952104] commit_state 	planes_changed=0
+2023-02-02T09:33:27.620556Z DEBUG kernel: [  267.952105] commit_state 	mode_changed=0
+2023-02-02T09:33:27.620558Z DEBUG kernel: [  267.952105] commit_state 	active_changed=0
+2023-02-02T09:33:27.620560Z DEBUG kernel: [  267.952106] commit_state 	connectors_changed=0
+2023-02-02T09:33:27.620562Z DEBUG kernel: [  267.952107] commit_state 	color_mgmt_changed=0
+2023-02-02T09:33:27.620564Z DEBUG kernel: [  267.952107] commit_state 	plane_mask=8
+2023-02-02T09:33:27.620566Z DEBUG kernel: [  267.952108] commit_state 	connector_mask=1
+2023-02-02T09:33:27.620568Z DEBUG kernel: [  267.952109] commit_state 	encoder_mask=1
+2023-02-02T09:33:27.620570Z DEBUG kernel: [  267.952110] commit_state 	mode: "2560x1600": 120 554880 2560 2608 2640 2720 1600 1603 1608 1700 0x48 0x9
+2023-02-02T09:33:27.620573Z DEBUG kernel: [  267.952112] commit_state crtc[70]: crtc-1
+2023-02-02T09:33:27.620574Z DEBUG kernel: [  267.952113] commit_state 	enable=1
+2023-02-02T09:33:27.620576Z DEBUG kernel: [  267.952113] commit_state 	active=1
+2023-02-02T09:33:27.620578Z DEBUG kernel: [  267.952114] commit_state 	self_refresh_active=0
+2023-02-02T09:33:27.620580Z DEBUG kernel: [  267.952114] commit_state 	planes_changed=0
+2023-02-02T09:33:27.620582Z DEBUG kernel: [  267.952115] commit_state 	mode_changed=0
+2023-02-02T09:33:27.620585Z DEBUG kernel: [  267.952115] commit_state 	active_changed=0
+2023-02-02T09:33:27.620593Z DEBUG kernel: [  267.952116] commit_state 	connectors_changed=0
+2023-02-02T09:33:27.620595Z DEBUG kernel: [  267.952116] commit_state 	color_mgmt_changed=0
+2023-02-02T09:33:27.620597Z DEBUG kernel: [  267.952117] commit_state 	plane_mask=4
+2023-02-02T09:33:27.620599Z DEBUG kernel: [  267.952117] commit_state 	connector_mask=4
+2023-02-02T09:33:27.620601Z DEBUG kernel: [  267.952118] commit_state 	encoder_mask=0
+2023-02-02T09:33:27.620603Z DEBUG kernel: [  267.952118] commit_state 	mode: "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+2023-02-02T09:33:27.620606Z DEBUG kernel: [  267.952120] commit_state connector[78]: eDP-1
+2023-02-02T09:33:27.620608Z DEBUG kernel: [  267.952121] commit_state 	crtc=crtc-0
+2023-02-02T09:33:27.620610Z DEBUG kernel: [  267.952121] commit_state 	self_refresh_aware=0
+2023-02-02T09:33:27.620612Z DEBUG kernel: [  267.952122] commit_state connector[89]: DP-1
+2023-02-02T09:33:27.620614Z DEBUG kernel: [  267.952123] commit_state 	crtc=crtc-1
+2023-02-02T09:33:27.620616Z DEBUG kernel: [  267.952123] commit_state 	self_refresh_aware=0
+2023-02-02T09:33:27.620618Z DEBUG kernel: [  267.952124] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000c83c13fb
+2023-02-02T09:33:27.620620Z DEBUG kernel: [  267.952130] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] mode changed
+2023-02-02T09:33:27.620626Z DEBUG kernel: [  267.952134] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] enable changed
+2023-02-02T09:33:27.620628Z DEBUG kernel: [  267.952136] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] active changed
+
+2023-02-02T09:33:27.620635Z DEBUG kernel: [  267.952147] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:89:DP-1]
+2023-02-02T09:33:27.620637Z DEBUG kernel: [  267.952150] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CONNECTOR:89:DP-1] using [ENCODER:88:TMDS-88] on [CRTC:70:crtc-1]
+2023-02-02T09:33:27.620640Z DEBUG kernel: [  267.952153] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] needs all connectors, enable: y, active: y
+2023-02-02T09:33:27.620642Z DEBUG kernel: [  267.952156] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:70:crtc-1] to 00000000c83c13fb
+2023-02-02T09:33:27.620645Z DEBUG kernel: [  267.952158] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:70:crtc-1] to 00000000c83c13fb
+2023-02-02T09:33:27.620648Z DEBUG kernel: [  267.952162] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 00000000c83c13fb
+2023-02-02T09:33:27.620650Z DEBUG kernel: [  267.952165] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 00000000c83c13fb
+2023-02-02T09:33:27.620652Z DEBUG kernel: [  267.952167] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:88:TMDS-88] to 00000000c83c13fb
+2023-02-02T09:33:27.620655Z DEBUG kernel: [  267.952172] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:70:crtc-1] to 00000000c83c13fb
+2023-02-02T09:33:27.620657Z DEBUG kernel: [  267.952174] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:70:crtc-1] to 00000000c83c13fb
+2023-02-02T09:33:27.620659Z DEBUG kernel: [  267.952178] [drm:drm_atomic_normalize_zpos] [CRTC:70:crtc-1] calculating normalized zpos values
+2023-02-02T09:33:27.620661Z DEBUG kernel: [  267.952179] [drm:drm_atomic_normalize_zpos] [PLANE:50:plane-2] processing zpos value 0
+2023-02-02T09:33:27.620664Z DEBUG kernel: [  267.952181] [drm:drm_atomic_normalize_zpos] [PLANE:50:plane-2] normalized zpos value 0
+
+2023-02-02T09:33:27.620673Z DEBUG kernel: [  267.952234] amdgpu 0000:04:00.0: [drm:drm_atomic_get_private_obj_state] Added new private object 000000000d5d60e7 state 000000005a4527a7 to 00000000c83c13fb
+2023-02-02T09:33:27.620676Z DEBUG kernel: [  267.952238] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:1 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+2023-02-02T09:33:27.620679Z DEBUG kernel: [  267.952253] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+2023-02-02T09:33:27.620681Z DEBUG kernel: [  267.952265] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:1 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+2023-02-02T09:33:27.620683Z DEBUG kernel: [  267.952268] [drm:dm_update_crtc_state] Enabling DRM crtc: 70
+
+2023-02-02T09:33:27.620685Z DEBUG kernel: [  267.952275] [drm:dm_update_crtc_state] Destination Rectangle x:0  y:0  width:1920  height:1080
+
+2023-02-02T09:33:27.620691Z DEBUG kernel: [  267.952386] [drm:dm_update_plane_state] Enabling DRM plane: 50 on DRM crtc 70
+2023-02-02T09:33:27.620692Z DEBUG kernel: [  267.952440] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000c83c13fb
+
+2023-02-02T09:33:27.620720Z DEBUG kernel: [  267.953028] [drm:amdgpu_dm_atomic_commit_tail] Atomic commit: SET crtc id 1: [00000000be5018be]
+2023-02-02T09:33:27.620722Z DEBUG kernel: [  267.953031] [drm:amdgpu_dm_psr_disable_all] Disabling psr if psr is enabled on any stream
+2023-02-02T09:33:27.620725Z DEBUG kernel: [  267.953034] [drm:dc_commit_state] dc_commit_state: 2 streams
+2023-02-02T09:33:27.620727Z DEBUG kernel: [  267.953038] [drm:dc_stream_log] core_stream 0x000000006b9903e5: src: 0, 0, 2560, 1600; dst: 0, 0, 2560, 1600, colorSpace:1
+2023-02-02T09:33:27.620729Z DEBUG kernel: [  267.953042] [drm:dc_stream_log] 	pix_clk_khz: 554880, h_total: 2720, v_total: 1700, pixelencoder:1, displaycolorDepth:2
+2023-02-02T09:33:27.620731Z DEBUG kernel: [  267.953044] [drm:dc_stream_log] 	link: 0
+2023-02-02T09:33:27.620733Z DEBUG kernel: [  267.953045] [drm:dc_stream_log] 	dsc: 0, mst_pbn: 0
+2023-02-02T09:33:27.620735Z DEBUG kernel: [  267.953047] [drm:dc_commit_state] 	dispname:  signal: 80
+2023-02-02T09:33:27.620737Z DEBUG kernel: [  267.953049] [drm:dc_stream_log] core_stream 0x00000000146584f4: src: 0, 0, 1920, 1080; dst: 0, 0, 1920, 1080, colorSpace:1
+2023-02-02T09:33:27.620739Z DEBUG kernel: [  267.953052] [drm:dc_stream_log] 	pix_clk_khz: 148500, h_total: 2200, v_total: 1125, pixelencoder:1, displaycolorDepth:2
+2023-02-02T09:33:27.620744Z DEBUG kernel: [  267.953054] [drm:dc_stream_log] 	link: 2
+2023-02-02T09:33:27.620746Z DEBUG kernel: [  267.953055] [drm:dc_stream_log] 	dsc: 0, mst_pbn: 0
+2023-02-02T09:33:27.620748Z DEBUG kernel: [  267.953056] [drm:dc_commit_state] 	dispname: 1080p60     signal: 20
+
+2023-02-02T09:33:27.621027Z DEBUG kernel: [  267.953630] [drm:core_link_enable_stream] core_link_enable_stream pipe_ctx dispname=1080p60     signal=20
+
+2023-02-02T09:33:27.622017Z DEBUG kernel: [  267.953938] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:27.622022Z DEBUG kernel: [  267.954240] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00300 AUX -> (ret=  3) 00 00 1a
+2023-02-02T09:33:27.622024Z DEBUG kernel: [  267.954584] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00303 AUX <- (ret=  9) 06 15 00 00 00 00 19 00 00
+2023-02-02T09:33:27.622027Z DEBUG kernel: [  267.954587] [drm:dpcd_set_source_specific_data] Sink device does not support 00340h DPCD write. Skipping on purpose.
+
+
+
+2023-02-02T09:33:27.624011Z DEBUG kernel: [  267.956083] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00600 AUX <- (ret=  1) 01
+2023-02-02T09:33:27.624014Z DEBUG kernel: [  267.956087] [drm:dp_set_panel_mode] Link: 2 eDP panel mode supported: 0 eDP panel mode enabled: 0 
+2023-02-02T09:33:27.624015Z DEBUG kernel: [  267.956361] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:27.624016Z DEBUG kernel: [  267.956635] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 00
+2023-02-02T09:33:27.625011Z DEBUG kernel: [  267.956912] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:27.625017Z DEBUG kernel: [  267.957186] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 00
+2023-02-02T09:33:27.625018Z DEBUG kernel: [  267.957462] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  1) 00
+2023-02-02T09:33:27.626013Z DEBUG kernel: [  267.957740] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:27.626019Z DEBUG kernel: [  267.958017] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00205 AUX -> (ret=  1) 00
+2023-02-02T09:33:27.626021Z DEBUG kernel: [  267.958293] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00108 AUX <- (ret=  1) 01
+2023-02-02T09:33:27.626023Z DEBUG kernel: [  267.958569] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00107 AUX <- (ret=  1) 10
+2023-02-02T09:33:27.627010Z DEBUG kernel: [  267.958846] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00101 AUX <- (ret=  1) 82
+2023-02-02T09:33:27.627015Z DEBUG kernel: [  267.959122] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00100 AUX <- (ret=  1) 0a
+2023-02-02T09:33:27.628009Z DEBUG kernel: [  267.960671] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  3) 21 00 00
+2023-02-02T09:33:27.629036Z DEBUG kernel: [  267.961051] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:27.629049Z DEBUG kernel: [  267.961375] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 00 00 00 00 cc cc
+2023-02-02T09:33:27.631036Z DEBUG kernel: [  267.962965] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00103 AUX <- (ret=  2) 38 38
+2023-02-02T09:33:27.631050Z DEBUG kernel: [  267.963348] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+
+
+2023-02-02T09:33:27.631110Z DEBUG kernel: [  267.963673] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 11 00 00 00 cc cc
+2023-02-02T09:33:27.633019Z DEBUG kernel: [  267.965218] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  3) 22 38 38
+2023-02-02T09:33:27.634023Z DEBUG kernel: [  267.965911] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:27.634037Z DEBUG kernel: [  267.966245] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 11 00 00 00 22 22
+2023-02-02T09:33:27.636019Z DEBUG kernel: [  267.967840] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00103 AUX <- (ret=  2) 02 02
+2023-02-02T09:33:27.636028Z DEBUG kernel: [  267.968527] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:27.637035Z DEBUG kernel: [  267.968855] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 77 00 01 00 22 22
+2023-02-02T09:33:27.637047Z DEBUG kernel: [  267.969143] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  1) 00
+2023-02-02T09:33:27.637051Z DEBUG kernel: [  267.969429] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:27.637054Z DEBUG kernel: [  267.969720] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00205 AUX -> (ret=  1) 00
+
+2023-02-02T09:33:27.645027Z DEBUG kernel: [  267.977016] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:27.645035Z DEBUG kernel: [  267.977355] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00200 AUX -> (ret=  6) 41 04 77 00 01 00
+2023-02-02T09:33:27.646015Z DEBUG kernel: [  267.977365] [drm:print_status_message] HBRx2 pass VS=2, PE=0, DS=0.5% 30KHz
+2023-02-02T09:33:27.646020Z DEBUG kernel: [  267.977800] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+2023-02-02T09:33:27.646023Z DEBUG kernel: [  267.978098] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00107 AUX -> (ret=  1) 10
+
+2023-02-02T09:33:27.677182Z DEBUG kernel: [  268.009446] [drm:drm_ioctl] comm="DrmThread" pid=2102, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
+2023-02-02T09:33:27.677183Z DEBUG kernel: [  268.009449] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 0000000035f5759c
+2023-02-02T09:33:27.677185Z DEBUG kernel: [  268.009453] [drm:drm_mode_object_get] OBJ ID: 122 (1)
+2023-02-02T09:33:27.677188Z DEBUG kernel: [  268.009455] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:70:crtc-1] 00000000b076d02b state to 0000000035f5759c
+2023-02-02T09:33:27.677189Z DEBUG kernel: [  268.009459] [drm:drm_mode_object_get] OBJ ID: 113 (3)
+2023-02-02T09:33:27.677190Z DEBUG kernel: [  268.009460] [drm:drm_mode_object_put] OBJ ID: 113 (4)
+2023-02-02T09:33:27.677192Z DEBUG kernel: [  268.009462] [drm:drm_mode_object_put] OBJ ID: 113 (3)
+2023-02-02T09:33:27.677193Z DEBUG kernel: [  268.009464] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 0000000035f5759c
+2023-02-02T09:33:27.677195Z DEBUG kernel: [  268.009467] commit_state crtc[70]: crtc-1
+2023-02-02T09:33:27.677196Z DEBUG kernel: [  268.009468] commit_state 	enable=1
+2023-02-02T09:33:27.677198Z DEBUG kernel: [  268.009469] commit_state 	active=1
+2023-02-02T09:33:27.677200Z DEBUG kernel: [  268.009469] commit_state 	self_refresh_active=0
+2023-02-02T09:33:27.677207Z DEBUG kernel: [  268.009470] commit_state 	planes_changed=0
+2023-02-02T09:33:27.677209Z DEBUG kernel: [  268.009471] commit_state 	mode_changed=0
+2023-02-02T09:33:27.677210Z DEBUG kernel: [  268.009472] commit_state 	active_changed=0
+2023-02-02T09:33:27.677211Z DEBUG kernel: [  268.009473] commit_state 	connectors_changed=0
+2023-02-02T09:33:27.677212Z DEBUG kernel: [  268.009474] commit_state 	color_mgmt_changed=1
+2023-02-02T09:33:27.677213Z DEBUG kernel: [  268.009475] commit_state 	plane_mask=4
+2023-02-02T09:33:27.677215Z DEBUG kernel: [  268.009476] commit_state 	connector_mask=4
+2023-02-02T09:33:27.677216Z DEBUG kernel: [  268.009477] commit_state 	encoder_mask=4
+2023-02-02T09:33:27.677218Z DEBUG kernel: [  268.009478] commit_state 	mode: "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+2023-02-02T09:33:27.677219Z DEBUG kernel: [  268.009481] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 0000000035f5759c
+2023-02-02T09:33:27.677220Z DEBUG kernel: [  268.009485] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:70:crtc-1] to 0000000035f5759c
+2023-02-02T09:33:27.677222Z DEBUG kernel: [  268.009489] [drm:drm_mode_object_get] OBJ ID: 89 (3)
+2023-02-02T09:33:27.677224Z DEBUG kernel: [  268.009491] [drm:drm_mode_object_get] OBJ ID: 89 (4)
+2023-02-02T09:33:27.677225Z DEBUG kernel: [  268.009493] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:89:DP-1] 00000000e782f783 state to 0000000035f5759c
+2023-02-02T09:33:27.677227Z DEBUG kernel: [  268.009496] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:70:crtc-1] to 0000000035f5759c
+2023-02-02T09:33:27.677229Z DEBUG kernel: [  268.009500] [drm:drm_mode_object_get] OBJ ID: 119 (2)
+2023-02-02T09:33:27.677230Z DEBUG kernel: [  268.009502] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:50:plane-2] 000000007a44c89c state to 0000000035f5759c
+2023-02-02T09:33:27.677232Z DEBUG kernel: [  268.009506] [drm:dm_update_plane_state] Disabling DRM plane: 50 on DRM crtc 70
+2023-02-02T09:33:27.677233Z DEBUG kernel: [  268.009524] amdgpu 0000:04:00.0: [drm:drm_atomic_get_private_obj_state] Added new private object 000000000d5d60e7 state 000000009e24c461 to 0000000035f5759c
+2023-02-02T09:33:27.677235Z DEBUG kernel: [  268.009556] [drm:dm_update_plane_state] Enabling DRM plane: 50 on DRM crtc 70
+
+2023-02-02T09:33:27.681126Z DEBUG kernel: [  268.013716] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000c83c13fb
+2023-02-02T09:33:27.681127Z DEBUG kernel: [  268.013726] [drm:drm_mode_object_put] OBJ ID: 121 (2)
+2023-02-02T09:33:27.681129Z DEBUG kernel: [  268.013731] [drm:drm_mode_object_put] OBJ ID: 106 (3)
+2023-02-02T09:33:27.681130Z DEBUG kernel: [  268.013734] [drm:drm_mode_object_put] OBJ ID: 117 (2)
+2023-02-02T09:33:27.681132Z DEBUG kernel: [  268.013737] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c83c13fb
+2023-02-02T09:33:27.681157Z DEBUG kernel: [  268.013768] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 0000000035f5759c
+2023-02-02T09:33:27.681158Z DEBUG kernel: [  268.013786] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 70: hwmode: htotal 2200, vtotal 1125, vdisplay 1080
+2023-02-02T09:33:27.681160Z DEBUG kernel: [  268.013790] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 70: clock 148500 kHz framedur 16666666 linedur 14814
+2023-02-02T09:33:27.681161Z DEBUG kernel: [  268.013793] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:1 crtc_state_flags: enable:1, active:1, planes_changed:1, 
+2023-02-02T09:33:27.681163Z DEBUG kernel: [  268.013803] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] plane: id=2 dcc_en=1
+2023-02-02T09:33:27.681165Z DEBUG kernel: [  268.013806] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:50] PSR FFU dirty rect size (1920, 1080)
+2023-02-02T09:33:27.681166Z DEBUG kernel: [  268.013814] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x5600000
+2023-02-02T09:33:27.681168Z DEBUG kernel: [  268.013820] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -431
+2023-02-02T09:33:27.681169Z DEBUG kernel: [  268.013828] amdgpu 0000:04:00.0: [drm:drm_vblank_enable] enabling vblank on crtc 1, ret: 0
+2023-02-02T09:33:27.681170Z DEBUG kernel: [  268.013832] [drm:vblank_control_worker] Allow idle optimizations (MALL): 0
+
+2023-02-02T09:33:27.681171Z DEBUG kernel: [  268.013833] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -430
+2023-02-02T09:33:27.681172Z DEBUG kernel: [  268.013837] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(955,650)@ 268.013322 -> 268.003686 [e 1 us, 0 rep]
+2023-02-02T09:33:27.681174Z DEBUG kernel: [  268.013844] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -430
+2023-02-02T09:33:27.681175Z DEBUG kernel: [  268.013847] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=1, diff=0, hw=4 hw_last=4
+2023-02-02T09:33:27.682858Z DEBUG kernel: [  268.015519] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 123840, wptr 123872
+2023-02-02T09:33:27.682866Z DEBUG kernel: [  268.015530] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+2023-02-02T09:33:27.687691Z DEBUG kernel: [  268.020238] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 123872, wptr 123936
+2023-02-02T09:33:27.687721Z DEBUG kernel: [  268.020263] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -1121
+2023-02-02T09:33:27.687723Z DEBUG kernel: [  268.020272] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(1493,-41)@ 268.019755 -> 268.020352 [e 1 us, 0 rep]
+2023-02-02T09:33:27.687749Z DEBUG kernel: [  268.020284] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -1120
+2023-02-02T09:33:27.687752Z DEBUG kernel: [  268.020288] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=1, diff=1, hw=5 hw_last=4
+2023-02-02T09:33:27.687754Z DEBUG kernel: [  268.020299] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -1119
+2023-02-02T09:33:27.687756Z DEBUG kernel: [  268.020305] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(77,-38)@ 268.019790 -> 268.020352 [e 1 us, 0 rep]
+2023-02-02T09:33:27.687759Z DEBUG kernel: [  268.020314] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -1118
+2023-02-02T09:33:27.687761Z DEBUG kernel: [  268.020318] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=2, diff=0, hw=5 hw_last=5
+2023-02-02T09:33:27.687764Z DEBUG kernel: [  268.020329] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -1117
+2023-02-02T09:33:27.687766Z DEBUG kernel: [  268.020341] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 0000000035f5759c
+2023-02-02T09:33:27.687768Z DEBUG kernel: [  268.020348] [drm:drm_mode_object_put] OBJ ID: 89 (4)
+2023-02-02T09:33:27.687770Z DEBUG kernel: [  268.020351] [drm:drm_mode_object_put] OBJ ID: 89 (3)
+2023-02-02T09:33:27.687772Z DEBUG kernel: [  268.020353] [drm:drm_mode_object_put] OBJ ID: 122 (2)
+2023-02-02T09:33:27.687777Z DEBUG kernel: [  268.020356] [drm:drm_mode_object_put] OBJ ID: 119 (3)
+2023-02-02T09:33:27.687783Z DEBUG kernel: [  268.020363] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 0000000035f5759c

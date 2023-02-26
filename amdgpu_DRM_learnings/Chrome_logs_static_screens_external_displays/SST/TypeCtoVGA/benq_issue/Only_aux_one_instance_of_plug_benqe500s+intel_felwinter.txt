@@ -1,0 +1,107 @@
+C:\Users\srishanm\Desktop\tasks\265506401_BENQ-E500S projector_issue\6_2_23\simplified_one_instance_benqe500s+intel_felwinter_debug-logs_20230130-010121.txt (120 hits)
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0xf0000 AUX -> (ret=  1) 00 --> DPCD LTTPR Capability
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+[drm:drm_dp_read_dpcd_caps] AUX USBC3/DDI TC3/PHY TC3: DPCD: 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00 ---> Same as AMD
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0000 AUX -> (ret=  1) 00 --> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0001 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0002 AUX -> (ret=  1) 00 --> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0003 AUX -> (ret=  1) 00 --> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0004 AUX -> (ret=  1) 00 --> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0005 AUX -> (ret=  1) 00 --> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0006 AUX -> (ret=  1) 00 --> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0007 AUX -> (ret=  1) 00 --> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+[drm:drm_dp_read_dpcd_caps] AUX USBC3/DDI TC3/PHY TC3: DPCD: 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00  ---> Same as AMD
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00400 AUX -> (ret= 12) 00 1b c5 41 47 36 33 32 30 13 01 00 ---> Same as AMD
+[drm:drm_dp_read_desc] AUX USBC3/DDI TC3/PHY TC3: DP sink: OUI 00-1b-c5 dev-ID AG6320 HW-rev 1.3 SW-rev 1.0 quirks 0x0000
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00021 AUX -> (ret=  1) 00 --> Not supporting MST framing
+
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00092 AUX -> (ret= 13) 00 00 00 00 00 00 00 00 00 00 00 00 00 --> DSC encoding not supported
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00201 AUX -> (ret=  1) 04
+[drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00201 AUX <- (ret=  1) 04
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0xf0000 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+[drm:drm_dp_read_dpcd_caps] AUX USBC3/DDI TC3/PHY TC3: DPCD: 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12 
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0000 AUX -> (ret=  1) 00 -> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0001 AUX -> (ret=  1) 00 -> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0002 AUX -> (ret=  1) 00 -> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0003 AUX -> (ret=  1) 00 -> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0004 AUX -> (ret=  1) 00 -> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0005 AUX -> (ret=  1) 00 -> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0006 AUX -> (ret=  1) 00 -> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0007 AUX -> (ret=  1) 00 -> DPCD LTTPR related
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+[drm:drm_dp_read_dpcd_caps] AUX USBC3/DDI TC3/PHY TC3: DPCD: 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00 ---> Same as AMD
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00400 AUX -> (ret= 12) 00 1b c5 41 47 36 33 32 30 13 01 00
+[drm:drm_dp_read_desc] AUX USBC3/DDI TC3/PHY TC3: DP sink: OUI 00-1b-c5 dev-ID AG6320 HW-rev 1.3 SW-rev 1.0 quirks 0x0000 ---> Same as AMD
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00021 AUX -> (ret=  1) 00
+
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00092 AUX -> (ret= 13) 00 00 00 00 00 00 00 00 00 00 00 00 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00201 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00600 AUX <- (ret=  1) 01
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0xf0000 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+[drm:drm_dp_read_dpcd_caps] AUX USBC3/DDI TC3/PHY TC3: DPCD: 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0000 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0001 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0002 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0003 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0004 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0005 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0006 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0007 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+[drm:drm_dp_read_dpcd_caps] AUX USBC3/DDI TC3/PHY TC3: DPCD: 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+[drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00100 AUX <- (ret=  2) 0a 82
+[drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00107 AUX <- (ret=  2) 00 01
+[drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00102 AUX <- (ret=  3) 21 00 00
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00202 AUX -> (ret=  6) 00 00 00 00 cc cc
+[drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00103 AUX <- (ret=  2) 38 38
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00202 AUX -> (ret=  6) 11 00 00 00 cc cc
+[drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00102 AUX <- (ret=  3) 22 38 38
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00202 AUX -> (ret=  6) 11 00 00 00 22 22
+[drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00103 AUX <- (ret=  2) 02 02
+[drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00202 AUX -> (ret=  6) 77 00 01 00 22 22
+[drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00102 AUX <- (ret=  1) 00

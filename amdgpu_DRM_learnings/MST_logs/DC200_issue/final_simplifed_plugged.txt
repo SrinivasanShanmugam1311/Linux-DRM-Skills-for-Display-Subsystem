@@ -1,0 +1,1928 @@
+[   21.432991] [drm] DP Alt mode state on HPD: 1
+
+[   21.437855] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.438217] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0xf0000 AUX -> (ret=  8) 00 00 00 00 00 00 00 00
+[   21.438513] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.438822] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0xe000d AUX -> (ret=  3) 00 00 00
+[   21.439117] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.439449] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0xe001b AUX -> (ret=  5) 00 00 00 00 00
+[   21.439745] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.440040] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00600 AUX -> (ret=  1) 01
+[   21.440336] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.440644] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00300 AUX -> (ret=  3) 00 00 00
+[   21.440963] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00300 AUX <- (ret=  3) 00 00 1a
+[   21.441352] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00303 AUX <- (ret=  9) 06 15 00 00 00 00 19 00 00
+[   21.441647] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00340 AUX <- (ret=  1) 50
+
+[   21.473578] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.474031] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 16) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84 00
+[   21.474326] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.474768] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 16) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84 00
+[   21.475064] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.475362] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02210 AUX -> (ret=  1) f8
+[   21.475658] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.476027] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret=  9) 90 cc 24 53 59 4e 41 53 20
+[   21.476323] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.476618] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.476914] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.477209] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00021 AUX -> (ret=  1) 01
+[   21.477505] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.477948] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00080 AUX -> (ret= 16) 08 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00
+[   21.478244] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.478563] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00509 AUX -> (ret=  3) 10 05 05
+[   21.478859] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.479155] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00200 AUX -> (ret=  1) 02
+[   21.479452] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.479822] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00400 AUX -> (ret=  9) 00 00 00 00 00 00 00 00 00
+[   21.480117] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.480425] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00409 AUX -> (ret=  3) 00 00 00
+[   21.480721] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.481016] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00090 AUX -> (ret=  1) 0f
+[   21.481311] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.481754] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00060 AUX -> (ret= 16) 01 21 00 14 0b 00 00 00 01 03 02 11 08 00 00 04
+[   21.482049] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.482345] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00317 AUX -> (ret=  1) 00
+[   21.482640] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+
+[   21.482935] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02217 AUX -> (ret=  1) 00
+[   21.482952] [drm:retrieve_link_cap] Rx Caps:
+
+[   21.488874] [drm:update_display_info] Supported Monitor Refresh rate range is 50 Hz - 60 Hz
+[   21.488877] [drm:update_display_info] DP-2: Assigning EDID-1.4 digital sink color depth as 8 bpc.
+[   21.488881] [drm:drm_edid_to_sad] Found 0 Short Audio Descriptors
+[   21.489177] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.489474] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00201 AUX -> (ret=  1) 00
+[   21.489770] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.490065] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00218 AUX -> (ret=  1) 00
+[   21.490068] amdgpu 0000:04:00.0: [drm:drm_dp_send_real_edid_checksum] AMDGPU DM aux hw bus 3: Source DUT does not support TEST_EDID_READ
+[   21.490364] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.490672] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x6921d AUX -> (ret=  3) 02 00 03
+[   21.490968] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.491265] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x68028 AUX -> (ret=  1) 03
+[   21.491268] [drm:dc_link_detect] HP E243: [Block 0]
+[   21.491271] [drm:dc_link_detect] detect_link_and_local_sink: manufacturer_id = E22, product_id = 3468, serial_number = 0, manufacture_week = 11, manufacture_year = 29, display_name = HP E243, speaker_flag = 0, audio_mode_cou
+[   21.491276] [drm:dc_link_detect] link=3, dc_sink_in=0000000089c698bb is now Connected prev_sink=0000000000000000 edid same=0
+[   21.491323] [drm:dc_link_detect] link=3, mst branch is now Connected
+[   21.491325] [drm] DM_MST: starting TM on aconnector: 00000000f8412a90 [id: 94]
+[   21.491623] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.492051] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   21.492346] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.492775] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   21.492779] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   21.492782] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   21.492785] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_mgr_set_mst] mstb 00000000e46e8ef7 (2)
+[   21.493362] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00111 AUX <- (ret=  1) 07
+[   21.493657] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x002c0 AUX <- (ret=  1) 01
+[   21.493974] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x001c0 AUX <- (ret=  3) 00 00 3f
+[   21.494271] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.494566] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x002c0 AUX -> (ret=  1) 01
+[   21.494569] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (1)
+[   21.494576] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (2)
+[   21.494578] amdgpu 0000:04:00.0: [drm:drm_dp_mst_link_probe_work] Clearing payload ID table
+[   21.494582] [dp_mst] txmsg cur_offset=0 cur_len=1 seqno=0 state=QUEUED path_msg=1 dst=00
+[   21.494584] [dp_mst]         type=CLEAR_PAYLOAD_ID_TABLE contents:
+[   21.494586] [dp_mst]                 ???
+[   21.494926] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  5) 16 c2 cf 14 ac
+
+[   21.548231] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   21.548535] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.548969] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   21.549265] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.549585] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   21.549588] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   21.549884] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.550334] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 c3 c6 14 00 9c 00 00 00 00 00 00 00 00 00 00
+[   21.550337] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   21.550343] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   21.550663] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+
+[   21.550963] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.551286] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   21.551289] [drm:handle_hpd_rx_irq] ESI 02 00 00
+[   21.551297] [dp_mst] txmsg cur_offset=0 cur_len=1 seqno=0 state=QUEUED path_msg=0 dst=00
+[   21.551300] [dp_mst]         type=LINK_ADDRESS
+[   21.551641] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  5) 10 02 cb 01 d5
+
+[   21.739308] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   21.739615] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.740050] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   21.740347] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.740667] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   21.740670] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   21.740967] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.741420] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 8c 01 00 00 00 00 00 00 00 00 00 00 00 00
+[   21.741424] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   21.741720] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.742174] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 00 00 00 00 04 90 c0 41 60 00 00 00 00 00 00 00
+[   21.742471] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.742925] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 00 00 00 00 00 00 00 00 00 00 11 32 40 11 00 42
+[   21.742928] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+
+[   21.743249] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   21.743545] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.743865] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   21.743867] [drm:handle_hpd_rx_irq] ESI 02 00 00
+
+[   21.924160] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   21.924472] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.924913] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   21.925213] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.925546] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   21.925552] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   21.925849] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.926300] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 25 45 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   21.926308] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   21.926605] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.927058] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 00 00 11 03 00 00 00 00 00 00 00 00 00 00 00 00
+[   21.927360] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.927739] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret=  8) 00 00 00 00 00 00 00 95
+[   21.927753] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   21.928085] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   21.928394] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   21.928735] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   21.928745] [drm:handle_hpd_rx_irq] ESI 02 00 00
+[   21.928765] amdgpu 0000:04:00.0: [drm:drm_dp_send_link_address] link address reply: 4
+[   21.928773] amdgpu 0000:04:00.0: [drm:drm_dp_send_link_address] port 0: input 1, pdt: 1, pn: 0, dpcd_rev: 00, mcs: 1, ddps: 1, ldps 0, sdp 0/0
+[   21.928786] amdgpu 0000:04:00.0: [drm:drm_dp_send_link_address] port 1: input 0, pdt: 4, pn: 1, dpcd_rev: 00, mcs: 0, ddps: 1, ldps 1, sdp 1/1
+[   21.928797] amdgpu 0000:04:00.0: [drm:drm_dp_send_link_address] port 2: input 0, pdt: 3, pn: 2, dpcd_rev: 11, mcs: 0, ddps: 1, ldps 0, sdp 1/1
+[   21.928808] amdgpu 0000:04:00.0: [drm:drm_dp_send_link_address] port 3: input 0, pdt: 0, pn: 3, dpcd_rev: 00, mcs: 0, ddps: 0, ldps 0, sdp 0/0
+[   21.929255] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00030 AUX <- (ret= 16) 45 c0 fb ff 00 00 00 00 45 c0 fb ff 00 00 00 00
+[   21.929268] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_port] mstb 00000000e46e8ef7 (2)
+[   21.929276] amdgpu 0000:04:00.0: [drm:drm_dp_send_link_address] port 00000000548696dc (2)
+[   21.929284] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 00000000548696dc (1)
+[   21.929295] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_port] mstb 00000000e46e8ef7 (3)
+[   21.929302] amdgpu 0000:04:00.0: [drm:drm_dp_send_link_address] port 0000000090a6ad46 (2)
+[   21.929311] [dp_mst] txmsg cur_offset=0 cur_len=2 seqno=0 state=QUEUED path_msg=1 dst=00
+[   21.929319] [dp_mst]         type=ENUM_PATH_RESOURCES contents:
+[   21.929325] [dp_mst]                 port=1
+[   21.929688] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  6) 10 43 c7 10 10 e2
+
+[   22.111609] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   22.111915] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.112358] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   22.112655] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.112977] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   22.112981] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   22.113276] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.113730] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 47 c0 10 10 08 70 08 70 b4 00 00 00 00 00 00
+[   22.113735] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   22.113740] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   22.114063] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   22.114359] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.114679] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   22.114682] [drm:handle_hpd_rx_irq] ESI 02 00 00
+[   22.114688] amdgpu 0000:04:00.0: [drm:drm_dp_send_enum_path_resources] enum path resources 1: 2160 2160
+[   22.117326] amdgpu 0000:04:00.0: [drm:dm_dp_add_mst_connector] port 0000000090a6ad46 (2)
+[   22.117343] [drm:drm_sysfs_connector_add] adding "DP-3" to sysfs
+[   22.117415] amdgpu 0000:04:00.0: [drm:drm_dp_mst_connector_late_register] registering DPMST remote bus for card0-DP-3
+[   22.117456] [drm:drm_dp_aux_register_devnode] drm_dp_aux_dev: aux [DPMST] registered as minor 3
+
+[   22.117587] amdgpu 0000:04:00.0: [drm:drm_sysfs_connector_hotplug_event] [CONNECTOR:114:DP-3] generating connector hotplug event
+[   22.117596] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 0000000090a6ad46 (1)
+[   22.117601] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_port] mstb 00000000e46e8ef7 (4)
+[   22.117603] amdgpu 0000:04:00.0: [drm:drm_dp_send_link_address] port 00000000dc0a08b1 (2)
+[   22.117606] [dp_mst] txmsg cur_offset=0 cur_len=2 seqno=0 state=QUEUED path_msg=1 dst=00
+[   22.117609] [dp_mst]         type=ENUM_PATH_RESOURCES contents:
+[   22.117611] [dp_mst]                 port=2
+[   22.117969] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  6) 10 43 c7 10 20 14
+[   22.126444] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   22.126459] [dp_mst] txmsg cur_offset=0 cur_len=5 seqno=0 state=QUEUED path_msg=0 dst=00
+[   22.126463] [dp_mst]         type=REMOTE_DPCD_READ contents:
+[   22.126465] [dp_mst]                 port=1 dpcd_addr=004b0 len=1
+
+[   22.300891] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.301229] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   22.301240] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   22.301542] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.302007] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 47 c0 10 20 05 00 05 00 cc 00 00 00 00 00 00
+[   22.302019] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (4)
+[   22.302032] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (3)
+[   22.302369] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   22.302672] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.303014] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   22.303024] [drm:handle_hpd_rx_irq] ESI 02 00 00
+[   22.303429] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 10 04 b0 01 b5
+[   22.303454] amdgpu 0000:04:00.0: [drm:drm_dp_send_enum_path_resources] enum path resources 2: 1280 1280
+[   22.303813] amdgpu 0000:04:00.0: [drm:dm_dp_add_mst_connector] port 00000000dc0a08b1 (2)
+[   22.303836] [drm:drm_sysfs_connector_add] adding "DP-4" to sysfs
+[   22.303977] amdgpu 0000:04:00.0: [drm:drm_dp_mst_connector_late_register] registering DPMST remote bus for card0-DP-4
+[   22.304047] [drm:drm_dp_aux_register_devnode] drm_dp_aux_dev: aux [DPMST] registered as minor 4
+[   22.304133] amdgpu 0000:04:00.0: [drm:drm_sysfs_connector_hotplug_event] [CONNECTOR:117:DP-4] generating connector hotplug event
+[   22.304143] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 00000000dc0a08b1 (1)
+[   22.304147] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_port] mstb 00000000e46e8ef7 (5)
+[   22.304149] amdgpu 0000:04:00.0: [drm:drm_dp_send_link_address] port 000000000d881077 (2)
+[   22.304155] amdgpu 0000:04:00.0: [drm:dm_dp_add_mst_connector] port 000000000d881077 (2)
+[   22.304158] [drm:drm_sysfs_connector_add] adding "DP-5" to sysfs
+[   22.304187] amdgpu 0000:04:00.0: [drm:drm_dp_mst_connector_late_register] registering DPMST remote bus for card0-DP-5
+[   22.304228] [drm:drm_dp_aux_register_devnode] drm_dp_aux_dev: aux [DPMST] registered as minor 5
+[   22.304305] amdgpu 0000:04:00.0: [drm:drm_sysfs_connector_hotplug_event] [CONNECTOR:119:DP-5] generating connector hotplug event
+[   22.304314] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 000000000d881077 (1)
+[   22.304317] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   22.304320] [drm:drm_sysfs_hotplug_event] generating hotplug event
+
+[   22.488231] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   22.488536] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.488983] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   22.489280] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.489614] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   22.489620] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   22.489917] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.490374] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 14 c9 a0 45 c0 fb ff 00 00 00 00 45 c0 fb ff
+[   22.490381] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   22.490678] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.491036] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret=  7) 00 00 00 00 08 00 61
+[   22.491045] amdgpu 0000:04:00.0: [drm:drm_dp_mst_hpd_irq] Got NAK reply: req 0x20 (REMOTE_DPCD_READ), reason 0x08 (DPCD_FAIL), nak data 0x00
+[   22.491051] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   22.491071] amdgpu 0000:04:00.0: [drm:drm_dp_mst_dpcd_read] mstb 00000000e46e8ef7 port 1: DPCD read on addr 0x4b0 for 1 bytes NAKed
+[   22.491087] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (1)
+[   22.491095] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] DPMST: 0x004b0 AUX -> (ret= -5)
+[   22.491373] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   22.491670] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.492007] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   22.492013] [drm:handle_hpd_rx_irq] ESI 02 00 00
+[   22.496529] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (2)
+[   22.496542] [dp_mst] txmsg cur_offset=0 cur_len=5 seqno=0 state=QUEUED path_msg=0 dst=00
+[   22.496545] [dp_mst]         type=REMOTE_DPCD_READ contents:
+[   22.496547] [dp_mst]                 port=2 dpcd_addr=004b0 len=1
+[   22.496947] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 20 04 b0 01 92
+[   22.500756] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 67424, wptr 67456
+
+[   22.675327] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   22.675634] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.676068] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   22.676365] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.676686] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   22.676689] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   22.676985] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.677436] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 05 c3 20 02 01 00 51 00 00 00 00 00 00 00 00
+[   22.677440] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   22.677445] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   22.677460] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (1)
+[   22.677474] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] DPMST: 0x004b0 AUX -> (ret=  1) 00
+[   22.677766] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   22.678062] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.678382] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   22.678385] [drm:handle_hpd_rx_irq] ESI 02 00 00
+[   22.682675] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (2)
+[   22.682690] [dp_mst] txmsg cur_offset=0 cur_len=5 seqno=0 state=QUEUED path_msg=0 dst=00
+[   22.682693] [dp_mst]         type=REMOTE_DPCD_READ contents:
+[   22.682695] [dp_mst]                 port=3 dpcd_addr=004b0 len=1
+[   22.683092] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 30 04 b0 01 3c
+
+[   22.863621] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   22.863931] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.864377] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   22.864675] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.865008] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   22.865014] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   22.865315] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.865774] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 14 c9 a0 45 c0 fb ff 00 00 00 00 45 c0 fb ff
+[   22.865781] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   22.866076] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   22.866433] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret=  7) 00 00 00 00 04 00 15
+[   22.866441] amdgpu 0000:04:00.0: [drm:drm_dp_mst_hpd_irq] Got NAK reply: req 0x20 (REMOTE_DPCD_READ), reason 0x04 (BAD_PARAM), nak data 0x00
+[   22.866448] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   22.866464] amdgpu 0000:04:00.0: [drm:drm_dp_mst_dpcd_read] mstb 00000000e46e8ef7 port 3: DPCD read on addr 0x4b0 for 1 bytes NAKed
+[   22.866472] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (1)
+[   22.866475] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] DPMST: 0x004b0 AUX -> (ret= -5)
+[   22.866771] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   22.867067] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+
+[   22.867430] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   22.867436] [drm:handle_hpd_rx_irq] ESI 02 00 00
+
+[   23.052309] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   23.052622] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.053061] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+[   23.319444] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETRESOURCES
+[   23.319450] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETRESOURCES
+[   23.319456] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   23.319460] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:78:eDP-1]
+[   23.319480] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+[   23.319485] [drm:update_display_info] eDP-1: Assigning EDID-1.4 digital sink color depth as 8 bpc.
+[   23.319488] [drm:_drm_edid_connector_update] ELD monitor
+[   23.319494] [drm:_drm_edid_connector_update] ELD size 20, SAD count 0
+[   23.319812] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 0: 0x00000 AUX -> (ret=  1) 11
+[   23.320102] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 0: 0x00007 AUX -> (ret=  1) 40
+[   23.320174] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   23.320259] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1680  height:1050
+[   23.320331] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:1024
+[   23.320403] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1440  height:900
+[   23.320474] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:800
+[   23.320545] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:720
+[   23.320616] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1024  height:768
+[   23.320688] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:800  height:600
+[   23.320759] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:640  height:480
+[   23.320782] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:78:eDP-1] probed modes :
+[   23.320788] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 152840 1920 1968 2000 2250 1080 1083 1088 1132 0x48 0xa
+[   23.320799] [drm:drm_mode_debug_printmodeline] Modeline "1680x1050": 60 152840 1680 1968 2000 2250 1050 1083 1088 1132 0x40 0xa
+[   23.320807] [drm:drm_mode_debug_printmodeline] Modeline "1280x1024": 60 152840 1280 1968 2000 2250 1024 1083 1088 1132 0x40 0xa
+[   23.320815] [drm:drm_mode_debug_printmodeline] Modeline "1440x900": 60 152840 1440 1968 2000 2250 900 1083 1088 1132 0x40 0xa
+[   23.320823] [drm:drm_mode_debug_printmodeline] Modeline "1280x800": 60 152840 1280 1968 2000 2250 800 1083 1088 1132 0x40 0xa
+[   23.320831] [drm:drm_mode_debug_printmodeline] Modeline "1280x720": 60 152840 1280 1968 2000 2250 720 1083 1088 1132 0x40 0xa
+[   23.320839] [drm:drm_mode_debug_printmodeline] Modeline "1024x768": 60 152840 1024 1968 2000 2250 768 1083 1088 1132 0x40 0xa
+[   23.320847] [drm:drm_mode_debug_printmodeline] Modeline "800x600": 60 152840 800 1968 2000 2250 600 1083 1088 1132 0x40 0xa
+[   23.320855] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 152840 640 1968 2000 2250 480 1083 1088 1132 0x40 0xa
+[   23.320864] [drm:drm_mode_object_put] OBJ ID: 78 (3)
+[   23.320873] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   23.320883] [drm:drm_mode_object_put] OBJ ID: 78 (3)
+[   23.320889] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   23.320893] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:85:HDMI-A-1]
+[   23.320899] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:85:HDMI-A-1] disconnected
+[   23.320906] [drm:drm_mode_object_put] OBJ ID: 85 (2)
+[   23.320909] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   23.320915] [drm:drm_mode_object_put] OBJ ID: 85 (2)
+[   23.320918] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   23.320922] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:89:DP-1]
+[   23.320927] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:89:DP-1] disconnected
+[   23.320933] [drm:drm_mode_object_put] OBJ ID: 89 (2)
+[   23.320936] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   23.320941] [drm:drm_mode_object_put] OBJ ID: 89 (2)
+[   23.320944] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   23.320948] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:94:DP-2]
+[   23.320953] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:94:DP-2] disconnected
+[   23.320959] amdgpu 0000:04:00.0: [drm:_drm_edid_connector_property_update] [CONNECTOR:94:DP-2] EDID changed, epoch counter 2
+[   23.320966] [drm:drm_mode_object_put] OBJ ID: 105 (1)
+[   23.320971] [drm:drm_mode_object_put] OBJ ID: 94 (2)
+[   23.320974] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   23.320978] [drm:drm_mode_object_put] OBJ ID: 94 (2)
+[   23.320982] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   23.320985] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:114:DP-3]
+[   23.320992] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 0000000090a6ad46 (2)
+[   23.320999] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 0000000090a6ad46 (1)
+[   23.321006] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (2)
+[   23.321013] [dp_mst] txmsg cur_offset=0 cur_len=5 seqno=0 state=QUEUED path_msg=0 dst=00
+[   23.321018] [dp_mst]         type=REMOTE_DPCD_READ contents:
+[   23.321021] [dp_mst]                 port=1 dpcd_addr=02200 len=1
+[   23.321417] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 10 22 00 01 89
+[   23.332163] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 69120, wptr 69152
+[   23.332198] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   23.332503] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.332937] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   23.333233] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.333553] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   23.333556] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   23.333853] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.333972] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 69152, wptr 69184
+[   23.333987] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
+[   23.333994] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1870,-49)@ 23.332502 -> 23.333212 [e 2 us, 0 rep]
+[   23.334003] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
+[   23.334004] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=1285, diff=1, hw=1926 hw_last=1925
+[   23.334307] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 14 c9 a0 45 c0 fb ff 00 00 00 00 45 c0 fb ff
+[   23.334311] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   23.334609] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.334966] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret=  7) 00 00 00 00 08 00 61
+[   23.334970] amdgpu 0000:04:00.0: [drm:drm_dp_mst_hpd_irq] Got NAK reply: req 0x20 (REMOTE_DPCD_READ), reason 0x08 (DPCD_FAIL), nak data 0x00
+[   23.334973] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   23.334991] amdgpu 0000:04:00.0: [drm:drm_dp_mst_dpcd_read] mstb 00000000e46e8ef7 port 1: DPCD read on addr 0x2200 for 1 bytes NAKed
+[   23.335000] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (1)
+[   23.335004] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] DPMST: 0x02200 AUX -> (ret= -5)
+[   23.335007] [drm:dm_dp_mst_detect] Can't access DPCD
+[   23.335010] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:114:DP-3] status updated from unknown to connected
+[   23.335015] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 0000000090a6ad46 (2)
+[   23.335020] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (2)
+[   23.335023] [dp_mst] txmsg cur_offset=0 cur_len=8 seqno=0 state=QUEUED path_msg=0 dst=00
+[   23.335027] [dp_mst]         type=REMOTE_I2C_READ contents:
+[   23.335029] [dp_mst]                 port=1 num_tx=1 id=80 size=1:
+[   23.335031] [dp_mst]                         0: id=080 size=001 no_stop_bit=0 tx_delay=000: 00
+[   23.335302] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   23.335598] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.336012] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 11 50 01 00 10 50 01 cb
+[   23.336331] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   23.336333] [drm:handle_hpd_rx_irq] ESI 02 00 00
+
+[   23.520577] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   23.520878] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.521315] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   23.521612] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.521933] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   23.521936] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   23.522233] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.522691] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 05 c3 22 01 01 00 8b 00 00 00 00 00 00 00 00
+[   23.522695] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   23.522700] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   23.522715] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (1)
+[   23.522726] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (2)
+[   23.522731] [dp_mst] txmsg cur_offset=0 cur_len=8 seqno=0 state=QUEUED path_msg=0 dst=00
+[   23.522735] [dp_mst]         type=REMOTE_I2C_READ contents:
+[   23.522736] [dp_mst]                 port=1 num_tx=1 id=80 size=128:
+[   23.522738] [dp_mst]                         0: id=080 size=001 no_stop_bit=0 tx_delay=000: 00
+[   23.523024] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   23.523446] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 11 50 01 00 10 50 80 f1
+[   23.523739] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.524062] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   23.524065] [drm:handle_hpd_rx_irq] ESI 02 00 00
+
+
+[   23.708092] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   23.708393] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.708828] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   23.709125] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.709450] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   23.709452] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   23.709755] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.710210] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 8c 22 01 80 00 ff ff ff ff ff ff 00 22 0e
+[   23.710214] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   23.710512] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.710966] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 69 34 01 01 01 01 1c 1c 01 03 80 35 1e 78 2a a1
+[   23.711264] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.711718] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 35 a3 5b 4f a3 27 11 50 54 a1 08 00 d1 c0 81 ae
+[   23.711722] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   23.712042] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   23.712339] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.712660] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   23.712663] [drm:handle_hpd_rx_irq] ESI 02 00 00
+
+[   23.896054] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   23.896362] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.896800] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   23.897096] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.897417] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   23.897420] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   23.897710] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.898158] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 07 c0 a9 c0 b3 00 95 00 81 00 81 80 01 01
+[   23.898162] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   23.898462] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.898909] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 02 3a 80 18 71 38 2d 40 58 2c 45 00 0f 28 21 00
+[   23.899204] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   23.899651] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 00 1e 00 00 00 fd 00 32 3c 1e 50 11 00 0a 20 6c
+[   23.899655] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   23.899975] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   23.900273] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+
+[   23.900616] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   23.900619] [drm:handle_hpd_rx_irq] ESI 02 00 00
+
+[   24.085187] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   24.085496] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.085932] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   24.086231] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.086552] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   24.086555] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   24.086852] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.087304] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2c 4e 20 20 20 20 20 00 00 00 fc 00 48 50 20
+[   24.087309] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   24.087606] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.088061] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 45 32 34 33 0a 20 20 20 20 20 00 00 00 ff 00 43
+[   24.088358] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.088800] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 15) 4e 4b 38 32 38 32 47 33 4b 0a 20 20 01 5a c3
+[   24.088805] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   24.088821] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (1)
+[   24.088833] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (2)
+[   24.088838] [dp_mst] txmsg cur_offset=0 cur_len=8 seqno=0 state=QUEUED path_msg=0 dst=00
+[   24.088842] [dp_mst]         type=REMOTE_I2C_READ contents:
+[   24.088843] [dp_mst]                 port=1 num_tx=1 id=80 size=128:
+[   24.088846] [dp_mst]                         0: id=080 size=001 no_stop_bit=0 tx_delay=000: 80
+[   24.089128] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   24.089551] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 11 50 01 80 10 50 80 aa
+[   24.089838] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.090159] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   24.090162] [drm:handle_hpd_rx_irq] ESI 02 00 00
+
+[   24.271864] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   24.272173] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.272621] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   24.272918] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.273243] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   24.273246] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   24.273544] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.273990] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 8c 22 01 80 02 03 19 b1 49 90 1f 04 13 03
+[   24.273994] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   24.274290] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.274745] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 12 02 11 01 67 03 0c 00 10 00 00 22 e2 00 2b 02
+[   24.275043] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.275492] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 3a 80 18 71 38 2d 40 58 2c 45 00 0f 28 21 00 e9
+[   24.275497] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   24.275817] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   24.276113] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.276435] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   24.276438] [drm:handle_hpd_rx_irq] ESI 02 00 00
+
+[   24.419244] [drm:dm_set_vupdate_irq] crtc 0 - vupdate irq disabling: r=0
+[   24.419256] [drm:vblank_control_worker] Allow idle optimizations (MALL): 1
+[   24.460207] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 71424, wptr 71456
+[   24.460230] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   24.460542] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.460977] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   24.461270] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.461603] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   24.461606] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   24.461904] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.462352] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 07 00 1e 02 3a 80 d0 72 38 2d 40 10 2c 45
+[   24.462356] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   24.462653] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.463102] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 80 0f 28 21 00 00 1e 00 00 00 00 00 00 00 00 00
+[   24.463397] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.463851] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ab
+[   24.463855] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   24.464183] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   24.464482] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.464805] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   24.464808] [drm:handle_hpd_rx_irq] ESI 02 00 00
+[   24.648557] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 71456, wptr 71488
+[   24.648579] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   24.648883] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.649319] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   24.649617] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.649937] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   24.649940] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   24.650230] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.650684] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2c 4e 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   24.650688] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   24.650984] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.651437] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   24.651733] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.652174] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 15) 00 00 00 00 00 00 00 00 00 00 00 00 00 01 d5
+[   24.652179] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   24.652206] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (1)
+[   24.652216] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+[   24.652219] [drm:update_display_info] HDMI: DVI dual 0, max TMDS clock 170000 kHz
+[   24.652221] [drm:update_display_info] DP-3: No deep color support on this HDMI sink.
+[   24.652222] [drm:update_display_info] CEA VCDB 0x2b
+[   24.652228] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 0000000090a6ad46 (1)
+[   24.652234] [drm:drm_edid_to_sad] Found 0 Short Audio Descriptors
+[   24.652506] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   24.652799] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.653092] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.653496] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+[   24.653499] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+[   24.653823] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   24.653826] [drm:handle_hpd_rx_irq] ESI 02 00 00
+[   24.654116] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.654551] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   24.654848] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.655278] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   24.655281] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   24.655284] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   24.655580] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.656022] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00060 AUX -> (ret= 16) 01 21 00 14 0b 00 00 00 01 03 02 11 08 00 00 04
+[   24.656329] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.656638] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x000a0 AUX -> (ret=  3) 09 1e 10
+[   24.656934] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.657230] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00005 AUX -> (ret=  1) 11
+[   24.657233] [drm] Downstream port present 1, type 0
+[   24.657238] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+[   24.657241] [drm:update_display_info] HDMI: DVI dual 0, max TMDS clock 170000 kHz
+[   24.657242] [drm:update_display_info] DP-3: No deep color support on this HDMI sink.
+[   24.657244] [drm:update_display_info] CEA VCDB 0x2b
+[   24.657248] [drm:drm_mode_object_put] OBJ ID: 105 (1)
+[   24.657252] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+[   24.657254] [drm:update_display_info] HDMI: DVI dual 0, max TMDS clock 170000 kHz
+[   24.657256] [drm:update_display_info] DP-3: No deep color support on this HDMI sink.
+[   24.657256] [drm:update_display_info] CEA VCDB 0x2b
+[   24.657258] [drm:_drm_edid_connector_update] ELD monitor HP E243
+[   24.657261] [drm:_drm_edid_connector_update] HDMI: latency present 0 0, video latency 0 0, audio latency 0 0
+[   24.657265] [drm:_drm_edid_connector_update] ELD size 28, SAD count 0
+[   24.657364] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   24.657379] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   24.657382] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:720
+[   24.657407] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1600  height:900
+[   24.657431] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1680  height:1050
+[   24.657455] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1440  height:900
+[   24.657480] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:800
+[   24.657504] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:1024
+[   24.657528] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:800  height:600
+[   24.657531] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:640  height:480
+[   24.657555] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:720  height:400
+[   24.657579] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1024  height:768
+[   24.657585] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   24.657592] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   24.657597] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:720
+[   24.657603] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:720
+[   24.657606] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:720  height:480
+[   24.657612] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:720  height:576
+[   24.657615] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:720  height:480
+[   24.657620] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:720  height:576
+[   24.657623] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:640  height:480
+[   24.657628] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   24.657632] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:720
+[   24.657635] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:640  height:480
+[   24.657638] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:720  height:480
+[   24.657641] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:720  height:480
+[   24.657646] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:114:DP-3] probed modes :
+[   24.657650] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+[   24.657654] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x40 0x5
+[   24.657658] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 148352 1920 2008 2052 2200 1080 1084 1089 1125 0x40 0x5
+[   24.657661] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 50 148500 1920 2448 2492 2640 1080 1084 1089 1125 0x40 0x5
+[   24.657665] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 50 148500 1920 2448 2492 2640 1080 1084 1089 1125 0x40 0x5
+[   24.657668] [drm:drm_mode_debug_printmodeline] Modeline "1680x1050": 60 119000 1680 1728 1760 1840 1050 1053 1059 1080 0x40 0x9
+[   24.657672] [drm:drm_mode_debug_printmodeline] Modeline "1600x900": 60 108000 1600 1624 1704 1800 900 901 904 1000 0x40 0x5
+[   24.657675] [drm:drm_mode_debug_printmodeline] Modeline "1280x1024": 60 108000 1280 1328 1440 1688 1024 1025 1028 1066 0x40 0x5
+[   24.657679] [drm:drm_mode_debug_printmodeline] Modeline "1440x900": 60 88750 1440 1488 1520 1600 900 903 909 926 0x40 0x9
+[   24.657682] [drm:drm_mode_debug_printmodeline] Modeline "1280x800": 60 71000 1280 1328 1360 1440 800 803 809 823 0x40 0x9
+[   24.657686] [drm:drm_mode_debug_printmodeline] Modeline "1280x720": 60 74250 1280 1390 1430 1650 720 725 730 750 0x40 0x5
+[   24.657689] [drm:drm_mode_debug_printmodeline] Modeline "1280x720": 60 74250 1280 1390 1430 1650 720 725 730 750 0x40 0x5
+[   24.657693] [drm:drm_mode_debug_printmodeline] Modeline "1280x720": 60 74176 1280 1390 1430 1650 720 725 730 750 0x40 0x5
+[   24.657696] [drm:drm_mode_debug_printmodeline] Modeline "1280x720": 50 74250 1280 1720 1760 1980 720 725 730 750 0x40 0x5
+[   24.657700] [drm:drm_mode_debug_printmodeline] Modeline "1024x768": 60 65000 1024 1048 1184 1344 768 771 777 806 0x40 0xa
+[   24.657703] [drm:drm_mode_debug_printmodeline] Modeline "800x600": 60 40000 800 840 968 1056 600 601 605 628 0x40 0x5
+[   24.657707] [drm:drm_mode_debug_printmodeline] Modeline "720x576": 50 27000 720 732 796 864 576 581 586 625 0x40 0xa
+[   24.657710] [drm:drm_mode_debug_printmodeline] Modeline "720x576": 50 27000 720 732 796 864 576 581 586 625 0x40 0xa
+[   24.657713] [drm:drm_mode_debug_printmodeline] Modeline "720x480": 60 27027 720 736 798 858 480 489 495 525 0x40 0xa
+[   24.657717] [drm:drm_mode_debug_printmodeline] Modeline "720x480": 60 27027 720 736 798 858 480 489 495 525 0x40 0xa
+[   24.657720] [drm:drm_mode_debug_printmodeline] Modeline "720x480": 60 27000 720 736 798 858 480 489 495 525 0x40 0xa
+[   24.657724] [drm:drm_mode_debug_printmodeline] Modeline "720x480": 60 27000 720 736 798 858 480 489 495 525 0x40 0xa
+[   24.657727] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 25200 640 656 752 800 480 490 492 525 0x40 0xa
+[   24.657730] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 25175 640 656 752 800 480 490 492 525 0x40 0xa
+[   24.657734] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 25175 640 656 752 800 480 490 492 525 0x40 0xa
+[   24.657737] [drm:drm_mode_debug_printmodeline] Modeline "720x400": 70 28320 720 738 846 900 400 412 414 449 0x40 0x6
+[   24.657742] [drm:drm_mode_object_put] OBJ ID: 114 (2)
+[   24.657761] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   24.657771] [drm:drm_mode_object_put] OBJ ID: 114 (2)
+[   24.657778] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   24.657780] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:117:DP-4]
+[   24.657785] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 00000000dc0a08b1 (2)
+[   24.657789] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 00000000dc0a08b1 (1)
+[   24.657792] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:117:DP-4] status updated from unknown to connected
+[   24.657796] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 00000000dc0a08b1 (2)
+[   24.657800] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (2)
+[   24.657803] [dp_mst] txmsg cur_offset=0 cur_len=8 seqno=0 state=QUEUED path_msg=0 dst=00
+[   24.657807] [dp_mst]         type=REMOTE_I2C_READ contents:
+[   24.657808] [dp_mst]                 port=2 num_tx=1 id=80 size=1:
+[   24.657810] [dp_mst]                         0: id=080 size=001 no_stop_bit=0 tx_delay=000: 00
+[   24.658729] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 21 50 01 00 10 50 01 da
+
+[   24.835872] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+
+[   24.836208] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+
+[   24.836656] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   24.836948] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.837264] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   24.837267] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   24.837557] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   24.838002] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 05 c3 22 02 01 00 db 00 00 00 00 00 00 00 00
+[   24.838006] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   24.838011] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   24.838030] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (1)
+[   24.838041] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (2)
+[   24.838045] [dp_mst] txmsg cur_offset=0 cur_len=8 seqno=0 state=QUEUED path_msg=0 dst=00
+[   24.838049] [dp_mst]         type=REMOTE_I2C_READ contents:
+[   24.838051] [dp_mst]                 port=2 num_tx=1 id=80 size=128:
+[   24.838053] [dp_mst]                         0: id=080 size=001 no_stop_bit=0 tx_delay=000: 00
+
+[   24.838334] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+
+[   24.838680] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   24.838758] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 21 50 01 00 10 50 80 e0
+
+[   24.839050] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+
+[   24.839385] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   24.839388] [drm:handle_hpd_rx_irq] ESI 02 00 00
+
+[   25.023875] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   25.024180] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.024623] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   25.024921] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.025244] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   25.025247] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   25.025544] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.025998] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 8c 22 02 80 00 ff ff ff ff ff ff 00 22 0e
+[   25.026002] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   25.026299] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.026754] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 68 34 00 00 00 00 0b 1d 01 04 a5 35 1e 78 3a a1
+[   25.027050] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.027505] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 35 a3 5b 4f a3 27 11 50 54 a1 08 00 d1 c0 81 12
+[   25.027509] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   25.027829] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   25.028126] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.028447] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   25.028450] [drm:handle_hpd_rx_irq] ESI 02 00 00
+
+[   25.212984] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+
+[   25.213273] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+
+[   25.213598] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   25.213601] [drm:handle_hpd_rx_irq] ESI 02 10 00
+
+[   25.213891] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+
+[   25.214334] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 07 c0 a9 c0 b3 00 95 00 81 00 81 80 01 01
+
+[   25.214636] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+
+[   25.215090] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 02 3a 80 18 71 38 2d 40 58 2c 45 00 0f 28 21 00
+
+[   25.215386] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+
+[   25.215831] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 00 1e 00 00 00 fd 00 32 3c 1e 50 11 01 0a 20 ef
+
+[   25.216161] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+
+[   25.216805] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   25.216808] [drm:handle_hpd_rx_irq] ESI 02 00 00
+
+[   25.400513] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   25.400824] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.401275] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 00 00 00 00
+[   25.401575] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.401909] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   25.401915] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   25.402213] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.402674] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2c 4e 20 20 20 20 20 00 00 00 fc 00 48 50 20
+[   25.402681] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   25.402979] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.403429] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 45 32 34 33 0a 20 20 20 20 20 00 00 00 ff 00 43
+[   25.403731] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.404178] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 15) 4e 4b 39 31 31 30 51 44 52 0a 20 20 00 20 c5
+[   25.404188] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   25.404259] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (1)
+[   25.404270] [drm:update_display_info] Supported Monitor Refresh rate range is 50 Hz - 60 Hz
+[   25.404273] [drm:update_display_info] DP-4: Assigning EDID-1.4 digital sink color depth as 8 bpc.
+[   25.404279] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 00000000dc0a08b1 (1)
+[   25.404284] [drm:drm_edid_to_sad] Found 0 Short Audio Descriptors
+[   25.404522] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   25.404816] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.405107] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.405511] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+[   25.405515] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+[   25.405839] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   25.405846] [drm:handle_hpd_rx_irq] ESI 02 00 00
+[   25.406133] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.406567] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.406864] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.407295] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.407298] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.407301] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.407597] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.408041] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00060 AUX -> (ret= 16) 01 21 00 14 0b 00 00 00 01 03 02 11 08 00 00 04
+[   25.408530] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.408848] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x000a0 AUX -> (ret=  3) 09 1e 10
+[   25.409173] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.409613] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00005 AUX -> (ret=  1) 11
+[   25.409623] [drm] Downstream port present 1, type 0
+[   25.409629] [drm:update_display_info] Supported Monitor Refresh rate range is 50 Hz - 60 Hz
+[   25.409633] [drm:update_display_info] DP-4: Assigning EDID-1.4 digital sink color depth as 8 bpc.
+[   25.409638] [drm:drm_mode_object_put] OBJ ID: 105 (1)
+[   25.409641] [drm:update_display_info] Supported Monitor Refresh rate range is 50 Hz - 60 Hz
+[   25.409643] [drm:update_display_info] DP-4: Assigning EDID-1.4 digital sink color depth as 8 bpc.
+[   25.409644] [drm:_drm_edid_connector_update] ELD monitor HP E243
+[   25.409648] [drm:_drm_edid_connector_update] ELD size 28, SAD count 0
+[   25.409672] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.409682] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:720
+[   25.409709] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1600  height:900
+[   25.409735] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1680  height:1050
+[   25.409761] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1440  height:900
+[   25.409787] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:800
+[   25.409813] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1280  height:1024
+[   25.409838] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:800  height:600
+[   25.409842] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:640  height:480
+[   25.409867] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:720  height:400
+[   25.409893] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1024  height:768
+[   25.409896] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:117:DP-4] probed modes :
+[   25.409900] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+[   25.409904] [drm:drm_mode_debug_printmodeline] Modeline "1680x1050": 60 146250 1680 1784 1960 2240 1050 1053 1059 1089 0x40 0x6
+[   25.409908] [drm:drm_mode_debug_printmodeline] Modeline "1600x900": 60 108000 1600 1624 1704 1800 900 901 904 1000 0x40 0x5
+[   25.409912] [drm:drm_mode_debug_printmodeline] Modeline "1280x1024": 60 108000 1280 1328 1440 1688 1024 1025 1028 1066 0x40 0x5
+[   25.409916] [drm:drm_mode_debug_printmodeline] Modeline "1440x900": 60 106500 1440 1520 1672 1904 900 903 909 934 0x40 0x6
+[   25.409919] [drm:drm_mode_debug_printmodeline] Modeline "1280x800": 60 83500 1280 1352 1480 1680 800 803 809 831 0x40 0x6
+[   25.409923] [drm:drm_mode_debug_printmodeline] Modeline "1280x720": 60 74250 1280 1390 1430 1650 720 725 730 750 0x40 0x5
+[   25.409927] [drm:drm_mode_debug_printmodeline] Modeline "1024x768": 60 65000 1024 1048 1184 1344 768 771 777 806 0x40 0xa
+[   25.409930] [drm:drm_mode_debug_printmodeline] Modeline "800x600": 60 40000 800 840 968 1056 600 601 605 628 0x40 0x5
+[   25.409934] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 25175 640 656 752 800 480 490 492 525 0x40 0xa
+[   25.409938] [drm:drm_mode_debug_printmodeline] Modeline "720x400": 70 28320 720 738 846 900 400 412 414 449 0x40 0x6
+[   25.409943] [drm:drm_mode_object_put] OBJ ID: 117 (2)
+[   25.409959] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   25.409966] [drm:drm_mode_object_put] OBJ ID: 117 (2)
+[   25.409970] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+[   25.409973] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:119:DP-5]
+[   25.409977] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 000000000d881077 (2)
+[   25.409982] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 000000000d881077 (1)
+[   25.409985] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:119:DP-5] status updated from unknown to disconnected
+[   25.409989] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:119:DP-5] disconnected
+[   25.409992] [drm:drm_mode_object_put] OBJ ID: 119 (2)
+
+[   25.427567] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
+[   25.427576] [drm:drm_mode_addfb2] [FB:105]
+[   25.427590] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.427602] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
+[   25.427606] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85504, wptr 85536
+[   25.427607] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
+[   25.427608] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.427617] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.427619] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b380 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.427621] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b380)
+[   25.427642] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
+[   25.427666] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85536, wptr 85568
+[   25.427668] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.429779] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.429821] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.429825] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b400 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.429827] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b400)
+[   25.429848] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_CS
+[   25.429902] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
+[   25.429907] [drm:amdgpu_gem_metadata_ioctl] 16
+[   25.429912] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.429914] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85568, wptr 85600
+[   25.429920] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.429927] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.429936] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.429938] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.429941] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.429943] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.429949] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.429953] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.429955] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.429962] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
+[   25.429966] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85600, wptr 85632
+[   25.429969] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.429969] [drm:drm_mode_addfb2] [FB:123]
+[   25.429979] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.429992] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
+[   25.429997] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
+[   25.430017] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
+[   25.430021] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85632, wptr 85664
+[   25.430023] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.430025] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
+[   25.430029] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
+[   25.430032] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.430034] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b480 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.430036] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b480)
+[   25.430055] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
+[   25.430059] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000aacc5ada
+[   25.430066] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:45:plane-1] 000000003d64dc1e state to 00000000aacc5ada
+[   25.430071] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:123] for [PLANE:45:plane-1] state 000000003d64dc1e
+[   25.430074] [drm:drm_mode_object_get] OBJ ID: 123 (3)
+[   25.430076] [drm:drm_mode_object_put] OBJ ID: 123 (4)
+[   25.430077] [drm:drm_mode_object_put] OBJ ID: 123 (3)
+[   25.430080] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:73:crtc-2] 000000000846643c state to 00000000aacc5ada
+[   25.430083] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_plane] Link [PLANE:45:plane-1] state 000000003d64dc1e to [CRTC:73:crtc-2]
+[   25.430085] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85664, wptr 85696
+[   25.430087] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.430088] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:50:plane-2] 0000000010afcf3f state to 00000000aacc5ada
+[   25.430091] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:105] for [PLANE:50:plane-2] state 0000000010afcf3f
+[   25.430093] [drm:drm_mode_object_get] OBJ ID: 105 (3)
+[   25.430094] [drm:drm_mode_object_put] OBJ ID: 105 (4)
+[   25.430095] [drm:drm_mode_object_put] OBJ ID: 105 (3)
+[   25.430097] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:70:crtc-1] 00000000025cda16 state to 00000000aacc5ada
+[   25.430099] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_plane] Link [PLANE:50:plane-2] state 0000000010afcf3f to [CRTC:70:crtc-1]
+[   25.430104] [drm:drm_mode_object_get] OBJ ID: 112 (2)
+[   25.430105] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:55:plane-3] 0000000091c62e1b state to 00000000aacc5ada
+[   25.430108] [drm:drm_mode_object_get] OBJ ID: 107 (1)
+[   25.430109] [drm:drm_mode_object_get] OBJ ID: 106 (2)
+[   25.430110] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:67:crtc-0] 00000000354df212 state to 00000000aacc5ada
+[   25.430113] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:112] for [PLANE:55:plane-3] state 0000000091c62e1b
+[   25.430115] [drm:drm_mode_object_get] OBJ ID: 112 (5)
+[   25.430116] [drm:drm_mode_object_put] OBJ ID: 112 (6)
+[   25.430117] [drm:drm_mode_object_put] OBJ ID: 112 (5)
+[   25.430118] [drm:drm_mode_object_put] OBJ ID: 112 (4)
+[   25.430121] [drm:drm_mode_object_put] OBJ ID: 107 (2)
+[   25.430123] [drm:drm_mode_object_get] OBJ ID: 124 (3)
+[   25.430124] amdgpu 0000:04:00.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [MODE:1920x1080] for [CRTC:67:crtc-0] state 00000000354df212
+[   25.430126] [drm:drm_mode_object_put] OBJ ID: 124 (4)
+[   25.430127] [drm:drm_mode_object_put] OBJ ID: 124 (3)
+[   25.430129] [drm:drm_mode_object_get] OBJ ID: 125 (3)
+[   25.430130] amdgpu 0000:04:00.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [MODE:1920x1080] for [CRTC:70:crtc-1] state 00000000025cda16
+[   25.430132] [drm:drm_mode_object_put] OBJ ID: 125 (4)
+[   25.430133] [drm:drm_mode_object_put] OBJ ID: 125 (3)
+[   25.430135] [drm:drm_mode_object_get] OBJ ID: 126 (3)
+[   25.430136] amdgpu 0000:04:00.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [MODE:1920x1080] for [CRTC:73:crtc-2] state 000000000846643c
+[   25.430138] [drm:drm_mode_object_put] OBJ ID: 126 (4)
+[   25.430139] [drm:drm_mode_object_put] OBJ ID: 126 (3)
+[   25.430141] [drm:drm_mode_object_get] OBJ ID: 78 (3)
+[   25.430142] [drm:drm_mode_object_get] OBJ ID: 78 (4)
+[   25.430143] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:78:eDP-1] 0000000054e02217 state to 00000000aacc5ada
+[   25.430146] [drm:drm_mode_object_put] OBJ ID: 78 (5)
+[   25.430147] [drm:drm_mode_object_get] OBJ ID: 114 (2)
+[   25.430148] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:114:DP-3] 000000001c63b6c9 state to 00000000aacc5ada
+[   25.430151] [drm:drm_mode_object_get] OBJ ID: 114 (3)
+[   25.430152] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_connector] Link [CONNECTOR:114:DP-3] state 000000001c63b6c9 to [CRTC:70:crtc-1]
+[   25.430155] [drm:drm_mode_object_put] OBJ ID: 114 (4)
+[   25.430157] [drm:drm_mode_object_get] OBJ ID: 117 (2)
+[   25.430158] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:117:DP-4] 000000001570d573 state to 00000000aacc5ada
+[   25.430160] [drm:drm_mode_object_get] OBJ ID: 117 (3)
+[   25.430161] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_connector] Link [CONNECTOR:117:DP-4] state 000000001570d573 to [CRTC:73:crtc-2]
+[   25.430163] [drm:drm_mode_object_put] OBJ ID: 117 (4)
+[   25.430165] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000aacc5ada
+[   25.430168] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] mode changed
+[   25.430171] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] enable changed
+[   25.430173] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] active changed
+[   25.430175] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:73:crtc-2] mode changed
+[   25.430177] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:73:crtc-2] enable changed
+[   25.430179] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:73:crtc-2] active changed
+[   25.430183] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:78:eDP-1]
+[   25.430185] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CONNECTOR:78:eDP-1] keeps [ENCODER:77:TMDS-77], now on [CRTC:67:crtc-0]
+[   25.430912] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:114:DP-3]
+[   25.430920] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CONNECTOR:114:DP-3] using [ENCODER:98:DP MST-98] on [CRTC:70:crtc-1]
+[   25.430923] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:117:DP-4]
+[   25.430926] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CONNECTOR:117:DP-4] using [ENCODER:99:DP MST-99] on [CRTC:73:crtc-2]
+[   25.430928] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] needs all connectors, enable: y, active: y
+[   25.430931] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:70:crtc-1] to 00000000aacc5ada
+[   25.430937] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:70:crtc-1] to 00000000aacc5ada
+[   25.430940] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:73:crtc-2] needs all connectors, enable: y, active: y
+[   25.430942] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:73:crtc-2] to 00000000aacc5ada
+[   25.430944] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:73:crtc-2] to 00000000aacc5ada
+[   25.430947] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 00000000aacc5ada
+[   25.430949] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 00000000aacc5ada
+[   25.430951] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:98:DP MST-98] to 00000000aacc5ada
+[   25.430953] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:99:DP MST-99] to 00000000aacc5ada
+[   25.430961] amdgpu 0000:04:00.0: [drm:drm_atomic_get_private_obj_state] Added new private object 00000000aa8d3254 state 000000007e4a8dcd to 00000000aacc5ada
+[   25.430964] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:114:DP-3] [MST PORT:0000000090a6ad46] VCPI 0 -> 10
+[   25.430967] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:114:DP-3] [MST PORT:0000000090a6ad46] PBN 0 -> 532
+[   25.430969] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] port 0000000090a6ad46 (3)
+[   25.430976] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:117:DP-4] [MST PORT:00000000dc0a08b1] VCPI 0 -> 10
+[   25.430977] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:117:DP-4] [MST PORT:00000000dc0a08b1] PBN 0 -> 532
+[   25.430980] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] port 00000000dc0a08b1 (3)
+[   25.431430] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.431834] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+[   25.431838] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+[   25.432131] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.432562] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.432865] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.433324] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.433331] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.433334] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.433338] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_affected_dsc_crtcs] [MST MGR:00000000aa8d3254] Setting mode_changed flag on CRTC 00000000f006bb5c
+[   25.433637] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.434089] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+[   25.434095] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+[   25.434425] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.434850] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.435141] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.435804] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.435810] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.435813] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.435817] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_affected_dsc_crtcs] [MST MGR:00000000aa8d3254] Setting mode_changed flag on CRTC 000000000becb281
+[   25.436117] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.436521] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+[   25.436529] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+[   25.436828] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.437322] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.437620] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.438052] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.438055] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.438058] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.438061] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_affected_dsc_crtcs] [MST MGR:00000000aa8d3254] Setting mode_changed flag on CRTC 00000000f006bb5c
+[   25.438368] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.438777] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+[   25.438780] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+[   25.439079] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.439507] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.439808] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.440316] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.440321] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.440324] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.440328] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_affected_dsc_crtcs] [MST MGR:00000000aa8d3254] Setting mode_changed flag on CRTC 000000000becb281
+[   25.440333] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:70:crtc-1] to 00000000aacc5ada
+[   25.440337] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:70:crtc-1] to 00000000aacc5ada
+[   25.440341] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:73:crtc-2] to 00000000aacc5ada
+[   25.440343] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:73:crtc-2] to 00000000aacc5ada
+[   25.440346] [drm:drm_atomic_normalize_zpos] [CRTC:70:crtc-1] calculating normalized zpos values
+[   25.440350] [drm:drm_atomic_normalize_zpos] [PLANE:50:plane-2] processing zpos value 0
+[   25.440352] [drm:drm_atomic_normalize_zpos] [PLANE:50:plane-2] normalized zpos value 0
+[   25.440354] [drm:drm_atomic_normalize_zpos] [CRTC:73:crtc-2] calculating normalized zpos values
+[   25.440356] [drm:drm_atomic_normalize_zpos] [PLANE:45:plane-1] processing zpos value 0
+[   25.440358] [drm:drm_atomic_normalize_zpos] [PLANE:45:plane-1] normalized zpos value 0
+[   25.440360] [drm:dm_update_plane_state] Disabling DRM plane: 55 on DRM crtc 67
+[   25.440388] amdgpu 0000:04:00.0: [drm:drm_atomic_get_private_obj_state] Added new private object 0000000005cfc18d state 0000000050a2aa5d to 00000000aacc5ada
+[   25.440391] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:1 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[   25.440394] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:2 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[   25.440406] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.440412] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:1 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[   25.440414] [drm:dm_update_crtc_state] Enabling DRM crtc: 70
+[   25.440420] [drm:dm_update_crtc_state] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.440429] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.440431] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:2 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[   25.440433] [drm:dm_update_crtc_state] Enabling DRM crtc: 73
+[   25.440435] [drm:dm_update_crtc_state] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.440465] [drm:dm_update_plane_state] Enabling DRM plane: 55 on DRM crtc 67
+[   25.440497] [drm:dm_update_plane_state] Enabling DRM plane: 50 on DRM crtc 70
+[   25.440524] [drm:dm_update_plane_state] Enabling DRM plane: 45 on DRM crtc 73
+[   25.440575] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.440584] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.440593] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.440600] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:114:DP-3] [MST PORT:0000000090a6ad46] VCPI 10 -> 10
+[   25.440602] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:114:DP-3] [MST PORT:0000000090a6ad46] PBN 532 -> 532
+[   25.440604] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:117:DP-4] [MST PORT:00000000dc0a08b1] VCPI 10 -> 10
+[   25.440606] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:117:DP-4] [MST PORT:00000000dc0a08b1] PBN 532 -> 532
+[   25.440608] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST PORT:00000000dc0a08b1] requires 10 vcpi slots
+[   25.440610] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST PORT:0000000090a6ad46] requires 10 vcpi slots
+[   25.440611] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST MGR:00000000aa8d3254] mst state 000000007e4a8dcd VCPI avail=43 used=20
+[   25.440614] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] Checking bandwidth limits
+[   25.440616] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] [MST PORT:00000000dc0a08b1] uses 532 out of 1280 PBN
+[   25.440618] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] [MST PORT:0000000090a6ad46] uses 532 out of 2160 PBN
+[   25.440620] [drm:set_dsc_configs_from_fairness_vars] set_dsc_configs_from_fairness_vars i=0 dispname=HP E243
+[   25.440623] [drm:set_dsc_configs_from_fairness_vars] dsc=0 bits_per_pixel=0 pbn=532
+[   25.440625] [drm:set_dsc_configs_from_fairness_vars] set_dsc_configs_from_fairness_vars i=1 dispname=HP E243
+[   25.440627] [drm:set_dsc_configs_from_fairness_vars] dsc=0 bits_per_pixel=0 pbn=532
+[   25.440629] [drm] crtc[1] needs mode_changed
+[   25.440641] [drm:amdgpu_dm_atomic_check] 8b/10b encoding format on mst_state 0x000000007e4a8dcd
+[   25.440648] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:114:DP-3] [MST PORT:0000000090a6ad46] VCPI 10 -> 10
+[   25.440649] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:114:DP-3] [MST PORT:0000000090a6ad46] PBN 532 -> 532
+[   25.440651] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:117:DP-4] [MST PORT:00000000dc0a08b1] VCPI 10 -> 10
+[   25.440653] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:117:DP-4] [MST PORT:00000000dc0a08b1] PBN 532 -> 532
+[   25.440655] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST PORT:00000000dc0a08b1] requires 10 vcpi slots
+[   25.440656] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST PORT:0000000090a6ad46] requires 10 vcpi slots
+[   25.440657] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST MGR:00000000aa8d3254] mst state 000000007e4a8dcd VCPI avail=43 used=20
+[   25.440659] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] Checking bandwidth limits
+[   25.440661] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] [MST PORT:00000000dc0a08b1] uses 532 out of 1280 PBN
+[   25.440662] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] [MST PORT:0000000090a6ad46] uses 532 out of 2160 PBN
+[   25.440664] [drm:set_dsc_configs_from_fairness_vars] set_dsc_configs_from_fairness_vars i=0 dispname=HP E243
+[   25.440666] [drm:set_dsc_configs_from_fairness_vars] dsc=0 bits_per_pixel=0 pbn=532
+[   25.440667] [drm:set_dsc_configs_from_fairness_vars] set_dsc_configs_from_fairness_vars i=1 dispname=HP E243
+[   25.440669] [drm:set_dsc_configs_from_fairness_vars] dsc=0 bits_per_pixel=0 pbn=532
+[   25.440671] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_enable_dsc] [MST PORT:0000000090a6ad46] DSC flag is already set to 0, returning 10 VCPI slots
+[   25.440674] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_enable_dsc] [MST PORT:00000000dc0a08b1] DSC flag is already set to 0, returning 10 VCPI slots
+[   25.440675] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST PORT:00000000dc0a08b1] requires 10 vcpi slots
+[   25.440677] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST PORT:0000000090a6ad46] requires 10 vcpi slots
+[   25.440678] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST MGR:00000000aa8d3254] mst state 000000007e4a8dcd VCPI avail=43 used=20
+[   25.440680] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] Checking bandwidth limits
+[   25.440681] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] [MST PORT:00000000dc0a08b1] uses 532 out of 1280 PBN
+[   25.440683] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] [MST PORT:0000000090a6ad46] uses 532 out of 2160 PBN
+[   25.440737] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000aacc5ada
+[   25.440740] [drm:drm_mode_object_put] OBJ ID: 78 (4)
+[   25.440742] [drm:drm_mode_object_put] OBJ ID: 78 (3)
+[   25.440743] [drm:drm_mode_object_put] OBJ ID: 114 (3)
+[   25.440744] [drm:drm_mode_object_put] OBJ ID: 114 (2)
+[   25.440745] [drm:drm_mode_object_put] OBJ ID: 117 (3)
+[   25.440746] [drm:drm_mode_object_put] OBJ ID: 117 (2)
+[   25.440747] [drm:drm_mode_object_put] OBJ ID: 124 (2)
+[   25.440748] [drm:drm_mode_object_put] OBJ ID: 106 (3)
+[   25.440750] [drm:drm_mode_object_put] OBJ ID: 125 (2)
+[   25.440750] [drm:drm_mode_object_put] OBJ ID: 126 (2)
+[   25.440752] [drm:drm_mode_object_put] OBJ ID: 123 (2)
+[   25.440753] [drm:drm_mode_object_put] OBJ ID: 105 (2)
+[   25.440754] [drm:drm_mode_object_put] OBJ ID: 112 (3)
+[   25.440755] amdgpu 0000:04:00.0: [drm:drm_dp_mst_put_port_malloc] port 00000000dc0a08b1 (2)
+[   25.440760] amdgpu 0000:04:00.0: [drm:drm_dp_mst_put_port_malloc] port 0000000090a6ad46 (2)
+[   25.440769] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000aacc5ada
+[   25.440795] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
+[   25.440799] [drm:drm_mode_object_put] OBJ ID: 126 (2)
+[   25.440800] [drm:drm_mode_object_put] OBJ ID: 126 (1)
+[   25.440803] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
+[   25.440804] [drm:drm_mode_object_put] OBJ ID: 125 (2)
+[   25.440805] [drm:drm_mode_object_put] OBJ ID: 125 (1)
+[   25.440807] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
+[   25.440808] [drm:drm_mode_object_put] OBJ ID: 124 (2)
+[   25.440809] [drm:drm_mode_object_put] OBJ ID: 124 (1)
+[   25.440813] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
+[   25.440817] [drm:drm_mode_object_put] OBJ ID: 123 (2)
+[   25.440818] [drm:drm_mode_object_put] OBJ ID: 123 (1)
+[   25.442135] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
+[   25.442144] [drm:drm_mode_object_put] OBJ ID: 105 (2)
+[   25.442146] [drm:drm_mode_object_put] OBJ ID: 105 (1)
+[   25.443246] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
+[   25.443300] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.443334] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.443340] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b500 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.443343] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b500)
+[   25.443361] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_CS
+[   25.443430] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
+[   25.443435] [drm:amdgpu_gem_metadata_ioctl] 16
+[   25.443441] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443456] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.443463] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443467] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.443470] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443472] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.443478] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443481] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443484] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443493] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.443503] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
+[   25.443509] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
+[   25.443542] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
+[   25.443575] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.443606] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_CS
+[   25.443644] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
+[   25.443648] [drm:amdgpu_gem_metadata_ioctl] 16
+[   25.443653] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443661] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.443667] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443669] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.443671] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443674] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.443677] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443680] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443682] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443687] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
+[   25.443695] [drm:drm_mode_addfb2] [FB:105]
+[   25.443703] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.443710] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
+[   25.443715] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
+[   25.443733] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
+[   25.443763] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.443789] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_CS
+[   25.443807] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
+[   25.443809] [drm:amdgpu_gem_metadata_ioctl] 16
+[   25.443812] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443817] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.443820] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443823] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.443825] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443827] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.443830] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443832] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443834] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.443837] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
+[   25.443840] [drm:drm_mode_addfb2] [FB:123]
+[   25.443844] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.443845] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85696, wptr 85728
+[   25.443849] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
+[   25.443851] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.443852] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
+[   25.443860] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
+[   25.443863] [drm:drm_mode_object_put] OBJ ID: 123 (2)
+[   25.443864] [drm:drm_mode_object_put] OBJ ID: 123 (1)
+[   25.443869] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
+[   25.443870] [drm:drm_mode_object_put] OBJ ID: 105 (2)
+[   25.443871] [drm:drm_mode_object_put] OBJ ID: 105 (1)
+[   25.443884] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
+[   25.444046] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85728, wptr 85792
+[   25.444053] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.444064] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.444075] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.444080] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b580 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.444083] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b580)
+[   25.444087] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.444088] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b600 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.444091] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b600)
+[   25.444116] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85792, wptr 85824
+[   25.444119] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.444124] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85824, wptr 85856
+[   25.444126] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.444131] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85856, wptr 85856
+[   25.444177] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85856, wptr 85888
+[   25.444179] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.444205] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85888, wptr 85920
+[   25.444207] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.444212] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.444214] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b680 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.444215] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b680)
+[   25.444219] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.444220] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b700 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.444222] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b700)
+[   25.444245] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85920, wptr 85952
+[   25.444247] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.444251] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85952, wptr 85984
+[   25.444253] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.444260] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85984, wptr 85984
+[   25.444283] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 85984, wptr 86016
+[   25.444285] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.444308] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86016, wptr 86048
+[   25.444310] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.444315] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.444316] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b780 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.444318] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b780)
+[   25.444348] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86048, wptr 86080
+[   25.444350] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.446393] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.446439] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.446444] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b800 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.446446] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b800)
+[   25.446470] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_CS
+[   25.446534] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86080, wptr 86112
+[   25.446540] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.446588] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86112, wptr 86144
+[   25.446590] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.446643] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86144, wptr 86176
+[   25.446645] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.447865] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
+[   25.447873] [drm:amdgpu_gem_metadata_ioctl] 16
+[   25.447882] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.447897] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.447906] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.447908] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.447911] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.447913] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.447919] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.447923] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.447925] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.447937] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.447961] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
+[   25.447967] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
+[   25.447971] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.447975] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b880 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.447978] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b880)
+[   25.448091] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86176, wptr 86208
+[   25.448106] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.448703] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
+[   25.448747] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.448781] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.448785] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b900 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.448788] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b900)
+[   25.448831] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_CS
+[   25.448876] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86208, wptr 86240
+[   25.448881] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.448924] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
+[   25.448928] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86240, wptr 86272
+[   25.448928] [drm:amdgpu_gem_metadata_ioctl] 16
+[   25.448931] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.448933] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.448947] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.448958] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.448961] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.448964] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.448966] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.448972] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.448975] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.448981] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.448984] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86272, wptr 86304
+[   25.448986] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.448987] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
+[   25.448995] [drm:drm_mode_addfb2] [FB:105]
+[   25.449016] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
+[   25.450248] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.450303] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.450308] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b980 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.450311] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b980)
+[   25.450354] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_CS
+[   25.450411] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_WAIT_CS
+[   25.450431] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86304, wptr 86336
+[   25.450438] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.452789] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86336, wptr 86368
+[   25.452800] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.452831] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_MMAP
+[   25.452873] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCRTC
+[   25.456470] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_CS
+[   25.456533] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.456554] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
+[   25.456923] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.456932] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
+[   25.457680] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.457713] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
+[   25.457727] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
+[   25.457787] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
+[   25.457849] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.457913] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_CS
+[   25.457984] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
+[   25.457994] [drm:amdgpu_gem_metadata_ioctl] 12
+[   25.458004] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.458023] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.458034] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.458039] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.458045] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.458050] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
+[   25.458058] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.458064] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.458068] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+[   25.458078] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
+[   25.458089] [drm:drm_mode_addfb2] [FB:123]
+[   25.458115] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
+[   25.459535] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.459811] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_CS
+[   25.459855] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_WAIT_CS
+[   25.461097] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86368, wptr 86400
+[   25.461106] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.461130] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.461133] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000ba00 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.461136] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000ba00)
+[   25.461140] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.461141] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000ba80 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.461143] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000ba80)
+[   25.461198] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86400, wptr 86432
+[   25.461201] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.461209] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.461210] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000bb00 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.461212] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000bb00)
+[   25.461224] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86432, wptr 86464
+[   25.461226] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.461230] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.461231] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000bb80 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.461233] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000bb80)
+[   25.461252] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86464, wptr 86496
+[   25.461254] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.461260] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.461261] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000bc00 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.461262] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000bc00)
+[   25.461281] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86496, wptr 86528
+[   25.461283] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.461331] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86528, wptr 86592
+[   25.461333] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.461336] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.461380] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86592, wptr 86656
+[   25.461382] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.461384] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.463677] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86656, wptr 86688
+[   25.463687] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.463720] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_MMAP
+[   25.463756] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCRTC
+[   25.465060] [drm:drm_ioctl] comm="chrome:cs0" pid=1897, dev=0xe280, auth=0, AMDGPU_CS
+[   25.465139] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, AMDGPU_GEM_VA
+[   25.465157] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
+[   25.465170] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
+[   25.465212] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
+[   25.465224] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
+[   25.465227] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
+[   25.465241] [drm:drm_ioctl] comm="DrmThread" pid=1903, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
+[   25.465247] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000aacc5ada
+[   25.465254] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:45:plane-1] 0000000091c62e1b state to 00000000aacc5ada
+[   25.465261] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:123] for [PLANE:45:plane-1] state 0000000091c62e1b
+[   25.465265] [drm:drm_mode_object_get] OBJ ID: 123 (3)
+[   25.465267] [drm:drm_mode_object_put] OBJ ID: 123 (4)
+[   25.465268] [drm:drm_mode_object_put] OBJ ID: 123 (3)
+[   25.465271] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:73:crtc-2] 00000000b941ce4e state to 00000000aacc5ada
+[   25.465273] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_plane] Link [PLANE:45:plane-1] state 0000000091c62e1b to [CRTC:73:crtc-2]
+[   25.465279] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:50:plane-2] 0000000010afcf3f state to 00000000aacc5ada
+[   25.465282] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:105] for [PLANE:50:plane-2] state 0000000010afcf3f
+[   25.465284] [drm:drm_mode_object_get] OBJ ID: 105 (3)
+[   25.465285] [drm:drm_mode_object_put] OBJ ID: 105 (4)
+[   25.465286] [drm:drm_mode_object_put] OBJ ID: 105 (3)
+[   25.465288] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:70:crtc-1] 000000000846643c state to 00000000aacc5ada
+[   25.465290] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_plane] Link [PLANE:50:plane-2] state 0000000010afcf3f to [CRTC:70:crtc-1]
+[   25.465295] [drm:drm_mode_object_get] OBJ ID: 112 (2)
+[   25.465297] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:55:plane-3] 000000003d64dc1e state to 00000000aacc5ada
+[   25.465301] [drm:drm_mode_object_get] OBJ ID: 107 (1)
+[   25.465302] [drm:drm_mode_object_get] OBJ ID: 106 (2)
+[   25.465303] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:67:crtc-0] 00000000025cda16 state to 00000000aacc5ada
+[   25.465305] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:112] for [PLANE:55:plane-3] state 000000003d64dc1e
+[   25.465308] [drm:drm_mode_object_get] OBJ ID: 112 (5)
+[   25.465309] [drm:drm_mode_object_put] OBJ ID: 112 (6)
+[   25.465310] [drm:drm_mode_object_put] OBJ ID: 112 (5)
+[   25.465311] [drm:drm_mode_object_put] OBJ ID: 112 (4)
+[   25.465314] [drm:drm_mode_object_put] OBJ ID: 107 (2)
+[   25.465316] [drm:drm_mode_object_get] OBJ ID: 124 (3)
+[   25.465317] amdgpu 0000:04:00.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [MODE:1920x1080] for [CRTC:67:crtc-0] state 00000000025cda16
+[   25.465320] [drm:drm_mode_object_put] OBJ ID: 124 (4)
+[   25.465321] [drm:drm_mode_object_put] OBJ ID: 124 (3)
+[   25.465323] [drm:drm_mode_object_get] OBJ ID: 125 (3)
+[   25.465324] amdgpu 0000:04:00.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [MODE:1920x1080] for [CRTC:70:crtc-1] state 000000000846643c
+[   25.465326] [drm:drm_mode_object_put] OBJ ID: 125 (4)
+[   25.465327] [drm:drm_mode_object_put] OBJ ID: 125 (3)
+[   25.465328] [drm:drm_mode_object_get] OBJ ID: 126 (3)
+[   25.465329] amdgpu 0000:04:00.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [MODE:1920x1080] for [CRTC:73:crtc-2] state 00000000b941ce4e
+[   25.465331] [drm:drm_mode_object_put] OBJ ID: 126 (4)
+[   25.465332] [drm:drm_mode_object_put] OBJ ID: 126 (3)
+[   25.465335] [drm:drm_mode_object_get] OBJ ID: 78 (3)
+[   25.465336] [drm:drm_mode_object_get] OBJ ID: 78 (4)
+[   25.465337] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:78:eDP-1] 000000001570d573 state to 00000000aacc5ada
+[   25.465340] [drm:drm_mode_object_put] OBJ ID: 78 (5)
+[   25.465343] [drm:drm_mode_object_get] OBJ ID: 114 (2)
+[   25.465344] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:114:DP-3] 000000001c63b6c9 state to 00000000aacc5ada
+[   25.465346] [drm:drm_mode_object_get] OBJ ID: 114 (3)
+[   25.465347] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_connector] Link [CONNECTOR:114:DP-3] state 000000001c63b6c9 to [CRTC:70:crtc-1]
+[   25.465350] [drm:drm_mode_object_put] OBJ ID: 114 (4)
+[   25.465352] [drm:drm_mode_object_get] OBJ ID: 117 (2)
+[   25.465353] amdgpu 0000:04:00.0: [drm:drm_atomic_get_connector_state] Added [CONNECTOR:117:DP-4] 0000000054e02217 state to 00000000aacc5ada
+[   25.465355] [drm:drm_mode_object_get] OBJ ID: 117 (3)
+[   25.465356] amdgpu 0000:04:00.0: [drm:drm_atomic_set_crtc_for_connector] Link [CONNECTOR:117:DP-4] state 0000000054e02217 to [CRTC:73:crtc-2]
+[   25.465359] [drm:drm_mode_object_put] OBJ ID: 117 (4)
+[   25.465360] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000aacc5ada
+[   25.465362] commit_state plane[45]: plane-1
+[   25.465363] commit_state     crtc=crtc-2
+[   25.465364] commit_state     fb=123
+[   25.465365] commit_state             allocated by = DrmThread
+[   25.465367] commit_state             refcount=2
+[   25.465368] commit_state             format=XR24 little-endian (0x34325258)
+[   25.465370] commit_state             modifier=0x200000000367b03
+[   25.465371] commit_state             size=1920x1080
+[   25.465371] commit_state             layers:
+[   25.465372] commit_state                     size[0]=1920x1080
+[   25.465373] commit_state                     pitch[0]=7680
+[   25.465375] commit_state                     offset[0]=0
+[   25.465375] commit_state                     obj[0]:
+[   25.465377] commit_state                             name=0
+[   25.465377] commit_state                             refcount=3
+[   25.465378] commit_state                             start=0010b113
+[   25.465379] commit_state                             size=8945664
+[   25.465380] commit_state                             imported=no
+[   25.465381] commit_state                     size[1]=1920x1080
+[   25.465382] commit_state                     pitch[1]=2048
+[   25.465383] commit_state                     offset[1]=8847360
+[   25.465384] commit_state                     obj[1]:
+[   25.465384] commit_state                             name=0
+[   25.465385] commit_state                             refcount=3
+[   25.465386] commit_state                             start=0010b113
+[   25.465387] commit_state                             size=8945664
+[   25.465387] commit_state                             imported=no
+[   25.465388] commit_state                     size[2]=1920x1080
+[   25.465389] commit_state                     pitch[2]=2048
+[   25.465390] commit_state                     offset[2]=8896512
+[   25.465391] commit_state                     obj[2]:
+[   25.465391] commit_state                             name=0
+[   25.465392] commit_state                             refcount=3
+[   25.465393] commit_state                             start=0010b113
+[   25.465393] commit_state                             size=8945664
+[   25.465394] commit_state                             imported=no
+[   25.465395] commit_state     crtc-pos=1920x1080+0+0
+[   25.465396] commit_state     src-pos=1920.000000x1080.000000+0.000000+0.000000
+[   25.465398] commit_state     rotation=1
+[   25.465398] commit_state     normalized-zpos=0
+[   25.465399] commit_state     color-encoding=ITU-R BT.601 YCbCr
+[   25.465401] commit_state     color-range=YCbCr limited range
+[   25.465402] commit_state plane[50]: plane-2
+[   25.465403] commit_state     crtc=crtc-1
+[   25.465403] commit_state     fb=105
+[   25.465404] commit_state             allocated by = DrmThread
+[   25.465405] commit_state             refcount=2
+[   25.465406] commit_state             format=XR24 little-endian (0x34325258)
+[   25.465407] commit_state             modifier=0x200000000367b03
+[   25.465407] commit_state             size=1920x1080
+[   25.465408] commit_state             layers:
+[   25.465409] commit_state                     size[0]=1920x1080
+[   25.465410] commit_state                     pitch[0]=7680
+[   25.465411] commit_state                     offset[0]=0
+[   25.465411] commit_state                     obj[0]:
+[   25.465412] commit_state                             name=0
+[   25.465413] commit_state                             refcount=3
+[   25.465414] commit_state                             start=001068be
+[   25.465415] commit_state                             size=8945664
+[   25.465416] commit_state                             imported=no
+[   25.465416] commit_state                     size[1]=1920x1080
+[   25.465417] commit_state                     pitch[1]=2048
+[   25.465418] commit_state                     offset[1]=8847360
+[   25.465419] commit_state                     obj[1]:
+[   25.465420] commit_state                             name=0
+[   25.465420] commit_state                             refcount=3
+[   25.465421] commit_state                             start=001068be
+[   25.465422] commit_state                             size=8945664
+[   25.465423] commit_state                             imported=no
+[   25.465423] commit_state                     size[2]=1920x1080
+[   25.465424] commit_state                     pitch[2]=2048
+[   25.465425] commit_state                     offset[2]=8896512
+[   25.465426] commit_state                     obj[2]:
+[   25.465426] commit_state                             name=0
+[   25.465427] commit_state                             refcount=3
+[   25.465428] commit_state                             start=001068be
+[   25.465428] commit_state                             size=8945664
+[   25.465429] commit_state                             imported=no
+[   25.465430] commit_state     crtc-pos=1920x1080+0+0
+[   25.465431] commit_state     src-pos=1920.000000x1080.000000+0.000000+0.000000
+[   25.465432] commit_state     rotation=1
+[   25.465433] commit_state     normalized-zpos=0
+[   25.465434] commit_state     color-encoding=ITU-R BT.601 YCbCr
+[   25.465434] commit_state     color-range=YCbCr limited range
+[   25.465435] commit_state plane[55]: plane-3
+[   25.465436] commit_state     crtc=crtc-0
+[   25.465436] commit_state     fb=112
+[   25.465437] commit_state             allocated by = DrmThread
+[   25.465438] commit_state             refcount=3
+[   25.465438] commit_state             format=XR24 little-endian (0x34325258)
+[   25.465439] commit_state             modifier=0x200000000367b03
+[   25.465440] commit_state             size=1920x1080
+[   25.465441] commit_state             layers:
+[   25.465442] commit_state                     size[0]=1920x1080
+[   25.465442] commit_state                     pitch[0]=7680
+[   25.465443] commit_state                     offset[0]=0
+[   25.465444] commit_state                     obj[0]:
+[   25.465445] commit_state                             name=0
+[   25.465446] commit_state                             refcount=8
+[   25.465447] commit_state                             start=001057ae
+[   25.465448] commit_state                             size=8945664
+[   25.465448] commit_state                             imported=no
+[   25.465449] commit_state                     size[1]=1920x1080
+[   25.465450] commit_state                     pitch[1]=2048
+[   25.465451] commit_state                     offset[1]=8847360
+[   25.465452] commit_state                     obj[1]:
+[   25.465452] commit_state                             name=0
+[   25.465453] commit_state                             refcount=8
+[   25.465454] commit_state                             start=001057ae
+[   25.465454] commit_state                             size=8945664
+[   25.465455] commit_state                             imported=no
+[   25.465456] commit_state                     size[2]=1920x1080
+[   25.465457] commit_state                     pitch[2]=2048
+[   25.465458] commit_state                     offset[2]=8896512
+[   25.465458] commit_state                     obj[2]:
+[   25.465459] commit_state                             name=0
+[   25.465460] commit_state                             refcount=8
+[   25.465460] commit_state                             start=001057ae
+[   25.465461] commit_state                             size=8945664
+[   25.465462] commit_state                             imported=no
+[   25.465462] commit_state     crtc-pos=1920x1080+0+0
+[   25.465463] commit_state     src-pos=1920.000000x1080.000000+0.000000+0.000000
+[   25.465465] commit_state     rotation=1
+[   25.465465] commit_state     normalized-zpos=0
+[   25.465466] commit_state     color-encoding=ITU-R BT.601 YCbCr
+[   25.465467] commit_state     color-range=YCbCr limited range
+[   25.465467] commit_state crtc[67]: crtc-0
+[   25.465468] commit_state     enable=1
+[   25.465469] commit_state     active=1
+[   25.465470] commit_state     self_refresh_active=0
+[   25.465470] commit_state     planes_changed=0
+[   25.465471] commit_state     mode_changed=0
+[   25.465472] commit_state     active_changed=0
+[   25.465473] commit_state     connectors_changed=0
+[   25.465473] commit_state     color_mgmt_changed=0
+[   25.465474] commit_state     plane_mask=28
+[   25.465475] commit_state     connector_mask=1
+[   25.465476] commit_state     encoder_mask=1
+[   25.465476] commit_state     mode: "1920x1080": 60 152840 1920 1968 2000 2250 1080 1083 1088 1132 0x48 0xa
+[   25.465479] commit_state crtc[70]: crtc-1
+[   25.465479] commit_state     enable=1
+[   25.465480] commit_state     active=1
+[   25.465481] commit_state     self_refresh_active=0
+[   25.465481] commit_state     planes_changed=0
+[   25.465482] commit_state     mode_changed=0
+[   25.465482] commit_state     active_changed=0
+[   25.465483] commit_state     connectors_changed=0
+[   25.465483] commit_state     color_mgmt_changed=0
+[   25.465484] commit_state     plane_mask=4
+[   25.465485] commit_state     connector_mask=10
+[   25.465485] commit_state     encoder_mask=0
+[   25.465486] commit_state     mode: "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+[   25.465488] commit_state crtc[73]: crtc-2
+[   25.465488] commit_state     enable=1
+[   25.465489] commit_state     active=1
+[   25.465489] commit_state     self_refresh_active=0
+[   25.465490] commit_state     planes_changed=0
+[   25.465490] commit_state     mode_changed=0
+[   25.465491] commit_state     active_changed=0
+[   25.465491] commit_state     connectors_changed=0
+[   25.465492] commit_state     color_mgmt_changed=0
+[   25.465493] commit_state     plane_mask=2
+[   25.465493] commit_state     connector_mask=20
+[   25.465494] commit_state     encoder_mask=0
+[   25.465494] commit_state     mode: "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+[   25.465496] commit_state connector[78]: eDP-1
+[   25.465497] commit_state     crtc=crtc-0
+[   25.465497] commit_state     self_refresh_aware=0
+[   25.465498] commit_state connector[114]: DP-3
+[   25.465499] commit_state     crtc=crtc-1
+[   25.465499] commit_state     self_refresh_aware=0
+[   25.465500] commit_state connector[117]: DP-4
+[   25.465501] commit_state     crtc=crtc-2
+[   25.465501] commit_state     self_refresh_aware=0
+[   25.465502] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000aacc5ada
+[   25.465506] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] mode changed
+[   25.465576] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] enable changed
+[   25.465579] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] active changed
+[   25.465581] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:73:crtc-2] mode changed
+[   25.465583] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:73:crtc-2] enable changed
+[   25.465585] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:73:crtc-2] active changed
+[   25.465589] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:78:eDP-1]
+[   25.465591] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CONNECTOR:78:eDP-1] keeps [ENCODER:77:TMDS-77], now on [CRTC:67:crtc-0]
+[   25.465594] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:114:DP-3]
+[   25.465597] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CONNECTOR:114:DP-3] using [ENCODER:98:DP MST-98] on [CRTC:70:crtc-1]
+[   25.465599] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] Updating routing for [CONNECTOR:117:DP-4]
+[   25.465601] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CONNECTOR:117:DP-4] using [ENCODER:99:DP MST-99] on [CRTC:73:crtc-2]
+[   25.465603] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:70:crtc-1] needs all connectors, enable: y, active: y
+[   25.465606] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:70:crtc-1] to 00000000aacc5ada
+[   25.465608] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:70:crtc-1] to 00000000aacc5ada
+[   25.465611] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:73:crtc-2] needs all connectors, enable: y, active: y
+[   25.465614] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:73:crtc-2] to 00000000aacc5ada
+[   25.465616] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:73:crtc-2] to 00000000aacc5ada
+[   25.465618] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 00000000aacc5ada
+[   25.465620] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 00000000aacc5ada
+[   25.465621] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:98:DP MST-98] to 00000000aacc5ada
+[   25.465623] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:99:DP MST-99] to 00000000aacc5ada
+[   25.465631] amdgpu 0000:04:00.0: [drm:drm_atomic_get_private_obj_state] Added new private object 00000000aa8d3254 state 000000003d41bc01 to 00000000aacc5ada
+[   25.465633] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:114:DP-3] [MST PORT:0000000090a6ad46] VCPI 0 -> 10
+[   25.465636] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:114:DP-3] [MST PORT:0000000090a6ad46] PBN 0 -> 532
+[   25.465638] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] port 0000000090a6ad46 (3)
+[   25.465645] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:117:DP-4] [MST PORT:00000000dc0a08b1] VCPI 0 -> 10
+[   25.465646] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:117:DP-4] [MST PORT:00000000dc0a08b1] PBN 0 -> 532
+[   25.465648] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] port 00000000dc0a08b1 (3)
+[   25.465944] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.466343] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+[   25.466349] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+[   25.466641] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.467062] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.467357] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.467783] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.467789] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.467792] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.467796] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_affected_dsc_crtcs] [MST MGR:00000000aa8d3254] Setting mode_changed flag on CRTC 00000000f006bb5c
+[   25.468086] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.468800] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+[   25.468812] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+[   25.469104] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.469525] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.469800] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86688, wptr 86720
+[   25.469807] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+[   25.469820] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.469833] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
+[   25.469837] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000bc80 upper_32_bits(ring->wptr << 2) == 0x00000000
+[   25.469839] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000bc80)
+[   25.469893] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86720, wptr 86752
+[   25.469895] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+[   25.470347] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.470353] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.470356] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.470360] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_affected_dsc_crtcs] [MST MGR:00000000aa8d3254] Setting mode_changed flag on CRTC 000000000becb281
+[   25.470657] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.471054] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+[   25.471058] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+[   25.471354] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.471786] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.472083] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.472512] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.472518] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.472521] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.472525] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_affected_dsc_crtcs] [MST MGR:00000000aa8d3254] Setting mode_changed flag on CRTC 00000000f006bb5c
+[   25.472822] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.473326] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+[   25.473331] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+[   25.473623] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.474044] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.474332] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.474765] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.474769] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.474772] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+[   25.474776] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_affected_dsc_crtcs] [MST MGR:00000000aa8d3254] Setting mode_changed flag on CRTC 000000000becb281
+[   25.474780] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:70:crtc-1] to 00000000aacc5ada
+[   25.474785] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:70:crtc-1] to 00000000aacc5ada
+[   25.474789] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:73:crtc-2] to 00000000aacc5ada
+[   25.474791] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:73:crtc-2] to 00000000aacc5ada
+[   25.474794] [drm:drm_atomic_normalize_zpos] [CRTC:70:crtc-1] calculating normalized zpos values
+[   25.474798] [drm:drm_atomic_normalize_zpos] [PLANE:50:plane-2] processing zpos value 0
+[   25.474801] [drm:drm_atomic_normalize_zpos] [PLANE:50:plane-2] normalized zpos value 0
+[   25.474803] [drm:drm_atomic_normalize_zpos] [CRTC:73:crtc-2] calculating normalized zpos values
+[   25.474804] [drm:drm_atomic_normalize_zpos] [PLANE:45:plane-1] processing zpos value 0
+[   25.474806] [drm:drm_atomic_normalize_zpos] [PLANE:45:plane-1] normalized zpos value 0
+[   25.474808] [drm:dm_update_plane_state] Disabling DRM plane: 55 on DRM crtc 67
+[   25.475073] amdgpu 0000:04:00.0: [drm:drm_atomic_get_private_obj_state] Added new private object 0000000005cfc18d state 000000009b30df64 to 00000000aacc5ada
+[   25.475080] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:1 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[   25.475084] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:2 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[   25.475097] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.475104] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:1 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[   25.475106] [drm:dm_update_crtc_state] Enabling DRM crtc: 70
+[   25.475113] [drm:dm_update_crtc_state] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.475122] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.475125] amdgpu 0000:04:00.0: [drm:dm_update_crtc_state] amdgpu_crtc id:2 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:1,active_changed:1,connectors_changed:1
+[   25.475127] [drm:dm_update_crtc_state] Enabling DRM crtc: 73
+[   25.475129] [drm:dm_update_crtc_state] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.475161] [drm:dm_update_plane_state] Enabling DRM plane: 55 on DRM crtc 67
+[   25.475487] [drm:dm_update_plane_state] Enabling DRM plane: 50 on DRM crtc 70
+[   25.475526] [drm:dm_update_plane_state] Enabling DRM plane: 45 on DRM crtc 73
+[   25.475583] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.475598] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.475607] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:1920  height:1080
+[   25.475615] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:114:DP-3] [MST PORT:0000000090a6ad46] VCPI 10 -> 10
+[   25.475619] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:114:DP-3] [MST PORT:0000000090a6ad46] PBN 532 -> 532
+[   25.475621] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:117:DP-4] [MST PORT:00000000dc0a08b1] VCPI 10 -> 10
+[   25.475623] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:117:DP-4] [MST PORT:00000000dc0a08b1] PBN 532 -> 532
+[   25.475625] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST PORT:00000000dc0a08b1] requires 10 vcpi slots
+[   25.475627] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST PORT:0000000090a6ad46] requires 10 vcpi slots
+[   25.475629] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST MGR:00000000aa8d3254] mst state 000000003d41bc01 VCPI avail=43 used=20
+[   25.475631] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] Checking bandwidth limits
+[   25.475633] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] [MST PORT:00000000dc0a08b1] uses 532 out of 1280 PBN
+[   25.475635] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] [MST PORT:0000000090a6ad46] uses 532 out of 2160 PBN
+[   25.475637] [drm:set_dsc_configs_from_fairness_vars] set_dsc_configs_from_fairness_vars i=0 dispname=HP E243
+[   25.475640] [drm:set_dsc_configs_from_fairness_vars] dsc=0 bits_per_pixel=0 pbn=532
+[   25.475642] [drm:set_dsc_configs_from_fairness_vars] set_dsc_configs_from_fairness_vars i=1 dispname=HP E243
+[   25.475644] [drm:set_dsc_configs_from_fairness_vars] dsc=0 bits_per_pixel=0 pbn=532
+[   25.475654] [drm:amdgpu_dm_atomic_check] 8b/10b encoding format on mst_state 0x000000003d41bc01
+[   25.475661] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:114:DP-3] [MST PORT:0000000090a6ad46] VCPI 10 -> 10
+[   25.475663] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:114:DP-3] [MST PORT:0000000090a6ad46] PBN 532 -> 532
+[   25.475664] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:117:DP-4] [MST PORT:00000000dc0a08b1] VCPI 10 -> 10
+[   25.475666] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:117:DP-4] [MST PORT:00000000dc0a08b1] PBN 532 -> 532
+[   25.475668] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST PORT:00000000dc0a08b1] requires 10 vcpi slots
+[   25.475669] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST PORT:0000000090a6ad46] requires 10 vcpi slots
+[   25.475670] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST MGR:00000000aa8d3254] mst state 000000003d41bc01 VCPI avail=43 used=20
+[   25.475672] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] Checking bandwidth limits
+[   25.475674] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] [MST PORT:00000000dc0a08b1] uses 532 out of 1280 PBN
+[   25.475675] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] [MST PORT:0000000090a6ad46] uses 532 out of 2160 PBN
+[   25.475677] [drm:set_dsc_configs_from_fairness_vars] set_dsc_configs_from_fairness_vars i=0 dispname=HP E243
+[   25.475679] [drm:set_dsc_configs_from_fairness_vars] dsc=0 bits_per_pixel=0 pbn=532
+[   25.475680] [drm:set_dsc_configs_from_fairness_vars] set_dsc_configs_from_fairness_vars i=1 dispname=HP E243
+[   25.475682] [drm:set_dsc_configs_from_fairness_vars] dsc=0 bits_per_pixel=0 pbn=532
+[   25.475684] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_enable_dsc] [MST PORT:0000000090a6ad46] DSC flag is already set to 0, returning 10 VCPI slots
+[   25.475686] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_enable_dsc] [MST PORT:00000000dc0a08b1] DSC flag is already set to 0, returning 10 VCPI slots
+[   25.475688] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST PORT:00000000dc0a08b1] requires 10 vcpi slots
+[   25.475689] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST PORT:0000000090a6ad46] requires 10 vcpi slots
+[   25.475691] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check] [MST MGR:00000000aa8d3254] mst state 000000003d41bc01 VCPI avail=43 used=20
+[   25.475692] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] Checking bandwidth limits
+[   25.475694] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] [MST PORT:00000000dc0a08b1] uses 532 out of 1280 PBN
+[   25.475696] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:00000000e46e8ef7] [MST PORT:0000000090a6ad46] uses 532 out of 2160 PBN
+[   25.475749] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000aacc5ada
+[   25.476729] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 67: hwmode: htotal 2250, vtotal 1132, vdisplay 1080
+[   25.476737] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 67: clock 152840 kHz framedur 16664485 linedur 14721
+[   25.476740] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 70: hwmode: htotal 2200, vtotal 1125, vdisplay 1080
+[   25.476742] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 70: clock 148500 kHz framedur 16666666 linedur 14814
+[   25.476744] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 73: hwmode: htotal 2200, vtotal 1125, vdisplay 1080
+[   25.476746] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 73: clock 148500 kHz framedur 16666666 linedur 14814
+[   25.476748] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:0 crtc_state_flags: enable:1, active:1, planes_changed:1, mode_changed:0,active_changed:0,connectors_changed:0
+[   25.476752] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:1 crtc_state_flags: enable:1, active:1, planes_changed:1, mode_changed:1,active_changed:1,connectors_changed:1
+[   25.476754] [drm:amdgpu_dm_atomic_commit_tail] Atomic commit: SET crtc id 1: [000000000becb281]
+[   25.476757] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:2 crtc_state_flags: enable:1, active:1, planes_changed:1, mode_changed:1,active_changed:1,connectors_changed:1
+[   25.476760] [drm:amdgpu_dm_atomic_commit_tail] Atomic commit: SET crtc id 2: [00000000f006bb5c]
+[   25.476762] [drm:amdgpu_dm_psr_disable_all] Disabling psr if psr is enabled on any stream
+[   25.476768] [drm:dc_commit_state] dc_commit_state: 3 streams
+[   25.476771] [drm:dc_stream_log] core_stream 0x0000000068d39059: src: 0, 0, 1920, 1080; dst: 0, 0, 1920, 1080, colorSpace:1
+[   25.476776] [drm:dc_stream_log]      pix_clk_khz: 152840, h_total: 2250, v_total: 1132, pixelencoder:1, displaycolorDepth:2
+[   25.476780] [drm:dc_stream_log]      link: 0
+[   25.476782] [drm:dc_stream_log]      dsc: 0, mst_pbn: 0
+[   25.476785] [drm:dc_commit_state]    dispname:  signal: 80
+[   25.476787] [drm:dc_stream_log] core_stream 0x00000000fe19e5f1: src: 0, 0, 1920, 1080; dst: 0, 0, 1920, 1080, colorSpace:1
+[   25.476791] [drm:dc_stream_log]      pix_clk_khz: 148500, h_total: 2200, v_total: 1125, pixelencoder:1, displaycolorDepth:2
+[   25.476794] [drm:dc_stream_log]      link: 3
+[   25.476796] [drm:dc_stream_log]      dsc: 0, mst_pbn: 532
+[   25.476799] [drm:dc_commit_state]    dispname: HP E243 signal: 40
+[   25.476801] [drm:dc_stream_log] core_stream 0x00000000f43d1f2f: src: 0, 0, 1920, 1080; dst: 0, 0, 1920, 1080, colorSpace:1
+[   25.476804] [drm:dc_stream_log]      pix_clk_khz: 148500, h_total: 2200, v_total: 1125, pixelencoder:1, displaycolorDepth:2
+[   25.476807] [drm:dc_stream_log]      link: 3
+[   25.476809] [drm:dc_stream_log]      dsc: 0, mst_pbn: 532
+[   25.476811] [drm:dc_commit_state]    dispname: HP E243 signal: 40
+[   25.477026] [drm:link_enc_cfg_link_encs_assign] link_enc_cfg_link_encs_assign: CUR PHY(0) - enc_id(0)
+[   25.477030] [drm:link_enc_cfg_link_encs_assign] link_enc_cfg_link_encs_assign: NEW PHY(0) - enc_id(0)
+[   25.477033] [drm:link_enc_cfg_link_encs_assign] link_enc_cfg_link_encs_assign: NEW PHY(1) - enc_id(4)
+[   25.477035] [drm:link_enc_cfg_link_encs_assign] link_enc_cfg_link_encs_assign: NEW PHY(1) - enc_id(4)
+[   25.477597] [drm:dce110_apply_ctx_to_hw] link_enc_cfg_set_transient_mode: current_state(000000003a4f8764) mode(1)
+[   25.477774] [drm:core_link_enable_stream] core_link_enable_stream pipe_ctx dispname=HP E243 signal=40
+[   25.478090] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.478388] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00111 AUX -> (ret=  1) 07
+[   25.478722] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00111 AUX <- (ret=  1) 07
+[   25.479033] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.479347] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00300 AUX -> (ret=  3) 00 00 00
+[   25.479669] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00300 AUX <- (ret=  3) 00 00 1a
+[   25.480049] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00303 AUX <- (ret=  9) 06 15 00 00 00 00 19 00 00
+[   25.480350] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00340 AUX <- (ret=  1) 50
+[   25.480361] [drm:dcn31_link_encoder_enable_dp_mst_output] dcn31_link_encoder_enable_dp_mst_output: enc_id(4)
+[   25.481934] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00600 AUX <- (ret=  1) 01
+[   25.481945] [drm:dp_set_panel_mode] Link: 3 eDP panel mode supported: 0 eDP panel mode enabled: 0
+[   25.482289] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.482588] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x0000e AUX -> (ret=  1) 84
+[   25.482886] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.483183] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x0000e AUX -> (ret=  1) 84
+[   25.483608] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00102 AUX <- (ret=  1) 00
+[   25.483911] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.484298] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00205 AUX -> (ret=  1) 00
+[   25.484599] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00120 AUX <- (ret=  1) 01
+[   25.484897] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00108 AUX <- (ret=  1) 01
+[   25.485328] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00107 AUX <- (ret=  1) 10
+[   25.485638] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00101 AUX <- (ret=  1) 84
+[   25.486057] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00100 AUX <- (ret=  1) 1e
+[   25.486932] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00102 AUX <- (ret=  5) 21 00 00 00 00
+[   25.504528] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.504902] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00202 AUX -> (ret=  6) 00 11 00 00 22 22
+[   25.505559] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00103 AUX <- (ret=  4) 02 02 02 02
+[   25.523515] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.523883] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00202 AUX -> (ret=  6) 11 11 00 00 22 22
+[   25.524651] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00102 AUX <- (ret=  5) 07 02 02 02 02
+[   25.542519] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.543832] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00202 AUX -> (ret=  6) 77 77 81 00 22 22
+[   25.544151] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00102 AUX <- (ret=  1) 00
+[   25.544449] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.544745] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00205 AUX -> (ret=  1) 00
+[   25.552526] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.552894] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00200 AUX -> (ret=  6) 02 00 77 77 01 00
+[   25.552897] [drm:print_status_message] HBR3x4 pass VS=2, PE=0, DS=0.5% 30KHz
+[   25.552911] [drm:enc2_fec_set_enable] Enabling FEC at link encoder inst 1
+[   25.587762] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86752, wptr 86784
+[   25.587785] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   25.588091] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.588536] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 00 00 00 00 00 00 00 00 00 77 77 01 00
+[   25.755228] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 0000000090a6ad46 (2)
+[   25.755242] amdgpu 0000:04:00.0: [drm:drm_dp_mst_allocate_vcpi] initing vcpi for pbn=532 slots=10
+[   25.755245] amdgpu 0000:04:00.0: [drm:drm_dp_mst_allocate_vcpi] port 0000000090a6ad46 (4)
+[   25.755248] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 0000000090a6ad46 (1)
+[   25.755252] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 0000000090a6ad46 (2)
+[   25.755549] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x002c0 AUX <- (ret=  1) 01
+[   25.755869] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x001c0 AUX <- (ret=  3) 01 01 0a
+[   25.756159] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.756460] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x002c0 AUX -> (ret=  1) 01
+[   25.756464] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 0000000090a6ad46 (1)
+[   25.756467] [drm:dc_link_allocate_mst_payload] dc_link_allocate_mst_payload  stream_count: 1:
+
+[   25.756472] [drm:dc_link_allocate_mst_payload] stream_enc[0]: 00000000b2e69487      stream[0].hpo_dp_stream_enc: 0000000000000000      stream[0].vcp_id: 1      stream[0].slot_count: 10
+[   25.756476] [drm:dc_link_allocate_mst_payload] stream_enc[1]: 0000000000000000      stream[1].hpo_dp_stream_enc: 0000000000000000      stream[1].vcp_id: 0      stream[1].slot_count: 0
+[   25.756480] [drm:dc_link_allocate_mst_payload] stream_enc[2]: 0000000000000000      stream[2].hpo_dp_stream_enc: 0000000000000000      stream[2].vcp_id: 0      stream[2].slot_count: 0
+[   25.756483] [drm:dc_link_allocate_mst_payload] stream_enc[3]: 0000000000000000      stream[3].hpo_dp_stream_enc: 0000000000000000      stream[3].vcp_id: 0      stream[3].slot_count: 0
+[   25.756486] [drm:dc_link_allocate_mst_payload] stream_enc[4]: 0000000000000000      stream[4].hpo_dp_stream_enc: 0000000000000000      stream[4].vcp_id: 0      stream[4].slot_count: 0
+[   25.756490] [drm:dc_link_allocate_mst_payload] stream_enc[5]: 0000000000000000      stream[5].hpo_dp_stream_enc: 0000000000000000      stream[5].vcp_id: 0      stream[5].slot_count: 0
+[   25.756805] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.757101] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x002c0 AUX -> (ret=  1) 03
+[   25.757104] amdgpu 0000:04:00.0: [drm:drm_dp_update_payload_part2] payload 0 1
+[   25.757108] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (2)
+[   25.757112] [dp_mst] txmsg cur_offset=0 cur_len=6 seqno=0 state=QUEUED path_msg=1 dst=00
+[   25.757114] [dp_mst]         type=ALLOCATE_PAYLOAD contents:
+[   25.757116] [dp_mst]                 port=1 vcpi=1 pbn=532 sdp_streams=1 00
+[   25.757871] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 10) 10 47 c0 11 11 01 02 14 00 bb
+[   25.775710] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86784, wptr 86816
+[   25.775742] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   25.776052] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.776512] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 77 77 01 00
+[   25.776810] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.777143] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   25.777149] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   25.777453] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.777912] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 46 c5 11 10 01 02 14 c2 00 00 00 00 00 00 00
+[   25.777920] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   25.777929] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   25.777953] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (1)
+[   25.777970] [drm:dc_link_allocate_mst_payload] MST Update Payload: set_throttled_vcp_size slot X.Y for MST stream X: 9 Y: 129/1000
+[   25.778255] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   25.778546] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.778835] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.779170] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   25.779176] [drm:handle_hpd_rx_irq] ESI 02 00 00
+[   25.779481] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00107 AUX -> (ret=  1) 10
+[   25.779495] [drm:update_config] [HDCP_DM] display 4, CP 0, type 0
+[   25.779969] [drm:mod_hdcp_add_display] [Link 0] > HDCP_INITIALIZED
+[   25.780147] [drm:core_link_enable_stream] core_link_enable_stream pipe_ctx dispname=HP E243 signal=40
+[   25.963748] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86816, wptr 86848
+[   25.963772] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   25.964076] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.964537] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 00 00 00 00 00 00 00 00 00 77 77 01 00
+[   25.987233] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 00000000dc0a08b1 (2)
+[   25.987251] amdgpu 0000:04:00.0: [drm:drm_dp_mst_allocate_vcpi] initing vcpi for pbn=532 slots=10
+[   25.987257] amdgpu 0000:04:00.0: [drm:drm_dp_mst_allocate_vcpi] port 00000000dc0a08b1 (4)
+[   25.987262] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 00000000dc0a08b1 (1)
+[   25.987269] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 0000000090a6ad46 (2)
+[   25.987274] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 0000000090a6ad46 (1)
+[   25.987280] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 00000000dc0a08b1 (2)
+[   25.987588] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x002c0 AUX <- (ret=  1) 01
+[   25.987911] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x001c0 AUX <- (ret=  3) 02 0b 0a
+[   25.988217] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.988514] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x002c0 AUX -> (ret=  1) 01
+[   25.988520] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 00000000dc0a08b1 (1)
+[   25.988528] [drm:dc_link_allocate_mst_payload] dc_link_allocate_mst_payload  stream_count: 2:
+
+[   25.988536] [drm:dc_link_allocate_mst_payload] stream_enc[0]: 00000000b2e69487      stream[0].hpo_dp_stream_enc: 0000000000000000      stream[0].vcp_id: 1      stream[0].slot_count: 10
+[   25.988545] [drm:dc_link_allocate_mst_payload] stream_enc[1]: 000000001652dd5c      stream[1].hpo_dp_stream_enc: 0000000000000000      stream[1].vcp_id: 2      stream[1].slot_count: 10
+[   25.988552] [drm:dc_link_allocate_mst_payload] stream_enc[2]: 0000000000000000      stream[2].hpo_dp_stream_enc: 0000000000000000      stream[2].vcp_id: 0      stream[2].slot_count: 0
+[   25.988559] [drm:dc_link_allocate_mst_payload] stream_enc[3]: 0000000000000000      stream[3].hpo_dp_stream_enc: 0000000000000000      stream[3].vcp_id: 0      stream[3].slot_count: 0
+[   25.988566] [drm:dc_link_allocate_mst_payload] stream_enc[4]: 0000000000000000      stream[4].hpo_dp_stream_enc: 0000000000000000      stream[4].vcp_id: 0      stream[4].slot_count: 0
+[   25.988573] [drm:dc_link_allocate_mst_payload] stream_enc[5]: 0000000000000000      stream[5].hpo_dp_stream_enc: 0000000000000000      stream[5].vcp_id: 0      stream[5].slot_count: 0
+[   25.988896] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   25.989196] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x002c0 AUX -> (ret=  1) 03
+[   25.989203] amdgpu 0000:04:00.0: [drm:drm_dp_update_payload_part2] payload 0 2
+[   25.989210] amdgpu 0000:04:00.0: [drm:drm_dp_update_payload_part2] payload 1 1
+[   25.989216] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (2)
+[   25.989222] [dp_mst] txmsg cur_offset=0 cur_len=6 seqno=0 state=QUEUED path_msg=1 dst=00
+[   25.989228] [dp_mst]         type=ALLOCATE_PAYLOAD contents:
+[   25.989231] [dp_mst]                 port=2 vcpi=2 pbn=532 sdp_streams=1 00
+[   25.989635] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 10) 10 47 c0 11 21 02 02 14 00 84
+[   26.151975] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86848, wptr 86880
+[   26.152000] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
+[   26.152305] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   26.152768] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 02 10 00 00 00 00 00 00 00 00 77 77 01 00
+[   26.153069] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   26.153409] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 10 00 00
+[   26.153416] [drm:handle_hpd_rx_irq] ESI 02 10 00
+[   26.153712] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   26.154171] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 46 c5 11 20 02 02 14 b5 00 00 00 00 00 00 00
+[   26.154179] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_mstb] mstb 00000000e46e8ef7 (3)
+[   26.154187] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (2)
+[   26.154544] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+[   26.154841] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   26.155179] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 02 00 00 00
+[   26.155199] [drm:handle_hpd_rx_irq] ESI 02 00 00
+[   26.155233] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 00000000e46e8ef7 (1)
+[   26.155253] [drm:dc_link_allocate_mst_payload] MST Update Payload: set_throttled_vcp_size slot X.Y for MST stream X: 9 Y: 129/1000
+[   26.155711] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+[   26.156020] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00107 AUX -> (ret=  1) 10
+[   26.156032] [drm:update_config] [HDCP_DM] display 5, CP 0, type 0
+[   26.156413] [drm:dcn10_enable_timing_synchronization] Setting up OTG reset trigger
+[   26.156421] [drm:dcn10_enable_timing_synchronization] Waiting for trigger
+[   26.161069] [drm:optc1_wait_for_state] REG_WAIT taking a while: 2ms in optc1_wait_for_state line:821
+[   26.161078] [drm:dcn10_enable_timing_synchronization] GSL: reset occurred at wait count: 1
+[   26.161084] [drm:dcn10_enable_timing_synchronization] Sync complete
+[   26.166903] [drm:optc1_wait_for_state] REG_WAIT taking a while: 2ms in optc1_wait_for_state line:821
+[   26.177678] [drm:optc1_wait_for_state] REG_WAIT taking a while: 4ms in optc1_wait_for_state line:821
+[   26.178353] [drm:dcn20_program_pipe] Un-gated front end for pipe 1
+[   26.194345] [drm:optc1_wait_for_state] REG_WAIT taking a while: 6ms in optc1_wait_for_state line:821
+[   26.195019] [drm:dcn20_program_pipe] Un-gated front end for pipe 2
+[   26.200271] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86880, wptr 86912
+[   26.211050] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86912, wptr 86976
+[   26.211091] [drm:dc_commit_state_no_check] {1920x1080, 2200x1125@148500Khz}
+[   26.211135] [drm:dc_commit_state_no_check] {1920x1080, 2200x1125@148500Khz}
+[   26.211254] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_on] crtc 1, vblank enabled 0, inmodeset 0
+[   26.211263] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -1108
+[   26.211269] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(1099,-28)@ 26.209778 -> 26.210185 [e 2 us, 0 rep]
+[   26.211277] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -1108
+[   26.211282] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_on] crtc 2, vblank enabled 0, inmodeset 0
+[   26.211288] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -1107
+[   26.211292] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(19,-26)@ 26.209800 -> 26.210185 [e 2 us, 0 rep]
+[   26.211298] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -1106
+[   26.211305] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] plane: id=3 dcc_en=1
+[   26.211308] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:55] PSR FFU dirty rect size (1920, 1080)
+[   26.211312] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x1800000
+[   26.211318] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -379
+[   26.211325] amdgpu 0000:04:00.0: [drm:drm_vblank_enable] enabling vblank on crtc 0, ret: 0
+[   26.211331] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -379
+[   26.211335] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(639,702)@ 26.209844 -> 26.199506 [e 2 us, 0 rep]
+[   26.211342] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -378
+[   26.211344] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=1351, diff=107, hw=2098 hw_last=1991
+[   26.211358] [drm:vblank_control_worker] Allow idle optimizations (MALL): 0
+[   26.212153] [drm:amdgpu_dm_audio_eld_notify] Notify ELD: -1
+[   26.212161] [drm:amdgpu_dm_audio_eld_notify] Notify ELD: -1
+[   26.212163] [drm:amdgpu_dm_audio_eld_notify] Notify ELD: -1
+[   26.212165] [drm:amdgpu_dm_audio_eld_notify] Notify ELD: -1
+[   26.216967] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 86976, wptr 87040
+[   26.217002] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
+[   26.217021] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(619,-44)@ 26.215526 -> 26.216170 [e 2 us, 0 rep]
+[   26.217044] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1122
+[   26.217053] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=1458, diff=1, hw=2099 hw_last=2098
+[   26.217075] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1120
+[   26.217087] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(2065,-40)@ 26.215595 -> 26.216170 [e 2 us, 0 rep]
+[   26.217104] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1118
+[   26.217111] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=1459, diff=0, hw=2099 hw_last=2099
+[   26.217132] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1117
+[   26.217227] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000aacc5ada
+[   26.217246] [drm:drm_mode_object_put] OBJ ID: 78 (4)
+[   26.217256] [drm:drm_mode_object_put] OBJ ID: 78 (3)
+[   26.217262] [drm:drm_mode_object_put] OBJ ID: 114 (3)
+[   26.217268] [drm:drm_mode_object_put] OBJ ID: 117 (3)
+[   26.217273] [drm:drm_mode_object_put] OBJ ID: 107 (1)
+[   26.217279] [drm:drm_mode_object_put] OBJ ID: 106 (3)
+[   26.217288] [drm:drm_mode_object_put] OBJ ID: 112 (3)
+[   26.217305] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000aacc5ada
+
+
+
+
+
+
+
+
+
+
+
+
+

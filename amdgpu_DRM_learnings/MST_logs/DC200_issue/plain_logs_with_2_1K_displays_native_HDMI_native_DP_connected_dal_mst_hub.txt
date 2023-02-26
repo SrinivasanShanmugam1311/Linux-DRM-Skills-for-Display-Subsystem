@@ -1,0 +1,20 @@
+
+MST connect messages wiht 2 1K displays connected:
+
+[   41.547016] usb 3-1: new high-speed USB device number 5 using xhci_hcd
+[   41.695921] usb 3-1: New USB device found, idVendor=2109, idProduct=0102, bcdDevice=11.30
+[   41.695941] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   41.695950] usb 3-1: Product: 3-Port USB-C Multi-Monitor Hub
+[   41.695957] usb 3-1: Manufacturer: VIA Technologies Inc.
+[   41.695964] usb 3-1: SerialNumber: 0000000000000001
+[   43.694406] [drm] DP Alt mode state on HPD: 1
+[   43.755067] [drm] DM_MST: starting TM on aconnector: 0000000097e9fc20 [id: 94]
+[   46.925608] [drm] Downstream port present 1, type 0
+[   47.677210] [drm] Downstream port present 1, type 0
+[   47.699145] [drm] crtc[1] needs mode_changed
+
+mst disconnect messages:
+
+[   88.584164] usb 3-1: USB disconnect, device number 5
+[   88.641043] [drm] DM_MST: stopping TM on aconnector: 0000000097e9fc20 [id: 94]
+

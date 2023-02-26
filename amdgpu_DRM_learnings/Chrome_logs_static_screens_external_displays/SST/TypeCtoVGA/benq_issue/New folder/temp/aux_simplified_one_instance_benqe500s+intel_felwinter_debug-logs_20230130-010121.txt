@@ -1,0 +1,107 @@
+C:\Users\srishanm\Desktop\tasks\265506401_BENQ-E500S projector_issue\6_2_23\simplified_one_instance_benqe500s+intel_felwinter_debug-logs_20230130-010121.txt (120 hits)
+0xf0000 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+
+0x00000 AUX -> (ret=  1) 12
+0xf0000 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0001 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0002 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0003 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0004 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0005 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0006 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0007 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+
+0x00000 AUX -> (ret=  1) 12
+0x00400 AUX -> (ret= 12) 00 1b c5 41 47 36 33 32 30 13 01 00
+
+0x00000 AUX -> (ret=  1) 12
+0x00021 AUX -> (ret=  1) 00
+
+0x00000 AUX -> (ret=  1) 12
+0x00092 AUX -> (ret= 13) 00 00 00 00 00 00 00 00 00 00 00 00 00
+0x00000 AUX -> (ret=  1) 12
+0x00201 AUX -> (ret=  1) 04
+0x00201 AUX <- (ret=  1) 04
+0xf0000 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+
+0x00000 AUX -> (ret=  1) 12
+0xf0000 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0001 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0002 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0003 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0004 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0005 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0006 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0007 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+
+0x00000 AUX -> (ret=  1) 12
+0x00400 AUX -> (ret= 12) 00 1b c5 41 47 36 33 32 30 13 01 00
+
+0x00000 AUX -> (ret=  1) 12
+0x00021 AUX -> (ret=  1) 00
+
+0x00000 AUX -> (ret=  1) 12
+0x00092 AUX -> (ret= 13) 00 00 00 00 00 00 00 00 00 00 00 00 00
+0x00000 AUX -> (ret=  1) 12
+0x00201 AUX -> (ret=  1) 00
+0x00600 AUX <- (ret=  1) 01
+0xf0000 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+
+0x00000 AUX -> (ret=  1) 12
+0xf0000 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0001 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0002 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0003 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0004 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0005 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0006 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0xf0007 AUX -> (ret=  1) 00
+0x00000 AUX -> (ret=  1) 12
+0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+
+0x00100 AUX <- (ret=  2) 0a 82
+0x00107 AUX <- (ret=  2) 00 01
+0x00102 AUX <- (ret=  3) 21 00 00
+0x00000 AUX -> (ret=  1) 12
+0x00202 AUX -> (ret=  6) 00 00 00 00 cc cc
+0x00103 AUX <- (ret=  2) 38 38
+0x00000 AUX -> (ret=  1) 12
+0x00202 AUX -> (ret=  6) 11 00 00 00 cc cc
+0x00102 AUX <- (ret=  3) 22 38 38
+0x00000 AUX -> (ret=  1) 12
+0x00202 AUX -> (ret=  6) 11 00 00 00 22 22
+0x00103 AUX <- (ret=  2) 02 02
+0x00000 AUX -> (ret=  1) 12
+0x00202 AUX -> (ret=  6) 77 00 01 00 22 22
+0x00102 AUX <- (ret=  1) 00

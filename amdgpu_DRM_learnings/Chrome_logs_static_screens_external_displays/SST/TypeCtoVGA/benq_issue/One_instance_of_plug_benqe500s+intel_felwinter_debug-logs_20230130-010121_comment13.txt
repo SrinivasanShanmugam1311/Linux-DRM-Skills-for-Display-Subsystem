@@ -1,0 +1,605 @@
+2023-01-30T08:43:55.264473Z DEBUG kernel: [  164.506706] i915 0000:00:02.0: [drm:gen11_hpd_irq_handler] hotplug event received, stat 0x00040000, dig 0x00008a88, pins 0x00000800, long 0x00000800
+2023-01-30T08:43:55.264528Z DEBUG kernel: [  164.506737] i915 0000:00:02.0: [drm:intel_hpd_irq_handler] digital hpd on [ENCODER:272:DDI TC3/PHY TC3] - long
+2023-01-30T08:43:55.264534Z DEBUG kernel: [  164.506748] i915 0000:00:02.0: [drm:intel_hpd_irq_handler] Received HPD interrupt on PIN 11 - cnt: 10
+2023-01-30T08:43:55.264541Z DEBUG kernel: [  164.506787] i915 0000:00:02.0: [drm:intel_dp_hpd_pulse] got hpd irq on [ENCODER:272:DDI TC3/PHY TC3] - long
+2023-01-30T08:43:55.264574Z DEBUG kernel: [  164.506815] i915 0000:00:02.0: [drm:i915_hotplug_work_func] running encoder hotplug functions
+2023-01-30T08:43:55.264579Z DEBUG kernel: [  164.506829] i915 0000:00:02.0: [drm:i915_hotplug_work_func] Connector DP-3 (pin 11) received hotplug event. (retry 0)
+2023-01-30T08:43:55.264583Z DEBUG kernel: [  164.506840] i915 0000:00:02.0: [drm:intel_dp_detect] [CONNECTOR:273:DP-3]
+
+
+2023-01-30T08:43:55.265175Z DEBUG kernel: [  164.507137] i915 0000:00:02.0: [drm:intel_power_well_enable] enabling power well 2
+2023-01-30T08:43:55.265178Z DEBUG kernel: [  164.507148] i915 0000:00:02.0: [drm:intel_power_well_enable] enabling AUX USBC3
+2023-01-30T08:43:55.265208Z DEBUG kernel: [  164.507209] i915 0000:00:02.0: [drm:intel_tc_port_update_mode] Port F/TC#3: TC port mode reset (disconnected -> dp-alt)
+2023-01-30T08:43:55.265232Z DEBUG kernel: [  164.507513] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0xf0000 AUX -> (ret=  1) 00
+2023-01-30T08:43:55.266025Z DEBUG kernel: [  164.507728] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.267024Z DEBUG kernel: [  164.508727] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+2023-01-30T08:43:55.267047Z DEBUG kernel: [  164.508733] i915 0000:00:02.0: [drm:drm_dp_read_dpcd_caps] AUX USBC3/DDI TC3/PHY TC3: DPCD: 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+2023-01-30T08:43:55.267051Z DEBUG kernel: [  164.508941] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.268039Z DEBUG kernel: [  164.509443] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0000 AUX -> (ret=  1) 00
+2023-01-30T08:43:55.268071Z DEBUG kernel: [  164.509622] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.268076Z DEBUG kernel: [  164.509901] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0001 AUX -> (ret=  1) 00
+2023-01-30T08:43:55.268113Z DEBUG kernel: [  164.510106] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.269015Z DEBUG kernel: [  164.511003] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0002 AUX -> (ret=  1) 00
+2023-01-30T08:43:55.269027Z DEBUG kernel: [  164.511187] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.269039Z DEBUG kernel: [  164.511380] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0003 AUX -> (ret=  1) 00
+2023-01-30T08:43:55.270117Z DEBUG kernel: [  164.511625] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.270126Z DEBUG kernel: [  164.511827] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0004 AUX -> (ret=  1) 00
+2023-01-30T08:43:55.270128Z DEBUG kernel: [  164.512003] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.270135Z DEBUG kernel: [  164.512175] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0005 AUX -> (ret=  1) 00
+2023-01-30T08:43:55.270137Z DEBUG kernel: [  164.512336] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.271112Z DEBUG kernel: [  164.512523] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0006 AUX -> (ret=  1) 00
+2023-01-30T08:43:55.271125Z DEBUG kernel: [  164.512706] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.271127Z DEBUG kernel: [  164.512886] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0007 AUX -> (ret=  1) 00
+2023-01-30T08:43:55.271133Z DEBUG kernel: [  164.512889] i915 0000:00:02.0: [drm:intel_dp_init_lttpr_and_dprx_caps] LTTPR common capabilities: 00 00 00 00 00 00 00 00
+2023-01-30T08:43:55.271136Z DEBUG kernel: [  164.513071] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.271137Z DEBUG kernel: [  164.513341] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+2023-01-30T08:43:55.271138Z DEBUG kernel: [  164.513342] i915 0000:00:02.0: [drm:drm_dp_read_dpcd_caps] AUX USBC3/DDI TC3/PHY TC3: DPCD: 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+2023-01-30T08:43:55.272011Z DEBUG kernel: [  164.513529] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.272018Z DEBUG kernel: [  164.513805] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00400 AUX -> (ret= 12) 00 1b c5 41 47 36 33 32 30 13 01 00
+2023-01-30T08:43:55.272020Z DEBUG kernel: [  164.513808] i915 0000:00:02.0: [drm:drm_dp_read_desc] AUX USBC3/DDI TC3/PHY TC3: DP sink: OUI 00-1b-c5 dev-ID AG6320 HW-rev 1.3 SW-rev 1.0 quirks 0x0000
+2023-01-30T08:43:55.272025Z DEBUG kernel: [  164.513974] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.272027Z DEBUG kernel: [  164.514155] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00021 AUX -> (ret=  1) 00
+2023-01-30T08:43:55.272028Z DEBUG kernel: [  164.514157] i915 0000:00:02.0: [drm:intel_dp_detect] [ENCODER:272:DDI TC3/PHY TC3] MST support: port: yes, sink: no, modparam: yes
+2023-01-30T08:43:55.272029Z DEBUG kernel: [  164.514160] i915 0000:00:02.0: [drm:intel_dp_detect] source rates: 162000, 216000, 270000, 324000, 432000, 540000, 648000, 810000
+2023-01-30T08:43:55.272030Z DEBUG kernel: [  164.514161] i915 0000:00:02.0: [drm:intel_dp_detect] sink rates: 162000, 270000, 540000
+2023-01-30T08:43:55.272032Z DEBUG kernel: [  164.514163] i915 0000:00:02.0: [drm:intel_dp_detect] common rates: 162000, 270000, 540000
+2023-01-30T08:43:55.274008Z DEBUG kernel: [  164.516301] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:55.278065Z DEBUG kernel: [  164.519865] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:55.280055Z DEBUG kernel: [  164.521867] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:55.282096Z DEBUG kernel: [  164.523869] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:55.284041Z DEBUG kernel: [  164.525915] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:55.288138Z DEBUG kernel: [  164.529664] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:55.290062Z DEBUG kernel: [  164.531848] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:55.292030Z DEBUG kernel: [  164.533794] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:55.294041Z DEBUG kernel: [  164.535779] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:55.295207Z DEBUG kernel: [  164.537158] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+2023-01-30T08:43:55.295264Z DEBUG kernel: [  164.537171] [drm:update_display_info] HDMI: DVI dual 0, max TMDS clock 300000 kHz
+2023-01-30T08:43:55.295271Z DEBUG kernel: [  164.537180] [drm:update_display_info] DP-3: No deep color support on this HDMI sink.
+2023-01-30T08:43:55.295276Z DEBUG kernel: [  164.537185] [drm:update_display_info] CEA VCDB 0x0f
+2023-01-30T08:43:55.295279Z DEBUG kernel: [  164.537198] [drm:_drm_edid_connector_update] ELD monitor 1080p60    
+2023-01-30T08:43:55.295280Z DEBUG kernel: [  164.537206] [drm:_drm_edid_connector_update] HDMI: latency present 0 0, video latency 0 0, audio latency 0 0
+2023-01-30T08:43:55.295281Z DEBUG kernel: [  164.537213] [drm:_drm_edid_connector_update] ELD size 32, SAD count 0
+2023-01-30T08:43:55.295282Z DEBUG kernel: [  164.537332] i915 0000:00:02.0: [drm:intel_dp_set_edid] [CONNECTOR:273:DP-3] VRR capable: no
+2023-01-30T08:43:55.295283Z DEBUG kernel: [  164.537344] i915 0000:00:02.0: [drm:intel_dp_set_edid] [CONNECTOR:273:DP-3] DFP max bpc 0, max dotclock 0, TMDS clock 0-0, PCON Max FRL BW 0Gbps
+2023-01-30T08:43:55.295290Z DEBUG kernel: [  164.537594] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.296089Z DEBUG kernel: [  164.537922] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00092 AUX -> (ret= 13) 00 00 00 00 00 00 00 00 00 00 00 00 00
+2023-01-30T08:43:55.296149Z DEBUG kernel: [  164.537931] i915 0000:00:02.0: [drm:intel_dp_set_edid] PCON ENCODER DSC DPCD: 00 00 00 00 00 00 00 00 00 00 00 00 00
+2023-01-30T08:43:55.296160Z DEBUG kernel: [  164.537940] i915 0000:00:02.0: [drm:intel_dp_set_edid] [CONNECTOR:273:DP-3] RGB->YcbCr conversion? no, YCbCr 4:2:0 allowed? yes, YCbCr 4:4:4->4:2:0 conversion? no
+2023-01-30T08:43:55.296167Z DEBUG kernel: [  164.538162] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:55.296173Z DEBUG kernel: [  164.538414] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00201 AUX -> (ret=  1) 04
+2023-01-30T08:43:55.297023Z DEBUG kernel: [  164.538653] i915 0000:00:02.0: [drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00201 AUX <- (ret=  1) 04
+2023-01-30T08:43:55.297036Z DEBUG kernel: [  164.538671] [drm:intel_encoder_hotplug] [CONNECTOR:273:DP-3] status updated from disconnected to connected (epoch counter 1->2)
+2023-01-30T08:43:55.297039Z DEBUG kernel: [  164.538686] [drm:drm_sysfs_hotplug_event] generating hotplug event
+
+
+2023-01-30T08:43:56.312283Z DEBUG kernel: [  165.554517] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:273:DP-3]
+2023-01-30T08:43:56.312285Z DEBUG kernel: [  165.554526] i915 0000:00:02.0: [drm:intel_dp_detect] [CONNECTOR:273:DP-3]
+2023-01-30T08:43:56.313034Z DEBUG kernel: [  165.554831] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0xf0000 AUX -> (ret=  1) 00
+2023-01-30T08:43:56.313056Z DEBUG kernel: [  165.555037] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.313060Z DEBUG kernel: [  165.555361] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+2023-01-30T08:43:56.313066Z DEBUG kernel: [  165.555375] i915 0000:00:02.0: [drm:drm_dp_read_dpcd_caps] AUX USBC3/DDI TC3/PHY TC3: DPCD: 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+2023-01-30T08:43:56.314024Z DEBUG kernel: [  165.555590] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.314045Z DEBUG kernel: [  165.555790] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0000 AUX -> (ret=  1) 00
+2023-01-30T08:43:56.314051Z DEBUG kernel: [  165.555990] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.314054Z DEBUG kernel: [  165.556189] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0001 AUX -> (ret=  1) 00
+2023-01-30T08:43:56.314066Z DEBUG kernel: [  165.556390] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.315028Z DEBUG kernel: [  165.556596] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0002 AUX -> (ret=  1) 00
+2023-01-30T08:43:56.315051Z DEBUG kernel: [  165.556802] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.315056Z DEBUG kernel: [  165.557002] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0003 AUX -> (ret=  1) 00
+2023-01-30T08:43:56.315059Z DEBUG kernel: [  165.557202] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.315071Z DEBUG kernel: [  165.557402] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0004 AUX -> (ret=  1) 00
+2023-01-30T08:43:56.316027Z DEBUG kernel: [  165.557608] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.316049Z DEBUG kernel: [  165.557809] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0005 AUX -> (ret=  1) 00
+2023-01-30T08:43:56.316054Z DEBUG kernel: [  165.558007] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.316057Z DEBUG kernel: [  165.558207] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0006 AUX -> (ret=  1) 00
+2023-01-30T08:43:56.316096Z DEBUG kernel: [  165.558409] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.317119Z DEBUG kernel: [  165.558615] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0007 AUX -> (ret=  1) 00
+2023-01-30T08:43:56.317139Z DEBUG kernel: [  165.558621] i915 0000:00:02.0: [drm:intel_dp_init_lttpr_and_dprx_caps] LTTPR common capabilities: 00 00 00 00 00 00 00 00
+2023-01-30T08:43:56.317144Z DEBUG kernel: [  165.558821] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.317147Z DEBUG kernel: [  165.559139] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+2023-01-30T08:43:56.317172Z DEBUG kernel: [  165.559143] i915 0000:00:02.0: [drm:drm_dp_read_dpcd_caps] AUX USBC3/DDI TC3/PHY TC3: DPCD: 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+2023-01-30T08:43:56.317176Z DEBUG kernel: [  165.559342] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.318010Z DEBUG kernel: [  165.559647] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00400 AUX -> (ret= 12) 00 1b c5 41 47 36 33 32 30 13 01 00
+2023-01-30T08:43:56.318017Z DEBUG kernel: [  165.559655] i915 0000:00:02.0: [drm:drm_dp_read_desc] AUX USBC3/DDI TC3/PHY TC3: DP sink: OUI 00-1b-c5 dev-ID AG6320 HW-rev 1.3 SW-rev 1.0 quirks 0x0000
+2023-01-30T08:43:56.318019Z DEBUG kernel: [  165.559857] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.318025Z DEBUG kernel: [  165.560056] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00021 AUX -> (ret=  1) 00
+2023-01-30T08:43:56.318027Z DEBUG kernel: [  165.560061] i915 0000:00:02.0: [drm:intel_dp_detect] [ENCODER:272:DDI TC3/PHY TC3] MST support: port: yes, sink: no, modparam: yes
+2023-01-30T08:43:56.318028Z DEBUG kernel: [  165.560067] i915 0000:00:02.0: [drm:intel_dp_detect] source rates: 162000, 216000, 270000, 324000, 432000, 540000, 648000, 810000
+2023-01-30T08:43:56.318029Z DEBUG kernel: [  165.560071] i915 0000:00:02.0: [drm:intel_dp_detect] sink rates: 162000, 270000, 540000
+2023-01-30T08:43:56.318030Z DEBUG kernel: [  165.560075] i915 0000:00:02.0: [drm:intel_dp_detect] common rates: 162000, 270000, 540000
+2023-01-30T08:43:56.323006Z DEBUG kernel: [  165.564603] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:56.325018Z DEBUG kernel: [  165.566627] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:56.327145Z DEBUG kernel: [  165.568634] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:56.329102Z DEBUG kernel: [  165.570796] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:56.333051Z DEBUG kernel: [  165.574586] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:56.335063Z DEBUG kernel: [  165.576711] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:56.337040Z DEBUG kernel: [  165.578747] i915 0000:00:02.0: [drm:drm_dp_i2c_do_msg] AUX USBC3/DDI TC3/PHY TC3: native defer
+2023-01-30T08:43:56.340079Z DEBUG kernel: [  165.581447] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+2023-01-30T08:43:56.340131Z DEBUG kernel: [  165.581458] [drm:update_display_info] HDMI: DVI dual 0, max TMDS clock 300000 kHz
+2023-01-30T08:43:56.340138Z DEBUG kernel: [  165.581465] [drm:update_display_info] DP-3: No deep color support on this HDMI sink.
+2023-01-30T08:43:56.340142Z DEBUG kernel: [  165.581469] [drm:update_display_info] CEA VCDB 0x0f
+2023-01-30T08:43:56.340149Z DEBUG kernel: [  165.581479] [drm:_drm_edid_connector_update] ELD monitor 1080p60    
+2023-01-30T08:43:56.340153Z DEBUG kernel: [  165.581487] [drm:_drm_edid_connector_update] HDMI: latency present 0 0, video latency 0 0, audio latency 0 0
+2023-01-30T08:43:56.340159Z DEBUG kernel: [  165.581494] [drm:_drm_edid_connector_update] ELD size 32, SAD count 0
+2023-01-30T08:43:56.340163Z DEBUG kernel: [  165.581651] [drm:drm_mode_object_put] OBJ ID: 301 (1)
+2023-01-30T08:43:56.340167Z DEBUG kernel: [  165.581660] i915 0000:00:02.0: [drm:intel_dp_set_edid] [CONNECTOR:273:DP-3] VRR capable: no
+2023-01-30T08:43:56.340171Z DEBUG kernel: [  165.581668] i915 0000:00:02.0: [drm:intel_dp_set_edid] [CONNECTOR:273:DP-3] DFP max bpc 0, max dotclock 0, TMDS clock 0-0, PCON Max FRL BW 0Gbps
+2023-01-30T08:43:56.340177Z DEBUG kernel: [  165.581901] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.340181Z DEBUG kernel: [  165.582222] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00092 AUX -> (ret= 13) 00 00 00 00 00 00 00 00 00 00 00 00 00
+2023-01-30T08:43:56.340187Z DEBUG kernel: [  165.582229] i915 0000:00:02.0: [drm:intel_dp_set_edid] PCON ENCODER DSC DPCD: 00 00 00 00 00 00 00 00 00 00 00 00 00
+2023-01-30T08:43:56.340191Z DEBUG kernel: [  165.582236] i915 0000:00:02.0: [drm:intel_dp_set_edid] [CONNECTOR:273:DP-3] RGB->YcbCr conversion? no, YCbCr 4:2:0 allowed? yes, YCbCr 4:4:4->4:2:0 conversion? no
+2023-01-30T08:43:56.340219Z DEBUG kernel: [  165.582452] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:56.341144Z DEBUG kernel: [  165.582674] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00201 AUX -> (ret=  1) 00
+2023-01-30T08:43:56.341166Z DEBUG kernel: [  165.582684] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+2023-01-30T08:43:56.341169Z DEBUG kernel: [  165.582689] [drm:update_display_info] HDMI: DVI dual 0, max TMDS clock 300000 kHz
+2023-01-30T08:43:56.341171Z DEBUG kernel: [  165.582694] [drm:update_display_info] DP-3: No deep color support on this HDMI sink.
+2023-01-30T08:43:56.341172Z DEBUG kernel: [  165.582697] [drm:update_display_info] CEA VCDB 0x0f
+2023-01-30T08:43:56.341174Z DEBUG kernel: [  165.582702] [drm:_drm_edid_connector_update] ELD monitor 1080p60    
+2023-01-30T08:43:56.341177Z DEBUG kernel: [  165.582707] [drm:_drm_edid_connector_update] HDMI: latency present 0 0, video latency 0 0, audio latency 0 0
+2023-01-30T08:43:56.341178Z DEBUG kernel: [  165.582712] [drm:_drm_edid_connector_update] ELD size 32, SAD count 0
+2023-01-30T08:43:56.341180Z DEBUG kernel: [  165.582877] [drm:drm_mode_object_put] OBJ ID: 302 (1)
+2023-01-30T08:43:56.341181Z DEBUG kernel: [  165.583012] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:273:DP-3] probed modes :
+2023-01-30T08:43:56.341183Z DEBUG kernel: [  165.583022] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+2023-01-30T08:43:56.341185Z DEBUG kernel: [  165.583029] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x40 0x5
+2023-01-30T08:43:56.341188Z DEBUG kernel: [  165.583036] [drm:drm_mode_debug_printmodeline] Modeline "1920x1080": 60 148352 1920 2008 2052 2200 1080 1084 1089 1125 0x40 0x5
+2023-01-30T08:43:56.341190Z DEBUG kernel: [  165.583042] [drm:drm_mode_debug_printmodeline] Modeline "1280x1024": 75 135000 1280 1296 1440 1688 1024 1025 1028 1066 0x40 0x5
+2023-01-30T08:43:56.341192Z DEBUG kernel: [  165.583049] [drm:drm_mode_debug_printmodeline] Modeline "1280x1024": 60 108000 1280 1328 1440 1688 1024 1025 1028 1066 0x40 0x5
+2023-01-30T08:43:56.341194Z DEBUG kernel: [  165.583056] [drm:drm_mode_debug_printmodeline] Modeline "1280x720": 60 74250 1280 1390 1430 1650 720 725 730 750 0x40 0x5
+2023-01-30T08:43:56.341196Z DEBUG kernel: [  165.583063] [drm:drm_mode_debug_printmodeline] Modeline "1280x720": 60 74250 1280 1390 1430 1650 720 725 730 750 0x40 0x5
+2023-01-30T08:43:56.341197Z DEBUG kernel: [  165.583066] [drm:drm_mode_debug_printmodeline] Modeline "1280x720": 60 74176 1280 1390 1430 1650 720 725 730 750 0x40 0x5
+2023-01-30T08:43:56.341199Z DEBUG kernel: [  165.583068] [drm:drm_mode_debug_printmodeline] Modeline "1024x768": 60 65000 1024 1048 1184 1344 768 771 777 806 0x40 0xa
+2023-01-30T08:43:56.341201Z DEBUG kernel: [  165.583070] [drm:drm_mode_debug_printmodeline] Modeline "800x600": 60 40000 800 840 968 1056 600 601 605 628 0x40 0x5
+2023-01-30T08:43:56.341203Z DEBUG kernel: [  165.583072] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 25200 640 656 752 800 480 490 492 525 0x40 0xa
+2023-01-30T08:43:56.341205Z DEBUG kernel: [  165.583074] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 25175 640 656 752 800 480 490 492 525 0x40 0xa
+2023-01-30T08:43:56.341207Z DEBUG kernel: [  165.583076] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 25175 640 656 752 800 480 490 492 525 0x40 0xa
+
+2023-01-30T08:43:56.346684Z DEBUG kernel: [  165.588321] [drm:drm_ioctl] comm="DrmThread" pid=2119, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
+2023-01-30T08:43:56.346687Z DEBUG kernel: [  165.588336] [drm:drm_mode_addfb2] [FB:302]
+
+2023-01-30T08:43:56.346695Z DEBUG kernel: [  165.588366] [drm:drm_ioctl] comm="DrmThread" pid=2119, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
+2023-01-30T08:43:56.346697Z DEBUG kernel: [  165.588370] [drm:drm_atomic_state_init] Allocated atomic state 00000000b87fa308
+
+2023-01-30T08:43:56.346732Z DEBUG kernel: [  165.588399] [drm:drm_atomic_get_plane_state] Added [PLANE:82:plane 1B] 0000000088748707 state to 00000000b87fa308
+2023-01-30T08:43:56.346740Z DEBUG kernel: [  165.588401] i915 0000:00:02.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:302] for [PLANE:82:plane 1B] state 0000000088748707
+
+2023-01-30T08:43:56.346746Z DEBUG kernel: [  165.588407] [drm:drm_atomic_get_crtc_state] Added [CRTC:131:pipe B] 00000000b7dfc1a2 state to 00000000b87fa308
+2023-01-30T08:43:56.346749Z DEBUG kernel: [  165.588408] i915 0000:00:02.0: [drm:drm_atomic_set_crtc_for_plane] Link [PLANE:82:plane 1B] state 0000000088748707 to [CRTC:131:pipe B]
+2023-01-30T08:43:56.346752Z DEBUG kernel: [  165.588410] [drm:drm_mode_object_get] OBJ ID: 305 (3)
+2023-01-30T08:43:56.346754Z DEBUG kernel: [  165.588412] i915 0000:00:02.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [MODE:1920x1080] for [CRTC:131:pipe B] state 00000000b7dfc1a2
+
+2023-01-30T08:43:56.346768Z DEBUG kernel: [  165.588423] [drm:drm_atomic_get_connector_state] Added [CONNECTOR:273:DP-3] 000000003a6c4527 state to 00000000b87fa308
+2023-01-30T08:43:56.346770Z DEBUG kernel: [  165.588424] [drm:drm_mode_object_get] OBJ ID: 273 (3)
+2023-01-30T08:43:56.346771Z DEBUG kernel: [  165.588426] i915 0000:00:02.0: [drm:drm_atomic_set_crtc_for_connector] Link [CONNECTOR:273:DP-3] state 000000003a6c4527 to [CRTC:131:pipe B]
+2023-01-30T08:43:56.346775Z DEBUG kernel: [  165.588427] [drm:drm_mode_object_put] OBJ ID: 273 (4)
+2023-01-30T08:43:56.346777Z DEBUG kernel: [  165.588428] [drm:drm_atomic_check_only] checking 00000000b87fa308
+2023-01-30T08:43:56.346779Z DEBUG kernel: [  165.588431] [drm:drm_atomic_helper_check_modeset] [CRTC:131:pipe B] mode changed
+2023-01-30T08:43:56.346782Z DEBUG kernel: [  165.588432] [drm:drm_atomic_helper_check_modeset] [CRTC:131:pipe B] enable changed
+2023-01-30T08:43:56.346784Z DEBUG kernel: [  165.588433] [drm:drm_atomic_helper_check_modeset] [CRTC:131:pipe B] active changed
+
+
+2023-01-30T08:43:56.346791Z DEBUG kernel: [  165.588438] [drm:update_connector_routing] Updating routing for [CONNECTOR:273:DP-3]
+2023-01-30T08:43:56.346793Z DEBUG kernel: [  165.588439] [drm:update_connector_routing] [CONNECTOR:273:DP-3] using [ENCODER:272:DDI TC3/PHY TC3] on [CRTC:131:pipe B]
+2023-01-30T08:43:56.346796Z DEBUG kernel: [  165.588440] [drm:drm_atomic_helper_check_modeset] [CRTC:131:pipe B] needs all connectors, enable: y, active: y
+2023-01-30T08:43:56.346798Z DEBUG kernel: [  165.588442] [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:131:pipe B] to 00000000b87fa308
+2023-01-30T08:43:56.346802Z DEBUG kernel: [  165.588443] [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:131:pipe B] to 00000000b87fa308
+2023-01-30T08:43:56.346804Z DEBUG kernel: [  165.588445] [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:235:DDI A/PHY A] to 00000000b87fa308
+2023-01-30T08:43:56.346807Z DEBUG kernel: [  165.588446] [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:235:DDI A/PHY A] to 00000000b87fa308
+2023-01-30T08:43:56.346809Z DEBUG kernel: [  165.588447] [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:272:DDI TC3/PHY TC3] to 00000000b87fa308
+2023-01-30T08:43:56.346811Z DEBUG kernel: [  165.588452] i915 0000:00:02.0: [drm:intel_modeset_pipe_config] [CONNECTOR:273:DP-3] Limiting display bpp to 24 (EDID bpp 24, max requested bpp 36, max platform bpp 36)
+2023-01-30T08:43:56.346814Z DEBUG kernel: [  165.588457] i915 0000:00:02.0: [drm:intel_dp_compute_link_config] DP link computation with max lane count 2 max rate 540000 max bpp 24 pixel clock 148500KHz
+2023-01-30T08:43:56.346818Z DEBUG kernel: [  165.588459] i915 0000:00:02.0: [drm:intel_dp_compute_link_config] Force DSC en = 0
+2023-01-30T08:43:56.346819Z DEBUG kernel: [  165.588463] i915 0000:00:02.0: [drm:intel_dp_compute_link_config] DP lane count 2 clock 270000 bpp 24
+2023-01-30T08:43:56.346821Z DEBUG kernel: [  165.588466] i915 0000:00:02.0: [drm:intel_dp_compute_link_config] DP link rate required 445500 available 540000
+2023-01-30T08:43:56.346823Z DEBUG kernel: [  165.588475] i915 0000:00:02.0: [drm:intel_modeset_pipe_config] [CRTC:131:pipe B] hw max bpp: 24, pipe bpp: 24, dithering: 0
+2023-01-30T08:43:56.346824Z DEBUG kernel: [  165.588480] i915 0000:00:02.0: [drm:intel_ddi_compute_config_late] [ENCODER:272:DDI TC3/PHY TC3] [CRTC:131:pipe B]
+2023-01-30T08:43:56.346829Z DEBUG kernel: [  165.588485] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.enable (expected 0, found 1)
+2023-01-30T08:43:56.346830Z DEBUG kernel: [  165.588489] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.active (expected 0, found 1)
+2023-01-30T08:43:56.346833Z DEBUG kernel: [  165.588493] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in cpu_transcoder (expected -1, found 1)
+2023-01-30T08:43:56.346835Z DEBUG kernel: [  165.588497] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in lane_count (expected 0, found 2)
+2023-01-30T08:43:56.346870Z DEBUG kernel: [  165.588501] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dp_m_n (expected tu 0 data 0/0 link 0/0, or tu 0 data 0/0 link 0/0, found tu 64,
+2023-01-30T08:43:56.346956Z DEBUG kernel: [  165.588506] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in output_types (expected 0x00000000, found 0x00000080)
+2023-01-30T08:43:56.346970Z DEBUG kernel: [  165.588510] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in framestart_delay (expected 0, found 1)
+2023-01-30T08:43:56.346973Z DEBUG kernel: [  165.588514] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_hdisplay (expected 0, found 1920)
+2023-01-30T08:43:56.346975Z DEBUG kernel: [  165.588518] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_htotal (expected 0, found 2200)
+2023-01-30T08:43:56.346976Z DEBUG kernel: [  165.588522] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_hblank_start (expected 0, found 1920)
+2023-01-30T08:43:56.346978Z DEBUG kernel: [  165.588526] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_hblank_end (expected 0, found 2200)
+2023-01-30T08:43:56.346979Z DEBUG kernel: [  165.588530] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_hsync_start (expected 0, found 2008)
+2023-01-30T08:43:56.346981Z DEBUG kernel: [  165.588532] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_hsync_end (expected 0, found 2052)
+2023-01-30T08:43:56.346984Z DEBUG kernel: [  165.588534] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_vdisplay (expected 0, found 1080)
+2023-01-30T08:43:56.346987Z DEBUG kernel: [  165.588536] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_vtotal (expected 0, found 1125)
+2023-01-30T08:43:56.346990Z DEBUG kernel: [  165.588538] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_vblank_start (expected 0, found 1080)
+2023-01-30T08:43:56.346992Z DEBUG kernel: [  165.588540] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_vblank_end (expected 0, found 1125)
+2023-01-30T08:43:56.346993Z DEBUG kernel: [  165.588542] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_vsync_start (expected 0, found 1084)
+2023-01-30T08:43:56.346996Z DEBUG kernel: [  165.588544] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_vsync_end (expected 0, found 1089)
+2023-01-30T08:43:56.346999Z DEBUG kernel: [  165.588547] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_hdisplay (expected 0, found 1920)
+2023-01-30T08:43:56.348016Z DEBUG kernel: [  165.588549] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_htotal (expected 0, found 2200)
+2023-01-30T08:43:56.348033Z DEBUG kernel: [  165.588551] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_hblank_start (expected 0, found 1920)
+2023-01-30T08:43:56.348035Z DEBUG kernel: [  165.588553] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_hblank_end (expected 0, found 2200)
+2023-01-30T08:43:56.348036Z DEBUG kernel: [  165.588555] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_hsync_start (expected 0, found 2008)
+2023-01-30T08:43:56.348037Z DEBUG kernel: [  165.588557] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_hsync_end (expected 0, found 2052)
+2023-01-30T08:43:56.348039Z DEBUG kernel: [  165.588559] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_vdisplay (expected 0, found 1080)
+2023-01-30T08:43:56.348041Z DEBUG kernel: [  165.588561] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_vtotal (expected 0, found 1125)
+2023-01-30T08:43:56.348042Z DEBUG kernel: [  165.588563] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_vblank_start (expected 0, found 1080)
+2023-01-30T08:43:56.348044Z DEBUG kernel: [  165.588565] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_vblank_end (expected 0, found 1125)
+2023-01-30T08:43:56.348046Z DEBUG kernel: [  165.588568] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_vsync_start (expected 0, found 1084)
+2023-01-30T08:43:56.348047Z DEBUG kernel: [  165.588570] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_vsync_end (expected 0, found 1089)
+2023-01-30T08:43:56.348048Z DEBUG kernel: [  165.588572] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in pixel_multiplier (expected 0, found 1)
+2023-01-30T08:43:56.348050Z DEBUG kernel: [  165.588574] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.flags (1) (expected 0, found 1)
+2023-01-30T08:43:56.348052Z DEBUG kernel: [  165.588576] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.flags (4) (expected 0, found 4)
+2023-01-30T08:43:56.348053Z DEBUG kernel: [  165.588579] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_refclkin_ctl (expected 0x00000000, found 0x00000100)
+2023-01-30T08:43:56.348055Z DEBUG kernel: [  165.588581] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_clktop2_coreclkctl1 (expected 0x00000000, found 0x00000a00)
+2023-01-30T08:43:56.348056Z DEBUG kernel: [  165.588584] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_clktop2_hsclkctl (expected 0x00000000, found 0x00005200)
+2023-01-30T08:43:56.348058Z DEBUG kernel: [  165.588586] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_pll_div0 (expected 0x00000000, found 0x00084269)
+2023-01-30T08:43:56.348059Z DEBUG kernel: [  165.588588] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_pll_div1 (expected 0x00000000, found 0x001c0027)
+2023-01-30T08:43:56.348061Z DEBUG kernel: [  165.588590] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_pll_ssc (expected 0x00000000, found 0x40002000)
+2023-01-30T08:43:56.348062Z DEBUG kernel: [  165.588592] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_pll_bias (expected 0x00000000, found 0x5e000000)
+2023-01-30T08:43:56.348063Z DEBUG kernel: [  165.588595] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_pll_tdc_coldst_bias (expected 0x00000000, found 0x00000052)
+2023-01-30T08:43:56.348065Z DEBUG kernel: [  165.588597] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in pipe_bpp (expected 0, found 24)
+2023-01-30T08:43:56.348066Z DEBUG kernel: [  165.588599] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_clock (expected 0, found 148500)
+2023-01-30T08:43:56.348068Z DEBUG kernel: [  165.588601] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_clock (expected 0, found 148500)
+2023-01-30T08:43:56.348069Z DEBUG kernel: [  165.588603] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in port_clock (expected 0, found 270000)
+
+
+2023-01-30T08:43:56.348078Z DEBUG kernel: [  165.588620] i915 0000:00:02.0: [drm:intel_plane_atomic_check_with_state] [CRTC:131:pipe B] with [PLANE:82:plane 1B] visible 0 -> 1, off 0, on 1, ms 1
+2023-01-30T08:43:56.348079Z DEBUG kernel: [  165.588626] i915 0000:00:02.0: [drm:intel_atomic_get_global_obj_state] Added new global object 00000000b82bd9b4 state 000000002fbc9f78 to 00000000b87fa308
+
+2023-01-30T08:43:56.348124Z DEBUG kernel: [  165.588640] i915 0000:00:02.0: [drm:skl_compute_wm] [CRTC:131:pipe B] dbuf slices 0x0 -> 0xc, ddb (0 - 0) -> (0 - 2048), active pipes 0x1 -> 0x3
+
+2023-01-30T08:43:56.348171Z DEBUG kernel: [  165.588665] i915 0000:00:02.0: [drm:skl_compute_wm] [PLANE:82:plane 1B] ddb (   0 -    0) -> (   0 - 2012), size    0 -> 2012
+
+2023-01-30T08:43:56.348175Z DEBUG kernel: [  165.588669] i915 0000:00:02.0: [drm:skl_compute_wm] [PLANE:82:plane 1B]   level  wm0, wm1, wm2, wm3, wm4, wm5, wm6, wm7, twm, swm, stwm -> *wm0,*wm1,*wm2,*wm3,*wm4,*wm5, wm6, 
+2023-01-30T08:43:56.348176Z DEBUG kernel: [  165.588672] i915 0000:00:02.0: [drm:skl_compute_wm] [PLANE:82:plane 1B]   lines    0,   0,   0,   0,   0,   0,   0,   0,   0,   0,    0 ->    4,   4,   6,   7,  10,  10,   0,  
+2023-01-30T08:43:56.348178Z DEBUG kernel: [  165.588675] i915 0000:00:02.0: [drm:skl_compute_wm] [PLANE:82:plane 1B]  blocks    0,   0,   0,   0,   0,   0,   0,   0,   0,   0,    0 ->   62,  62,  93, 108, 154, 154,   0,  
+2023-01-30T08:43:56.348180Z DEBUG kernel: [  165.588677] i915 0000:00:02.0: [drm:skl_compute_wm] [PLANE:82:plane 1B] min_ddb    0,   0,   0,   0,   0,   0,   0,   0,   0,   0,    0 ->  123, 123, 184, 184, 245, 245,   0,  
+2023-01-30T08:43:56.348182Z DEBUG kernel: [  165.588683] i915 0000:00:02.0: [drm:intel_bw_check_data_rate] [CRTC:131:pipe B] data rate 594000 num active planes 1
+
+2023-01-30T08:43:56.348207Z DEBUG kernel: [  165.588713] i915 0000:00:02.0: [drm:intel_find_shared_dpll] [CRTC:131:pipe B] allocated TBT PLL
+2023-01-30T08:43:56.348208Z DEBUG kernel: [  165.588714] i915 0000:00:02.0: [drm:icl_get_dplls] [CRTC:131:pipe B] reserving TBT PLL
+2023-01-30T08:43:56.348210Z DEBUG kernel: [  165.588716] i915 0000:00:02.0: [drm:intel_find_shared_dpll] [CRTC:131:pipe B] allocated TC PLL 3
+2023-01-30T08:43:56.348211Z DEBUG kernel: [  165.588717] i915 0000:00:02.0: [drm:icl_get_dplls] [CRTC:131:pipe B] reserving TC PLL 3
+
+
+2023-01-30T08:43:56.348311Z DEBUG kernel: [  165.588811] i915 0000:00:02.0: [drm:intel_crtc_state_dump] [CRTC:131:pipe B] enable: yes [modeset]
+2023-01-30T08:43:56.348313Z DEBUG kernel: [  165.588812] i915 0000:00:02.0: [drm:intel_crtc_state_dump] active: yes, output_types: DP (0x80), output format: RGB
+2023-01-30T08:43:56.348314Z DEBUG kernel: [  165.588814] i915 0000:00:02.0: [drm:intel_crtc_state_dump] cpu_transcoder: B, pipe bpp: 24, dithering: 0
+2023-01-30T08:43:56.348316Z DEBUG kernel: [  165.588815] i915 0000:00:02.0: [drm:intel_crtc_state_dump] MST master transcoder: <invalid>
+2023-01-30T08:43:56.348318Z DEBUG kernel: [  165.588816] i915 0000:00:02.0: [drm:intel_crtc_state_dump] port sync: master transcoder: <invalid>, slave transcoder bitmask = 0x0
+2023-01-30T08:43:56.348321Z DEBUG kernel: [  165.588818] i915 0000:00:02.0: [drm:intel_crtc_state_dump] bigjoiner: no, pipes: 0x0
+2023-01-30T08:43:56.348322Z DEBUG kernel: [  165.588819] i915 0000:00:02.0: [drm:intel_crtc_state_dump] splitter: disabled, link count 0, overlap 0
+2023-01-30T08:43:56.348323Z DEBUG kernel: [  165.588820] i915 0000:00:02.0: [drm:intel_dump_m_n_config] dp m_n: lanes: 2; data_m: 6920601, data_n: 8388608, link_m: 288358, link_n: 524288, tu: 64
+2023-01-30T08:43:56.348325Z DEBUG kernel: [  165.588822] i915 0000:00:02.0: [drm:intel_dump_m_n_config] dp m2_n2: lanes: 2; data_m: 0, data_n: 0, link_m: 0, link_n: 0, tu: 0
+2023-01-30T08:43:56.348326Z DEBUG kernel: [  165.588823] i915 0000:00:02.0: [drm:intel_crtc_state_dump] framestart delay: 1, MSA timing delay: 0
+2023-01-30T08:43:56.348328Z DEBUG kernel: [  165.588825] i915 0000:00:02.0: [drm:intel_crtc_state_dump] audio: 0, infoframes: 0, infoframes enabled: 0x0
+2023-01-30T08:43:56.348329Z DEBUG kernel: [  165.588826] i915 0000:00:02.0: [drm:intel_crtc_state_dump] vrr: no, vmin: 0, vmax: 0, pipeline full: 0, guardband: 0 flipline: 0, vmin vblank: -1, vmax vblank: -2
+2023-01-30T08:43:56.348330Z DEBUG kernel: [  165.588828] i915 0000:00:02.0: [drm:intel_crtc_state_dump] requested mode: "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+2023-01-30T08:43:56.348332Z DEBUG kernel: [  165.588829] i915 0000:00:02.0: [drm:intel_crtc_state_dump] adjusted mode: "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+2023-01-30T08:43:56.348333Z DEBUG kernel: [  165.588832] i915 0000:00:02.0: [drm:intel_dump_crtc_timings] crtc timings: 148500 1920 2008 2052 2200 1080 1084 1089 1125, type: 0x48 flags: 0x5
+2023-01-30T08:43:56.348334Z DEBUG kernel: [  165.588834] i915 0000:00:02.0: [drm:intel_crtc_state_dump] pipe mode: "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x40 0x5
+2023-01-30T08:43:56.348336Z DEBUG kernel: [  165.588835] i915 0000:00:02.0: [drm:intel_dump_crtc_timings] crtc timings: 148500 1920 2008 2052 2200 1080 1084 1089 1125, type: 0x40 flags: 0x5
+2023-01-30T08:43:56.348338Z DEBUG kernel: [  165.588837] i915 0000:00:02.0: [drm:intel_crtc_state_dump] port clock: 270000, pipe src: 1920x1080+0+0, pixel rate 148500
+2023-01-30T08:43:56.348340Z DEBUG kernel: [  165.588838] i915 0000:00:02.0: [drm:intel_crtc_state_dump] linetime: 119, ips linetime: 0
+2023-01-30T08:43:56.348341Z DEBUG kernel: [  165.588840] i915 0000:00:02.0: [drm:intel_crtc_state_dump] num_scalers: 2, scaler_users: 0x0, scaler_id: -1
+2023-01-30T08:43:56.348343Z DEBUG kernel: [  165.588841] i915 0000:00:02.0: [drm:intel_crtc_state_dump] pch pfit: 0x0+0+0, disabled, force thru: no
+2023-01-30T08:43:56.348345Z DEBUG kernel: [  165.588842] i915 0000:00:02.0: [drm:intel_crtc_state_dump] ips: 0, double wide: 0, drrs: 0
+2023-01-30T08:43:56.348346Z DEBUG kernel: [  165.588844] i915 0000:00:02.0: [drm:icl_dump_hw_state] dpll_hw_state: cfgcr0: 0x0, cfgcr1: 0x0, div0: 0x0, mg_refclkin_ctl: 0x100, hg_clktop2_coreclkctl1: 0xa00, 
+2023-01-30T08:43:56.348349Z DEBUG kernel: [  165.588846] i915 0000:00:02.0: [drm:intel_crtc_state_dump] csc_mode: 0x40000000 gamma_mode: 0x0 gamma_enable: 0 csc_enable: 0
+2023-01-30T08:43:56.348350Z DEBUG kernel: [  165.588847] i915 0000:00:02.0: [drm:intel_crtc_state_dump] degamma lut: 0 entries, gamma lut: 0 entries
+2023-01-30T08:43:56.348351Z DEBUG kernel: [  165.588849] i915 0000:00:02.0: [drm:intel_crtc_state_dump] [PLANE:82:plane 1B] fb: [FB:302] 1920x1080 format = XR24 little-endian (0x34325258) modifier = 0x100000000000006, vis
+2023-01-30T08:43:56.348354Z DEBUG kernel: [  165.588850] i915 0000:00:02.0: [drm:intel_crtc_state_dump] 	rotation: 0x1, scaler: -1
+2023-01-30T08:43:56.348356Z DEBUG kernel: [  165.588852] i915 0000:00:02.0: [drm:intel_crtc_state_dump] 	src: 1920.000000x1080.000000+0.000000+0.000000 dst: 1920x1080+0+0
+
+2023-01-30T08:43:56.348365Z DEBUG kernel: [  165.588860] [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000b87fa308
+
+2023-01-30T08:43:56.348553Z DEBUG kernel: [  165.589499] [drm:drm_ioctl] comm="DrmThread" pid=2119, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
+2023-01-30T08:43:56.348554Z DEBUG kernel: [  165.589502] [drm:drm_mode_addfb2] [FB:302]
+
+2023-01-30T08:43:56.348594Z DEBUG kernel: [  165.589544] [drm:drm_atomic_get_plane_state] Added [PLANE:82:plane 1B] 00000000991f3a8b state to 00000000b87fa308
+2023-01-30T08:43:56.348596Z DEBUG kernel: [  165.589546] i915 0000:00:02.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:302] for [PLANE:82:plane 1B] state 00000000991f3a8b
+2023-01-30T08:43:56.348598Z DEBUG kernel: [  165.589547] [drm:drm_mode_object_get] OBJ ID: 302 (3)
+2023-01-30T08:43:56.348600Z DEBUG kernel: [  165.589548] [drm:drm_mode_object_put] OBJ ID: 302 (4)
+2023-01-30T08:43:56.348601Z DEBUG kernel: [  165.589548] [drm:drm_mode_object_put] OBJ ID: 302 (3)
+2023-01-30T08:43:56.348603Z DEBUG kernel: [  165.589550] [drm:drm_atomic_get_crtc_state] Added [CRTC:131:pipe B] 0000000067580e5d state to 00000000b87fa308
+2023-01-30T08:43:56.348605Z DEBUG kernel: [  165.589551] i915 0000:00:02.0: [drm:drm_atomic_set_crtc_for_plane] Link [PLANE:82:plane 1B] state 00000000991f3a8b to [CRTC:131:pipe B]
+2023-01-30T08:43:56.348606Z DEBUG kernel: [  165.589553] [drm:drm_mode_object_get] OBJ ID: 305 (3)
+2023-01-30T08:43:56.348608Z DEBUG kernel: [  165.589554] i915 0000:00:02.0: [drm:drm_atomic_set_mode_prop_for_crtc] Set [MODE:1920x1080] for [CRTC:131:pipe B] state 0000000067580e5d
+
+
+2023-01-30T08:43:56.348621Z DEBUG kernel: [  165.589563] [drm:drm_atomic_get_connector_state] Added [CONNECTOR:273:DP-3] 0000000051d30672 state to 00000000b87fa308
+2023-01-30T08:43:56.348622Z DEBUG kernel: [  165.589564] [drm:drm_mode_object_get] OBJ ID: 273 (3)
+2023-01-30T08:43:56.348623Z DEBUG kernel: [  165.589566] i915 0000:00:02.0: [drm:drm_atomic_set_crtc_for_connector] Link [CONNECTOR:273:DP-3] state 0000000051d30672 to [CRTC:131:pipe B]
+2023-01-30T08:43:56.348625Z DEBUG kernel: [  165.589566] [drm:drm_mode_object_put] OBJ ID: 273 (4)
+2023-01-30T08:43:56.348626Z DEBUG kernel: [  165.589568] [drm:drm_atomic_print_new_state] checking 00000000b87fa308
+2023-01-30T08:43:56.348627Z DEBUG kernel: [  165.589571] commit_state plane[31]: plane 1A
+2023-01-30T08:43:56.348628Z DEBUG kernel: [  165.589572] commit_state 	crtc=pipe A
+2023-01-30T08:43:56.348630Z DEBUG kernel: [  165.589572] commit_state 	fb=299
+2023-01-30T08:43:56.348632Z DEBUG kernel: [  165.589573] commit_state 		allocated by = DrmThread
+2023-01-30T08:43:56.348634Z DEBUG kernel: [  165.589573] commit_state 		refcount=5
+2023-01-30T08:43:56.348636Z DEBUG kernel: [  165.589574] commit_state 		format=XR24 little-endian (0x34325258)
+2023-01-30T08:43:56.348638Z DEBUG kernel: [  165.589575] commit_state 		modifier=0x100000000000006
+2023-01-30T08:43:56.348640Z DEBUG kernel: [  165.589575] commit_state 		size=1920x1200
+2023-01-30T08:43:56.348642Z DEBUG kernel: [  165.589576] commit_state 		layers:
+2023-01-30T08:43:56.348643Z DEBUG kernel: [  165.589576] commit_state 			size[0]=1920x1200
+2023-01-30T08:43:56.348644Z DEBUG kernel: [  165.589577] commit_state 			pitch[0]=8192
+2023-01-30T08:43:56.348646Z DEBUG kernel: [  165.589577] commit_state 			offset[0]=0
+2023-01-30T08:43:56.348648Z DEBUG kernel: [  165.589578] commit_state 			obj[0]:
+2023-01-30T08:43:56.348650Z DEBUG kernel: [  165.589578] commit_state 				name=0
+2023-01-30T08:43:56.348652Z DEBUG kernel: [  165.589579] commit_state 				refcount=5
+2023-01-30T08:43:56.348654Z DEBUG kernel: [  165.589580] commit_state 				start=00000000
+2023-01-30T08:43:56.348656Z DEBUG kernel: [  165.589580] commit_state 				size=10526720
+2023-01-30T08:43:56.348657Z DEBUG kernel: [  165.589581] commit_state 				imported=no
+2023-01-30T08:43:56.348659Z DEBUG kernel: [  165.589581] commit_state 			size[1]=1920x1200
+2023-01-30T08:43:56.348660Z DEBUG kernel: [  165.589582] commit_state 			pitch[1]=1024
+2023-01-30T08:43:56.348661Z DEBUG kernel: [  165.589582] commit_state 			offset[1]=10485760
+2023-01-30T08:43:56.348662Z DEBUG kernel: [  165.589583] commit_state 			obj[1]:
+2023-01-30T08:43:56.348664Z DEBUG kernel: [  165.589583] commit_state 				name=0
+2023-01-30T08:43:56.348666Z DEBUG kernel: [  165.589583] commit_state 				refcount=5
+2023-01-30T08:43:56.348668Z DEBUG kernel: [  165.589584] commit_state 				start=00000000
+2023-01-30T08:43:56.348669Z DEBUG kernel: [  165.589584] commit_state 				size=10526720
+2023-01-30T08:43:56.348670Z DEBUG kernel: [  165.589585] commit_state 				imported=no
+2023-01-30T08:43:56.348671Z DEBUG kernel: [  165.589585] commit_state 	crtc-pos=1920x1200+0+0
+2023-01-30T08:43:56.348672Z DEBUG kernel: [  165.589586] commit_state 	src-pos=1920.000000x1200.000000+0.000000+0.000000
+2023-01-30T08:43:56.348674Z DEBUG kernel: [  165.589587] commit_state 	rotation=1
+2023-01-30T08:43:56.348675Z DEBUG kernel: [  165.589587] commit_state 	normalized-zpos=0
+2023-01-30T08:43:56.348677Z DEBUG kernel: [  165.589588] commit_state 	color-encoding=ITU-R BT.601 YCbCr
+2023-01-30T08:43:56.348679Z DEBUG kernel: [  165.589589] commit_state 	color-range=YCbCr limited range
+2023-01-30T08:43:56.348681Z DEBUG kernel: [  165.589589] commit_state plane[82]: plane 1B
+2023-01-30T08:43:56.348683Z DEBUG kernel: [  165.589589] commit_state 	crtc=pipe B
+2023-01-30T08:43:56.348685Z DEBUG kernel: [  165.589590] commit_state 	fb=302
+2023-01-30T08:43:56.348687Z DEBUG kernel: [  165.589590] commit_state 		allocated by = DrmThread
+2023-01-30T08:43:56.348689Z DEBUG kernel: [  165.589591] commit_state 		refcount=2
+2023-01-30T08:43:56.348690Z DEBUG kernel: [  165.589591] commit_state 		format=XR24 little-endian (0x34325258)
+2023-01-30T08:43:56.348692Z DEBUG kernel: [  165.589592] commit_state 		modifier=0x100000000000006
+2023-01-30T08:43:56.348694Z DEBUG kernel: [  165.589592] commit_state 		size=1920x1080
+2023-01-30T08:43:56.348696Z DEBUG kernel: [  165.589593] commit_state 		layers:
+2023-01-30T08:43:56.348697Z DEBUG kernel: [  165.589593] commit_state 			size[0]=1920x1080
+2023-01-30T08:43:56.348698Z DEBUG kernel: [  165.589594] commit_state 			pitch[0]=8192
+2023-01-30T08:43:56.348699Z DEBUG kernel: [  165.589594] commit_state 			offset[0]=0
+2023-01-30T08:43:56.348700Z DEBUG kernel: [  165.589594] commit_state 			obj[0]:
+2023-01-30T08:43:56.348702Z DEBUG kernel: [  165.589595] commit_state 				name=0
+2023-01-30T08:43:56.348704Z DEBUG kernel: [  165.589595] commit_state 				refcount=1
+2023-01-30T08:43:56.348706Z DEBUG kernel: [  165.589596] commit_state 				start=00000000
+2023-01-30T08:43:56.348708Z DEBUG kernel: [  165.589596] commit_state 				size=9474048
+2023-01-30T08:43:56.348709Z DEBUG kernel: [  165.589597] commit_state 				imported=no
+2023-01-30T08:43:56.348710Z DEBUG kernel: [  165.589597] commit_state 			size[1]=1920x1080
+2023-01-30T08:43:56.348711Z DEBUG kernel: [  165.589597] commit_state 			pitch[1]=1024
+2023-01-30T08:43:56.348712Z DEBUG kernel: [  165.589598] commit_state 			offset[1]=9437184
+2023-01-30T08:43:56.348713Z DEBUG kernel: [  165.589598] commit_state 			obj[1]:
+2023-01-30T08:43:56.348715Z DEBUG kernel: [  165.589599] commit_state 				name=0
+2023-01-30T08:43:56.348716Z DEBUG kernel: [  165.589599] commit_state 				refcount=1
+2023-01-30T08:43:56.348717Z DEBUG kernel: [  165.589599] commit_state 				start=00000000
+2023-01-30T08:43:56.348718Z DEBUG kernel: [  165.589600] commit_state 				size=9474048
+2023-01-30T08:43:56.348720Z DEBUG kernel: [  165.589600] commit_state 				imported=no
+2023-01-30T08:43:56.348722Z DEBUG kernel: [  165.589601] commit_state 	crtc-pos=1920x1080+0+0
+2023-01-30T08:43:56.348759Z DEBUG kernel: [  165.589601] commit_state 	src-pos=1920.000000x1080.000000+0.000000+0.000000
+2023-01-30T08:43:56.348761Z DEBUG kernel: [  165.589602] commit_state 	rotation=1
+2023-01-30T08:43:56.348762Z DEBUG kernel: [  165.589602] commit_state 	normalized-zpos=0
+2023-01-30T08:43:56.348763Z DEBUG kernel: [  165.589603] commit_state 	color-encoding=ITU-R BT.601 YCbCr
+2023-01-30T08:43:56.348764Z DEBUG kernel: [  165.589603] commit_state 	color-range=YCbCr limited range
+2023-01-30T08:43:56.348767Z DEBUG kernel: [  165.589603] commit_state crtc[80]: pipe A
+2023-01-30T08:43:56.348768Z DEBUG kernel: [  165.589604] commit_state 	enable=1
+2023-01-30T08:43:56.348770Z DEBUG kernel: [  165.589604] commit_state 	active=1
+2023-01-30T08:43:56.348772Z DEBUG kernel: [  165.589605] commit_state 	self_refresh_active=0
+2023-01-30T08:43:56.348774Z DEBUG kernel: [  165.589605] commit_state 	planes_changed=0
+2023-01-30T08:43:56.348775Z DEBUG kernel: [  165.589606] commit_state 	mode_changed=0
+2023-01-30T08:43:56.348777Z DEBUG kernel: [  165.589606] commit_state 	active_changed=0
+2023-01-30T08:43:56.348779Z DEBUG kernel: [  165.589607] commit_state 	connectors_changed=0
+2023-01-30T08:43:56.348780Z DEBUG kernel: [  165.589607] commit_state 	color_mgmt_changed=0
+2023-01-30T08:43:56.348781Z DEBUG kernel: [  165.589607] commit_state 	plane_mask=1
+2023-01-30T08:43:56.348783Z DEBUG kernel: [  165.589608] commit_state 	connector_mask=1
+2023-01-30T08:43:56.348784Z DEBUG kernel: [  165.589608] commit_state 	encoder_mask=1
+2023-01-30T08:43:56.348786Z DEBUG kernel: [  165.589609] commit_state 	mode: "1920x1200": 60 154260 1920 1966 1996 2080 1200 1210 1216 1236 0x48 0xa
+2023-01-30T08:43:56.348788Z DEBUG kernel: [  165.589610] commit_state crtc[131]: pipe B
+2023-01-30T08:43:56.348790Z DEBUG kernel: [  165.589610] commit_state 	enable=1
+2023-01-30T08:43:56.348792Z DEBUG kernel: [  165.589610] commit_state 	active=1
+2023-01-30T08:43:56.348794Z DEBUG kernel: [  165.589611] commit_state 	self_refresh_active=0
+2023-01-30T08:43:56.348796Z DEBUG kernel: [  165.589611] commit_state 	planes_changed=0
+2023-01-30T08:43:56.348798Z DEBUG kernel: [  165.589612] commit_state 	mode_changed=0
+2023-01-30T08:43:56.348799Z DEBUG kernel: [  165.589612] commit_state 	active_changed=0
+2023-01-30T08:43:56.348801Z DEBUG kernel: [  165.589613] commit_state 	connectors_changed=0
+2023-01-30T08:43:56.348803Z DEBUG kernel: [  165.589613] commit_state 	color_mgmt_changed=0
+2023-01-30T08:43:56.348805Z DEBUG kernel: [  165.589613] commit_state 	plane_mask=40
+2023-01-30T08:43:56.348806Z DEBUG kernel: [  165.589614] commit_state 	connector_mask=10
+2023-01-30T08:43:56.348807Z DEBUG kernel: [  165.589614] commit_state 	encoder_mask=0
+2023-01-30T08:43:56.348808Z DEBUG kernel: [  165.589615] commit_state 	mode: "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+2023-01-30T08:43:56.348809Z DEBUG kernel: [  165.589615] commit_state connector[236]: eDP-1
+2023-01-30T08:43:56.348810Z DEBUG kernel: [  165.589616] commit_state 	crtc=pipe A
+2023-01-30T08:43:56.348812Z DEBUG kernel: [  165.589616] commit_state 	self_refresh_aware=0
+2023-01-30T08:43:56.348813Z DEBUG kernel: [  165.589617] commit_state connector[273]: DP-3
+2023-01-30T08:43:56.348814Z DEBUG kernel: [  165.589617] commit_state 	crtc=pipe B
+2023-01-30T08:43:56.348816Z DEBUG kernel: [  165.589617] commit_state 	self_refresh_aware=0
+2023-01-30T08:43:56.348817Z DEBUG kernel: [  165.589619] [drm:drm_atomic_check_only] checking 00000000b87fa308
+2023-01-30T08:43:56.348819Z DEBUG kernel: [  165.589620] [drm:drm_atomic_helper_check_modeset] [CRTC:131:pipe B] mode changed
+2023-01-30T08:43:56.348821Z DEBUG kernel: [  165.589621] [drm:drm_atomic_helper_check_modeset] [CRTC:131:pipe B] enable changed
+2023-01-30T08:43:56.348823Z DEBUG kernel: [  165.589622] [drm:drm_atomic_helper_check_modeset] [CRTC:131:pipe B] active changed
+
+2023-01-30T08:43:56.348828Z DEBUG kernel: [  165.589626] [drm:update_connector_routing] Updating routing for [CONNECTOR:273:DP-3]
+2023-01-30T08:43:56.348830Z DEBUG kernel: [  165.589627] [drm:update_connector_routing] [CONNECTOR:273:DP-3] using [ENCODER:272:DDI TC3/PHY TC3] on [CRTC:131:pipe B]
+2023-01-30T08:43:56.348831Z DEBUG kernel: [  165.589628] [drm:drm_atomic_helper_check_modeset] [CRTC:131:pipe B] needs all connectors, enable: y, active: y
+2023-01-30T08:43:56.348832Z DEBUG kernel: [  165.589630] [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:131:pipe B] to 00000000b87fa308
+2023-01-30T08:43:56.348833Z DEBUG kernel: [  165.589631] [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:131:pipe B] to 00000000b87fa308
+2023-01-30T08:43:56.348834Z DEBUG kernel: [  165.589632] [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:235:DDI A/PHY A] to 00000000b87fa308
+2023-01-30T08:43:56.348836Z DEBUG kernel: [  165.589633] [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:235:DDI A/PHY A] to 00000000b87fa308
+2023-01-30T08:43:56.348838Z DEBUG kernel: [  165.589634] [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:272:DDI TC3/PHY TC3] to 00000000b87fa308
+2023-01-30T08:43:56.348840Z DEBUG kernel: [  165.589637] i915 0000:00:02.0: [drm:intel_modeset_pipe_config] [CONNECTOR:273:DP-3] Limiting display bpp to 24 (EDID bpp 24, max requested bpp 36, max platform bpp 36)
+2023-01-30T08:43:56.348842Z DEBUG kernel: [  165.589641] i915 0000:00:02.0: [drm:intel_dp_compute_link_config] DP link computation with max lane count 2 max rate 540000 max bpp 24 pixel clock 148500KHz
+2023-01-30T08:43:56.348843Z DEBUG kernel: [  165.589642] i915 0000:00:02.0: [drm:intel_dp_compute_link_config] Force DSC en = 0
+2023-01-30T08:43:56.348844Z DEBUG kernel: [  165.589644] i915 0000:00:02.0: [drm:intel_dp_compute_link_config] DP lane count 2 clock 270000 bpp 24
+2023-01-30T08:43:56.348845Z DEBUG kernel: [  165.589645] i915 0000:00:02.0: [drm:intel_dp_compute_link_config] DP link rate required 445500 available 540000
+2023-01-30T08:43:56.348846Z DEBUG kernel: [  165.589648] i915 0000:00:02.0: [drm:intel_modeset_pipe_config] [CRTC:131:pipe B] hw max bpp: 24, pipe bpp: 24, dithering: 0
+
+2023-01-30T08:43:56.348850Z DEBUG kernel: [  165.589653] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.enable (expected 0, found 1)
+2023-01-30T08:43:56.348852Z DEBUG kernel: [  165.589655] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.active (expected 0, found 1)
+2023-01-30T08:43:56.348853Z DEBUG kernel: [  165.589657] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in cpu_transcoder (expected -1, found 1)
+2023-01-30T08:43:56.348854Z DEBUG kernel: [  165.589659] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in lane_count (expected 0, found 2)
+2023-01-30T08:43:56.348855Z DEBUG kernel: [  165.589662] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dp_m_n (expected tu 0 data 0/0 link 0/0, or tu 0 data 0/0 link 0/0, found tu 64,
+2023-01-30T08:43:56.348857Z DEBUG kernel: [  165.589665] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in output_types (expected 0x00000000, found 0x00000080)
+2023-01-30T08:43:56.348858Z DEBUG kernel: [  165.589667] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in framestart_delay (expected 0, found 1)
+2023-01-30T08:43:56.348859Z DEBUG kernel: [  165.589669] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_hdisplay (expected 0, found 1920)
+2023-01-30T08:43:56.348860Z DEBUG kernel: [  165.589671] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_htotal (expected 0, found 2200)
+2023-01-30T08:43:56.348862Z DEBUG kernel: [  165.589672] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_hblank_start (expected 0, found 1920)
+2023-01-30T08:43:56.348864Z DEBUG kernel: [  165.589674] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_hblank_end (expected 0, found 2200)
+2023-01-30T08:43:56.348865Z DEBUG kernel: [  165.589676] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_hsync_start (expected 0, found 2008)
+2023-01-30T08:43:56.348867Z DEBUG kernel: [  165.589678] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_hsync_end (expected 0, found 2052)
+2023-01-30T08:43:56.348869Z DEBUG kernel: [  165.589680] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_vdisplay (expected 0, found 1080)
+2023-01-30T08:43:56.348871Z DEBUG kernel: [  165.589682] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_vtotal (expected 0, found 1125)
+2023-01-30T08:43:56.348872Z DEBUG kernel: [  165.589684] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_vblank_start (expected 0, found 1080)
+2023-01-30T08:43:56.348874Z DEBUG kernel: [  165.589686] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_vblank_end (expected 0, found 1125)
+2023-01-30T08:43:56.348876Z DEBUG kernel: [  165.589688] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_vsync_start (expected 0, found 1084)
+2023-01-30T08:43:56.348877Z DEBUG kernel: [  165.589689] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_vsync_end (expected 0, found 1089)
+2023-01-30T08:43:56.348878Z DEBUG kernel: [  165.589691] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_hdisplay (expected 0, found 1920)
+2023-01-30T08:43:56.348879Z DEBUG kernel: [  165.589693] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_htotal (expected 0, found 2200)
+2023-01-30T08:43:56.348880Z DEBUG kernel: [  165.589695] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_hblank_start (expected 0, found 1920)
+2023-01-30T08:43:56.348882Z DEBUG kernel: [  165.589697] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_hblank_end (expected 0, found 2200)
+2023-01-30T08:43:56.348909Z DEBUG kernel: [  165.589699] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_hsync_start (expected 0, found 2008)
+2023-01-30T08:43:56.348911Z DEBUG kernel: [  165.589701] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_hsync_end (expected 0, found 2052)
+2023-01-30T08:43:56.348912Z DEBUG kernel: [  165.589703] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_vdisplay (expected 0, found 1080)
+2023-01-30T08:43:56.348914Z DEBUG kernel: [  165.589704] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_vtotal (expected 0, found 1125)
+2023-01-30T08:43:56.348915Z DEBUG kernel: [  165.589706] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_vblank_start (expected 0, found 1080)
+2023-01-30T08:43:56.348916Z DEBUG kernel: [  165.589709] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_vblank_end (expected 0, found 1125)
+2023-01-30T08:43:56.348917Z DEBUG kernel: [  165.589710] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_vsync_start (expected 0, found 1084)
+2023-01-30T08:43:56.348919Z DEBUG kernel: [  165.589712] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_vsync_end (expected 0, found 1089)
+2023-01-30T08:43:56.348920Z DEBUG kernel: [  165.589714] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in pixel_multiplier (expected 0, found 1)
+2023-01-30T08:43:56.348921Z DEBUG kernel: [  165.589716] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.flags (1) (expected 0, found 1)
+2023-01-30T08:43:56.348923Z DEBUG kernel: [  165.589718] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.flags (4) (expected 0, found 4)
+2023-01-30T08:43:56.348924Z DEBUG kernel: [  165.589721] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_refclkin_ctl (expected 0x00000000, found 0x00000100)
+2023-01-30T08:43:56.348925Z DEBUG kernel: [  165.589723] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_clktop2_coreclkctl1 (expected 0x00000000, found 0x00000a00)
+2023-01-30T08:43:56.348926Z DEBUG kernel: [  165.589725] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_clktop2_hsclkctl (expected 0x00000000, found 0x00005200)
+2023-01-30T08:43:56.348927Z DEBUG kernel: [  165.589727] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_pll_div0 (expected 0x00000000, found 0x00084269)
+2023-01-30T08:43:56.348929Z DEBUG kernel: [  165.589729] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_pll_div1 (expected 0x00000000, found 0x001c0027)
+2023-01-30T08:43:56.348931Z DEBUG kernel: [  165.589731] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_pll_ssc (expected 0x00000000, found 0x40002000)
+2023-01-30T08:43:56.348933Z DEBUG kernel: [  165.589733] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_pll_bias (expected 0x00000000, found 0x5e000000)
+2023-01-30T08:43:56.348935Z DEBUG kernel: [  165.589734] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in dpll_hw_state.mg_pll_tdc_coldst_bias (expected 0x00000000, found 0x00000052)
+2023-01-30T08:43:56.348937Z DEBUG kernel: [  165.589736] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in pipe_bpp (expected 0, found 24)
+2023-01-30T08:43:56.348938Z DEBUG kernel: [  165.589738] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.pipe_mode.crtc_clock (expected 0, found 148500)
+2023-01-30T08:43:56.348939Z DEBUG kernel: [  165.589740] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in hw.adjusted_mode.crtc_clock (expected 0, found 148500)
+2023-01-30T08:43:56.348940Z DEBUG kernel: [  165.589742] i915 0000:00:02.0: [drm:pipe_config_mismatch] [CRTC:131:pipe B] fastset mismatch in port_clock (expected 0, found 270000)
+
+2023-01-30T08:43:56.348947Z DEBUG kernel: [  165.589753] i915 0000:00:02.0: [drm:intel_plane_atomic_check_with_state] [CRTC:131:pipe B] with [PLANE:82:plane 1B] visible 0 -> 1, off 0, on 1, ms 1
+
+2023-01-30T08:43:56.349036Z DEBUG kernel: [  165.589814] i915 0000:00:02.0: [drm:intel_atomic_get_global_obj_state] Added new global object 00000000f53c5cb3 state 000000004e3d1e50 to 00000000b87fa308
+2023-01-30T08:43:56.349038Z DEBUG kernel: [  165.589816] i915 0000:00:02.0: [drm:intel_plane_calc_min_cdclk] [PLANE:82:plane 1B] min cdclk (74250 kHz) > [CRTC:131:pipe B] min cdclk (0 kHz)
+2023-01-30T08:43:56.349040Z DEBUG kernel: [  165.589819] i915 0000:00:02.0: [drm:intel_bw_calc_min_cdclk] new bandwidth min cdclk (19283 kHz) > old min cdclk (12052 kHz)
+2023-01-30T08:43:56.349042Z DEBUG kernel: [  165.589823] i915 0000:00:02.0: [drm:intel_modeset_calc_cdclk] New cdclk calculated to be logical 179200 kHz, actual 179200 kHz
+2023-01-30T08:43:56.349044Z DEBUG kernel: [  165.589825] i915 0000:00:02.0: [drm:intel_modeset_calc_cdclk] New voltage level calculated to be logical 0, actual 0
+2023-01-30T08:43:56.349045Z DEBUG kernel: [  165.589828] i915 0000:00:02.0: [drm:intel_find_shared_dpll] [CRTC:131:pipe B] allocated TBT PLL
+2023-01-30T08:43:56.349047Z DEBUG kernel: [  165.589829] i915 0000:00:02.0: [drm:icl_get_dplls] [CRTC:131:pipe B] reserving TBT PLL
+2023-01-30T08:43:56.349049Z DEBUG kernel: [  165.589830] i915 0000:00:02.0: [drm:intel_find_shared_dpll] [CRTC:131:pipe B] allocated TC PLL 3
+2023-01-30T08:43:56.349050Z DEBUG kernel: [  165.589831] i915 0000:00:02.0: [drm:icl_get_dplls] [CRTC:131:pipe B] reserving TC PLL 3
+
+
+2023-01-30T08:43:58.045096Z DEBUG kernel: [  167.286739] i915 0000:00:02.0: [drm:intel_power_well_enable] enabling DDI IO TC3
+2023-01-30T08:43:58.045099Z DEBUG kernel: [  167.286945] i915 0000:00:02.0: [drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00600 AUX <- (ret=  1) 01
+2023-01-30T08:43:58.045104Z DEBUG kernel: [  167.287097] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0xf0000 AUX -> (ret=  1) 00
+2023-01-30T08:43:58.045107Z DEBUG kernel: [  167.287249] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.046028Z DEBUG kernel: [  167.287522] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+2023-01-30T08:43:58.046046Z DEBUG kernel: [  167.287528] i915 0000:00:02.0: [drm:drm_dp_read_dpcd_caps] AUX USBC3/DDI TC3/PHY TC3: DPCD: 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+2023-01-30T08:43:58.046049Z DEBUG kernel: [  167.287681] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.046064Z DEBUG kernel: [  167.287833] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0000 AUX -> (ret=  1) 00
+2023-01-30T08:43:58.046068Z DEBUG kernel: [  167.287986] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.046073Z DEBUG kernel: [  167.288140] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0001 AUX -> (ret=  1) 00
+2023-01-30T08:43:58.046076Z DEBUG kernel: [  167.288294] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.047006Z DEBUG kernel: [  167.288450] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0002 AUX -> (ret=  1) 00
+2023-01-30T08:43:58.047008Z DEBUG kernel: [  167.288606] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.047010Z DEBUG kernel: [  167.288760] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0003 AUX -> (ret=  1) 00
+2023-01-30T08:43:58.047011Z DEBUG kernel: [  167.288914] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.047013Z DEBUG kernel: [  167.289067] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0004 AUX -> (ret=  1) 00
+2023-01-30T08:43:58.047014Z DEBUG kernel: [  167.289221] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.047017Z DEBUG kernel: [  167.289367] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0005 AUX -> (ret=  1) 00
+2023-01-30T08:43:58.048006Z DEBUG kernel: [  167.289508] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.048007Z DEBUG kernel: [  167.289648] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0006 AUX -> (ret=  1) 00
+2023-01-30T08:43:58.048008Z DEBUG kernel: [  167.289788] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.048009Z DEBUG kernel: [  167.289928] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0xf0007 AUX -> (ret=  1) 00
+2023-01-30T08:43:58.048009Z DEBUG kernel: [  167.289930] i915 0000:00:02.0: [drm:intel_dp_init_lttpr_and_dprx_caps] LTTPR common capabilities: 00 00 00 00 00 00 00 00
+2023-01-30T08:43:58.048010Z DEBUG kernel: [  167.290070] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.048011Z DEBUG kernel: [  167.290328] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret= 15) 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+2023-01-30T08:43:58.048013Z DEBUG kernel: [  167.290329] i915 0000:00:02.0: [drm:drm_dp_read_dpcd_caps] AUX USBC3/DDI TC3/PHY TC3: DPCD: 12 14 82 01 01 00 01 00 02 00 00 00 00 00 00
+2023-01-30T08:43:58.049009Z DEBUG kernel: [  167.290517] i915 0000:00:02.0: [drm:intel_dp_start_link_train] Using LINK_BW_SET value 0a
+2023-01-30T08:43:58.049016Z DEBUG kernel: [  167.290665] i915 0000:00:02.0: [drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00100 AUX <- (ret=  2) 0a 82
+2023-01-30T08:43:58.049017Z DEBUG kernel: [  167.290813] i915 0000:00:02.0: [drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00107 AUX <- (ret=  2) 00 01
+2023-01-30T08:43:58.049017Z DEBUG kernel: [  167.290816] i915 0000:00:02.0: [drm:intel_dp_set_signal_levels] [ENCODER:272:DDI TC3/PHY TC3] lanes: 2, vswing levels: 0/0/0/0, pre-emphasis levels: 0/0/0/0, at DPRX
+2023-01-30T08:43:58.049018Z DEBUG kernel: [  167.290832] i915 0000:00:02.0: [drm:intel_dp_program_link_training_pattern] [ENCODER:272:DDI TC3/PHY TC3] Using DP training pattern TPS1
+2023-01-30T08:43:58.050100Z DEBUG kernel: [  167.292172] i915 0000:00:02.0: [drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00102 AUX <- (ret=  3) 21 00 00
+2023-01-30T08:43:58.051036Z DEBUG kernel: [  167.292530] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.051048Z DEBUG kernel: [  167.292735] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00202 AUX -> (ret=  6) 00 00 00 00 cc cc
+2023-01-30T08:43:58.051052Z DEBUG kernel: [  167.292745] i915 0000:00:02.0: [drm:intel_dp_set_signal_levels] [ENCODER:272:DDI TC3/PHY TC3] lanes: 2, vswing levels: 0/0/0/0, pre-emphasis levels: 3(max)/3(max)/3(max)/3(max)
+2023-01-30T08:43:58.052074Z DEBUG kernel: [  167.294173] i915 0000:00:02.0: [drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00103 AUX <- (ret=  2) 38 38
+2023-01-30T08:43:58.053056Z DEBUG kernel: [  167.294531] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.053094Z DEBUG kernel: [  167.294739] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00202 AUX -> (ret=  6) 11 00 00 00 cc cc
+2023-01-30T08:43:58.053102Z DEBUG kernel: [  167.294748] i915 0000:00:02.0: [drm:intel_dp_link_train_phy] clock recovery OK
+2023-01-30T08:43:58.053105Z DEBUG kernel: [  167.294757] i915 0000:00:02.0: [drm:intel_dp_program_link_training_pattern] [ENCODER:272:DDI TC3/PHY TC3] Using DP training pattern TPS2
+2023-01-30T08:43:58.054128Z DEBUG kernel: [  167.296016] i915 0000:00:02.0: [drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00102 AUX <- (ret=  3) 22 38 38
+2023-01-30T08:43:58.055065Z DEBUG kernel: [  167.296997] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.055113Z DEBUG kernel: [  167.297198] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00202 AUX -> (ret=  6) 11 00 00 00 22 22
+2023-01-30T08:43:58.055120Z DEBUG kernel: [  167.297207] i915 0000:00:02.0: [drm:intel_dp_set_signal_levels] [ENCODER:272:DDI TC3/PHY TC3] lanes: 2, vswing levels: 2/2/2/2, pre-emphasis levels: 0/0/0/0, at DPRX
+2023-01-30T08:43:58.057148Z DEBUG kernel: [  167.298636] i915 0000:00:02.0: [drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00103 AUX <- (ret=  2) 02 02
+2023-01-30T08:43:58.057221Z DEBUG kernel: [  167.299552] i915 0000:00:02.0: [drm:drm_dp_dpcd_probe] AUX USBC3/DDI TC3/PHY TC3: 0x00000 AUX -> (ret=  1) 12
+2023-01-30T08:43:58.058171Z DEBUG kernel: [  167.299764] i915 0000:00:02.0: [drm:drm_dp_dpcd_read] AUX USBC3/DDI TC3/PHY TC3: 0x00202 AUX -> (ret=  6) 77 00 01 00 22 22
+2023-01-30T08:43:58.058195Z DEBUG kernel: [  167.299774] i915 0000:00:02.0: [drm:intel_dp_link_train_phy] Channel EQ done. DP Training successful
+2023-01-30T08:43:58.058198Z DEBUG kernel: [  167.299785] i915 0000:00:02.0: [drm:intel_dp_link_train_phy] [CONNECTOR:273:DP-3] Link Training passed at link rate = 270000, lane count = 2, at DPRX
+2023-01-30T08:43:58.058202Z DEBUG kernel: [  167.300127] i915 0000:00:02.0: [drm:drm_dp_dpcd_write] AUX USBC3/DDI TC3/PHY TC3: 0x00102 AUX <- (ret=  1) 00
+2023-01-30T08:43:58.058205Z DEBUG kernel: [  167.300164] i915 0000:00:02.0: [drm:intel_enable_transcoder] enabling pipe B
+2023-01-30T08:43:58.058208Z DEBUG kernel: [  167.300191] i915 0000:00:02.0: [drm:drm_crtc_vblank_on] crtc 1, vblank enabled 0, inmodeset 1
+2023-01-30T08:43:58.058210Z DEBUG kernel: [  167.300289] i915 0000:00:02.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(0,-45)@ 167.296956 -> 167.297623 [e 0 us, 1 rep]
+2023-01-30T08:43:58.058212Z DEBUG kernel: [  167.300300] i915 0000:00:02.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(0,-44)@ 167.296969 -> 167.297621 [e 0 us, 0 rep]
+2023-01-30T08:43:58.058215Z DEBUG kernel: [  167.300311] i915 0000:00:02.0: [drm:intel_opregion_notify_encoder] [ENCODER:272:DDI TC3/PHY TC3] port F (index 6) out of bounds for display power state notification
+
+
+2023-01-30T08:43:58.078894Z DEBUG kernel: [  167.320892] [drm:drm_ioctl] comm="DrmThread" pid=2119, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
+2023-01-30T08:43:58.078900Z DEBUG kernel: [  167.320901] [drm:drm_atomic_state_init] Allocated atomic state 00000000d9b6567d
+2023-01-30T08:43:58.078905Z DEBUG kernel: [  167.320915] [drm:drm_mode_object_get] OBJ ID: 305 (1)
+2023-01-30T08:43:58.078910Z DEBUG kernel: [  167.320922] [drm:drm_atomic_get_crtc_state] Added [CRTC:131:pipe B] 00000000d4aae180 state to 00000000d9b6567d
+2023-01-30T08:43:58.078915Z DEBUG kernel: [  167.320929] [drm:drm_mode_object_get] OBJ ID: 295 (3)
+2023-01-30T08:43:58.078920Z DEBUG kernel: [  167.320936] [drm:drm_mode_object_put] OBJ ID: 295 (4)
+2023-01-30T08:43:58.078925Z DEBUG kernel: [  167.320942] [drm:drm_mode_object_put] OBJ ID: 295 (3)
+2023-01-30T08:43:58.078935Z DEBUG kernel: [  167.320949] [drm:drm_atomic_print_new_state] checking 00000000d9b6567d
+2023-01-30T08:43:58.078940Z DEBUG kernel: [  167.320955] commit_state crtc[131]: pipe B
+2023-01-30T08:43:58.078945Z DEBUG kernel: [  167.320958] commit_state 	enable=1
+2023-01-30T08:43:58.078950Z DEBUG kernel: [  167.320961] commit_state 	active=1
+2023-01-30T08:43:58.078956Z DEBUG kernel: [  167.320965] commit_state 	self_refresh_active=0
+2023-01-30T08:43:58.078963Z DEBUG kernel: [  167.320968] commit_state 	planes_changed=0
+2023-01-30T08:43:58.078969Z DEBUG kernel: [  167.320971] commit_state 	mode_changed=0
+2023-01-30T08:43:58.078974Z DEBUG kernel: [  167.320974] commit_state 	active_changed=0
+2023-01-30T08:43:58.078981Z DEBUG kernel: [  167.320984] [drm:drm_ioctl] comm="chrome" pid=2093, dev=0xe280, auth=0, I915_GEM_EXECBUFFER2_WR
+2023-01-30T08:43:58.078986Z DEBUG kernel: [  167.320990] commit_state 	connectors_changed=0
+2023-01-30T08:43:58.079022Z DEBUG kernel: [  167.320993] commit_state 	color_mgmt_changed=1
+2023-01-30T08:43:58.079029Z DEBUG kernel: [  167.320997] commit_state 	plane_mask=40
+2023-01-30T08:43:58.079034Z DEBUG kernel: [  167.321001] commit_state 	connector_mask=10
+2023-01-30T08:43:58.079039Z DEBUG kernel: [  167.321004] commit_state 	encoder_mask=1000
+2023-01-30T08:43:58.079044Z DEBUG kernel: [  167.321012] commit_state 	mode: "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+2023-01-30T08:43:58.079049Z DEBUG kernel: [  167.321019] [drm:drm_atomic_check_only] checking 00000000d9b6567d
+2023-01-30T08:43:58.079056Z DEBUG kernel: [  167.321030] [drm:drm_mode_object_get] OBJ ID: 295 (2)
+2023-01-30T08:43:58.079062Z DEBUG kernel: [  167.321049] i915 0000:00:02.0: [drm:intel_atomic_get_global_obj_state] Added new global object 00000000b82bd9b4 state 000000000ae7c017 to 00000000d9b6567d
+2023-01-30T08:43:58.079071Z DEBUG kernel: [  167.321073] i915 0000:00:02.0: [drm:intel_atomic_get_global_obj_state] Added new global object 00000000a40d7c2a state 00000000130002f7 to 00000000d9b6567d
+
+2023-01-30T08:43:58.095219Z DEBUG kernel: [  167.336619] [drm:drm_ioctl] comm="DrmThread" pid=2119, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
+2023-01-30T08:43:58.095224Z DEBUG kernel: [  167.336626] [drm:drm_atomic_state_init] Allocated atomic state 000000007e551c82
+2023-01-30T08:43:58.095227Z DEBUG kernel: [  167.336635] [drm:drm_mode_object_get] OBJ ID: 305 (1)
+2023-01-30T08:43:58.095229Z DEBUG kernel: [  167.336638] [drm:drm_mode_object_get] OBJ ID: 295 (2)
+2023-01-30T08:43:58.095231Z DEBUG kernel: [  167.336640] [drm:drm_mode_object_get] OBJ ID: 295 (3)
+2023-01-30T08:43:58.095234Z DEBUG kernel: [  167.336644] [drm:drm_atomic_get_crtc_state] Added [CRTC:131:pipe B] 00000000cdd53a37 state to 000000007e551c82
+2023-01-30T08:43:58.095237Z DEBUG kernel: [  167.336648] [drm:drm_mode_object_put] OBJ ID: 295 (4)
+2023-01-30T08:43:58.095240Z DEBUG kernel: [  167.336651] [drm:drm_mode_object_get] OBJ ID: 296 (3)
+2023-01-30T08:43:58.095243Z DEBUG kernel: [  167.336654] [drm:drm_mode_object_put] OBJ ID: 296 (4)
+2023-01-30T08:43:58.095246Z DEBUG kernel: [  167.336657] [drm:drm_mode_object_put] OBJ ID: 296 (3)
+2023-01-30T08:43:58.095249Z DEBUG kernel: [  167.336662] [drm:drm_atomic_print_new_state] checking 000000007e551c82
+2023-01-30T08:43:58.095252Z DEBUG kernel: [  167.336665] commit_state crtc[131]: pipe B
+2023-01-30T08:43:58.095254Z DEBUG kernel: [  167.336667] commit_state 	enable=1
+2023-01-30T08:43:58.095257Z DEBUG kernel: [  167.336668] commit_state 	active=1
+2023-01-30T08:43:58.095259Z DEBUG kernel: [  167.336670] commit_state 	self_refresh_active=0
+2023-01-30T08:43:58.095263Z DEBUG kernel: [  167.336672] commit_state 	planes_changed=0
+2023-01-30T08:43:58.095265Z DEBUG kernel: [  167.336673] commit_state 	mode_changed=0
+2023-01-30T08:43:58.095268Z DEBUG kernel: [  167.336675] commit_state 	active_changed=0
+2023-01-30T08:43:58.095270Z DEBUG kernel: [  167.336677] commit_state 	connectors_changed=0
+2023-01-30T08:43:58.095272Z DEBUG kernel: [  167.336678] commit_state 	color_mgmt_changed=1
+2023-01-30T08:43:58.095274Z DEBUG kernel: [  167.336680] commit_state 	plane_mask=40
+2023-01-30T08:43:58.095277Z DEBUG kernel: [  167.336682] commit_state 	connector_mask=10
+2023-01-30T08:43:58.095279Z DEBUG kernel: [  167.336683] commit_state 	encoder_mask=1000
+2023-01-30T08:43:58.095283Z DEBUG kernel: [  167.336687] commit_state 	mode: "1920x1080": 60 148500 1920 2008 2052 2200 1080 1084 1089 1125 0x48 0x5
+2023-01-30T08:43:58.095285Z DEBUG kernel: [  167.336691] [drm:drm_atomic_check_only] checking 000000007e551c82
+2023-01-30T08:43:58.095288Z DEBUG kernel: [  167.336699] [drm:drm_mode_object_put] OBJ ID: 295 (3)
+2023-01-30T08:43:58.095290Z DEBUG kernel: [  167.336702] [drm:drm_mode_object_get] OBJ ID: 296 (2)
+2023-01-30T08:43:58.095292Z DEBUG kernel: [  167.336713] i915 0000:00:02.0: [drm:intel_atomic_get_global_obj_state] Added new global object 00000000b82bd9b4 state 000000005618c59e to 000000007e551c82
+2023-01-30T08:43:58.095297Z DEBUG kernel: [  167.336731] i915 0000:00:02.0: [drm:intel_atomic_get_global_obj_state] Added new global object 00000000a40d7c2a state 00000000fdd91dcd to 000000007e551c82
+2023-01-30T08:43:58.095320Z DEBUG kernel: [  167.336747] [drm:drm_atomic_commit] committing 000000007e551c82
+2023-01-30T08:43:58.095324Z DEBUG kernel: [  167.336843] i915 0000:00:02.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(0,172)@ 167.333511 -> 167.330963 [e 0 us, 0 rep]
+2023-01-30T08:43:58.095329Z DEBUG kernel: [  167.336850] i915 0000:00:02.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=3, diff=0, hw=3 hw_last=3

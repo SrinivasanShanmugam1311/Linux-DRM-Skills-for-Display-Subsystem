@@ -1,0 +1,109 @@
+C:\Users\srishanm\Desktop\tasks\265506401_BENQ-E500S projector_issue\6_2_23\simplified_one_instance_epson+AMD_unitek+epson ch-tw750_frosflow_debug-logs_20230131-143709.txt (108 hits)
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0xf0000 AUX -> (ret=  8) 00 00 00 00 00 00 00 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0xe000d AUX -> (ret=  3) 00 00 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0xe001b AUX -> (ret=  5) 00 00 00 00 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00600 AUX -> (ret=  1) 01
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00300 AUX -> (ret=  3) 00 00 00
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00300 AUX <- (ret=  3) 00 00 1a
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00303 AUX <- (ret=  9) 06 15 00 00 00 00 19 00 00
+[drm:drm_dp_dpcd_access] AMDGPU DM aux hw bus 2: Too many retries, giving up. First error: -5
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00340 AUX <- (ret= -5)
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret= 16) 12 0a 82 01 01 00 01 00 02 00 00 00 00 00 00 00 [12h == DPCD r1.2, 0x00001 = OAh == 2.7 Gbps/lane (HBR)]
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00500 AUX -> (ret=  9) 00 00 00 00 00 00 00 00 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00021 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00200 AUX -> (ret=  1) 41
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00400 AUX -> (ret=  9) 00 1b c5 41 47 36 33 32 30
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00409 AUX -> (ret=  3) 13 01 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00317 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x02217 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00201 AUX -> (ret=  1) 04
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00218 AUX -> (ret=  1) 00
+[drm:drm_dp_send_real_edid_checksum] AMDGPU DM aux hw bus 2: Source DUT does not support TEST_EDID_READ
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x6921d AUX -> (ret=  3) 00 00 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x68028 AUX -> (ret=  1) 01
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00600 AUX <- (ret=  1) 02
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00600 AUX <- (ret=  1) 01
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00205 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00108 AUX <- (ret=  1) 01
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00107 AUX <- (ret=  1) 10
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00101 AUX <- (ret=  1) 82
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00100 AUX <- (ret=  1) 0a -------------------------> 2.7 Gbps/lane (HBR)
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  3) 21 00 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 00 00 00 00 cc cc
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00103 AUX <- (ret=  2) 38 38
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 11 00 00 00 cc cc
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  3) 22 38 38
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 11 00 00 00 22 22
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00103 AUX <- (ret=  2) 02 02
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 77 00 01 00 22 22
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00205 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00200 AUX -> (ret=  6) 41 04 77 00 01 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00200 AUX -> (ret=  6) 41 04 77 00 01 00
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00600 AUX <- (ret=  1) 02
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00300 AUX -> (ret=  3) 00 00 1a
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00303 AUX <- (ret=  9) 06 15 00 00 00 00 19 00 00
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00600 AUX <- (ret=  1) 01
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00205 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00108 AUX <- (ret=  1) 01
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00107 AUX <- (ret=  1) 10
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00101 AUX <- (ret=  1) 81 ---> LANE_COUNT_SET = 1
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00100 AUX <- (ret=  1) 06 ---> 1.62 Gbps/lane (RBR) (DPCD 00108h = 01h)
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  2) 21 00 --> [21h == 0010 0001 = 01b = Link Training Pattern Sequence 1]
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 00 00 00 00 cc cc
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00103 AUX <- (ret=  1) 38 ---> [Lane0: 38h == 0011 1000 = 1 (5th bit) = MAX_PRE_EMPHASIS_REACHED, 11 (4th & 3rd bit) = Pre-empahsis Level 3, 00 (1st & 0th bit) == Voltage Swing level 0]
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 01 00 00 00 cc cc --> [01h == 0th bit == LANE0_CR_DONE]
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  2) 22 38
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 01 00 00 00 22 22
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00103 AUX <- (ret=  1) 02
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 07 00 01 00 22 22 --> [07h == 2nd, 1st, 0th bit == LANE0_SYMBOL_LOCKED, LANE0_CHANNEL_EQ_DONE, LANE0_CR_DONE]
+[drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00102 AUX <- (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00205 AUX -> (ret=  1) 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00200 AUX -> (ret=  6) 41 04 07 00 01 00
+[drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+[drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00107 AUX -> (ret=  1) 10

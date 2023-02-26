@@ -1,0 +1,42 @@
+    +----------------------------------------------------------------------+
+    ¦                 • MobaXterm Personal Edition v21.5 •                 ¦
+    ¦               (SSH client, X server and network tools)               ¦
+    ¦                                                                      ¦
+    ¦ ? SSH session to srishanm@10.138.129.9                               ¦
+    ¦   • Direct SSH      :  ?                                             ¦
+    ¦   • SSH compression :  ?                                             ¦
+    ¦   • SSH-browser     :  ?                                             ¦
+    ¦   • X11-forwarding  :  ?  (remote display is forwarded through SSH)  ¦
+    ¦                                                                      ¦
+    ¦ ? For more info, ctrl+click on help or visit our website.            ¦
+    +----------------------------------------------------------------------+
+
+Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.15.0-56-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+107 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+New release '22.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+*** System restart required ***
+Last login: Mon Feb  6 12:28:37 2023 from 10.136.38.122
+srishanm@TRX40-1:~$
+srishanm@TRX40-1:~$
+srishanm@TRX40-1:~$ ssh root@10.136.39.211
+Password:
+localhost ~ # cd /
+localhost / #
+localhost / #
+localhost / # stop ui
+ui stop/waiting
+localhost / #
+localhost / #
+localhost / #
+localhost / # modetest -M amdgpu -s 89@70:1024x768
+setting mode 1024x768-60.00Hz on connectors 89, crtc 70
