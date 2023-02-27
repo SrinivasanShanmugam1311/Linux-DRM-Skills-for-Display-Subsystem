@@ -1,0 +1,2470 @@
+ C:\Users\srishanm\Desktop\tasks\265506401_BENQ-E500S projector_issue\8_2_23\DP_Alt_mode_Aux_read_backtrace.txt (51 hits)
+[   37.910863] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0xf0000 AUX -> (ret=  8) 00 00 00 00 00 00 00 00
+	
+	[   37.909107] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.909140] ------------[ cut here ]------------
+[   37.909146] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.909170] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.909328] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.909341] Hardware name: XXXXXX
+[   37.909349] Workqueue: events_highpri dm_irq_work_func
+[   37.909361] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.909373] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.909382] RSP: 0018:ffffb3c84059bad8 EFLAGS: 00010246
+[   37.909390] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.909398] RDX: ffff912b6dea2b38 RSI: ffff912b6de96d88 RDI: ffff912b6de96d88
+[   37.909403] RBP: ffffb3c84059bb00 R08: 0000000000000000 R09: ffffb3c84059b8d0
+[   37.909410] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000008
+[   37.909416] R13: 0000000000000008 R14: 00000000000f0000 R15: ffffb3c84059bb88
+[   37.909423] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.909431] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.909438] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.909444] Call Trace:
+[   37.909453]  <TASK>
+[   37.909462]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.909473]  core_link_read_dpcd+0xf8/0x15f
+[   37.909486]  dp_retrieve_lttpr_cap+0x8b/0x16c
+[   37.909499]  retrieve_link_cap+0xdb/0xb6e
+[   37.909509]  ? trace_graph_entry+0x61/0x237
+[   37.909521]  ? dal_gpio_close+0x1e/0x2c
+[   37.909532]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.909542]  dc_link_detect+0xcd8/0xf1e
+[   37.909554]  ? dm_read_reg_func+0x3e/0xa6
+[   37.909567]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.909577]  ? dc_link_detect_sink+0xec/0x131
+[   37.909586]  handle_hpd_irq_helper+0xe5/0x155
+[   37.909598]  process_one_work+0x1da/0x342
+[   37.909609]  worker_thread+0x21b/0x373
+[   37.909617]  kthread+0x13d/0x153
+[   37.909628]  ? pr_cont_work+0x54/0x54
+[   37.909635]  ? kthread_blkcg+0x31/0x31
+[   37.909645]  ret_from_fork+0x22/0x30
+[   37.909657]  </TASK>
+[   37.909662] ---[ end trace 2d288d4bc234d6ac ]---
+	
+	
+[   37.912434] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0xe000d AUX -> (ret=  3) 00 00 00
+
+[   37.910880] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.910902] ------------[ cut here ]------------
+[   37.910905] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.910918] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.911038] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.911047] Hardware name: XXXXXX
+[   37.911052] Workqueue: events_highpri dm_irq_work_func
+[   37.911061] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.911071] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.911078] RSP: 0018:ffffb3c84059bad8 EFLAGS: 00010246
+[   37.911085] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.911092] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.911098] RBP: ffffb3c84059bb00 R08: 0000000000000000 R09: ffffb3c84059b8d0
+[   37.911104] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000003
+[   37.911109] R13: 0000000000000003 R14: 00000000000e000d R15: ffffb3c84059bb8c
+[   37.911115] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.911122] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.911127] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.911133] Call Trace:
+[   37.911137]  <TASK>
+[   37.911143]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.911152]  core_link_read_dpcd+0xf8/0x15f
+[   37.911162]  dpcd_get_tunneling_device_data+0x53/0xbb
+[   37.911173]  retrieve_link_cap+0xe6/0xb6e
+[   37.911183]  ? trace_graph_entry+0x61/0x237
+[   37.911192]  ? dal_gpio_close+0x1e/0x2c
+[   37.911202]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.911211]  dc_link_detect+0xcd8/0xf1e
+[   37.911223]  ? dm_read_reg_func+0x3e/0xa6
+[   37.911235]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.911245]  ? dc_link_detect_sink+0xec/0x131
+[   37.911253]  handle_hpd_irq_helper+0xe5/0x155
+[   37.911265]  process_one_work+0x1da/0x342
+[   37.911273]  worker_thread+0x21b/0x373
+[   37.911280]  kthread+0x13d/0x153
+[   37.911289]  ? pr_cont_work+0x54/0x54
+[   37.911296]  ? kthread_blkcg+0x31/0x31
+[   37.911306]  ret_from_fork+0x22/0x30
+[   37.911317]  </TASK>
+[   37.911320] ---[ end trace 2d288d4bc234d6ad ]---
+
+[   37.913807] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0xe001b AUX -> (ret=  5) 00 00 00 00 00
+
+[   37.912449] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.912467] ------------[ cut here ]------------
+[   37.912470] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.912482] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.912550] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.912554] Hardware name: XXXXXX
+[   37.912556] Workqueue: events_highpri dm_irq_work_func
+[   37.912560] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.912565] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.912568] RSP: 0018:ffffb3c84059bad8 EFLAGS: 00010246
+[   37.912572] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.912574] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.912577] RBP: ffffb3c84059bb00 R08: 0000000000000000 R09: ffffb3c84059b8d0
+[   37.912580] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000005
+[   37.912583] R13: 0000000000000005 R14: 00000000000e001b R15: ffffb3c84059bb84
+[   37.912586] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.912589] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.912592] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.912594] Call Trace:
+[   37.912597]  <TASK>
+[   37.912599]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.912604]  core_link_read_dpcd+0xf8/0x15f
+[   37.912609]  dpcd_get_tunneling_device_data+0x68/0xbb
+[   37.912614]  retrieve_link_cap+0xe6/0xb6e
+[   37.912619]  ? trace_graph_entry+0x61/0x237
+[   37.912623]  ? dal_gpio_close+0x1e/0x2c
+[   37.912628]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.912633]  dc_link_detect+0xcd8/0xf1e
+[   37.912638]  ? dm_read_reg_func+0x3e/0xa6
+[   37.912644]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.912649]  ? dc_link_detect_sink+0xec/0x131
+[   37.912653]  handle_hpd_irq_helper+0xe5/0x155
+[   37.912658]  process_one_work+0x1da/0x342
+[   37.912662]  worker_thread+0x21b/0x373
+[   37.912666]  kthread+0x13d/0x153
+[   37.912670]  ? pr_cont_work+0x54/0x54
+[   37.912674]  ? kthread_blkcg+0x31/0x31
+[   37.912678]  ret_from_fork+0x22/0x30
+[   37.912684]  </TASK>
+[   37.912686] ---[ end trace 2d288d4bc234d6ae ]---
+
+
+[   37.915117] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00600 AUX -> (ret=  1) 01
+
+[   37.913814] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.913823] ------------[ cut here ]------------
+[   37.913825] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.913830] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.913889] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.913893] Hardware name: XXXXXX
+[   37.913895] Workqueue: events_highpri dm_irq_work_func
+[   37.913899] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.913904] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.913907] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.913910] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.913913] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.913916] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.913918] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   37.913921] R13: 0000000000000001 R14: 0000000000000600 R15: ffffb3c84059bbd2
+[   37.913924] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.913927] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.913930] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.913933] Call Trace:
+[   37.913935]  <TASK>
+[   37.913938]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.913943]  core_link_read_dpcd+0xf8/0x15f
+[   37.913948]  retrieve_link_cap+0xfd/0xb6e
+[   37.913953]  ? trace_graph_entry+0x61/0x237
+[   37.913957]  ? dal_gpio_close+0x1e/0x2c
+[   37.913962]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.913966]  dc_link_detect+0xcd8/0xf1e
+[   37.913972]  ? dm_read_reg_func+0x3e/0xa6
+[   37.913978]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.913983]  ? dc_link_detect_sink+0xec/0x131
+[   37.913987]  handle_hpd_irq_helper+0xe5/0x155
+[   37.913992]  process_one_work+0x1da/0x342
+[   37.913996]  worker_thread+0x21b/0x373
+[   37.914000]  kthread+0x13d/0x153
+[   37.914005]  ? pr_cont_work+0x54/0x54
+[   37.914008]  ? kthread_blkcg+0x31/0x31
+[   37.914013]  ret_from_fork+0x22/0x30
+[   37.914018]  </TASK>
+[   37.914020] ---[ end trace 2d288d4bc234d6af ]---
+
+
+[   37.916765] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00300 AUX -> (ret=  3) 00 00 00
+
+[   37.915133] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.915152] ------------[ cut here ]------------
+[   37.915156] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.915168] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.915294] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.915303] Hardware name: XXXXXX
+[   37.915308] Workqueue: events_highpri dm_irq_work_func
+[   37.915315] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.915326] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.915332] RSP: 0018:ffffb3c84059bad0 EFLAGS: 00010246
+[   37.915339] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.915345] RDX: 0000000000000000 RSI: 00000000ff7fffff RDI: 0000000000000001
+[   37.915350] RBP: ffffb3c84059baf8 R08: 0000000000000000 R09: ffffb3c84059b8d0
+[   37.915356] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000003
+[   37.915361] R13: 0000000000000003 R14: 0000000000000300 R15: ffffb3c84059bb80
+[   37.915368] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.915374] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.915380] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.915386] Call Trace:
+[   37.915390]  <TASK>
+[   37.915395]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.915405]  core_link_read_dpcd+0xf8/0x15f
+[   37.915415]  dpcd_set_source_specific_data+0x92/0x159
+[   37.915428]  retrieve_link_cap+0x11b/0xb6e
+[   37.915440]  ? trace_graph_entry+0x61/0x237
+[   37.915449]  ? dal_gpio_close+0x1e/0x2c
+[   37.915459]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.915468]  dc_link_detect+0xcd8/0xf1e
+[   37.915479]  ? dm_read_reg_func+0x3e/0xa6
+[   37.915490]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.915500]  ? dc_link_detect_sink+0xec/0x131
+[   37.915508]  handle_hpd_irq_helper+0xe5/0x155
+[   37.915520]  process_one_work+0x1da/0x342
+[   37.915527]  worker_thread+0x21b/0x373
+[   37.915535]  kthread+0x13d/0x153
+[   37.915544]  ? pr_cont_work+0x54/0x54
+[   37.915551]  ? kthread_blkcg+0x31/0x31
+[   37.915560]  ret_from_fork+0x22/0x30
+[   37.915571]  </TASK>
+[   37.915575] ---[ end trace 2d288d4bc234d6b0 ]---
+
+
+[   37.951826] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret= 16) 12 14 c2 81 01 1b 01 81 38 2d 04 00 00 00 84 00
+
+[   37.950050] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.950080] ------------[ cut here ]------------
+[   37.950085] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.950107] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.950255] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.950267] Hardware name: XXXXXX
+[   37.950274] Workqueue: events_highpri dm_irq_work_func
+[   37.950286] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.950297] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.950306] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.950314] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.950321] RDX: ffff912b6dea2b38 RSI: ffff912b6de96d88 RDI: ffff912b6de96d88
+[   37.950326] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.950332] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000010
+[   37.950338] R13: 0000000000000010 R14: 0000000000000000 R15: ffffb3c84059bbf0
+[   37.950345] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.950352] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.950359] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.950365] Call Trace:
+[   37.950372]  <TASK>
+[   37.950380]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.950391]  core_link_read_dpcd+0xf8/0x15f
+[   37.950403]  retrieve_link_cap+0x141/0xb6e
+[   37.950414]  ? trace_graph_entry+0x61/0x237
+[   37.950425]  ? dal_gpio_close+0x1e/0x2c
+[   37.950435]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.950445]  dc_link_detect+0xcd8/0xf1e
+[   37.950458]  ? dm_read_reg_func+0x3e/0xa6
+[   37.950470]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.950480]  ? dc_link_detect_sink+0xec/0x131
+[   37.950488]  handle_hpd_irq_helper+0xe5/0x155
+[   37.950500]  process_one_work+0x1da/0x342
+[   37.950510]  worker_thread+0x21b/0x373
+[   37.950518]  kthread+0x13d/0x153
+[   37.950528]  ? pr_cont_work+0x54/0x54
+[   37.950535]  ? kthread_blkcg+0x31/0x31
+[   37.950545]  ret_from_fork+0x22/0x30
+[   37.950557]  </TASK>
+[   37.950561] ---[ end trace 2d288d4bc234d6b1 ]---
+
+
+[   37.953512] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x02200 AUX -> (ret= 16) 14 1e c2 81 01 1b 01 81 38 2d 04 00 00 00 84 00
+
+[   37.951846] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.951865] ------------[ cut here ]------------
+[   37.951869] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.951881] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.952004] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.952013] Hardware name: XXXXXX
+[   37.952018] Workqueue: events_highpri dm_irq_work_func
+[   37.952027] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.952037] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.952044] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.952051] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.952058] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.952064] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.952069] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000010
+[   37.952075] R13: 0000000000000010 R14: 0000000000002200 R15: ffffb3c84059bc00
+[   37.952081] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.952087] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.952093] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.952099] Call Trace:
+[   37.952103]  <TASK>
+[   37.952109]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.952119]  core_link_read_dpcd+0xf8/0x15f
+[   37.952129]  retrieve_link_cap+0x1b4/0xb6e
+[   37.952140]  ? trace_graph_entry+0x61/0x237
+[   37.952150]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.952160]  dc_link_detect+0xcd8/0xf1e
+[   37.952172]  ? dm_read_reg_func+0x3e/0xa6
+[   37.952184]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.952194]  ? dc_link_detect_sink+0xec/0x131
+[   37.952202]  handle_hpd_irq_helper+0xe5/0x155
+[   37.952214]  process_one_work+0x1da/0x342
+[   37.952222]  worker_thread+0x21b/0x373
+[   37.952230]  kthread+0x13d/0x153
+[   37.952239]  ? pr_cont_work+0x54/0x54
+[   37.952246]  ? kthread_blkcg+0x31/0x31
+[   37.952256]  ret_from_fork+0x22/0x30
+[   37.952267]  </TASK>
+[   37.952271] ---[ end trace 2d288d4bc234d6b2 ]---
+
+
+[   37.954818] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x02210 AUX -> (ret=  1) 08
+
+[   37.953521] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.953530] ------------[ cut here ]------------
+[   37.953532] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.953538] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.953597] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.953602] Hardware name: XXXXXX
+[   37.953609] Workqueue: events_highpri dm_irq_work_func
+[   37.953614] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.953619] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.953623] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.953626] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.953629] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.953632] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.953635] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   37.953637] R13: 0000000000000001 R14: 0000000000002210 R15: ffffb3c84059bbd3
+[   37.953640] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.953644] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.953647] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.953649] Call Trace:
+[   37.953652]  <TASK>
+[   37.953654]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.953659]  core_link_read_dpcd+0xf8/0x15f
+[   37.953664]  retrieve_link_cap+0x21b/0xb6e
+[   37.953669]  ? trace_graph_entry+0x61/0x237
+[   37.953674]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.953678]  dc_link_detect+0xcd8/0xf1e
+[   37.953684]  ? dm_read_reg_func+0x3e/0xa6
+[   37.953690]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.953695]  ? dc_link_detect_sink+0xec/0x131
+[   37.953699]  handle_hpd_irq_helper+0xe5/0x155
+[   37.953704]  process_one_work+0x1da/0x342
+[   37.953713]  worker_thread+0x21b/0x373
+[   37.953717]  kthread+0x13d/0x153
+[   37.953721]  ? pr_cont_work+0x54/0x54
+[   37.953725]  ? kthread_blkcg+0x31/0x31
+[   37.953730]  ret_from_fork+0x22/0x30
+[   37.953735]  </TASK>
+[   37.953737] ---[ end trace 2d288d4bc234d6b3 ]---
+
+
+[   37.956187] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00500 AUX -> (ret=  9) 00 e0 4c 44 70 31 2e 32 00
+
+[   37.954825] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.954834] ------------[ cut here ]------------
+[   37.954836] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.954841] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.954900] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.954904] Hardware name: XXXXXX
+[   37.954906] Workqueue: events_highpri dm_irq_work_func
+[   37.954910] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.954915] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.954918] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.954921] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.954924] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.954926] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.954929] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000009
+[   37.954932] R13: 0000000000000009 R14: 0000000000000500 R15: ffffb3c84059bc00
+[   37.954935] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.954938] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.954941] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.954944] Call Trace:
+[   37.954946]  <TASK>
+[   37.954949]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.954953]  core_link_read_dpcd+0xf8/0x15f
+[   37.954958]  retrieve_link_cap+0x28f/0xb6e
+[   37.954963]  ? trace_graph_entry+0x61/0x237
+[   37.954968]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.954973]  dc_link_detect+0xcd8/0xf1e
+[   37.954978]  ? dm_read_reg_func+0x3e/0xa6
+[   37.954984]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.954989]  ? dc_link_detect_sink+0xec/0x131
+[   37.954993]  handle_hpd_irq_helper+0xe5/0x155
+[   37.954999]  process_one_work+0x1da/0x342
+[   37.955003]  worker_thread+0x21b/0x373
+[   37.955007]  kthread+0x13d/0x153
+[   37.955011]  ? pr_cont_work+0x54/0x54
+[   37.955014]  ? kthread_blkcg+0x31/0x31
+[   37.955019]  ret_from_fork+0x22/0x30
+[   37.955024]  </TASK>
+[   37.955026] ---[ end trace 2d288d4bc234d6b4 ]---
+
+
+
+[   37.957745] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00000 AUX -> (ret=  1) 12
+
+[   37.956203] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.956222] ------------[ cut here ]------------
+[   37.956226] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.956238] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.956364] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.956372] Hardware name: XXXXXX
+[   37.956378] Workqueue: events_highpri dm_irq_work_func
+[   37.956385] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.956395] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.956402] RSP: 0018:ffffb3c84059bae0 EFLAGS: 00010246
+[   37.956408] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.956414] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.956420] RBP: ffffb3c84059bb08 R08: 0000000000000000 R09: ffffb3c84059b8e0
+[   37.956425] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   37.956431] R13: 0000000000000001 R14: 0000000000000000 R15: ffffb3c84059bb90
+[   37.956437] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.956444] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.956449] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.956455] Call Trace:
+[   37.956459]  <TASK>
+[   37.956464]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.956473]  core_link_read_dpcd+0xf8/0x15f
+[   37.956483]  is_mst_supported+0x4b/0x9e
+[   37.956495]  retrieve_link_cap+0x2c9/0xb6e
+[   37.956505]  ? trace_graph_entry+0x61/0x237
+[   37.956515]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.956524]  dc_link_detect+0xcd8/0xf1e
+[   37.956536]  ? dm_read_reg_func+0x3e/0xa6
+[   37.956547]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.956557]  ? dc_link_detect_sink+0xec/0x131
+[   37.956565]  handle_hpd_irq_helper+0xe5/0x155
+[   37.956576]  process_one_work+0x1da/0x342
+[   37.956584]  worker_thread+0x21b/0x373
+[   37.956592]  kthread+0x13d/0x153
+[   37.956602]  ? pr_cont_work+0x54/0x54
+[   37.956608]  ? kthread_blkcg+0x31/0x31
+[   37.956618]  ret_from_fork+0x22/0x30
+[   37.956629]  </TASK>
+[   37.956632] ---[ end trace 2d288d4bc234d6b5 ]---
+
+
+
+
+[   37.959265] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00021 AUX -> (ret=  1) 00
+
+[   37.957760] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.957778] ------------[ cut here ]------------
+[   37.957781] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.957793] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.957914] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.957922] Hardware name: XXXXXX
+[   37.957927] Workqueue: events_highpri dm_irq_work_func
+[   37.957934] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.957944] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.957950] RSP: 0018:ffffb3c84059bae0 EFLAGS: 00010246
+[   37.957956] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.957962] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.957967] RBP: ffffb3c84059bb08 R08: 0000000000000000 R09: ffffb3c84059b8e0
+[   37.957972] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   37.957978] R13: 0000000000000001 R14: 0000000000000021 R15: ffffb3c84059bb88
+[   37.957984] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.957990] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.957996] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.958002] Call Trace:
+[   37.958006]  <TASK>
+[   37.958011]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.958020]  core_link_read_dpcd+0xf8/0x15f
+[   37.958030]  is_mst_supported+0x6c/0x9e
+[   37.958041]  retrieve_link_cap+0x2c9/0xb6e
+[   37.958051]  ? trace_graph_entry+0x61/0x237
+[   37.958061]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.958070]  dc_link_detect+0xcd8/0xf1e
+[   37.958081]  ? dm_read_reg_func+0x3e/0xa6
+[   37.958093]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.958103]  ? dc_link_detect_sink+0xec/0x131
+[   37.958111]  handle_hpd_irq_helper+0xe5/0x155
+[   37.958122]  process_one_work+0x1da/0x342
+[   37.958130]  worker_thread+0x21b/0x373
+[   37.958138]  kthread+0x13d/0x153
+[   37.958147]  ? pr_cont_work+0x54/0x54
+[   37.958153]  ? kthread_blkcg+0x31/0x31
+[   37.958163]  ret_from_fork+0x22/0x30
+[   37.958173]  </TASK>
+[   37.958177] ---[ end trace 2d288d4bc234d6b6 ]---
+
+
+
+[   37.960694] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00080 AUX -> (ret= 16) 09 1e 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[   37.959272] SRINI----- custom's print from file drivers/gpu/drm/amd/amdgpu/../display/dc/core/dc_link_dp.c from func get_active_converter_info : 4821  DOWNSTREAM_VGA link->dpcd_caps.dongle_type = 
+[   37.959277] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.959286] ------------[ cut here ]------------
+[   37.959287] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.959293] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.959351] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.959355] Hardware name: XXXXXX
+[   37.959357] Workqueue: events_highpri dm_irq_work_func
+[   37.959361] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.959366] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.959369] RSP: 0018:ffffb3c84059bac8 EFLAGS: 00010246
+[   37.959372] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.959375] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.959377] RBP: ffffb3c84059baf0 R08: 0000000000000000 R09: ffffb3c84059b8c0
+[   37.959380] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000010
+[   37.959383] R13: 0000000000000010 R14: 0000000000000080 R15: ffffb3c84059bb80
+[   37.959386] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.959389] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.959392] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.959395] Call Trace:
+[   37.959397]  <TASK>
+[   37.959399]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.959404]  core_link_read_dpcd+0xf8/0x15f
+[   37.959409]  get_active_converter_info+0xd8/0x435
+[   37.959415]  retrieve_link_cap+0x2db/0xb6e
+[   37.959420]  ? trace_graph_entry+0x61/0x237
+[   37.959425]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.959429]  dc_link_detect+0xcd8/0xf1e
+[   37.959435]  ? dm_read_reg_func+0x3e/0xa6
+[   37.959441]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.959446]  ? dc_link_detect_sink+0xec/0x131
+[   37.959450]  handle_hpd_irq_helper+0xe5/0x155
+[   37.959455]  process_one_work+0x1da/0x342
+[   37.959459]  worker_thread+0x21b/0x373
+[   37.959463]  kthread+0x13d/0x153
+[   37.959468]  ? pr_cont_work+0x54/0x54
+[   37.959471]  ? kthread_blkcg+0x31/0x31
+[   37.959476]  ret_from_fork+0x22/0x30
+[   37.959481]  </TASK>
+[   37.959483] ---[ end trace 2d288d4bc234d6b7 ]---
+
+
+[   37.962037] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00509 AUX -> (ret=  3) 00 00 00
+
+[   37.960702] SRINI----- custom's print from func get_active_converter_info : 4850  DOWN_STREAM_DETAILED_VGA  link->dpcd_caps.dongle_type = DISPLAY_DONGLE_DP_VGA_CONVERTER = 1
+[   37.960709] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.960717] ------------[ cut here ]------------
+[   37.960719] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.960725] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.960783] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.960787] Hardware name: XXXXXX
+[   37.960790] Workqueue: events_highpri dm_irq_work_func
+[   37.960793] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.960798] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.960801] RSP: 0018:ffffb3c84059bac8 EFLAGS: 00010246
+[   37.960804] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.960807] RDX: 0000000000000000 RSI: 00000000ff7fffff RDI: 0000000000000001
+[   37.960810] RBP: ffffb3c84059baf0 R08: 0000000000000000 R09: ffffb3c84059b8c0
+[   37.960812] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000003
+[   37.960815] R13: 0000000000000003 R14: 0000000000000509 R15: ffffb3c84059bb80
+[   37.960818] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.960821] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.960824] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.960827] Call Trace:
+[   37.960829]  <TASK>
+[   37.960831]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.960836]  core_link_read_dpcd+0xf8/0x15f
+[   37.960841]  get_active_converter_info+0x2a8/0x435
+[   37.960847]  retrieve_link_cap+0x2db/0xb6e
+[   37.960852]  ? trace_graph_entry+0x61/0x237
+[   37.960857]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.960861]  dc_link_detect+0xcd8/0xf1e
+[   37.960867]  ? dm_read_reg_func+0x3e/0xa6
+[   37.960873]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.960878]  ? dc_link_detect_sink+0xec/0x131
+[   37.960882]  handle_hpd_irq_helper+0xe5/0x155
+[   37.960887]  process_one_work+0x1da/0x342
+[   37.960891]  worker_thread+0x21b/0x373
+[   37.960895]  kthread+0x13d/0x153
+[   37.960900]  ? pr_cont_work+0x54/0x54
+[   37.960903]  ? kthread_blkcg+0x31/0x31
+[   37.960908]  ret_from_fork+0x22/0x30
+[   37.960913]  </TASK>
+[   37.960915] ---[ end trace 2d288d4bc234d6b8 ]---
+
+
+[   37.963683] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x000a3 AUX -> (ret= 12) 00 00 00 00 00 00 00 00 00 00 00 00
+
+[   37.962052] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.962070] ------------[ cut here ]------------
+[   37.962074] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.962086] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.962207] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.962215] Hardware name: XXXXXX
+[   37.962220] Workqueue: events_highpri dm_irq_work_func
+[   37.962227] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.962237] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.962243] RSP: 0018:ffffb3c84059bac8 EFLAGS: 00010246
+[   37.962249] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.962255] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.962260] RBP: ffffb3c84059baf0 R08: 0000000000000000 R09: ffffb3c84059b8c0
+[   37.962265] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 000000000000000c
+[   37.962271] R13: 000000000000000c R14: 00000000000000a3 R15: ffffb3c84059bb80
+[   37.962277] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.962283] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.962288] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.962294] Call Trace:
+[   37.962298]  <TASK>
+[   37.962303]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.962312]  core_link_read_dpcd+0xf8/0x15f
+[   37.962322]  get_active_converter_info+0x300/0x435
+[   37.962334]  retrieve_link_cap+0x2db/0xb6e
+[   37.962344]  ? trace_graph_entry+0x61/0x237
+[   37.962354]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.962362]  dc_link_detect+0xcd8/0xf1e
+[   37.962374]  ? dm_read_reg_func+0x3e/0xa6
+[   37.962385]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.962395]  ? dc_link_detect_sink+0xec/0x131
+[   37.962404]  handle_hpd_irq_helper+0xe5/0x155
+[   37.962415]  process_one_work+0x1da/0x342
+[   37.962423]  worker_thread+0x21b/0x373
+[   37.962431]  kthread+0x13d/0x153
+[   37.962441]  ? pr_cont_work+0x54/0x54
+[   37.962448]  ? kthread_blkcg+0x31/0x31
+[   37.962457]  ret_from_fork+0x22/0x30
+[   37.962468]  </TASK>
+[   37.962471] ---[ end trace 2d288d4bc234d6b9 ]---
+
+
+
+
+[   37.965269] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00200 AUX -> (ret=  1) 41
+
+[   37.963698] [drm:get_active_converter_info] DFP capability extension is read at link 2
+[   37.963718] [drm:get_active_converter_info]  dfp_cap_ext.supported = false
+[   37.963730] [drm:get_active_converter_info]  dfp_cap_ext.max_pixel_rate_in_mps = 0
+[   37.963741] [drm:get_active_converter_info]  dfp_cap_ext.max_video_h_active_width = 0
+[   37.963752] [drm:get_active_converter_info]  dfp_cap_ext.max_video_v_active_height = 0
+[   37.963762] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.963781] ------------[ cut here ]------------
+[   37.963785] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.963796] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.963919] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.963927] Hardware name: XXXXXX
+[   37.963932] Workqueue: events_highpri dm_irq_work_func
+[   37.963939] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.963949] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.963955] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.963961] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.963967] RDX: 0000000000000000 RSI: 00000000ff7fffff RDI: 0000000000000001
+[   37.963972] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.963977] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   37.963983] R13: 0000000000000001 R14: 0000000000000200 R15: ffff912a80f7f22e
+[   37.963989] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.963995] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.964001] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.964006] Call Trace:
+[   37.964010]  <TASK>
+[   37.964015]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.964024]  core_link_read_dpcd+0xf8/0x15f
+[   37.964034]  retrieve_link_cap+0x42d/0xb6e
+[   37.964045]  ? trace_graph_entry+0x61/0x237
+[   37.964055]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.964064]  dc_link_detect+0xcd8/0xf1e
+[   37.964075]  ? dm_read_reg_func+0x3e/0xa6
+[   37.964086]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.964096]  ? dc_link_detect_sink+0xec/0x131
+[   37.964105]  handle_hpd_irq_helper+0xe5/0x155
+[   37.964116]  process_one_work+0x1da/0x342
+[   37.964124]  worker_thread+0x21b/0x373
+[   37.964132]  kthread+0x13d/0x153
+[   37.964141]  ? pr_cont_work+0x54/0x54
+[   37.964147]  ? kthread_blkcg+0x31/0x31
+[   37.964157]  ret_from_fork+0x22/0x30
+[   37.964167]  </TASK>
+[   37.964171] ---[ end trace 2d288d4bc234d6ba ]---
+
+
+[   37.966635] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00400 AUX -> (ret=  9) 00 00 00 00 00 00 00 00 00
+
+[   37.965276] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.965285] ------------[ cut here ]------------
+[   37.965287] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.965292] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.965350] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.965354] Hardware name: XXXXXX
+[   37.965357] Workqueue: events_highpri dm_irq_work_func
+[   37.965360] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.965365] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.965368] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.965371] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.965374] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.965377] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.965380] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000009
+[   37.965383] R13: 0000000000000009 R14: 0000000000000400 R15: ffffb3c84059bbe0
+[   37.965386] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.965389] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.965392] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.965395] Call Trace:
+[   37.965397]  <TASK>
+[   37.965400]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.965404]  core_link_read_dpcd+0xf8/0x15f
+[   37.965409]  retrieve_link_cap+0x447/0xb6e
+[   37.965414]  ? trace_graph_entry+0x61/0x237
+[   37.965419]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.965424]  dc_link_detect+0xcd8/0xf1e
+[   37.965429]  ? dm_read_reg_func+0x3e/0xa6
+[   37.965435]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.965440]  ? dc_link_detect_sink+0xec/0x131
+[   37.965444]  handle_hpd_irq_helper+0xe5/0x155
+[   37.965450]  process_one_work+0x1da/0x342
+[   37.965454]  worker_thread+0x21b/0x373
+[   37.965458]  kthread+0x13d/0x153
+[   37.965462]  ? pr_cont_work+0x54/0x54
+[   37.965465]  ? kthread_blkcg+0x31/0x31
+[   37.965470]  ret_from_fork+0x22/0x30
+[   37.965475]  </TASK>
+[   37.965477] ---[ end trace 2d288d4bc234d6bb ]---
+
+
+
+
+[   37.967952] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00409 AUX -> (ret=  3) 00 00 00
+
+[   37.966642] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.966651] ------------[ cut here ]------------
+[   37.966653] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.966658] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.966720] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.966724] Hardware name: XXXXXX
+[   37.966726] Workqueue: events_highpri dm_irq_work_func
+[   37.966730] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.966735] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.966738] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.966741] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.966744] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.966747] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.966750] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000003
+[   37.966752] R13: 0000000000000003 R14: 0000000000000409 R15: ffffb3c84059bbd8
+[   37.966755] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.966759] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.966762] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.966764] Call Trace:
+[   37.966767]  <TASK>
+[   37.966769]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.966774]  core_link_read_dpcd+0xf8/0x15f
+[   37.966778]  retrieve_link_cap+0x4d1/0xb6e
+[   37.966784]  ? trace_graph_entry+0x61/0x237
+[   37.966788]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.966793]  dc_link_detect+0xcd8/0xf1e
+[   37.966799]  ? dm_read_reg_func+0x3e/0xa6
+[   37.966804]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.966809]  ? dc_link_detect_sink+0xec/0x131
+[   37.966813]  handle_hpd_irq_helper+0xe5/0x155
+[   37.966819]  process_one_work+0x1da/0x342
+[   37.966823]  worker_thread+0x21b/0x373
+[   37.966827]  kthread+0x13d/0x153
+[   37.966831]  ? pr_cont_work+0x54/0x54
+[   37.966835]  ? kthread_blkcg+0x31/0x31
+[   37.966839]  ret_from_fork+0x22/0x30
+[   37.966845]  </TASK>
+[   37.966847] ---[ end trace 2d288d4bc234d6bc ]---
+
+
+
+[   37.969472] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00090 AUX -> (ret=  1) 00
+
+[   37.967967] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.967986] ------------[ cut here ]------------
+[   37.967989] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.968000] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.968121] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.968129] Hardware name: XXXXXX
+[   37.968134] Workqueue: events_highpri dm_irq_work_func
+[   37.968141] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.968151] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.968157] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.968163] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.968169] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.968174] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.968179] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   37.968185] R13: 0000000000000001 R14: 0000000000000090 R15: ffff912a80f7f27b
+[   37.968190] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.968197] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.968202] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.968208] Call Trace:
+[   37.968212]  <TASK>
+[   37.968217]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.968226]  core_link_read_dpcd+0xf8/0x15f
+[   37.968236]  retrieve_link_cap+0x5b8/0xb6e
+[   37.968246]  ? trace_graph_entry+0x61/0x237
+[   37.968256]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.968265]  dc_link_detect+0xcd8/0xf1e
+[   37.968277]  ? dm_read_reg_func+0x3e/0xa6
+[   37.968288]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.968298]  ? dc_link_detect_sink+0xec/0x131
+[   37.968306]  handle_hpd_irq_helper+0xe5/0x155
+[   37.968317]  process_one_work+0x1da/0x342
+[   37.968325]  worker_thread+0x21b/0x373
+[   37.968333]  kthread+0x13d/0x153
+[   37.968342]  ? pr_cont_work+0x54/0x54
+[   37.968348]  ? kthread_blkcg+0x31/0x31
+[   37.968358]  ret_from_fork+0x22/0x30
+[   37.968369]  </TASK>
+[   37.968372] ---[ end trace 2d288d4bc234d6bd ]---
+
+
+[   37.970817] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00060 AUX -> (ret= 16) 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[   37.969487] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.969497] ------------[ cut here ]------------
+[   37.969499] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.969504] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.969534] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.969536] Hardware name: XXXXXX
+[   37.969538] Workqueue: events_highpri dm_irq_work_func
+[   37.969539] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.969542] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.969543] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.969545] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.969546] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.969548] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.969549] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000010
+[   37.969551] R13: 0000000000000010 R14: 0000000000000060 R15: ffff912a80f7f27c
+[   37.969552] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.969554] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.969555] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.969557] Call Trace:
+[   37.969558]  <TASK>
+[   37.969559]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.969561]  core_link_read_dpcd+0xf8/0x15f
+[   37.969564]  retrieve_link_cap+0x5cd/0xb6e
+[   37.969566]  ? trace_graph_entry+0x61/0x237
+[   37.969569]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.969571]  dc_link_detect+0xcd8/0xf1e
+[   37.969573]  ? dm_read_reg_func+0x3e/0xa6
+[   37.969576]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.969578]  ? dc_link_detect_sink+0xec/0x131
+[   37.969580]  handle_hpd_irq_helper+0xe5/0x155
+[   37.969583]  process_one_work+0x1da/0x342
+[   37.969585] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 83456, wptr 83488
+[   37.969592] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start 2
+[   37.969596] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(2198,-50)@ 37.977393 -> 37.978114 [e 2 us, 0 rep]
+[   37.969602] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
+[   37.969603] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=2166, diff=1, hw=2801 hw_last=2800
+[   37.969608]  worker_thread+0x21b/0x373
+[   37.969610]  kthread+0x13d/0x153
+[   37.969612]  ? pr_cont_work+0x54/0x54
+[   37.969614]  ? kthread_blkcg+0x31/0x31
+[   37.969616]  ret_from_fork+0x22/0x30
+[   37.969619]  </TASK>
+[   37.969620] ---[ end trace 2d288d4bc234d6be ]---
+
+
+
+[   37.972004] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x000a0 AUX -> (ret=  3) 00 00 00
+
+[   37.970821] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.970825] ------------[ cut here ]------------
+[   37.970826] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.970829] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.970855] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.970857] Hardware name: XXXXXX
+[   37.970858] Workqueue: events_highpri dm_irq_work_func
+[   37.970860] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.970863] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.970864] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.970866] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.970867] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.970869] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.970870] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000003
+[   37.970871] R13: 0000000000000003 R14: 00000000000000a0 R15: ffff912a80f7f28d
+[   37.970873] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.970875] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.970876] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.970878] Call Trace:
+[   37.970879]  <TASK>
+[   37.970880]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.970882]  core_link_read_dpcd+0xf8/0x15f
+[   37.970885]  retrieve_link_cap+0x5f0/0xb6e
+[   37.970887]  ? trace_graph_entry+0x61/0x237
+[   37.970889]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.970892]  dc_link_detect+0xcd8/0xf1e
+[   37.970894]  ? dm_read_reg_func+0x3e/0xa6
+[   37.970897]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.970900]  ? dc_link_detect_sink+0xec/0x131
+[   37.970901]  handle_hpd_irq_helper+0xe5/0x155
+[   37.970904]  process_one_work+0x1da/0x342
+[   37.970906]  worker_thread+0x21b/0x373
+[   37.970908]  kthread+0x13d/0x153
+[   37.970910]  ? pr_cont_work+0x54/0x54
+[   37.970912]  ? kthread_blkcg+0x31/0x31
+[   37.970914]  ret_from_fork+0x22/0x30
+[   37.970917]  </TASK>
+[   37.970918] ---[ end trace 2d288d4bc234d6bf ]---
+
+
+[   37.973186] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00317 AUX -> (ret=  1) 00
+
+[   37.972007] [drm:retrieve_link_cap] DSC branch decoder capability is read at link 2
+[   37.972010] [drm:retrieve_link_cap]  BRANCH_OVERALL_THROUGHPUT_0 = 0x00
+[   37.972013] [drm:retrieve_link_cap]  BRANCH_OVERALL_THROUGHPUT_1 = 0x00
+[   37.972015] [drm:retrieve_link_cap]  BRANCH_MAX_LINE_WIDTH 0x00
+[   37.972017] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.972021] ------------[ cut here ]------------
+[   37.972023] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.972025] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.972051] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.972053] Hardware name: XXXXXX
+[   37.972055] Workqueue: events_highpri dm_irq_work_func
+[   37.972057] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.972059] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.972061] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.972062] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.972064] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.972065] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.972066] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   37.972068] R13: 0000000000000001 R14: 0000000000000317 R15: ffffb3c84059bc00
+[   37.972069] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.972071] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.972072] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.972074] Call Trace:
+[   37.972075]  <TASK>
+[   37.972076]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.972079]  core_link_read_dpcd+0xf8/0x15f
+[   37.972081]  retrieve_link_cap+0x6c7/0xb6e
+[   37.972083]  ? trace_graph_entry+0x61/0x237
+[   37.972086]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.972088]  dc_link_detect+0xcd8/0xf1e
+[   37.972091]  ? dm_read_reg_func+0x3e/0xa6
+[   37.972094]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.972096]  ? dc_link_detect_sink+0xec/0x131
+[   37.972098]  handle_hpd_irq_helper+0xe5/0x155
+[   37.972101]  process_one_work+0x1da/0x342
+[   37.972103]  worker_thread+0x21b/0x373
+[   37.972105]  kthread+0x13d/0x153
+[   37.972107]  ? pr_cont_work+0x54/0x54
+[   37.972108]  ? kthread_blkcg+0x31/0x31
+[   37.972111]  ret_from_fork+0x22/0x30
+[   37.972113]  </TASK>
+[   37.972115] ---[ end trace 2d288d4bc234d6c0 ]---
+
+
+
+
+
+[   37.974356] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x02217 AUX -> (ret=  1) 00
+
+[   37.973189] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.973194] ------------[ cut here ]------------
+[   37.973195] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.973198] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.973224] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.973225] Hardware name: XXXXXX
+[   37.973227] Workqueue: events_highpri dm_irq_work_func
+[   37.973229] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.973231] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.973233] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   37.973234] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.973236] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.973237] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   37.973238] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   37.973240] R13: 0000000000000001 R14: 0000000000002217 R15: ffff912a80f7f2ab
+[   37.973242] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.973243] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.973245] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.973246] Call Trace:
+[   37.973247]  <TASK>
+[   37.973249]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.973251]  core_link_read_dpcd+0xf8/0x15f
+[   37.973253]  retrieve_link_cap+0x9a6/0xb6e
+[   37.973256]  ? trace_graph_entry+0x61/0x237
+[   37.973258]  ? dc_link_is_dp_sink_present+0xe7/0x10f
+[   37.973260]  dc_link_detect+0xcd8/0xf1e
+[   37.973263]  ? dm_read_reg_func+0x3e/0xa6
+[   37.973266]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.973268]  ? dc_link_detect_sink+0xec/0x131
+[   37.973270]  handle_hpd_irq_helper+0xe5/0x155
+[   37.973273]  process_one_work+0x1da/0x342
+[   37.973275]  worker_thread+0x21b/0x373
+[   37.973277]  kthread+0x13d/0x153
+[   37.973279]  ? pr_cont_work+0x54/0x54
+[   37.973281]  ? kthread_blkcg+0x31/0x31
+[   37.973283]  ret_from_fork+0x22/0x30
+[   37.973286]  </TASK>
+[   37.973287] ---[ end trace 2d288d4bc234d6c1 ]---
+
+
+[   37.985929] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00201 AUX -> (ret=  1) 00
+
+[   37.975104] [drm:retrieve_link_cap] Rx Caps:
+[   37.975107] SRINI----- custom's print from func is_dp_active_dongle : 4698  DISPLAY_DONGLE_DP_VGA_CONVERTER
+[   37.984558] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
+[   37.984567] [drm:update_display_info] DP-1: Assigning EDID-1.4 digital sink color depth as 8 bpc.
+[   37.984576] [drm:drm_edid_to_sad] Found 0 Short Audio Descriptors
+[   37.984582] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.984593] ------------[ cut here ]------------
+[   37.984596] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.984603] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.984680] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.984685] Hardware name: XXXXXX
+[   37.984688] Workqueue: events_highpri dm_irq_work_func
+[   37.984707] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.984714] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.984718] RSP: 0018:ffffb3c84059bbc0 EFLAGS: 00010246
+[   37.984722] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.984726] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.984729] RBP: ffffb3c84059bbe8 R08: 0000000000000000 R09: ffffb3c84059b9c0
+[   37.984733] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 00000000fffffffe
+[   37.984736] R13: 0000000000000001 R14: 0000000000000201 R15: ffffb3c84059bbfd
+[   37.984740] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.984744] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.984748] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.984752] Call Trace:
+[   37.984755]  <TASK>
+[   37.984758]  drm_dp_send_real_edid_checksum+0x3c/0x1bf
+[   37.984765]  dm_helpers_read_local_edid+0x132/0x16a
+[   37.984773]  dc_link_detect+0x390/0xf1e
+[   37.984781]  ? dm_read_reg_func+0x3e/0xa6
+[   37.984788]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.984795]  ? dc_link_detect_sink+0xec/0x131
+[   37.984800]  handle_hpd_irq_helper+0xe5/0x155
+[   37.984808]  process_one_work+0x1da/0x342
+[   37.984813]  worker_thread+0x21b/0x373
+[   37.984818]  kthread+0x13d/0x153
+[   37.984824]  ? pr_cont_work+0x54/0x54
+[   37.984828]  ? kthread_blkcg+0x31/0x31
+[   37.984834]  ret_from_fork+0x22/0x30
+[   37.984841]  </TASK>
+[   37.984844] ---[ end trace 2d288d4bc234d6c2 ]---
+
+
+[   37.987093] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00218 AUX -> (ret=  1) 00
+
+[   37.985933] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.985937] ------------[ cut here ]------------
+[   37.985938] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.985941] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.985967] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.985969] Hardware name: XXXXXX
+[   37.985970] Workqueue: events_highpri dm_irq_work_func
+[   37.985972] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.985974] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.985976] RSP: 0018:ffffb3c84059bbc0 EFLAGS: 00010246
+[   37.985977] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.985979] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.985980] RBP: ffffb3c84059bbe8 R08: 0000000000000000 R09: ffffb3c84059b9c0
+[   37.985981] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 00000000fffffffe
+[   37.985983] R13: 0000000000000001 R14: 0000000000000218 R15: ffffb3c84059bbfe
+[   37.985985] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.985986] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.985988] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.985989] Call Trace:
+[   37.985990]  <TASK>
+[   37.985991]  drm_dp_send_real_edid_checksum+0x5f/0x1bf
+[   37.985994]  dm_helpers_read_local_edid+0x132/0x16a
+[   37.985997]  dc_link_detect+0x390/0xf1e
+[   37.986000]  ? dm_read_reg_func+0x3e/0xa6
+[   37.986002]  ? dal_gpio_destroy_irq+0x28/0x3a
+[   37.986005]  ? dc_link_detect_sink+0xec/0x131
+[   37.986007]  handle_hpd_irq_helper+0xe5/0x155
+[   37.986010]  process_one_work+0x1da/0x342
+[   37.986012]  worker_thread+0x21b/0x373
+[   37.986014]  kthread+0x13d/0x153
+[   37.986016]  ? pr_cont_work+0x54/0x54
+[   37.986017]  ? kthread_blkcg+0x31/0x31
+[   37.986020]  ret_from_fork+0x22/0x30
+[   37.986022]  </TASK>
+[   37.986023] ---[ end trace 2d288d4bc234d6c3 ]---
+
+
+[   37.988282] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x6921d AUX -> (ret=  3) 00 00 00
+
+[   37.987100] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.987104] ------------[ cut here ]------------
+[   37.987105] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.987108] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.987134] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.987136] Hardware name: XXXXXX
+[   37.987138] Workqueue: events_highpri dm_irq_work_func
+[   37.987140] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.987142] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.987144] RSP: 0018:ffffb3c84059bb58 EFLAGS: 00010246
+[   37.987145] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.987147] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.987148] RBP: ffffb3c84059bb80 R08: 0000000000000000 R09: ffffb3c84059b950
+[   37.987150] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000003
+[   37.987151] R13: 0000000000000003 R14: 000000000006921d R15: ffff912a80f7f2c0
+[   37.987153] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.987154] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.987156] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.987157] Call Trace:
+[   37.987158]  <TASK>
+[   37.987160]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.987162]  core_link_read_dpcd+0xf8/0x15f
+[   37.987164]  dp_11_process_transaction+0x15e/0x18a
+[   37.987168]  dc_process_hdcp_msg+0x11c/0x168
+[   37.987171]  dc_link_detect+0x5cf/0xf1e
+[   37.987173]  ? dm_read_reg_func+0x3e/0xa6
+[   37.987176]  handle_hpd_irq_helper+0xe5/0x155
+[   37.987179]  process_one_work+0x1da/0x342
+[   37.987181]  worker_thread+0x21b/0x373
+[   37.987183]  kthread+0x13d/0x153
+[   37.987185]  ? pr_cont_work+0x54/0x54
+[   37.987187]  ? kthread_blkcg+0x31/0x31
+[   37.987189]  ret_from_fork+0x22/0x30
+[   37.987192]  </TASK>
+[   37.987193] ---[ end trace 2d288d4bc234d6c4 ]---
+
+
+[   37.991373] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 84
+
+[   37.988285] SRINI----- custom's print from file drivers/gpu/drm/amd/amdgpu/../display/dc/hdcp/hdcp_msg.c from func get_protection_properties_by_signal : 343  DISPLAY_DONGLE_DP_VGA_CONVERTER
+[   37.988288] [drm:dc_link_detect] HP E243: [Block 0]
+[   37.988289] [drm:dc_link_detect] detect_link_and_local_sink: manufacturer_id = E22, product_id = 346A, serial_number = 1010101, manufacture_week = 28, manufacture_year = 28, display_name = HP E243, speaker_flag = 0, 
+[   37.988293] [drm:dc_link_detect] link=2, dc_sink_in=00000000eddf3250 is now Connected prev_sink=0000000000000000 edid same=0
+[   37.988354] [drm:dcn31_link_encoder_disable_output] dcn31_link_encoder_disable_output: enc_id(2)
+[   37.988370] [drm:dcn31_link_encoder_enable_dp_output] dcn31_link_encoder_enable_dp_output: enc_id(2)
+[   37.990182] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 2: 0x00600 AUX <- (ret=  1) 01
+[   37.990186] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.990191] ------------[ cut here ]------------
+[   37.990192] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.990194] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.990221] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.990223] Hardware name: XXXXXX
+[   37.990224] Workqueue: events_highpri dm_irq_work_func
+[   37.990226] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.990228] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.990230] RSP: 0018:ffffb3c84059b8f0 EFLAGS: 00010246
+[   37.990231] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.990233] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.990234] RBP: ffffb3c84059b918 R08: 0000000000000000 R09: ffffb3c84059b6f0
+[   37.990236] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   37.990237] R13: 0000000000000001 R14: 000000000000000e R15: ffffb3c84059b998
+[   37.990239] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.990240] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.990242] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.990243] Call Trace:
+[   37.990244]  <TASK>
+[   37.990246]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.990248]  core_link_read_dpcd+0xf8/0x15f
+[   37.990250]  decide_8b_10b_training_settings+0x9f/0x19d
+[   37.990253]  dc_link_dp_perform_link_training+0x5d/0x11b6
+[   37.990256]  ? drm_dp_dpcd_write+0xa5/0xe1
+[   37.990259]  ? drm_dev_dbg+0xd2/0x163
+[   37.990262]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   37.990264]  ? core_link_write_dpcd+0x79/0xad
+[   37.990267]  ? dp_enable_link_phy+0x214/0x23b
+[   37.990270]  dp_verify_link_cap_with_retries+0x1e9/0x33c
+[   37.990273]  dc_link_detect+0xeb2/0xf1e
+[   37.990277]  handle_hpd_irq_helper+0xe5/0x155
+[   37.990280]  process_one_work+0x1da/0x342
+[   37.990282]  worker_thread+0x21b/0x373
+[   37.990284]  kthread+0x13d/0x153
+[   37.990286]  ? pr_cont_work+0x54/0x54
+[   37.990288]  ? kthread_blkcg+0x31/0x31
+[   37.990290]  ret_from_fork+0x22/0x30
+[   37.990292]  </TASK>
+[   37.990294] ---[ end trace 2d288d4bc234d6c5 ]---
+
+
+
+[   37.992553] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 84
+
+[   37.991376] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.991381] ------------[ cut here ]------------
+[   37.991382] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.991384] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.991411] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.991413] Hardware name: XXXXXX
+[   37.991414] Workqueue: events_highpri dm_irq_work_func
+[   37.991416] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.991418] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.991420] RSP: 0018:ffffb3c84059b8f0 EFLAGS: 00010246
+[   37.991421] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.991423] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.991424] RBP: ffffb3c84059b918 R08: 0000000000000000 R09: ffffb3c84059b6f0
+[   37.991426] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   37.991427] R13: 0000000000000001 R14: 000000000000000e R15: ffffb3c84059b9a0
+[   37.991429] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.991430] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.991432] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.991433] Call Trace:
+[   37.991434]  <TASK>
+[   37.991436]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.991438]  core_link_read_dpcd+0xf8/0x15f
+[   37.991441]  decide_8b_10b_training_settings+0xed/0x19d
+[   37.991443]  dc_link_dp_perform_link_training+0x5d/0x11b6
+[   37.991446]  ? drm_dp_dpcd_write+0xa5/0xe1
+[   37.991449]  ? drm_dev_dbg+0xd2/0x163
+[   37.991452]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   37.991454]  ? core_link_write_dpcd+0x79/0xad
+[   37.991456]  ? dp_enable_link_phy+0x214/0x23b
+[   37.991459]  dp_verify_link_cap_with_retries+0x1e9/0x33c
+[   37.991462]  dc_link_detect+0xeb2/0xf1e
+[   37.991466]  handle_hpd_irq_helper+0xe5/0x155
+[   37.991469]  process_one_work+0x1da/0x342
+[   37.991471]  worker_thread+0x21b/0x373
+[   37.991473]  kthread+0x13d/0x153
+[   37.991475]  ? pr_cont_work+0x54/0x54
+[   37.991477]  ? kthread_blkcg+0x31/0x31
+[   37.991479]  ret_from_fork+0x22/0x30
+[   37.991482]  </TASK>
+[   37.991483] ---[ end trace 2d288d4bc234d6c6 ]---
+
+
+[   37.994264] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00205 AUX -> (ret=  1) 00
+
+[   37.993089] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   37.993093] ------------[ cut here ]------------
+[   37.993094] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   37.993097] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   37.993123] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   37.993125] Hardware name: XXXXXX
+[   37.993126] Workqueue: events_highpri dm_irq_work_func
+[   37.993128] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   37.993130] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   37.993132] RSP: 0018:ffffb3c84059b900 EFLAGS: 00010246
+[   37.993133] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   37.993135] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   37.993136] RBP: ffffb3c84059b928 R08: 0000000000000000 R09: ffffb3c84059b700
+[   37.993137] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   37.993139] R13: 0000000000000001 R14: 0000000000000205 R15: ffffb3c84059b9af
+[   37.993140] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   37.993142] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   37.993143] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   37.993145] Call Trace:
+[   37.993146]  <TASK>
+[   37.993147]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   37.993149]  core_link_read_dpcd+0xf8/0x15f
+[   37.993152]  dpcd_exit_training_mode+0x57/0x93
+[   37.993154]  ? override_training_settings+0xa1/0x17e
+[   37.993157]  dc_link_dp_perform_link_training+0x77/0x11b6
+[   37.993159]  ? drm_dp_dpcd_write+0xa5/0xe1
+[   37.993162]  ? drm_dev_dbg+0xd2/0x163
+[   37.993165]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   37.993168]  ? core_link_write_dpcd+0x79/0xad
+[   37.993170]  ? dp_enable_link_phy+0x214/0x23b
+[   37.993173]  dp_verify_link_cap_with_retries+0x1e9/0x33c
+[   37.993176]  dc_link_detect+0xeb2/0xf1e
+[   37.993180]  handle_hpd_irq_helper+0xe5/0x155
+[   37.993182]  process_one_work+0x1da/0x342
+[   37.993184]  worker_thread+0x21b/0x373
+[   37.993186]  kthread+0x13d/0x153
+[   37.993188]  ? pr_cont_work+0x54/0x54
+[   37.993190]  ? kthread_blkcg+0x31/0x31
+[   37.993192]  ret_from_fork+0x22/0x30
+[   37.993195]  </TASK>
+[   37.993196] ---[ end trace 2d288d4bc234d6c7 ]---
+
+
+
+
+[   38.016798] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 00 00 80 00 22 00
+
+[   38.015031] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   38.015060] ------------[ cut here ]------------
+[   38.015065] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   38.015086] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   38.015234] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   38.015246] Hardware name: XXXXXX
+[   38.015253] Workqueue: events_highpri dm_irq_work_func
+[   38.015264] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   38.015276] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   38.015284] RSP: 0018:ffffb3c84059b800 EFLAGS: 00010246
+[   38.015292] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   38.015299] RDX: ffff912b6dea2b38 RSI: ffff912b6de96d88 RDI: ffff912b6de96d88
+[   38.015305] RBP: ffffb3c84059b828 R08: 0000000000000000 R09: ffffb3c84059b600
+[   38.015311] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000006
+[   38.015317] R13: 0000000000000006 R14: 0000000000000202 R15: ffffb3c84059b8a8
+[   38.015324] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   38.015331] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   38.015338] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   38.015344] Call Trace:
+[   38.015351]  <TASK>
+[   38.015359]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   38.015370]  core_link_read_dpcd+0xf8/0x15f
+[   38.015382]  dp_get_lane_status_and_lane_adjust+0x71/0x108
+[   38.015394]  perform_clock_recovery_sequence+0x136/0x29d
+[   38.015408]  dp_perform_8b_10b_link_training+0x12a/0x193
+[   38.015418]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   38.015428]  ? core_link_write_dpcd+0x79/0xad
+[   38.015437]  dc_link_dp_perform_link_training+0xa02/0x11b6
+[   38.015448]  ? drm_dp_dpcd_write+0xa5/0xe1
+[   38.015459]  ? drm_dev_dbg+0xd2/0x163
+[   38.015473]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   38.015482]  ? core_link_write_dpcd+0x79/0xad
+[   38.015491]  ? dp_enable_link_phy+0x214/0x23b
+[   38.015503]  dp_verify_link_cap_with_retries+0x1e9/0x33c
+[   38.015516]  dc_link_detect+0xeb2/0xf1e
+[   38.015533]  handle_hpd_irq_helper+0xe5/0x155
+[   38.015550]  process_one_work+0x1da/0x342
+[   38.015560]  worker_thread+0x21b/0x373
+[   38.015569]  kthread+0x13d/0x153
+[   38.015580]  ? pr_cont_work+0x54/0x54
+[   38.015587]  ? kthread_blkcg+0x31/0x31
+[   38.015597]  ret_from_fork+0x22/0x30
+[   38.015609]  </TASK>
+[   38.015614] ---[ end trace 2d288d4bc234d6c8 ]---
+
+
+[   38.036947] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 11 00 80 00 22 00
+
+[   38.035036] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   38.035069] ------------[ cut here ]------------
+[   38.035075] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   38.035098] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   38.035258] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   38.035272] Hardware name: XXXXXX
+[   38.035279] Workqueue: events_highpri dm_irq_work_func
+[   38.035292] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   38.035304] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   38.035313] RSP: 0018:ffffb3c84059b800 EFLAGS: 00010246
+[   38.035321] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   38.035329] RDX: ffff912b6dea2b38 RSI: ffff912b6de96d88 RDI: ffff912b6de96d88
+[   38.035335] RBP: ffffb3c84059b828 R08: 0000000000000000 R09: ffffb3c84059b600
+[   38.035341] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000006
+[   38.035348] R13: 0000000000000006 R14: 0000000000000202 R15: ffffb3c84059b8a8
+[   38.035355] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   38.035363] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   38.035370] CR2: 00007c8ade7a5cc0 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   38.035377] Call Trace:
+[   38.035385]  <TASK>
+[   38.035394]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   38.035406]  core_link_read_dpcd+0xf8/0x15f
+[   38.035419]  dp_get_lane_status_and_lane_adjust+0x71/0x108
+[   38.035432]  perform_clock_recovery_sequence+0x136/0x29d
+[   38.035446]  dp_perform_8b_10b_link_training+0x12a/0x193
+[   38.035457]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   38.035467]  ? core_link_write_dpcd+0x79/0xad
+[   38.035477]  dc_link_dp_perform_link_training+0xa02/0x11b6
+[   38.035488]  ? drm_dp_dpcd_write+0xa5/0xe1
+[   38.035500]  ? drm_dev_dbg+0xd2/0x163
+[   38.035515]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   38.035524]  ? core_link_write_dpcd+0x79/0xad
+[   38.035533]  ? dp_enable_link_phy+0x214/0x23b
+[   38.035545]  dp_verify_link_cap_with_retries+0x1e9/0x33c
+[   38.035560]  dc_link_detect+0xeb2/0xf1e
+[   38.035577]  handle_hpd_irq_helper+0xe5/0x155
+[   38.035590]  process_one_work+0x1da/0x342
+[   38.035600]  worker_thread+0x21b/0x373
+[   38.035609]  kthread+0x13d/0x153
+[   38.035619]  ? pr_cont_work+0x54/0x54
+[   38.035626]  ? kthread_blkcg+0x31/0x31
+[   38.035636]  ret_from_fork+0x22/0x30
+[   38.035649]  </TASK>
+[   38.035654] ---[ end trace 2d288d4bc234d6c9 ]---
+
+
+[   38.057398] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 77 00 81 00 22 00
+
+[   38.055679] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   38.055706] ------------[ cut here ]------------
+[   38.055711] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   38.055728] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   38.055868] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   38.055881] Hardware name: XXXXXX
+[   38.055887] Workqueue: events_highpri dm_irq_work_func
+[   38.055897] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   38.055908] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   38.055917] RSP: 0018:ffffb3c84059b818 EFLAGS: 00010246
+[   38.055924] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   38.055931] RDX: ffff912b6dea2b38 RSI: ffff912b6de96d88 RDI: ffff912b6de96d88
+[   38.055937] RBP: ffffb3c84059b840 R08: 0000000000000000 R09: ffffb3c84059b610
+[   38.055943] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000006
+[   38.055948] R13: 0000000000000006 R14: 0000000000000202 R15: ffffb3c84059b8c0
+[   38.055955] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   38.055962] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   38.055969] CR2: 000020540347c010 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   38.055975] Call Trace:
+[   38.055982]  <TASK>
+[   38.055990]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   38.056000]  core_link_read_dpcd+0xf8/0x15f
+[   38.056012]  dp_get_lane_status_and_lane_adjust+0x71/0x108
+[   38.056024]  perform_channel_equalization_sequence+0x14c/0x215
+[   38.056037]  dp_perform_8b_10b_link_training+0x141/0x193
+[   38.056047]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   38.056056]  ? core_link_write_dpcd+0x79/0xad
+[   38.056066]  dc_link_dp_perform_link_training+0xa02/0x11b6
+[   38.056076]  ? drm_dp_dpcd_write+0xa5/0xe1
+[   38.056088]  ? drm_dev_dbg+0xd2/0x163
+[   38.056101]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   38.056110]  ? core_link_write_dpcd+0x79/0xad
+[   38.056119]  ? dp_enable_link_phy+0x214/0x23b
+[   38.056131]  dp_verify_link_cap_with_retries+0x1e9/0x33c
+[   38.056144]  dc_link_detect+0xeb2/0xf1e
+[   38.056160]  handle_hpd_irq_helper+0xe5/0x155
+[   38.056173]  process_one_work+0x1da/0x342
+[   38.056182]  worker_thread+0x21b/0x373
+[   38.056190]  kthread+0x13d/0x153
+[   38.056199]  ? pr_cont_work+0x54/0x54
+[   38.056206]  ? kthread_blkcg+0x31/0x31
+[   38.056215]  ret_from_fork+0x22/0x30
+[   38.056228]  </TASK>
+[   38.056232] ---[ end trace 2d288d4bc234d6ca ]---
+
+
+[   38.059550] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00205 AUX -> (ret=  1) 01.
+
+[   38.057984] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   38.058002] ------------[ cut here ]------------
+[   38.058006] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   38.058018] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   38.058141] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   38.058150] Hardware name: XXXXXX
+[   38.058156] Workqueue: events_highpri dm_irq_work_func
+[   38.058164] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   38.058173] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   38.058181] RSP: 0018:ffffb3c84059b900 EFLAGS: 00010246
+[   38.058188] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   38.058195] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   38.058201] RBP: ffffb3c84059b928 R08: 0000000000000000 R09: ffffb3c84059b700
+[   38.058207] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   38.058212] R13: 0000000000000001 R14: 0000000000000205 R15: ffffb3c84059b9af
+[   38.058218] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   38.058224] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   38.058230] CR2: 000020540347c010 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   38.058236] Call Trace:
+[   38.058240]  <TASK>
+[   38.058246]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   38.058255]  core_link_read_dpcd+0xf8/0x15f
+[   38.058266]  dpcd_exit_training_mode+0x57/0x93
+[   38.058277]  dc_link_dp_perform_link_training+0xea7/0x11b6
+[   38.058287]  ? drm_dp_dpcd_write+0xa5/0xe1
+[   38.058298]  ? drm_dev_dbg+0xd2/0x163
+[   38.058312]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   38.058320]  ? core_link_write_dpcd+0x79/0xad
+[   38.058329]  ? dp_enable_link_phy+0x214/0x23b
+[   38.058341]  dp_verify_link_cap_with_retries+0x1e9/0x33c
+[   38.058354]  dc_link_detect+0xeb2/0xf1e
+[   38.058370]  handle_hpd_irq_helper+0xe5/0x155
+[   38.058381]  process_one_work+0x1da/0x342
+[   38.058390]  worker_thread+0x21b/0x373
+[   38.058398]  kthread+0x13d/0x153
+[   38.058407]  ? pr_cont_work+0x54/0x54
+[   38.058413]  ? kthread_blkcg+0x31/0x31
+[   38.058422]  ret_from_fork+0x22/0x30
+[   38.058433]  </TASK>
+[   38.058437] ---[ end trace 2d288d4bc234d6cb ]---
+
+[   38.067326] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00200 AUX -> (ret=  6) 41 00 77 00 01 01
+[   38.067342] [drm:print_status_message] HBR3x2 pass VS=2, PE=0, DS=0.5% 30KHz
+
+[   38.065673] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   38.065701] ------------[ cut here ]------------
+[   38.065706] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   38.065721] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   38.065848] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   38.065858] Hardware name: XXXXXX
+[   38.065864] Workqueue: events_highpri dm_irq_work_func
+[   38.065873] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   38.065884] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   38.065891] RSP: 0018:ffffb3c84059b918 EFLAGS: 00010246
+[   38.065898] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   38.065904] RDX: ffff912b6dea2b38 RSI: ffff912b6de96d88 RDI: ffff912b6de96d88
+[   38.065910] RBP: ffffb3c84059b940 R08: 0000000000000000 R09: ffffb3c84059b710
+[   38.065916] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000006
+[   38.065922] R13: 0000000000000006 R14: 0000000000000200 R15: ffffb3c84059b9c0
+[   38.065928] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   38.065935] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   38.065941] CR2: 000020540347c010 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   38.065947] Call Trace:
+[   38.065953]  <TASK>
+[   38.065960]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   38.065970]  core_link_read_dpcd+0xf8/0x15f
+[   38.065980]  dp_check_link_loss_status+0x3d/0x98
+[   38.065992]  dc_link_dp_perform_link_training+0x10d0/0x11b6
+[   38.066003]  ? drm_dp_dpcd_write+0xa5/0xe1
+[   38.066015]  ? drm_dev_dbg+0xd2/0x163
+[   38.066029]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   38.066038]  ? core_link_write_dpcd+0x79/0xad
+[   38.066048]  ? dp_enable_link_phy+0x214/0x23b
+[   38.066060]  dp_verify_link_cap_with_retries+0x1e9/0x33c
+[   38.066074]  dc_link_detect+0xeb2/0xf1e
+[   38.066092]  handle_hpd_irq_helper+0xe5/0x155
+[   38.066104]  process_one_work+0x1da/0x342
+[   38.066113]  worker_thread+0x21b/0x373
+[   38.066121]  kthread+0x13d/0x153
+[   38.066131]  ? pr_cont_work+0x54/0x54
+[   38.066137]  ? kthread_blkcg+0x31/0x31
+[   38.066147]  ret_from_fork+0x22/0x30
+[   38.066159]  </TASK>
+[   38.066163] ---[ end trace 2d288d4bc234d6cc ]---
+
+[   38.069971] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x02002 AUX -> (ret= 14) 41 00 00 00 00 00 00 00 00 00 77 00 01 01
+
+[   38.068360] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   38.068379] ------------[ cut here ]------------
+[   38.068383] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   38.068395] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   38.068519] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   38.068527] Hardware name: XXXXXX
+[   38.068532] Workqueue: events_highpri dm_irq_work_func
+[   38.068540] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   38.068550] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   38.068557] RSP: 0018:ffffb3c84059bb18 EFLAGS: 00010246
+[   38.068563] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   38.068569] RDX: ffff912b6dea2b38 RSI: ffff912b6de96d88 RDI: ffff912b6de96d88
+[   38.068575] RBP: ffffb3c84059bb40 R08: 0000000000000000 R09: ffffb3c84059b910
+[   38.068580] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 000000000000000e
+[   38.068586] R13: 000000000000000e R14: 0000000000002002 R15: ffffb3c84059bbc0
+[   38.068592] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   38.068598] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   38.068604] CR2: 000020540347c010 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   38.068610] Call Trace:
+[   38.068614]  <TASK>
+[   38.068619]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   38.068629]  core_link_read_dpcd+0xf8/0x15f
+[   38.068639]  read_hpd_rx_irq_data+0x57/0xa3
+[   38.068658]  dp_verify_link_cap_with_retries+0x20e/0x33c
+[   38.068672]  dc_link_detect+0xeb2/0xf1e
+[   38.068690]  handle_hpd_irq_helper+0xe5/0x155
+[   38.068702]  process_one_work+0x1da/0x342
+[   38.068710]  worker_thread+0x21b/0x373
+[   38.068719]  kthread+0x13d/0x153
+[   38.068728]  ? pr_cont_work+0x54/0x54
+[   38.068735]  ? kthread_blkcg+0x31/0x31
+[   38.068745]  ret_from_fork+0x22/0x30
+[   38.068756]  </TASK>
+[   38.068760] ---[ end trace 2d288d4bc234d6cd ]---
+
+
+[   38.071711] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x03000 AUX -> (ret=  1) 00
+
+[   38.070237] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   38.070241] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] plane: id=3 dcc_en=1
+[   38.070255] ------------[ cut here ]------------
+[   38.070253] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:55] PSR FFU dirty rect size (1920, 1080)
+[   38.070260] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   38.070267] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x1200000
+[   38.070272] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac
+[   38.070285] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1082
+[   38.070289]  algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach
+[   38.070298] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1081
+[   38.070300]  snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrtl btintel btmtk btbcm snd_hda_codec_hdmi snd_sof_amd_rembrandt snd_sof_amd_acp snd_sof_xtensa_dsp snd_sof_pci snd_hda_intel snd_sof snd_sof_utils 
+[   38.070404] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   38.070412] Hardware name: XXXXXX
+[   38.070417] Workqueue: events_highpri dm_irq_work_func
+[   38.070425] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   38.070435] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   38.070442] RSP: 0018:ffffb3c84059bd08 EFLAGS: 00010246
+[   38.070448] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   38.070454] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   38.070460] RBP: ffffb3c84059bd30 R08: 0000000000000000 R09: ffffb3c84059bb00
+[   38.070465] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: ffff912a83cb6000
+[   38.070470] R13: 0000000000000001 R14: 0000000000003000 R15: ffffb3c84059bd47
+[   38.070476] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   38.070483] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   38.070488] CR2: 000020540347c010 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   38.070494] Call Trace:
+[   38.070498]  <TASK>
+[   38.070504]  drm_dp_cec_cap+0x34/0x6e
+[   38.070515]  drm_dp_cec_set_edid+0x76/0x199
+[   38.070528]  amdgpu_dm_update_connector_after_detect+0x16e/0x2b4
+[   38.070539]  handle_hpd_irq_helper+0xfd/0x155
+[   38.070551]  process_one_work+0x1da/0x342
+[   38.070559]  worker_thread+0x21b/0x373
+[   38.070568]  kthread+0x13d/0x153
+[   38.070577]  ? pr_cont_work+0x54/0x54
+[   38.070583]  ? kthread_blkcg+0x31/0x31
+[   38.070593]  ret_from_fork+0x22/0x30
+[   38.070604]  </TASK>
+[   38.070607] ---[ end trace 2d288d4bc234d6ce ]---
+
+
+[   38.073239] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00007 AUX -> (ret=  1) 81
+
+[   38.071761] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   38.071780] ------------[ cut here ]------------
+[   38.071784] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   38.071795] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   38.071918] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   38.071926] Hardware name: XXXXXX
+[   38.071931] Workqueue: events_highpri dm_irq_work_func
+[   38.071939] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   38.071949] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   38.071955] RSP: 0018:ffffb3c84059bd10 EFLAGS: 00010246
+[   38.071961] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   38.071967] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6de96d88
+[   38.071973] RBP: ffffb3c84059bd38 R08: 0000000000000000 R09: ffffb3c84059bb10
+[   38.071978] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: ffff912a8adf9480
+[   38.071984] R13: 0000000000000001 R14: 0000000000000007 R15: ffffb3c84059bd80
+[   38.071989] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   38.071996] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   38.072001] CR2: 000020540347c010 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   38.072007] Call Trace:
+[   38.072011]  <TASK>
+[   38.072017]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   38.072026]  amdgpu_dm_update_freesync_caps+0xb4/0x490
+[   38.072037]  ? _drm_edid_connector_property_update+0x10e/0x16f
+[   38.072047]  ? drm_connector_update_edid_property+0x6e/0x95
+[   38.072057]  amdgpu_dm_update_connector_after_detect+0x288/0x2b4
+[   38.072067]  handle_hpd_irq_helper+0xfd/0x155
+[   38.072079]  process_one_work+0x1da/0x342
+[   38.072088]  worker_thread+0x21b/0x373
+[   38.072096]  kthread+0x13d/0x153
+[   38.072105]  ? pr_cont_work+0x54/0x54
+[   38.072111]  ? kthread_blkcg+0x31/0x31
+[   38.072121]  ret_from_fork+0x22/0x30
+[   38.072133]  </TASK>
+[   38.072136] ---[ end trace 2d288d4bc234d6cf ]---
+
+
+
+[   38.207601] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x02002 AUX -> (ret= 14) 41 00 00 00 00 00 00 00 00 00 00 00 80 00
+
+[   38.205845] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   38.205871] ------------[ cut here ]------------
+[   38.205876] WARNING: CPU: 1 PID: 112 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   38.205896] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   38.206054] CPU: 1 PID: 112 Comm: kworker/1:1H Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   38.206067] Hardware name: XXXXXX
+[   38.206074] Workqueue: events_highpri dm_irq_work_func
+[   38.206086] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   38.206097] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   38.206106] RSP: 0018:ffffb3c84059bca0 EFLAGS: 00010246
+[   38.206115] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 0eb56c2e79c5b200
+[   38.206122] RDX: 0000000000000000 RSI: 00000000ff7fffff RDI: 0000000000000001
+[   38.206128] RBP: ffffb3c84059bcc8 R08: 0000000000000000 R09: ffffb3c84059baa0
+[   38.206135] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 000000000000000e
+[   38.206141] R13: 000000000000000e R14: 0000000000002002 R15: ffffb3c84059bd48
+[   38.206148] FS:  0000000000000000(0000) GS:ffff912b6de80000(0000) knlGS:0000000000000000
+[   38.206155] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   38.206162] CR2: 00007b6390cb3018 CR3: 000000007900c000 CR4: 0000000000350ee0
+[   38.206169] Call Trace:
+[   38.206177]  <TASK>
+[   38.206185]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   38.206197]  core_link_read_dpcd+0xf8/0x15f
+[   38.206209]  read_hpd_rx_irq_data+0x57/0xa3
+[   38.206220]  dc_link_handle_hpd_rx_irq+0x7a/0x2fc
+[   38.206231]  ? __switch_to+0x17e/0x4b7
+[   38.206243]  handle_hpd_rx_irq+0x9e/0x3b9
+[   38.206254]  ? __schedule+0x601/0x1263
+[   38.206266]  ? drm_client_dev_hotplug+0x33/0xa8
+[   38.206277]  process_one_work+0x1da/0x342
+[   38.206287]  worker_thread+0x21b/0x373
+[   38.206296]  kthread+0x13d/0x153
+[   38.206307]  ? pr_cont_work+0x54/0x54
+[   38.206313]  ? kthread_blkcg+0x31/0x31
+[   38.206324]  ret_from_fork+0x22/0x30
+[   38.206337]  </TASK>
+[   38.206342] ---[ end trace 2d288d4bc234d6d0 ]---
+
+
+
+[   39.085111] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00007 AUX -> (ret=  1) 81
+
+[   39.083880] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   39.083885] ------------[ cut here ]------------
+[   39.083886] WARNING: CPU: 3 PID: 2007 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   39.083889] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   39.083917] CPU: 3 PID: 2007 Comm: DrmThread Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   39.083920] Hardware name: XXXXXX
+[   39.083921] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   39.083924] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   39.083926] RSP: 0018:ffffb3c8424678a0 EFLAGS: 00010246
+[   39.083927] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 58e55a200ff1ce00
+[   39.083929] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6df96d88
+[   39.083930] RBP: ffffb3c8424678c8 R08: 0000000000000000 R09: ffffb3c8424676a0
+[   39.083932] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: ffff912a8adf9480
+[   39.083933] R13: 0000000000000001 R14: 0000000000000007 R15: ffffb3c842467910
+[   39.083935] FS:  00007c8ad23d5640(0000) GS:ffff912b6df80000(0000) knlGS:0000000000000000
+[   39.083937] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   39.083938] CR2: 00005860df20db90 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   39.083940] Call Trace:
+[   39.083941]  <TASK>
+[   39.083943]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   39.083946]  amdgpu_dm_update_freesync_caps+0xb4/0x490
+[   39.083948]  ? list_sort+0x1b5/0x23c
+[   39.083952]  ? drm_mode_sort+0x1b/0x1b
+[   39.083954]  amdgpu_dm_connector_get_modes+0x118/0x4fd
+[   39.083956]  ? ring_buffer_unlock_commit+0x29/0x112
+[   39.083958]  ? drm_trace_printf+0x5e/0x9b
+[   39.083960]  ? __trace_array_vprintk+0x193/0x1e2
+[   39.083963]  ? trace_array_printk+0x7e/0xa3
+[   39.083966]  ? __wake_up_klogd+0x53/0x69
+[   39.083968]  ? vprintk_emit+0x97/0x19f
+[   39.083971]  ? drm_trace_printf+0x7d/0x9b
+[   39.083973]  ? drm_helper_probe_single_connector_modes+0x1d4/0x501
+[   39.083976]  ? __drm_dbg+0xa3/0x107
+[   39.083979]  drm_helper_probe_single_connector_modes+0x25a/0x501
+[   39.083982]  drm_mode_getconnector+0x16d/0x403
+[   39.083984]  ? _printk+0x59/0x77
+[   39.083986]  ? drm_connector_property_set_ioctl+0x65/0x65
+[   39.083988]  drm_ioctl_kernel+0xdc/0x14d
+[   39.083991]  drm_ioctl+0x27e/0x3b4
+[   39.083993]  ? drm_connector_property_set_ioctl+0x65/0x65
+[   39.083996]  amdgpu_drm_ioctl+0x49/0x81
+[   39.083999]  __se_sys_ioctl+0x7c/0xbc
+[   39.084001]  do_syscall_64+0x57/0x9d
+[   39.084003]  ? exit_to_user_mode_prepare+0x3c/0x8b
+[   39.084006]  entry_SYSCALL_64_after_hwframe+0x49/0xb3
+[   39.084008] RIP: 0033:0x7c8ade779649
+[   39.084010] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <41> 89 c0 3d 00 f0 ff ff 77 1d 48 8b 45 c8 64 48 2b 04 25 28 00 00
+[   39.084012] RSP: 002b:00007c8ad23d2a30 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[   39.084014] RAX: ffffffffffffffda RBX: 00002cf8013d2ad0 RCX: 00007c8ade779649
+[   39.084015] RDX: 00007c8ad23d2ac0 RSI: 00000000c05064a7 RDI: 000000000000002c
+[   39.084017] RBP: 00007c8ad23d2a80 R08: 00002cf8013d2ac0 R09: 00002cf8004f2a78
+[   39.084018] R10: 0000000000000029 R11: 0000000000000246 R12: 000000000000002c
+[   39.084019] R13: 000000000000002c R14: 00007c8ad23d2ac0 R15: 00000000c05064a7
+[   39.084022]  </TASK>
+[   39.084023] ---[ end trace 2d288d4bc234d6d2 ]---
+
+
+[   39.101746] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00300 AUX -> (ret=  3) 00 00 1a
+
+[   39.100013] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   39.100033] ------------[ cut here ]------------
+[   39.100037] WARNING: CPU: 3 PID: 2007 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   39.100050] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   39.100196] CPU: 3 PID: 2007 Comm: DrmThread Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   39.100206] Hardware name: XXXXXX
+[   39.100211] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   39.100220] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   39.100227] RSP: 0018:ffffb3c8424673e8 EFLAGS: 00010246
+[   39.100233] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 58e55a200ff1ce00
+[   39.100239] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6df96d88
+[   39.100244] RBP: ffffb3c842467410 R08: 0000000000000000 R09: ffffb3c8424671e0
+[   39.100249] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000003
+[   39.100254] R13: 0000000000000003 R14: 0000000000000300 R15: ffffb3c842467498
+[   39.100259] FS:  00007c8ad23d5640(0000) GS:ffff912b6df80000(0000) knlGS:0000000000000000
+[   39.100265] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   39.100271] CR2: 00007c8acd66d000 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   39.100276] Call Trace:
+[   39.100282]  <TASK>
+[   39.100289]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   39.100299]  core_link_read_dpcd+0xf8/0x15f
+[   39.100308]  dpcd_set_source_specific_data+0x92/0x159
+[   39.100318]  enable_link_dp+0x148/0x224
+[   39.100327]  core_link_enable_stream+0x85b/0xb56
+[   39.100334]  ? dm_write_reg_func+0x27/0x88
+[   39.100343]  ? generic_reg_update_ex+0x1d2/0x1fc
+[   39.100353]  dce110_apply_ctx_to_hw+0x709/0x912
+[   39.100363]  ? __free_pages_ok+0x1c5/0x2a1
+[   39.100371]  dc_commit_state_no_check+0x5ca/0xa9d
+[   39.100383]  dc_commit_state+0xbf/0xf6
+[   39.100392]  amdgpu_dm_atomic_commit_tail+0x4c4/0x2097
+[   39.100402]  ? prb_read_valid+0x2b/0x49
+[   39.100412]  ? console_unlock+0x421/0x46a
+[   39.100422]  ? __irq_work_queue_local+0x46/0x56
+[   39.100431]  ? irq_work_queue+0x24/0x3f
+[   39.100458]  ? __wake_up_klogd+0x53/0x69
+[   39.100466]  ? vprintk_emit+0x97/0x19f
+[   39.100476]  ? dma_resv_iter_first_unlocked+0x53/0x60
+[   39.100483]  ? hubbub31_get_dcc_compression_cap+0x90/0x1d0
+[   39.100493]  ? fill_plane_buffer_attributes+0x43e/0x4a2
+[   39.100502]  ? wait_for_completion_timeout+0xc6/0xf0
+[   39.100512]  ? drm_crtc_commit_wait+0x37/0x6e
+[   39.100521]  commit_tail+0x90/0x112
+[   39.100529]  drm_atomic_helper_commit+0x102/0x104
+[   39.100536]  drm_atomic_commit+0xe4/0x105
+[   39.100544]  ? __drm_printfn_info+0x1d/0x1d
+[   39.100553]  drm_mode_atomic_ioctl+0x361/0x487
+[   39.100564]  ? drm_atomic_set_property+0x947/0x947
+[   39.100571]  drm_ioctl_kernel+0xdc/0x14d
+[   39.100581]  drm_ioctl+0x27e/0x3b4
+[   39.100590]  ? drm_atomic_set_property+0x947/0x947
+[   39.100598]  amdgpu_drm_ioctl+0x49/0x81
+[   39.100603]  __se_sys_ioctl+0x7c/0xbc
+[   39.100610]  do_syscall_64+0x57/0x9d
+[   39.100614]  ? exit_to_user_mode_prepare+0x3c/0x8b
+[   39.100624]  entry_SYSCALL_64_after_hwframe+0x49/0xb3
+[   39.100629] RIP: 0033:0x7c8ade779649
+[   39.100633] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <41> 89 c0 3d 00 f0 ff ff 77 1d 48 8b 45 c8 64 48 2b 04 25 28 00 00
+[   39.100637] RSP: 002b:00007c8ad23d26d0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[   39.100641] RAX: ffffffffffffffda RBX: 0000000000000059 RCX: 00007c8ade779649
+[   39.100644] RDX: 00007c8ad23d27a0 RSI: 00000000c03864bc RDI: 000000000000002c
+[   39.100647] RBP: 00007c8ad23d2720 R08: 00002cf801e53690 R09: 00002cf801bb5d00
+[   39.100650] R10: 000000000000006f R11: 0000000000000246 R12: 000000000000002c
+[   39.100652] R13: 0000000000000400 R14: 00007c8ad23d27a0 R15: 00000000c03864bc
+[   39.100657]  </TASK>
+[   39.100660] ---[ end trace 2d288d4bc234d6d3 ]---
+
+
+[   39.105910] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 84
+
+[   39.104651] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   39.104657] ------------[ cut here ]------------
+[   39.104658] WARNING: CPU: 3 PID: 2007 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   39.104661] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   39.104692] CPU: 3 PID: 2007 Comm: DrmThread Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   39.104695] Hardware name: XXXXXX
+[   39.104696] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   39.104699] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   39.104700] RSP: 0018:ffffb3c842467118 EFLAGS: 00010246
+[   39.104702] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 58e55a200ff1ce00
+[   39.104704] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6df96d88
+[   39.104705] RBP: ffffb3c842467140 R08: 0000000000000000 R09: ffffb3c842466f10
+[   39.104707] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   39.104708] R13: 0000000000000001 R14: 000000000000000e R15: ffffb3c8424671c0
+[   39.104710] FS:  00007c8ad23d5640(0000) GS:ffff912b6df80000(0000) knlGS:0000000000000000
+[   39.104712] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   39.104713] CR2: 00007c8acd66d000 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   39.104715] Call Trace:
+[   39.104716]  <TASK>
+[   39.104718]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   39.104720]  core_link_read_dpcd+0xf8/0x15f
+[   39.104723]  decide_8b_10b_training_settings+0x9f/0x19d
+[   39.104726]  dc_link_dp_perform_link_training+0x5d/0x11b6
+[   39.104729]  ? __trace_array_vprintk+0x193/0x1e2
+[   39.104733]  ? __drm_dbg+0xa3/0x107
+[   39.104736]  ? core_link_write_dpcd+0x79/0xad
+[   39.104739]  perform_link_training_with_retries+0x232/0x44e
+[   39.104742]  enable_link_dp+0x19a/0x224
+[   39.104745]  core_link_enable_stream+0x85b/0xb56
+[   39.104747]  ? dm_write_reg_func+0x27/0x88
+[   39.104749]  ? generic_reg_update_ex+0x1d2/0x1fc
+[   39.104752]  dce110_apply_ctx_to_hw+0x709/0x912
+[   39.104755]  ? __free_pages_ok+0x1c5/0x2a1
+[   39.104758]  dc_commit_state_no_check+0x5ca/0xa9d
+[   39.104761]  dc_commit_state+0xbf/0xf6
+[   39.104764]  amdgpu_dm_atomic_commit_tail+0x4c4/0x2097
+[   39.104767]  ? prb_read_valid+0x2b/0x49
+[   39.104769]  ? console_unlock+0x421/0x46a
+[   39.104772]  ? __irq_work_queue_local+0x46/0x56
+[   39.104775]  ? irq_work_queue+0x24/0x3f
+[   39.104777]  ? __wake_up_klogd+0x53/0x69
+[   39.104780]  ? vprintk_emit+0x97/0x19f
+[   39.104783]  ? dma_resv_iter_first_unlocked+0x53/0x60
+[   39.104785]  ? hubbub31_get_dcc_compression_cap+0x90/0x1d0
+[   39.104788]  ? fill_plane_buffer_attributes+0x43e/0x4a2
+[   39.104790]  ? wait_for_completion_timeout+0xc6/0xf0
+[   39.104793]  ? drm_crtc_commit_wait+0x37/0x6e
+[   39.104796]  commit_tail+0x90/0x112
+[   39.104798]  drm_atomic_helper_commit+0x102/0x104
+[   39.104800]  drm_atomic_commit+0xe4/0x105
+[   39.104802]  ? __drm_printfn_info+0x1d/0x1d
+[   39.104805]  drm_mode_atomic_ioctl+0x361/0x487
+[   39.104808]  ? drm_atomic_set_property+0x947/0x947
+[   39.104810]  drm_ioctl_kernel+0xdc/0x14d
+[   39.104813]  drm_ioctl+0x27e/0x3b4
+[   39.104815]  ? drm_atomic_set_property+0x947/0x947
+[   39.104818]  amdgpu_drm_ioctl+0x49/0x81
+[   39.104821]  __se_sys_ioctl+0x7c/0xbc
+[   39.104823]  do_syscall_64+0x57/0x9d
+[   39.104825]  ? exit_to_user_mode_prepare+0x3c/0x8b
+[   39.104828]  entry_SYSCALL_64_after_hwframe+0x49/0xb3
+[   39.104830] RIP: 0033:0x7c8ade779649
+[   39.104832] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <41> 89 c0 3d 00 f0 ff ff 77 1d 48 8b 45 c8 64 48 2b 04 25 28 00 00
+[   39.104834] RSP: 002b:00007c8ad23d26d0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[   39.104835] RAX: ffffffffffffffda RBX: 0000000000000059 RCX: 00007c8ade779649
+[   39.104837] RDX: 00007c8ad23d27a0 RSI: 00000000c03864bc RDI: 000000000000002c
+[   39.104838] RBP: 00007c8ad23d2720 R08: 00002cf801e53690 R09: 00002cf801bb5d00
+[   39.104840] R10: 000000000000006f R11: 0000000000000246 R12: 000000000000002c
+[   39.104841] R13: 0000000000000400 R14: 00007c8ad23d27a0 R15: 00000000c03864bc
+[   39.104844]  </TASK>
+[   39.104845] ---[ end trace 2d288d4bc234d6d4 ]---
+
+
+[   39.107162] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x0000e AUX -> (ret=  1) 84
+
+[   39.105914] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   39.105918] ------------[ cut here ]------------
+[   39.105919] WARNING: CPU: 3 PID: 2007 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   39.105922] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   39.105949] CPU: 3 PID: 2007 Comm: DrmThread Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   39.105951] Hardware name: XXXXXX
+[   39.105953] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   39.105955] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   39.105957] RSP: 0018:ffffb3c842467118 EFLAGS: 00010246
+[   39.105959] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 58e55a200ff1ce00
+[   39.105960] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6df96d88
+[   39.105962] RBP: ffffb3c842467140 R08: 0000000000000000 R09: ffffb3c842466f10
+[   39.105963] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   39.105965] R13: 0000000000000001 R14: 000000000000000e R15: ffffb3c8424671c8
+[   39.105966] FS:  00007c8ad23d5640(0000) GS:ffff912b6df80000(0000) knlGS:0000000000000000
+[   39.105968] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   39.105970] CR2: 00007c8acd66d000 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   39.105971] Call Trace:
+[   39.105973]  <TASK>
+[   39.105974]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   39.105976]  core_link_read_dpcd+0xf8/0x15f
+[   39.105979]  decide_8b_10b_training_settings+0xed/0x19d
+[   39.105982]  dc_link_dp_perform_link_training+0x5d/0x11b6
+[   39.105984]  ? __trace_array_vprintk+0x193/0x1e2
+[   39.105988]  ? __drm_dbg+0xa3/0x107
+[   39.105990]  ? core_link_write_dpcd+0x79/0xad
+[   39.105993]  perform_link_training_with_retries+0x232/0x44e
+[   39.105997]  enable_link_dp+0x19a/0x224
+[   39.105999]  core_link_enable_stream+0x85b/0xb56
+[   39.106001]  ? dm_write_reg_func+0x27/0x88
+[   39.106003]  ? generic_reg_update_ex+0x1d2/0x1fc
+[   39.106006]  dce110_apply_ctx_to_hw+0x709/0x912
+[   39.106009]  ? __free_pages_ok+0x1c5/0x2a1
+[   39.106011]  dc_commit_state_no_check+0x5ca/0xa9d
+[   39.106014]  dc_commit_state+0xbf/0xf6
+[   39.106017]  amdgpu_dm_atomic_commit_tail+0x4c4/0x2097
+[   39.106020]  ? prb_read_valid+0x2b/0x49
+[   39.106022]  ? console_unlock+0x421/0x46a
+[   39.106025]  ? __irq_work_queue_local+0x46/0x56
+[   39.106028]  ? irq_work_queue+0x24/0x3f
+[   39.106030]  ? __wake_up_klogd+0x53/0x69
+[   39.106032]  ? vprintk_emit+0x97/0x19f
+[   39.106035]  ? dma_resv_iter_first_unlocked+0x53/0x60
+[   39.106037]  ? hubbub31_get_dcc_compression_cap+0x90/0x1d0
+[   39.106039]  ? fill_plane_buffer_attributes+0x43e/0x4a2
+[   39.106042]  ? wait_for_completion_timeout+0xc6/0xf0
+[   39.106045]  ? drm_crtc_commit_wait+0x37/0x6e
+[   39.106047]  commit_tail+0x90/0x112
+[   39.106049]  drm_atomic_helper_commit+0x102/0x104
+[   39.106051]  drm_atomic_commit+0xe4/0x105
+[   39.106054]  ? __drm_printfn_info+0x1d/0x1d
+[   39.106056]  drm_mode_atomic_ioctl+0x361/0x487
+[   39.106059]  ? drm_atomic_set_property+0x947/0x947
+[   39.106061]  drm_ioctl_kernel+0xdc/0x14d
+[   39.106063]  drm_ioctl+0x27e/0x3b4
+[   39.106066]  ? drm_atomic_set_property+0x947/0x947
+[   39.106069]  amdgpu_drm_ioctl+0x49/0x81
+[   39.106071]  __se_sys_ioctl+0x7c/0xbc
+[   39.106074]  do_syscall_64+0x57/0x9d
+[   39.106076]  ? exit_to_user_mode_prepare+0x3c/0x8b
+[   39.106078]  entry_SYSCALL_64_after_hwframe+0x49/0xb3
+[   39.106080] RIP: 0033:0x7c8ade779649
+[   39.106082] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <41> 89 c0 3d 00 f0 ff ff 77 1d 48 8b 45 c8 64 48 2b 04 25 28 00 00
+[   39.106084] RSP: 002b:00007c8ad23d26d0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[   39.106086] RAX: ffffffffffffffda RBX: 0000000000000059 RCX: 00007c8ade779649
+[   39.106087] RDX: 00007c8ad23d27a0 RSI: 00000000c03864bc RDI: 000000000000002c
+[   39.106088] RBP: 00007c8ad23d2720 R08: 00002cf801e53690 R09: 00002cf801bb5d00
+[   39.106090] R10: 000000000000006f R11: 0000000000000246 R12: 000000000000002c
+[   39.106091] R13: 0000000000000400 R14: 00007c8ad23d27a0 R15: 00000000c03864bc
+[   39.106094]  </TASK>
+[   39.106095] ---[ end trace 2d288d4bc234d6d5 ]---
+
+
+
+[   39.108932] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00205 AUX -> (ret=  1) 00
+
+[   39.107691] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   39.107696] ------------[ cut here ]------------
+[   39.107697] WARNING: CPU: 3 PID: 2007 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   39.107700] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   39.107727] CPU: 3 PID: 2007 Comm: DrmThread Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   39.107729] Hardware name: XXXXXX
+[   39.107731] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   39.107733] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   39.107735] RSP: 0018:ffffb3c842467128 EFLAGS: 00010246
+[   39.107737] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 58e55a200ff1ce00
+[   39.107738] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6df96d88
+[   39.107740] RBP: ffffb3c842467150 R08: 0000000000000000 R09: ffffb3c842466f20
+[   39.107741] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   39.107743] R13: 0000000000000001 R14: 0000000000000205 R15: ffffb3c8424671d7
+[   39.107744] FS:  00007c8ad23d5640(0000) GS:ffff912b6df80000(0000) knlGS:0000000000000000
+[   39.107746] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   39.107748] CR2: 00007c8acd66d000 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   39.107749] Call Trace:
+[   39.107750]  <TASK>
+[   39.107752]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   39.107754]  core_link_read_dpcd+0xf8/0x15f
+[   39.107757]  dpcd_exit_training_mode+0x57/0x93
+[   39.107759]  ? override_training_settings+0xa1/0x17e
+[   39.107762]  dc_link_dp_perform_link_training+0x77/0x11b6
+[   39.107764]  ? __trace_array_vprintk+0x193/0x1e2
+[   39.107769]  ? __drm_dbg+0xa3/0x107
+[   39.107771]  ? core_link_write_dpcd+0x79/0xad
+[   39.107774]  perform_link_training_with_retries+0x232/0x44e
+[   39.107778]  enable_link_dp+0x19a/0x224
+[   39.107780]  core_link_enable_stream+0x85b/0xb56
+[   39.107782]  ? dm_write_reg_func+0x27/0x88
+[   39.107784]  ? generic_reg_update_ex+0x1d2/0x1fc
+[   39.107788]  dce110_apply_ctx_to_hw+0x709/0x912
+[   39.107790]  ? __free_pages_ok+0x1c5/0x2a1
+[   39.107792]  dc_commit_state_no_check+0x5ca/0xa9d
+[   39.107796]  dc_commit_state+0xbf/0xf6
+[   39.107798]  amdgpu_dm_atomic_commit_tail+0x4c4/0x2097
+[   39.107801]  ? prb_read_valid+0x2b/0x49
+[   39.107804]  ? console_unlock+0x421/0x46a
+[   39.107807]  ? __irq_work_queue_local+0x46/0x56
+[   39.107809]  ? irq_work_queue+0x24/0x3f
+[   39.107811]  ? __wake_up_klogd+0x53/0x69
+[   39.107814]  ? vprintk_emit+0x97/0x19f
+[   39.107817]  ? dma_resv_iter_first_unlocked+0x53/0x60
+[   39.107819]  ? hubbub31_get_dcc_compression_cap+0x90/0x1d0
+[   39.107821]  ? fill_plane_buffer_attributes+0x43e/0x4a2
+[   39.107824]  ? wait_for_completion_timeout+0xc6/0xf0
+[   39.107827]  ? drm_crtc_commit_wait+0x37/0x6e
+[   39.107829]  commit_tail+0x90/0x112
+[   39.107831]  drm_atomic_helper_commit+0x102/0x104
+[   39.107833]  drm_atomic_commit+0xe4/0x105
+[   39.107835]  ? __drm_printfn_info+0x1d/0x1d
+[   39.107838]  drm_mode_atomic_ioctl+0x361/0x487
+[   39.107841]  ? drm_atomic_set_property+0x947/0x947
+[   39.107843]  drm_ioctl_kernel+0xdc/0x14d
+[   39.107845]  drm_ioctl+0x27e/0x3b4
+[   39.107848]  ? drm_atomic_set_property+0x947/0x947
+[   39.107851]  amdgpu_drm_ioctl+0x49/0x81
+[   39.107853]  __se_sys_ioctl+0x7c/0xbc
+[   39.107856]  do_syscall_64+0x57/0x9d
+[   39.107858]  ? exit_to_user_mode_prepare+0x3c/0x8b
+[   39.107860]  entry_SYSCALL_64_after_hwframe+0x49/0xb3
+[   39.107862] RIP: 0033:0x7c8ade779649
+[   39.107864] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <41> 89 c0 3d 00 f0 ff ff 77 1d 48 8b 45 c8 64 48 2b 04 25 28 00 00
+[   39.107866] RSP: 002b:00007c8ad23d26d0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[   39.107867] RAX: ffffffffffffffda RBX: 0000000000000059 RCX: 00007c8ade779649
+[   39.107869] RDX: 00007c8ad23d27a0 RSI: 00000000c03864bc RDI: 000000000000002c
+[   39.107870] RBP: 00007c8ad23d2720 R08: 00002cf801e53690 R09: 00002cf801bb5d00
+[   39.107872] R10: 000000000000006f R11: 0000000000000246 R12: 000000000000002c
+[   39.107873] R13: 0000000000000400 R14: 00007c8ad23d27a0 R15: 00000000c03864bc
+[   39.107876]  </TASK>
+[   39.107877] ---[ end trace 2d288d4bc234d6d6 ]---
+
+[   39.131498] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 00 00 80 00 22 00
+
+[   39.129472] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   39.129498] ------------[ cut here ]------------
+[   39.129502] WARNING: CPU: 3 PID: 2007 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   39.129520] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   39.129644] CPU: 3 PID: 2007 Comm: DrmThread Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   39.129655] Hardware name: XXXXXX
+[   39.129660] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   39.129670] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   39.129677] RSP: 0018:ffffb3c842467028 EFLAGS: 00010246
+[   39.129684] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 58e55a200ff1ce00
+[   39.129689] RDX: ffff912b6dfa2b38 RSI: ffff912b6df96d88 RDI: ffff912b6df96d88
+[   39.129694] RBP: ffffb3c842467050 R08: 0000000000000000 R09: ffffb3c842466e20
+[   39.129699] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000006
+[   39.129704] R13: 0000000000000006 R14: 0000000000000202 R15: ffffb3c8424670d0
+[   39.129710] FS:  00007c8ad23d5640(0000) GS:ffff912b6df80000(0000) knlGS:0000000000000000
+[   39.129716] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   39.129721] CR2: 00007c8acd66d000 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   39.129727] Call Trace:
+[   39.129733]  <TASK>
+[   39.129742]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   39.129753]  core_link_read_dpcd+0xf8/0x15f
+[   39.129766]  dp_get_lane_status_and_lane_adjust+0x71/0x108
+[   39.129778]  perform_clock_recovery_sequence+0x136/0x29d
+[   39.129790]  ? dpcd_set_link_settings+0xbc/0x132
+[   39.129801]  dp_perform_8b_10b_link_training+0x12a/0x193
+[   39.129812]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   39.129821]  ? core_link_write_dpcd+0x79/0xad
+[   39.129831]  dc_link_dp_perform_link_training+0xa02/0x11b6
+[   39.129848]  ? __drm_dbg+0xa3/0x107
+[   39.129858]  ? core_link_write_dpcd+0x79/0xad
+[   39.129869]  perform_link_training_with_retries+0x232/0x44e
+[   39.129883]  enable_link_dp+0x19a/0x224
+[   39.129893]  core_link_enable_stream+0x85b/0xb56
+[   39.129902]  ? dm_write_reg_func+0x27/0x88
+[   39.129913]  ? generic_reg_update_ex+0x1d2/0x1fc
+[   39.129924]  dce110_apply_ctx_to_hw+0x709/0x912
+[   39.129937]  ? __free_pages_ok+0x1c5/0x2a1
+[   39.129946]  dc_commit_state_no_check+0x5ca/0xa9d
+[   39.129960]  dc_commit_state+0xbf/0xf6
+[   39.129971]  amdgpu_dm_atomic_commit_tail+0x4c4/0x2097
+[   39.129982]  ? prb_read_valid+0x2b/0x49
+[   39.129994]  ? console_unlock+0x421/0x46a
+[   39.130006]  ? __irq_work_queue_local+0x46/0x56
+[   39.130017]  ? irq_work_queue+0x24/0x3f
+[   39.130027]  ? __wake_up_klogd+0x53/0x69
+[   39.130036]  ? vprintk_emit+0x97/0x19f
+[   39.130048]  ? dma_resv_iter_first_unlocked+0x53/0x60
+[   39.130057]  ? hubbub31_get_dcc_compression_cap+0x90/0x1d0
+[   39.130068]  ? fill_plane_buffer_attributes+0x43e/0x4a2
+[   39.130078]  ? wait_for_completion_timeout+0xc6/0xf0
+[   39.130090]  ? drm_crtc_commit_wait+0x37/0x6e
+[   39.130102]  commit_tail+0x90/0x112
+[   39.130111]  drm_atomic_helper_commit+0x102/0x104
+[   39.130120]  drm_atomic_commit+0xe4/0x105
+[   39.130148]  ? __drm_printfn_info+0x1d/0x1d
+[   39.130158]  drm_mode_atomic_ioctl+0x361/0x487
+[   39.130172]  ? drm_atomic_set_property+0x947/0x947
+[   39.130180]  drm_ioctl_kernel+0xdc/0x14d
+[   39.130190]  drm_ioctl+0x27e/0x3b4
+[   39.130200]  ? drm_atomic_set_property+0x947/0x947
+[   39.130212]  amdgpu_drm_ioctl+0x49/0x81
+[   39.130223]  __se_sys_ioctl+0x7c/0xbc
+[   39.130235]  do_syscall_64+0x57/0x9d
+[   39.130243]  ? exit_to_user_mode_prepare+0x3c/0x8b
+[   39.130255]  entry_SYSCALL_64_after_hwframe+0x49/0xb3
+[   39.130265] RIP: 0033:0x7c8ade779649
+[   39.130274] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <41> 89 c0 3d 00 f0 ff ff 77 1d 48 8b 45 c8 64 48 2b 04 25 28 00 00
+[   39.130282] RSP: 002b:00007c8ad23d26d0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[   39.130291] RAX: ffffffffffffffda RBX: 0000000000000059 RCX: 00007c8ade779649
+[   39.130297] RDX: 00007c8ad23d27a0 RSI: 00000000c03864bc RDI: 000000000000002c
+[   39.130303] RBP: 00007c8ad23d2720 R08: 00002cf801e53690 R09: 00002cf801bb5d00
+[   39.130308] R10: 000000000000006f R11: 0000000000000246 R12: 000000000000002c
+[   39.130314] R13: 0000000000000400 R14: 00007c8ad23d27a0 R15: 00000000c03864bc
+[   39.130324]  </TASK>
+[   39.130328] ---[ end trace 2d288d4bc234d6d7 ]---
+
+
+[   39.151748] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 11 00 80 00 22 00
+
+[   39.150140] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   39.150156] ------------[ cut here ]------------
+[   39.150159] WARNING: CPU: 3 PID: 2007 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   39.150171] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   39.150249] CPU: 3 PID: 2007 Comm: DrmThread Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   39.150255] Hardware name: XXXXXX
+[   39.150258] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   39.150265] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   39.150269] RSP: 0018:ffffb3c842467028 EFLAGS: 00010246
+[   39.150273] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 58e55a200ff1ce00
+[   39.150276] RDX: ffff912b6dfa2b38 RSI: ffff912b6df96d88 RDI: ffff912b6df96d88
+[   39.150279] RBP: ffffb3c842467050 R08: 0000000000000000 R09: ffffb3c842466e20
+[   39.150282] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000006
+[   39.150286] R13: 0000000000000006 R14: 0000000000000202 R15: ffffb3c8424670d0
+[   39.150289] FS:  00007c8ad23d5640(0000) GS:ffff912b6df80000(0000) knlGS:0000000000000000
+[   39.150293] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   39.150296] CR2: 00007c8acd66d000 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   39.150299] Call Trace:
+[   39.150304]  <TASK>
+[   39.150308]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   39.150315]  core_link_read_dpcd+0xf8/0x15f
+[   39.150321]  dp_get_lane_status_and_lane_adjust+0x71/0x108
+[   39.150327]  perform_clock_recovery_sequence+0x136/0x29d
+[   39.150333]  ? get_dpcd_link_rate+0xa/0x61
+[   39.150339]  dp_perform_8b_10b_link_training+0x12a/0x193
+[   39.150344]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   39.150348]  ? core_link_write_dpcd+0x79/0xad
+[   39.150353]  dc_link_dp_perform_link_training+0xa02/0x11b6
+[   39.150362]  ? __drm_dbg+0xa3/0x107
+[   39.150367]  ? core_link_write_dpcd+0x79/0xad
+[   39.150373]  perform_link_training_with_retries+0x232/0x44e
+[   39.150379]  enable_link_dp+0x19a/0x224
+[   39.150385]  core_link_enable_stream+0x85b/0xb56
+[   39.150389]  ? dm_write_reg_func+0x27/0x88
+[   39.150395]  ? generic_reg_update_ex+0x1d2/0x1fc
+[   39.150401]  dce110_apply_ctx_to_hw+0x709/0x912
+[   39.150407]  ? __free_pages_ok+0x1c5/0x2a1
+[   39.150412]  dc_commit_state_no_check+0x5ca/0xa9d
+[   39.150419]  dc_commit_state+0xbf/0xf6
+[   39.150425]  amdgpu_dm_atomic_commit_tail+0x4c4/0x2097
+[   39.150431]  ? prb_read_valid+0x2b/0x49
+[   39.150437]  ? console_unlock+0x421/0x46a
+[   39.150443]  ? __irq_work_queue_local+0x46/0x56
+[   39.150448]  ? irq_work_queue+0x24/0x3f
+[   39.150453]  ? __wake_up_klogd+0x53/0x69
+[   39.150458]  ? vprintk_emit+0x97/0x19f
+[   39.150464]  ? dma_resv_iter_first_unlocked+0x53/0x60
+[   39.150468]  ? hubbub31_get_dcc_compression_cap+0x90/0x1d0
+[   39.150474]  ? fill_plane_buffer_attributes+0x43e/0x4a2
+[   39.150479]  ? wait_for_completion_timeout+0xc6/0xf0
+[   39.150485]  ? drm_crtc_commit_wait+0x37/0x6e
+[   39.150491]  commit_tail+0x90/0x112
+[   39.150496]  drm_atomic_helper_commit+0x102/0x104
+[   39.150501]  drm_atomic_commit+0xe4/0x105
+[   39.150506]  ? __drm_printfn_info+0x1d/0x1d
+[   39.150511]  drm_mode_atomic_ioctl+0x361/0x487
+[   39.150518]  ? drm_atomic_set_property+0x947/0x947
+[   39.150522]  drm_ioctl_kernel+0xdc/0x14d
+[   39.150528]  drm_ioctl+0x27e/0x3b4
+[   39.150532]  ? drm_atomic_set_property+0x947/0x947
+[   39.150538]  amdgpu_drm_ioctl+0x49/0x81
+[   39.150544]  __se_sys_ioctl+0x7c/0xbc
+[   39.150550]  do_syscall_64+0x57/0x9d
+[   39.150554]  ? exit_to_user_mode_prepare+0x3c/0x8b
+[   39.150560]  entry_SYSCALL_64_after_hwframe+0x49/0xb3
+[   39.150565] RIP: 0033:0x7c8ade779649
+[   39.150570] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <41> 89 c0 3d 00 f0 ff ff 77 1d 48 8b 45 c8 64 48 2b 04 25 28 00 00
+[   39.150573] RSP: 002b:00007c8ad23d26d0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[   39.150577] RAX: ffffffffffffffda RBX: 0000000000000059 RCX: 00007c8ade779649
+[   39.150580] RDX: 00007c8ad23d27a0 RSI: 00000000c03864bc RDI: 000000000000002c
+[   39.150583] RBP: 00007c8ad23d2720 R08: 00002cf801e53690 R09: 00002cf801bb5d00
+[   39.150586] R10: 000000000000006f R11: 0000000000000246 R12: 000000000000002c
+[   39.150589] R13: 0000000000000400 R14: 00007c8ad23d27a0 R15: 00000000c03864bc
+[   39.150593]  </TASK>
+[   39.150596] ---[ end trace 2d288d4bc234d6d8 ]---
+
+[   39.172151] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00202 AUX -> (ret=  6) 77 00 81 00 22 00
+
+[   39.170123] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   39.170147] ------------[ cut here ]------------
+[   39.170151] WARNING: CPU: 3 PID: 2007 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   39.170168] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   39.170297] CPU: 3 PID: 2007 Comm: DrmThread Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   39.170307] Hardware name: XXXXXX
+[   39.170313] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   39.170324] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   39.170331] RSP: 0018:ffffb3c842467040 EFLAGS: 00010246
+[   39.170338] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 58e55a200ff1ce00
+[   39.170344] RDX: ffff912b6dfa2b38 RSI: ffff912b6df96d88 RDI: ffff912b6df96d88
+[   39.170349] RBP: ffffb3c842467068 R08: 0000000000000000 R09: ffffb3c842466e40
+[   39.170354] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000006
+[   39.170359] R13: 0000000000000006 R14: 0000000000000202 R15: ffffb3c8424670e8
+[   39.170365] FS:  00007c8ad23d5640(0000) GS:ffff912b6df80000(0000) knlGS:0000000000000000
+[   39.170371] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   39.170377] CR2: 00007ffe1fdf3088 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   39.170382] Call Trace:
+[   39.170388]  <TASK>
+[   39.170395]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   39.170406]  core_link_read_dpcd+0xf8/0x15f
+[   39.170416]  dp_get_lane_status_and_lane_adjust+0x71/0x108
+[   39.170426]  perform_channel_equalization_sequence+0x14c/0x215
+[   39.170437]  ? dpcd_set_link_settings+0xbc/0x132
+[   39.170446]  dp_perform_8b_10b_link_training+0x141/0x193
+[   39.170455]  ? dm_helpers_dp_write_dpcd+0x2c/0x48
+[   39.170463]  ? core_link_write_dpcd+0x79/0xad
+[   39.170471]  dc_link_dp_perform_link_training+0xa02/0x11b6
+[   39.170488]  ? __drm_dbg+0xa3/0x107
+[   39.170497]  ? core_link_write_dpcd+0x79/0xad
+[   39.170509]  perform_link_training_with_retries+0x232/0x44e
+[   39.170523]  enable_link_dp+0x19a/0x224
+[   39.170533]  core_link_enable_stream+0x85b/0xb56
+[   39.170542]  ? dm_write_reg_func+0x27/0x88
+[   39.170553]  ? generic_reg_update_ex+0x1d2/0x1fc
+[   39.170565]  dce110_apply_ctx_to_hw+0x709/0x912
+[   39.170584]  ? __free_pages_ok+0x1c5/0x2a1
+[   39.170594]  dc_commit_state_no_check+0x5ca/0xa9d
+[   39.170609]  dc_commit_state+0xbf/0xf6
+[   39.170620]  amdgpu_dm_atomic_commit_tail+0x4c4/0x2097
+[   39.170633]  ? prb_read_valid+0x2b/0x49
+[   39.170645]  ? console_unlock+0x421/0x46a
+[   39.170657]  ? __irq_work_queue_local+0x46/0x56
+[   39.170668]  ? irq_work_queue+0x24/0x3f
+[   39.170679]  ? __wake_up_klogd+0x53/0x69
+[   39.170688]  ? vprintk_emit+0x97/0x19f
+[   39.170700]  ? dma_resv_iter_first_unlocked+0x53/0x60
+[   39.170710]  ? hubbub31_get_dcc_compression_cap+0x90/0x1d0
+[   39.170721]  ? fill_plane_buffer_attributes+0x43e/0x4a2
+[   39.170732]  ? wait_for_completion_timeout+0xc6/0xf0
+[   39.170744]  ? drm_crtc_commit_wait+0x37/0x6e
+[   39.170756]  commit_tail+0x90/0x112
+[   39.170765]  drm_atomic_helper_commit+0x102/0x104
+[   39.170774]  drm_atomic_commit+0xe4/0x105
+[   39.170785]  ? __drm_printfn_info+0x1d/0x1d
+[   39.170795]  drm_mode_atomic_ioctl+0x361/0x487
+[   39.170809]  ? drm_atomic_set_property+0x947/0x947
+[   39.170817]  drm_ioctl_kernel+0xdc/0x14d
+[   39.170829]  drm_ioctl+0x27e/0x3b4
+[   39.170838]  ? drm_atomic_set_property+0x947/0x947
+[   39.170851]  amdgpu_drm_ioctl+0x49/0x81
+[   39.170861]  __se_sys_ioctl+0x7c/0xbc
+[   39.170874]  do_syscall_64+0x57/0x9d
+[   39.170882]  ? exit_to_user_mode_prepare+0x3c/0x8b
+[   39.170894]  entry_SYSCALL_64_after_hwframe+0x49/0xb3
+[   39.170904] RIP: 0033:0x7c8ade779649
+[   39.170914] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <41> 89 c0 3d 00 f0 ff ff 77 1d 48 8b 45 c8 64 48 2b 04 25 28 00 00
+[   39.170921] RSP: 002b:00007c8ad23d26d0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[   39.170930] RAX: ffffffffffffffda RBX: 0000000000000059 RCX: 00007c8ade779649
+[   39.170936] RDX: 00007c8ad23d27a0 RSI: 00000000c03864bc RDI: 000000000000002c
+[   39.170942] RBP: 00007c8ad23d2720 R08: 00002cf801e53690 R09: 00002cf801bb5d00
+[   39.170947] R10: 000000000000006f R11: 0000000000000246 R12: 000000000000002c
+[   39.170953] R13: 0000000000000400 R14: 00007c8ad23d27a0 R15: 00000000c03864bc
+[   39.170963]  </TASK>
+[   39.170968] ---[ end trace 2d288d4bc234d6d9 ]---
+
+
+[   39.174653] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00205 AUX -> (ret=  1) 01
+
+[   39.172741] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   39.172760] ------------[ cut here ]------------
+[   39.172763] WARNING: CPU: 3 PID: 2007 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   39.172776] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   39.172927] CPU: 3 PID: 2007 Comm: DrmThread Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   39.172937] Hardware name: XXXXXX
+[   39.172942] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   39.172952] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   39.172960] RSP: 0018:ffffb3c842467128 EFLAGS: 00010246
+[   39.172967] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 58e55a200ff1ce00
+[   39.172973] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6df96d88
+[   39.172978] RBP: ffffb3c842467150 R08: 0000000000000000 R09: ffffb3c842466f20
+[   39.172984] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   39.172989] R13: 0000000000000001 R14: 0000000000000205 R15: ffffb3c8424671d7
+[   39.172995] FS:  00007c8ad23d5640(0000) GS:ffff912b6df80000(0000) knlGS:0000000000000000
+[   39.173002] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   39.173008] CR2: 00007ffe1fdf3088 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   39.173014] Call Trace:
+[   39.173018]  <TASK>
+[   39.173024]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   39.173034]  core_link_read_dpcd+0xf8/0x15f
+[   39.173044]  dpcd_exit_training_mode+0x57/0x93
+[   39.173056]  dc_link_dp_perform_link_training+0xea7/0x11b6
+[   39.173074]  ? __drm_dbg+0xa3/0x107
+[   39.173083]  ? core_link_write_dpcd+0x79/0xad
+[   39.173095]  perform_link_training_with_retries+0x232/0x44e
+[   39.173119]  enable_link_dp+0x19a/0x224
+[   39.173129]  core_link_enable_stream+0x85b/0xb56
+[   39.173138]  ? dm_write_reg_func+0x27/0x88
+[   39.173149]  ? generic_reg_update_ex+0x1d2/0x1fc
+[   39.173161]  dce110_apply_ctx_to_hw+0x709/0x912
+[   39.173173]  ? __free_pages_ok+0x1c5/0x2a1
+[   39.173182]  dc_commit_state_no_check+0x5ca/0xa9d
+[   39.173196]  dc_commit_state+0xbf/0xf6
+[   39.173207]  amdgpu_dm_atomic_commit_tail+0x4c4/0x2097
+[   39.173219]  ? prb_read_valid+0x2b/0x49
+[   39.173229]  ? console_unlock+0x421/0x46a
+[   39.173241]  ? __irq_work_queue_local+0x46/0x56
+[   39.173251]  ? irq_work_queue+0x24/0x3f
+[   39.173261]  ? __wake_up_klogd+0x53/0x69
+[   39.173271]  ? vprintk_emit+0x97/0x19f
+[   39.173282]  ? dma_resv_iter_first_unlocked+0x53/0x60
+[   39.173291]  ? hubbub31_get_dcc_compression_cap+0x90/0x1d0
+[   39.173302]  ? fill_plane_buffer_attributes+0x43e/0x4a2
+[   39.173312]  ? wait_for_completion_timeout+0xc6/0xf0
+[   39.173324]  ? drm_crtc_commit_wait+0x37/0x6e
+[   39.173336]  commit_tail+0x90/0x112
+[   39.173344]  drm_atomic_helper_commit+0x102/0x104
+[   39.173352]  drm_atomic_commit+0xe4/0x105
+[   39.173362]  ? __drm_printfn_info+0x1d/0x1d
+[   39.173372]  drm_mode_atomic_ioctl+0x361/0x487
+[   39.173386]  ? drm_atomic_set_property+0x947/0x947
+[   39.173394]  drm_ioctl_kernel+0xdc/0x14d
+[   39.173405]  drm_ioctl+0x27e/0x3b4
+[   39.173415]  ? drm_atomic_set_property+0x947/0x947
+[   39.173428]  amdgpu_drm_ioctl+0x49/0x81
+[   39.173438]  __se_sys_ioctl+0x7c/0xbc
+[   39.173450]  do_syscall_64+0x57/0x9d
+[   39.173457]  ? exit_to_user_mode_prepare+0x3c/0x8b
+[   39.173468]  entry_SYSCALL_64_after_hwframe+0x49/0xb3
+[   39.173477] RIP: 0033:0x7c8ade779649
+[   39.173483] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <41> 89 c0 3d 00 f0 ff ff 77 1d 48 8b 45 c8 64 48 2b 04 25 28 00 00
+[   39.173490] RSP: 002b:00007c8ad23d26d0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[   39.173498] RAX: ffffffffffffffda RBX: 0000000000000059 RCX: 00007c8ade779649
+[   39.173504] RDX: 00007c8ad23d27a0 RSI: 00000000c03864bc RDI: 000000000000002c
+[   39.173509] RBP: 00007c8ad23d2720 R08: 00002cf801e53690 R09: 00002cf801bb5d00
+[   39.173515] R10: 000000000000006f R11: 0000000000000246 R12: 000000000000002c
+[   39.173520] R13: 0000000000000400 R14: 00007c8ad23d27a0 R15: 00000000c03864bc
+[   39.173530]  </TASK>
+[   39.173534] ---[ end trace 2d288d4bc234d6da ]---
+
+
+
+[   39.183069] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00200 AUX -> (ret=  6) 41 00 77 00 01 01
+[   39.183086] [drm:print_status_message] RBRx2 pass VS=2, PE=0, DS=0.5% 30KHz
+[   39.181119] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   39.181142] ------------[ cut here ]------------
+[   39.181146] WARNING: CPU: 3 PID: 2007 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   39.181161] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   39.181294] CPU: 3 PID: 2007 Comm: DrmThread Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   39.181304] Hardware name: XXXXXX
+[   39.181310] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   39.181320] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   39.181328] RSP: 0018:ffffb3c842467140 EFLAGS: 00010246
+[   39.181334] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 58e55a200ff1ce00
+[   39.181341] RDX: ffff912b6dfa2b38 RSI: ffff912b6df96d88 RDI: ffff912b6df96d88
+[   39.181346] RBP: ffffb3c842467168 R08: 0000000000000000 R09: ffffb3c842466f40
+[   39.181352] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000006
+[   39.181358] R13: 0000000000000006 R14: 0000000000000200 R15: ffffb3c8424671e8
+[   39.181364] FS:  00007c8ad23d5640(0000) GS:ffff912b6df80000(0000) knlGS:0000000000000000
+[   39.181371] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   39.181377] CR2: 00007ffe1fdf3088 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   39.181383] Call Trace:
+[   39.181388]  <TASK>
+[   39.181395]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   39.181405]  core_link_read_dpcd+0xf8/0x15f
+[   39.181416]  dp_check_link_loss_status+0x3d/0x98
+[   39.181428]  dc_link_dp_perform_link_training+0x10d0/0x11b6
+[   39.181447]  ? __drm_dbg+0xa3/0x107
+[   39.181457]  ? core_link_write_dpcd+0x79/0xad
+[   39.181470]  perform_link_training_with_retries+0x232/0x44e
+[   39.181485]  enable_link_dp+0x19a/0x224
+[   39.181494]  core_link_enable_stream+0x85b/0xb56
+[   39.181504]  ? dm_write_reg_func+0x27/0x88
+[   39.181514]  ? generic_reg_update_ex+0x1d2/0x1fc
+[   39.181527]  dce110_apply_ctx_to_hw+0x709/0x912
+[   39.181540]  ? __free_pages_ok+0x1c5/0x2a1
+[   39.181549]  dc_commit_state_no_check+0x5ca/0xa9d
+[   39.181564]  dc_commit_state+0xbf/0xf6
+[   39.181575]  amdgpu_dm_atomic_commit_tail+0x4c4/0x2097
+[   39.181587]  ? prb_read_valid+0x2b/0x49
+[   39.181598]  ? console_unlock+0x421/0x46a
+[   39.181611]  ? __irq_work_queue_local+0x46/0x56
+[   39.181622]  ? irq_work_queue+0x24/0x3f
+[   39.181632]  ? __wake_up_klogd+0x53/0x69
+[   39.181642]  ? vprintk_emit+0x97/0x19f
+[   39.181654]  ? dma_resv_iter_first_unlocked+0x53/0x60
+[   39.181664]  ? hubbub31_get_dcc_compression_cap+0x90/0x1d0
+[   39.181675]  ? fill_plane_buffer_attributes+0x43e/0x4a2
+[   39.181684]  ? wait_for_completion_timeout+0xc6/0xf0
+[   39.181697]  ? drm_crtc_commit_wait+0x37/0x6e
+[   39.181708]  commit_tail+0x90/0x112
+[   39.181716]  drm_atomic_helper_commit+0x102/0x104
+[   39.181725]  drm_atomic_commit+0xe4/0x105
+[   39.181735]  ? __drm_printfn_info+0x1d/0x1d
+[   39.181746]  drm_mode_atomic_ioctl+0x361/0x487
+[   39.181759]  ? drm_atomic_set_property+0x947/0x947
+[   39.181768]  drm_ioctl_kernel+0xdc/0x14d
+[   39.181779]  drm_ioctl+0x27e/0x3b4
+[   39.181789]  ? drm_atomic_set_property+0x947/0x947
+[   39.181802]  amdgpu_drm_ioctl+0x49/0x81
+[   39.181813]  __se_sys_ioctl+0x7c/0xbc
+[   39.181824]  do_syscall_64+0x57/0x9d
+[   39.181831]  ? exit_to_user_mode_prepare+0x3c/0x8b
+[   39.181843]  entry_SYSCALL_64_after_hwframe+0x49/0xb3
+[   39.181852] RIP: 0033:0x7c8ade779649
+[   39.181860] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <41> 89 c0 3d 00 f0 ff ff 77 1d 48 8b 45 c8 64 48 2b 04 25 28 00 00
+[   39.181867] RSP: 002b:00007c8ad23d26d0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[   39.181875] RAX: ffffffffffffffda RBX: 0000000000000059 RCX: 00007c8ade779649
+[   39.181880] RDX: 00007c8ad23d27a0 RSI: 00000000c03864bc RDI: 000000000000002c
+[   39.181886] RBP: 00007c8ad23d2720 R08: 00002cf801e53690 R09: 00002cf801bb5d00
+[   39.181892] R10: 000000000000006f R11: 0000000000000246 R12: 000000000000002c
+[   39.181897] R13: 0000000000000400 R14: 00007c8ad23d27a0 R15: 00000000c03864bc
+[   39.181908]  </TASK>
+[   39.181912] ---[ end trace 2d288d4bc234d6db ]---
+
+
+[   39.184774] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x00107 AUX -> (ret=  1) 10
+
+[   39.183306] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   39.183326] ------------[ cut here ]------------
+[   39.183330] WARNING: CPU: 3 PID: 2007 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   39.183342] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   39.183471] CPU: 3 PID: 2007 Comm: DrmThread Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   39.183480] Hardware name: XXXXXX
+[   39.183485] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   39.183496] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   39.183503] RSP: 0018:ffffb3c842467430 EFLAGS: 00010246
+[   39.183510] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 58e55a200ff1ce00
+[   39.183516] RDX: 0000000000000027 RSI: 00000000ff7fffff RDI: ffff912b6df96d88
+[   39.183522] RBP: ffffb3c842467458 R08: 0000000000000000 R09: ffffb3c842467230
+[   39.183528] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: 0000000000000001
+[   39.183534] R13: 0000000000000001 R14: 0000000000000107 R15: ffffb3c8424674e0
+[   39.183540] FS:  00007c8ad23d5640(0000) GS:ffff912b6df80000(0000) knlGS:0000000000000000
+[   39.183548] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   39.183554] CR2: 00007ffe1fdf3088 CR3: 000000012c5de000 CR4: 0000000000350ee0
+[   39.183558] Call Trace:
+[   39.183561]  <TASK>
+[   39.183564]  dm_helpers_dp_read_dpcd+0x2c/0x4d
+[   39.183569]  core_link_read_dpcd+0xf8/0x15f
+[   39.183574]  enable_stream_features+0x57/0xaa
+[   39.183578]  core_link_enable_stream+0xb25/0xb56
+[   39.183581]  ? dm_write_reg_func+0x27/0x88
+[   39.183583]  ? generic_reg_update_ex+0x1d2/0x1fc
+[   39.183587]  dce110_apply_ctx_to_hw+0x709/0x912
+[   39.183590]  ? __free_pages_ok+0x1c5/0x2a1
+[   39.183592]  dc_commit_state_no_check+0x5ca/0xa9d
+[   39.183596]  dc_commit_state+0xbf/0xf6
+[   39.183599]  amdgpu_dm_atomic_commit_tail+0x4c4/0x2097
+[   39.183602]  ? prb_read_valid+0x2b/0x49
+[   39.183605]  ? console_unlock+0x421/0x46a
+[   39.183609]  ? __irq_work_queue_local+0x46/0x56
+[   39.183611]  ? irq_work_queue+0x24/0x3f
+[   39.183614]  ? __wake_up_klogd+0x53/0x69
+[   39.183617]  ? vprintk_emit+0x97/0x19f
+[   39.183625]  ? dma_resv_iter_first_unlocked+0x53/0x60
+[   39.183628]  ? hubbub31_get_dcc_compression_cap+0x90/0x1d0
+[   39.183630]  ? fill_plane_buffer_attributes+0x43e/0x4a2
+[   39.183633]  ? wait_for_completion_timeout+0xc6/0xf0
+[   39.183637]  ? drm_crtc_commit_wait+0x37/0x6e
+[   39.183640]  commit_tail+0x90/0x112
+[   39.183642]  drm_atomic_helper_commit+0x102/0x104
+[   39.183644]  drm_atomic_commit+0xe4/0x105
+[   39.183647]  ? __drm_printfn_info+0x1d/0x1d
+[   39.183650]  drm_mode_atomic_ioctl+0x361/0x487
+[   39.183653]  ? drm_atomic_set_property+0x947/0x947
+[   39.183656]  drm_ioctl_kernel+0xdc/0x14d
+[   39.183658]  drm_ioctl+0x27e/0x3b4
+[   39.183661]  ? drm_atomic_set_property+0x947/0x947
+[   39.183670]  amdgpu_drm_ioctl+0x49/0x81
+[   39.183672]  __se_sys_ioctl+0x7c/0xbc
+[   39.183675]  do_syscall_64+0x57/0x9d
+[   39.183681]  ? exit_to_user_mode_prepare+0x3c/0x8b
+[   39.183683]  entry_SYSCALL_64_after_hwframe+0x49/0xb3
+[   39.183685] RIP: 0033:0x7c8ade779649
+[   39.183687] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <41> 89 c0 3d 00 f0 ff ff 77 1d 48 8b 45 c8 64 48 2b 04 25 28 00 00
+[   39.183689] RSP: 002b:00007c8ad23d26d0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[   39.183691] RAX: ffffffffffffffda RBX: 0000000000000059 RCX: 00007c8ade779649
+[   39.183692] RDX: 00007c8ad23d27a0 RSI: 00000000c03864bc RDI: 000000000000002c
+[   39.183694] RBP: 00007c8ad23d2720 R08: 00002cf801e53690 R09: 00002cf801bb5d00
+[   39.183695] R10: 000000000000006f R11: 0000000000000246 R12: 000000000000002c
+[   39.183696] R13: 0000000000000400 R14: 00007c8ad23d27a0 R15: 00000000c03864bc
+[   39.183699]  </TASK>
+[   39.183700] ---[ end trace 2d288d4bc234d6dc ]---
+
+[   43.993223] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 2: 0x004b0 AUX -> (ret=  1) 00
+
+[   43.991566] SRINI----   back tracing aux drm_dp_dpcd_read----
+[   43.991596] ------------[ cut here ]------------
+[   43.991601] WARNING: CPU: 2 PID: 4132 at drivers/gpu/drm/display/drm_dp_helper.c:582 drm_dp_dpcd_read+0x2a/0x112
+[   43.991623] Modules linked in: option cdc_mbim usb_wwan cdc_wdm usbserial cdc_ncm 8021q rfcomm uinput cmac algif_hash algif_skcipher af_alg snd_acp_sof_mach snd_acp_mach snd_soc_dmic veth xt_cgroup xt_MASQUERADE btusb btrt
+[   43.991816] CPU: 2 PID: 4132 Comm: fwupd Tainted: G        W         5.15.89-15899-g3f5b246a25a2-dirty #61 14c0a8f192e1b96cf9d6e3f7a46d52fba9410308
+[   43.991829] Hardware name: XXXXXX
+[   43.991836] RIP: 0010:drm_dp_dpcd_read+0x2a/0x112
+[   43.991849] Code: 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 49 89 cd 49 89 d7 41 89 f6 48 89 fb 48 c7 c7 c8 5d a0 ad e8 f6 92 7f 00 <0f> 0b 80 bb 10 05 00 00 00 74 2b 48 89 df 44 89 f6 4c 89 fa 4c 89
+[   43.991858] RSP: 0018:ffffb3c843007d78 EFLAGS: 00010246
+[   43.991866] RAX: 0000000000000031 RBX: ffff912a83cb6cb8 RCX: 9030be3c3a2d2d00
+[   43.991874] RDX: ffff912b6df22b38 RSI: ffff912b6df16d88 RDI: ffff912b6df16d88
+[   43.991879] RBP: ffffb3c843007da0 R08: 0000000000000000 R09: ffffb3c843007b70
+[   43.991885] R10: 00000000ff7fffff R11: ffff912b761fd000 R12: ffffb3c843007e30
+[   43.991891] R13: 0000000000000001 R14: 00000000000004b0 R15: ffffb3c843007dd0
+[   43.991899] FS:  000078acd861bbc0(0000) GS:ffff912b6df00000(0000) knlGS:0000000000000000
+[   43.991907] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   43.991914] CR2: 0000161c00545000 CR3: 0000000152c24000 CR4: 0000000000350ee0
+[   43.991921] Call Trace:
+[   43.991929]  <TASK>
+[   43.991939]  auxdev_read_iter+0xe3/0x1a8
+[   43.991953]  vfs_read+0x2aa/0x2d1
+[   43.991969]  ksys_read+0x71/0xd5
+[   43.991981]  do_syscall_64+0x57/0x9d
+[   43.991991]  ? exit_to_user_mode_prepare+0x3c/0x8b
+[   43.992004]  entry_SYSCALL_64_after_hwframe+0x49/0xb3
+[   43.992015] RIP: 0033:0x78acd953480a
+[   43.992025] Code: 55 48 89 e5 48 83 ec 20 48 89 55 e8 48 89 75 f0 89 7d f8 e8 28 96 f8 ff 48 8b 55 e8 48 8b 75 f0 41 89 c0 8b 7d f8 31 c0 0f 05 <48> 3d 00 f0 ff ff 77 2e 44 89 c7 48 89 45 f8 e8 82 96 f8 ff 48 8b
+[   43.992033] RSP: 002b:00007fffd633f4b0 EFLAGS: 00000246 ORIG_RAX: 0000000000000000
+[   43.992042] RAX: ffffffffffffffda RBX: 0000575e265dc760 RCX: 000078acd953480a
+[   43.992048] RDX: 0000000000000001 RSI: 00007fffd633f57c RDI: 0000000000000010
+[   43.992053] RBP: 00007fffd633f4d0 R08: 0000000000000000 R09: 00007fffd633f608
+[   43.992059] R10: 0000000000000000 R11: 0000000000000246 R12: 00000000000004b0
+[   43.992065] R13: 0000000000000001 R14: 00007fffd633f57c R15: 0000000000000001
+[   43.992075]  </TASK>
+[   43.992080] ---[ end trace 2d288d4bc234d6dd ]---
