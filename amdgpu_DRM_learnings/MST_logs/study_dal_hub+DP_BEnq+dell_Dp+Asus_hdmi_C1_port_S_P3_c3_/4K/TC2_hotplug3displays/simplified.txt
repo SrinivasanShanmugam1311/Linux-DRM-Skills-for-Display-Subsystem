@@ -317,168 +317,11 @@
 [   48.341315] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   48.341669] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   48.341682] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   48.526541] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173376, wptr 173408
+
 [   48.526595] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   48.526929] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   48.527398] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 00 00 00 00 00 00 00 00 00 00 00 00 00
-[   48.985717] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETRESOURCES
-[   48.985756] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETRESOURCES
-[   48.985773] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.985786] [drm:drm_mode_object_put] OBJ ID: 78 (3)
-[   48.985796] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.985810] [drm:drm_mode_object_put] OBJ ID: 78 (3)
-[   48.985818] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985826] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985835] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985844] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985853] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985861] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985870] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985877] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985885] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985892] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985899] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985905] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985914] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985920] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985927] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985934] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985943] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985950] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985958] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.985966] [drm:drm_mode_object_put] OBJ ID: 85 (2)
-[   48.985971] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.985981] [drm:drm_mode_object_put] OBJ ID: 85 (2)
-[   48.985987] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.985993] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986001] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986007] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986015] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986051] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986059] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986066] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986073] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986080] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986087] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986094] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986101] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986108] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986116] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986123] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986131] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986138] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986146] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.986153] [drm:drm_mode_object_put] OBJ ID: 89 (2)
-[   48.986158] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.986168] [drm:drm_mode_object_put] OBJ ID: 89 (2)
-[   48.986174] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986180] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986187] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986193] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986201] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986208] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986216] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986222] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986229] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986236] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986242] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986249] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986256] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986263] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986269] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986276] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986285] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986293] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986304] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.986313] [drm:drm_mode_object_put] OBJ ID: 94 (2)
-[   48.986320] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.986332] [drm:drm_mode_object_put] OBJ ID: 94 (2)
-[   48.986339] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986347] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986356] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986364] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986374] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986383] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986393] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986401] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986410] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986419] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986428] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986436] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986445] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986454] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986462] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986471] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986481] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986489] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986499] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.986507] [drm:drm_mode_object_put] OBJ ID: 114 (2)
-[   48.986514] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.986527] [drm:drm_mode_object_put] OBJ ID: 114 (2)
-[   48.986534] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986542] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986551] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986560] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986570] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986578] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986588] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986596] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986605] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986614] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986623] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986631] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986640] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986648] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986657] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986666] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986676] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986685] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986696] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.986704] [drm:drm_mode_object_put] OBJ ID: 117 (2)
-[   48.986711] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.986723] [drm:drm_mode_object_put] OBJ ID: 117 (2)
-[   48.986730] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986738] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986747] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986755] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986765] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986774] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986783] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986792] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986801] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986809] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986817] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986826] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986834] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986843] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986851] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986860] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986870] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986879] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986888] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.986897] [drm:drm_mode_object_put] OBJ ID: 119 (2)
-[   48.986903] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   48.986914] [drm:drm_mode_object_put] OBJ ID: 119 (2)
-[   48.986921] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986930] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986938] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986947] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986957] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986965] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986975] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986983] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.986992] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.987000] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.987009] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.987028] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.987037] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.987046] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.987054] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.987063] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.987073] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.987082] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   48.987094] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETRESOURCES
-[   48.987105] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETRESOURCES
+
 [   48.987119] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
 [   48.987128] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:78:eDP-1]
 [   48.987156] [drm:update_display_info] Supported Monitor Refresh rate range is 0 Hz - 0 Hz
@@ -506,10 +349,7 @@
 [   48.988860] [drm:drm_mode_debug_printmodeline] Modeline "1024x768": 60 152840 1024 1968 2000 2250 768 1083 1088 1132 0x40 0xa
 [   48.988868] [drm:drm_mode_debug_printmodeline] Modeline "800x600": 60 152840 800 1968 2000 2250 600 1083 1088 1132 0x40 0xa
 [   48.988875] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 152840 640 1968 2000 2250 480 1083 1088 1132 0x40 0xa
-[   48.988884] [drm:drm_mode_object_put] OBJ ID: 78 (3)
-[   48.988889] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
-[   48.988897] [drm:drm_mode_object_put] OBJ ID: 78 (3)
-[   48.988903] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
+
 [   48.988907] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:85:HDMI-A-1]
 [   48.988913] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:85:HDMI-A-1] disconnected
 [   48.988920] [drm:drm_mode_object_put] OBJ ID: 85 (2)
