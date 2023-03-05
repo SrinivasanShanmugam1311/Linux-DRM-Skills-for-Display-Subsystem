@@ -468,39 +468,7 @@
 [   49.569021] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   49.569362] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   49.569368] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   49.716776] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
-[   49.718724] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_SYNCOBJ_CREATE
-[   49.718744] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_SYNCOBJ_FD_TO_HANDLE
-[   49.718799] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   49.718890] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_SYNCOBJ_WAIT
-[   49.718907] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_SYNCOBJ_DESTROY
-[   49.719253] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   49.719330] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   49.719351] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   49.719373] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   49.719390] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   49.719413] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   49.719641] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173536, wptr 173632
-[   49.719652] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   49.719666] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   49.719669] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   49.719677] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   49.719684] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a140 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   49.719690] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a140)
-[   49.719696] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   49.719699] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a1c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   49.719700] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a1c0)
-[   49.719733] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173632, wptr 173696
-[   49.719737] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   49.719742] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   49.719771] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173696, wptr 173760
-[   49.719773] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   49.719776] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   49.720323] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   49.720386] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_FENCE_TO_HANDLE
-[   49.721314] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173760, wptr 173792
-[   49.721322] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   49.752678] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173792, wptr 173824
+
 [   49.752721] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   49.753038] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   49.753490] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1342,38 +1310,7 @@
 [   52.963440] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -99
 [   52.963442] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=2364, diff=699, hw=3703 hw_last=3004
 [   52.963698] [drm:vblank_control_worker] Allow idle optimizations (MALL): 0
-[   52.963860] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   52.963945] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   52.964002] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   52.964006] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a240 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   52.964010] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a240)
-[   52.964074] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   52.964139] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   52.964144] [drm:amdgpu_gem_metadata_ioctl] 16
-[   52.964150] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.964169] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   52.964175] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.964178] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   52.964180] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.964182] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   52.964188] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.964192] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.964194] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.964203] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   52.964213] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   52.964218] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
-[   52.964250] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   52.964527] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174368, wptr 174400
-[   52.964537] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   52.964752] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174400, wptr 174464
-[   52.964755] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   52.964765] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   52.964767] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   52.964768] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a2c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   52.964771] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a2c0)
-[   52.964808] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174464, wptr 174496
-[   52.964810] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   52.964920] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174496, wptr 174560
+
 [   52.964950] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
 [   52.964966] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1286,-48)@ 52.974256 -> 52.974954 [e 2 us, 0 rep]
 [   52.964980] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
@@ -1388,110 +1325,21 @@
 [   52.965125] [drm:drm_mode_object_put] OBJ ID: 108 (3)
 [   52.965128] [drm:drm_mode_object_put] OBJ ID: 113 (2)
 [   52.965130] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000cd11de2d
-[   52.974659] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   52.974721] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   52.974725] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a340 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   52.974727] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a340)
-[   52.974739] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   52.974740] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a3c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   52.974742] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a3c0)
-[   52.974793] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   52.974866] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   52.974871] [drm:amdgpu_gem_metadata_ioctl] 16
-[   52.974877] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.974896] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   52.974905] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.974907] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   52.974909] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.974912] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   52.974918] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.974923] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.974926] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+
 [   52.974934] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   52.974945] [drm:drm_mode_addfb2] [FB:106]
-[   52.974958] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   52.974967] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   52.974973] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
-[   52.975019] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   52.975329] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174560, wptr 174592
-[   52.975358] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   52.975387] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   52.975389] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a440 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   52.975387] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174592, wptr 174624
-[   52.975393] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a440)
-[   52.975393] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   52.975406] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174624, wptr 174624
-[   52.975426] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174624, wptr 174656
-[   52.975431] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   52.975654] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174656, wptr 174720
-[   52.975660] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   52.975678] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   52.975678] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   52.975680] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a4c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   52.975682] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a4c0)
-[   52.975718] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174720, wptr 174752
-[   52.975723] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   52.981599] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174752, wptr 174784
+
 [   52.981622] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   52.981638] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(430,-47)@ 52.990938 -> 52.991627 [e 2 us, 0 rep]
 [   52.981655] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   52.981659] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3064, diff=1, hw=3705 hw_last=3704
-[   52.984646] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   52.984687] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   52.984689] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a540 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   52.984691] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a540)
-[   52.984747] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   52.984822] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   52.984828] [drm:amdgpu_gem_metadata_ioctl] 16
-[   52.984835] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.984855] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   52.984863] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.984868] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   52.984870] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.984872] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   52.984879] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.984884] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.984890] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+
 [   52.984897] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   52.984907] [drm:drm_mode_addfb2] [FB:124]
-[   52.984920] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   52.984930] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   52.984936] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
-[   52.984983] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   52.985369] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174784, wptr 174816
-[   52.985375] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   52.985614] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174816, wptr 174880
-[   52.985617] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   52.985623] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   52.985625] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   52.985627] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a5c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   52.985628] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a5c0)
-[   52.985664] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174880, wptr 174912
-[   52.985667] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   52.996542] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   52.996597] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   52.996600] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a640 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   52.996603] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a640)
-[   52.996662] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   52.996739] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   52.996745] [drm:amdgpu_gem_metadata_ioctl] 16
-[   52.996751] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.996771] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   52.996782] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.996784] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   52.996786] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.996788] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   52.996796] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.996800] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   52.996803] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+
 [   52.996811] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   52.996821] [drm:drm_mode_addfb2] [FB:125]
-[   52.996835] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   52.996848] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   52.996854] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
-[   52.996880] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
-[   52.996893] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
-[   52.996897] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
+
 [   52.996901] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
 [   52.996928] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   52.996934] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 0000000080a9401e
@@ -1913,220 +1761,20 @@
 [   53.017880] amdgpu 0000:04:00.0: [drm:drm_dp_mst_put_port_malloc] port 00000000f69cc436 (2)
 [   53.017882] amdgpu 0000:04:00.0: [drm:drm_dp_mst_put_port_malloc] port 0000000036ddce08 (2)
 [   53.017901] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 0000000080a9401e
-[   53.017919] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   53.017923] [drm:drm_mode_object_put] OBJ ID: 129 (2)
-[   53.017924] [drm:drm_mode_object_put] OBJ ID: 129 (1)
-[   53.017926] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   53.017928] [drm:drm_mode_object_put] OBJ ID: 128 (2)
-[   53.017929] [drm:drm_mode_object_put] OBJ ID: 128 (1)
-[   53.017933] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   53.017935] [drm:drm_mode_object_put] OBJ ID: 127 (2)
-[   53.017936] [drm:drm_mode_object_put] OBJ ID: 127 (1)
-[   53.017937] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   53.017939] [drm:drm_mode_object_put] OBJ ID: 126 (2)
-[   53.017940] [drm:drm_mode_object_put] OBJ ID: 126 (1)
-[   53.017943] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
-[   53.017947] [drm:drm_mode_object_put] OBJ ID: 125 (2)
-[   53.017948] [drm:drm_mode_object_put] OBJ ID: 125 (1)
-[   53.020919] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
-[   53.020922] [drm:drm_mode_object_put] OBJ ID: 124 (2)
-[   53.020923] [drm:drm_mode_object_put] OBJ ID: 124 (1)
-[   53.023781] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
-[   53.023783] [drm:drm_mode_object_put] OBJ ID: 106 (2)
-[   53.023784] [drm:drm_mode_object_put] OBJ ID: 106 (1)
-[   53.027444] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   53.027503] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.027544] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.027548] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a740 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.027551] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a740)
-[   53.027593] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.027668] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   53.027673] [drm:amdgpu_gem_metadata_ioctl] 16
-[   53.027679] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.027696] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.027703] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.027705] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.027708] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.027710] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.027715] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.027719] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.027721] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.027756] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.027766] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   53.027772] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
-[   53.027802] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   53.027936] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.028061] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175104, wptr 175136
-[   53.028072] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.028223] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.028275] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175136, wptr 175200
-[   53.028281] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.028284] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   53.028289] [drm:amdgpu_gem_metadata_ioctl] 16
-[   53.028290] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.028291] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.028293] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a7c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.028294] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a7c0)
-[   53.028297] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.028298] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a840 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.028300] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a840)
-[   53.028300] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.028315] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.028321] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.028323] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.028326] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.028327] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175200, wptr 175232
-[   53.028328] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.028331] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.028333] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.028337] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.028339] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+
 [   53.028345] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   53.028356] [drm:drm_mode_addfb2] [FB:106]
-[   53.028367] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.028374] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175232, wptr 175264
-[   53.028377] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.028379] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   53.028391] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
-[   53.028412] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175264, wptr 175296
-[   53.028417] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.028436] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   53.028465] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175296, wptr 175328
-[   53.028469] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.028475] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.028476] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a8c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.028478] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a8c0)
-[   53.028519] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175328, wptr 175360
-[   53.028523] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.028578] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.028595] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.028595] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a940 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.028597] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a940)
-[   53.028631] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.028676] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175360, wptr 175392
-[   53.028677] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   53.028680] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.028682] [drm:amdgpu_gem_metadata_ioctl] 16
-[   53.028694] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.028704] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.028709] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.028712] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.028714] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.028716] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.028715] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175392, wptr 175424
-[   53.028720] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.028720] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.028724] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.028726] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+
 [   53.028735] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   53.028743] [drm:drm_mode_addfb2] [FB:124]
-[   53.028755] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.028763] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   53.028767] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
-[   53.028768] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175424, wptr 175456
-[   53.028771] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.028778] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.028779] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a9c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.028780] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a9c0)
-[   53.028801] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   53.028828] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175456, wptr 175488
-[   53.028831] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.031595] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175488, wptr 175520
+
 [   53.031622] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.031636] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(998,-47)@ 53.040960 -> 53.041645 [e 2 us, 0 rep]
 [   53.031648] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
-[   53.031650] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3067, diff=1, hw=3708 hw_last=3707
-[   53.031988] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.032029] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.032032] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000aa40 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.032034] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000aa40)
-[   53.032095] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.032173] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   53.032182] [drm:amdgpu_gem_metadata_ioctl] 16
-[   53.032193] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.032266] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.032291] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.032296] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.032301] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.032307] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.032318] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.032325] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.032330] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+
 [   53.032342] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   53.032355] [drm:drm_mode_addfb2] [FB:125]
-[   53.032372] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.032391] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   53.032401] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
-[   53.032428] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
-[   53.032434] [drm:drm_mode_object_put] OBJ ID: 125 (2)
-[   53.032437] [drm:drm_mode_object_put] OBJ ID: 125 (1)
-[   53.032451] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
-[   53.032454] [drm:drm_mode_object_put] OBJ ID: 124 (2)
-[   53.032456] [drm:drm_mode_object_put] OBJ ID: 124 (1)
-[   53.033431] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175520, wptr 175552
-[   53.033437] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.033644] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175552, wptr 175616
-[   53.033649] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.033657] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.033657] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.033659] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000aac0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.033660] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000aac0)
-[   53.033697] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175616, wptr 175648
-[   53.033701] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.035523] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_RMFB
-[   53.035527] [drm:drm_mode_object_put] OBJ ID: 106 (2)
-[   53.035529] [drm:drm_mode_object_put] OBJ ID: 106 (1)
-[   53.039017] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   53.039222] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.039272] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.039275] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000ab40 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.039277] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000ab40)
-[   53.039385] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.039460] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   53.039466] [drm:amdgpu_gem_metadata_ioctl] 16
-[   53.039472] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.039491] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.039498] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.039501] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.039503] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.039506] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.039517] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.039526] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.039530] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.039562] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.039606] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   53.039619] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
-[   53.039705] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   53.039805] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175648, wptr 175680
-[   53.039815] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.040075] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.040148] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175680, wptr 175744
-[   53.040157] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.040171] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.040172] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.040173] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000abc0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.040174] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000abc0)
-[   53.040177] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.040178] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000ac40 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.040179] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000ac40)
-[   53.040212] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175744, wptr 175776
-[   53.040216] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.040262] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175776, wptr 175808
-[   53.040265] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.040770] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.040838] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   53.040840] [drm:amdgpu_gem_metadata_ioctl] 16
-[   53.040847] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.040867] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.040877] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.040887] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.040890] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.040892] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.040898] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.040901] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.040905] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.040915] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175808, wptr 175840
-[   53.040918] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+
 [   53.040929] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   53.040988] [drm:drm_mode_addfb2] [FB:106]
 [   53.041017] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175840, wptr 175872
@@ -2137,144 +1785,35 @@
 [   53.048302] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1289,-47)@ 53.057635 -> 53.058318 [e 2 us, 0 rep]
 [   53.048313] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   53.048315] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3068, diff=1, hw=3709 hw_last=3708
-[   53.051638] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.051721] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.051726] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000acc0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.051728] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000acc0)
-[   53.051732] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.051733] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000ad40 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.051735] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000ad40)
-[   53.052013] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.052107] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_WAIT_CS
-[   53.052438] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175904, wptr 175968
-[   53.052445] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.052452] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.052454] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.052455] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000adc0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.052457] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000adc0)
-[   53.052485] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175968, wptr 176000
-[   53.052489] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.063638] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176000, wptr 176032
-[   53.063648] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.063680] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_MMAP
+
 [   53.063719] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCRTC
 [   53.064925] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176032, wptr 176064
 [   53.064953] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.064966] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1155,-47)@ 53.074307 -> 53.074991 [e 2 us, 0 rep]
 [   53.064981] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   53.064985] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3069, diff=1, hw=3710 hw_last=3709
-[   53.071926] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.072046] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.072078] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   53.072105] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
-[   53.072190] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   53.072431] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.072500] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.072568] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   53.072579] [drm:amdgpu_gem_metadata_ioctl] 16
-[   53.072589] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.072608] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.072617] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.072622] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.072628] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.072633] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.072640] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.072645] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.072650] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+
 [   53.072660] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   53.072677] [drm:drm_mode_addfb2] [FB:124]
-[   53.072704] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   53.081602] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176064, wptr 176096
+
 [   53.081656] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   53.081673] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(664,-44)@ 53.091020 -> 53.091664 [e 2 us, 0 rep]
 [   53.081691] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1123
 [   53.081696] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3070, diff=1, hw=3711 hw_last=3710
-[   53.082394] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.082594] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.082686] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_WAIT_CS
-[   53.087871] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176096, wptr 176128
-[   53.087882] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.087898] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.087901] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000ae40 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.087903] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000ae40)
-[   53.087907] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.087908] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000aec0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.087909] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000aec0)
-[   53.088058] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176128, wptr 176192
-[   53.088068] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.088078] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.088078] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.088079] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000af40 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.088081] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000af40)
-[   53.088088] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.088089] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000afc0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.088090] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000afc0)
-[   53.088120] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176192, wptr 176224
-[   53.088125] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.088132] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176224, wptr 176256
-[   53.088133] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.088134] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b040 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.088136] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b040)
-[   53.088136] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.088142] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176256, wptr 176256
-[   53.088160] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176256, wptr 176288
-[   53.088164] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.088212] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176288, wptr 176352
-[   53.088216] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.088220] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.098242] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176352, wptr 176384
+
 [   53.098263] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
 [   53.098273] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(260,-48)@ 53.107632 -> 53.108337 [e 2 us, 0 rep]
 [   53.098287] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.098291] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3071, diff=1, hw=3712 hw_last=3711
-[   53.099266] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176384, wptr 176416
-[   53.099275] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.099310] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_MMAP
-[   53.099357] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCRTC
-[   53.107708] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.107816] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.107853] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   53.107866] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
-[   53.107935] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   53.108148] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.108238] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.108294] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   53.108300] [drm:amdgpu_gem_metadata_ioctl] 16
-[   53.108306] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.108320] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.108325] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.108327] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.108329] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.108332] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   53.108335] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.108339] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   53.108341] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+
 [   53.108348] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   53.108360] [drm:drm_mode_addfb2] [FB:125]
-[   53.108424] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.108477] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_WAIT_CS
-[   53.114918] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176416, wptr 176448
+
 [   53.114945] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.114958] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(911,-47)@ 53.124323 -> 53.125009 [e 2 us, 0 rep]
 [   53.114971] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   53.114976] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3072, diff=1, hw=3713 hw_last=3712
-[   53.124077] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176448, wptr 176480
-[   53.124087] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.124097] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.124099] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b0c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.124101] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b0c0)
-[   53.124104] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.124105] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b140 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.124106] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b140)
-[   53.124171] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176480, wptr 176512
-[   53.124176] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.124258] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176512, wptr 176544
-[   53.124267] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   53.124348] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176544, wptr 176576
-[   53.124355] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.124436] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176576, wptr 176608
-[   53.124444] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.131578] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176608, wptr 176640
+
 [   53.131594] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
 [   53.131602] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(466,-48)@ 53.140979 -> 53.141682 [e 2 us, 0 rep]
 [   53.131615] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
@@ -2282,18 +1821,10 @@
 [   53.134804] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176640, wptr 176672
 [   53.134832] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   53.135144] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
-[   53.135417] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176672, wptr 176704
-[   53.135422] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+
 [   53.135460] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCRTC
 [   53.135598] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 00 00 00 00 00 00 00 00 00 00 00 00 00
-[   53.142358] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   53.142468] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   53.142507] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   53.142521] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_GEM_CLOSE
-[   53.142565] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
-[   53.142580] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
-[   53.142583] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
-[   53.142587] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
+
 [   53.142605] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   53.142612] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000d2f0919b
 [   53.142622] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:40:plane-0] 000000005dbecd36 state to 00000000d2f0919b
@@ -4447,248 +3978,8 @@
 [   54.531546] [drm:drm_mode_object_put] OBJ ID: 108 (3)
 [   54.531556] [drm:drm_mode_object_put] OBJ ID: 115 (3)
 [   54.531573] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000d2f0919b
-[   54.531604] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   54.531609] [drm:drm_mode_object_put] OBJ ID: 129 (3)
-[   54.531610] [drm:drm_mode_object_put] OBJ ID: 129 (2)
-[   54.531612] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   54.531613] [drm:drm_mode_object_put] OBJ ID: 128 (3)
-[   54.531614] [drm:drm_mode_object_put] OBJ ID: 128 (2)
-[   54.531616] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   54.531618] [drm:drm_mode_object_put] OBJ ID: 127 (3)
-[   54.531619] [drm:drm_mode_object_put] OBJ ID: 127 (2)
-[   54.531620] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   54.531622] [drm:drm_mode_object_put] OBJ ID: 126 (3)
-[   54.531623] [drm:drm_mode_object_put] OBJ ID: 126 (2)
-[   54.531630] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.531635] [drm:drm_mode_object_get] OBJ ID: 109 (1)
-[   54.531640] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000be61ca7b
-[   54.531643] [drm:drm_mode_object_get] OBJ ID: 109 (2)
-[   54.531644] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:65:plane-5] 00000000b7a58adf state to 00000000be61ca7b
-[   54.531648] [drm:drm_mode_object_get] OBJ ID: 126 (1)
-[   54.531649] [drm:drm_mode_object_get] OBJ ID: 108 (2)
-[   54.531651] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:67:crtc-0] 00000000b2a21077 state to 00000000be61ca7b
-[   54.531654] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:109] for [PLANE:65:plane-5] state 00000000b7a58adf
-[   54.531657] [drm:drm_mode_object_get] OBJ ID: 109 (3)
-[   54.531658] [drm:drm_mode_object_put] OBJ ID: 109 (4)
-[   54.531659] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000be61ca7b
-[   54.531661] commit_state plane[65]: plane-5
-[   54.531663] commit_state     crtc=crtc-0
-[   54.531664] commit_state     fb=109
-[   54.531665] commit_state             allocated by = DrmThread
-[   54.531667] commit_state             refcount=3
-[   54.531668] commit_state             format=AR24 little-endian (0x34325241)
-[   54.531670] commit_state             modifier=0x0
-[   54.531671] commit_state             size=256x256
-[   54.531672] commit_state             layers:
-[   54.531673] commit_state                     size[0]=256x256
-[   54.531674] commit_state                     pitch[0]=1024
-[   54.531675] commit_state                     offset[0]=0
-[   54.531676] commit_state                     obj[0]:
-[   54.531678] commit_state                             name=0
-[   54.531679] commit_state                             refcount=2
-[   54.531680] commit_state                             start=001033ad
-[   54.531681] commit_state                             size=262144
-[   54.531682] commit_state                             imported=no
-[   54.531684] commit_state     crtc-pos=256x256+997+710
-[   54.531686] commit_state     src-pos=256.000000x256.000000+0.000000+0.000000
-[   54.531688] commit_state     rotation=1
-[   54.531689] commit_state     normalized-zpos=1
-[   54.531690] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.531692] commit_state     color-range=YCbCr limited range
-[   54.531693] commit_state crtc[67]: crtc-0
-[   54.531694] commit_state     enable=1
-[   54.531695] commit_state     active=1
-[   54.531696] commit_state     self_refresh_active=0
-[   54.531697] commit_state     planes_changed=0
-[   54.531698] commit_state     mode_changed=0
-[   54.531699] commit_state     active_changed=0
-[   54.531700] commit_state     connectors_changed=0
-[   54.531701] commit_state     color_mgmt_changed=0
-[   54.531702] commit_state     plane_mask=28
-[   54.531703] commit_state     connector_mask=1
-[   54.531704] commit_state     encoder_mask=1
-[   54.531705] commit_state     mode: "1920x1080": 60 152840 1920 1968 2000 2250 1080 1083 1088 1132 0x48 0xa
-[   54.531708] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000be61ca7b
-[   54.531726] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000be61ca7b
-[   54.531751] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180544, wptr 180608
-[   54.531772] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000be61ca7b
-[   54.531774] [drm:drm_mode_object_put] OBJ ID: 126 (2)
-[   54.531775] [drm:drm_mode_object_put] OBJ ID: 108 (3)
-[   54.531776] [drm:drm_mode_object_put] OBJ ID: 109 (3)
-[   54.531777] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000be61ca7b
-[   54.531780] [drm:drm_mode_object_put] OBJ ID: 109 (2)
-[   54.531784] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.531793] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000be61ca7b
-[   54.531795] [drm:drm_mode_object_get] OBJ ID: 109 (1)
-[   54.531796] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:65:plane-5] 00000000b7a58adf state to 00000000be61ca7b
-[   54.531799] [drm:drm_mode_object_get] OBJ ID: 126 (1)
-[   54.531800] [drm:drm_mode_object_get] OBJ ID: 108 (2)
-[   54.531801] amdgpu 0000:04:00.0: [drm:drm_atomic_get_crtc_state] Added [CRTC:67:crtc-0] 00000000b2a21077 state to 00000000be61ca7b
-[   54.531804] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [FB:107] for [PLANE:65:plane-5] state 00000000b7a58adf
-[   54.531807] [drm:drm_mode_object_get] OBJ ID: 107 (1)
-[   54.531808] [drm:drm_mode_object_put] OBJ ID: 109 (2)
-[   54.531809] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000be61ca7b
-[   54.531811] commit_state plane[65]: plane-5
-[   54.531812] commit_state     crtc=crtc-0
-[   54.531814] commit_state     fb=107
-[   54.531815] commit_state             allocated by = DrmThread
-[   54.531816] commit_state             refcount=2
-[   54.531816] commit_state             format=AR24 little-endian (0x34325241)
-[   54.531818] commit_state             modifier=0x0
-[   54.531818] commit_state             size=256x256
-[   54.531820] commit_state             layers:
-[   54.531820] commit_state                     size[0]=256x256
-[   54.531821] commit_state                     pitch[0]=1024
-[   54.531822] commit_state                     offset[0]=0
-[   54.531823] commit_state                     obj[0]:
-[   54.531823] commit_state                             name=0
-[   54.531824] commit_state                             refcount=3
-[   54.531824] commit_state                             start=001033ad
-[   54.531825] commit_state                             size=262144
-[   54.531826] commit_state                             imported=no
-[   54.531826] commit_state     crtc-pos=256x256+997+710
-[   54.531827] commit_state     src-pos=256.000000x256.000000+0.000000+0.000000
-[   54.531828] commit_state     rotation=1
-[   54.531829] commit_state     normalized-zpos=1
-[   54.531830] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.531830] commit_state     color-range=YCbCr limited range
-[   54.531831] commit_state crtc[67]: crtc-0
-[   54.531831] commit_state     enable=1
-[   54.531832] commit_state     active=1
-[   54.531832] commit_state     self_refresh_active=0
-[   54.531833] commit_state     planes_changed=0
-[   54.531834] commit_state     mode_changed=0
-[   54.531834] commit_state     active_changed=0
-[   54.531835] commit_state     connectors_changed=0
-[   54.531836] commit_state     color_mgmt_changed=0
-[   54.531836] commit_state     plane_mask=28
-[   54.531837] commit_state     connector_mask=1
-[   54.531838] commit_state     encoder_mask=1
-[   54.531838] commit_state     mode: "1920x1080": 60 152840 1920 1968 2000 2250 1080 1083 1088 1132 0x48 0xa
-[   54.531840] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000be61ca7b
-[   54.531843] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000be61ca7b
-[   54.531868] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000be61ca7b
-[   54.531869] [drm:drm_mode_object_put] OBJ ID: 126 (2)
-[   54.531870] [drm:drm_mode_object_put] OBJ ID: 108 (3)
-[   54.531871] [drm:drm_mode_object_put] OBJ ID: 109 (1)
-[   54.531873] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000be61ca7b
-[   54.531875] [drm:drm_mode_object_put] OBJ ID: 107 (2)
-[   54.531881] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.531885] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000be61ca7b
-[   54.531889] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:68:plane-6] 00000000b7a58adf state to 00000000be61ca7b
-[   54.531893] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:68:plane-6] state 00000000b7a58adf
-[   54.531899] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000be61ca7b
-[   54.531902] commit_state plane[68]: plane-6
-[   54.531903] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180608, wptr 180640
-[   54.531904] commit_state     crtc=(null)
-[   54.531905] commit_state     fb=0
-[   54.531906] commit_state     crtc-pos=0x0+0+0
-[   54.531906] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.531909] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
-[   54.531912] commit_state     rotation=1
-[   54.531913] commit_state     normalized-zpos=0
-[   54.531914] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.531915] commit_state     color-range=YCbCr limited range
-[   54.531917] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000be61ca7b
-[   54.531922] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000be61ca7b
-[   54.531926] [drm:dm_plane_helper_prepare_fb] No FB bound
-[   54.532037] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000be61ca7b
-[   54.532041] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000be61ca7b
-[   54.532046] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.532050] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000be61ca7b
-[   54.532054] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:68:plane-6] 00000000c6da6bc5 state to 00000000be61ca7b
-[   54.532058] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:68:plane-6] state 00000000c6da6bc5
-[   54.532063] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000be61ca7b
-[   54.532066] commit_state plane[68]: plane-6
-[   54.532067] commit_state     crtc=(null)
-[   54.532068] commit_state     fb=0
-[   54.532070] commit_state     crtc-pos=0x0+0+0
-[   54.532071] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
-[   54.532074] commit_state     rotation=1
-[   54.532075] commit_state     normalized-zpos=0
-[   54.532076] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.532078] commit_state     color-range=YCbCr limited range
-[   54.532079] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000be61ca7b
-[   54.532084] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000be61ca7b
-[   54.532088] [drm:dm_plane_helper_prepare_fb] No FB bound
-[   54.532150] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000be61ca7b
-[   54.532153] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000be61ca7b
-[   54.532159] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.532164] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000be61ca7b
-[   54.532167] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:71:plane-7] 00000000b7a58adf state to 00000000be61ca7b
-[   54.532171] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:71:plane-7] state 00000000b7a58adf
-[   54.532176] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000be61ca7b
-[   54.532180] commit_state plane[71]: plane-7
-[   54.532181] commit_state     crtc=(null)
-[   54.532182] commit_state     fb=0
-[   54.532184] commit_state     crtc-pos=0x0+0+0
-[   54.532185] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
-[   54.532188] commit_state     rotation=1
-[   54.532189] commit_state     normalized-zpos=0
-[   54.532190] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.532191] commit_state     color-range=YCbCr limited range
-[   54.532193] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000be61ca7b
-[   54.532197] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000be61ca7b
-[   54.532201] [drm:dm_plane_helper_prepare_fb] No FB bound
-[   54.532262] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000be61ca7b
-[   54.532266] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000be61ca7b
-[   54.532270] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.532274] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000be61ca7b
-[   54.532278] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:71:plane-7] 0000000059c311a3 state to 00000000be61ca7b
-[   54.532282] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:71:plane-7] state 0000000059c311a3
-[   54.532287] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000be61ca7b
-[   54.532290] commit_state plane[71]: plane-7
-[   54.532292] commit_state     crtc=(null)
-[   54.532293] commit_state     fb=0
-[   54.532294] commit_state     crtc-pos=0x0+0+0
-[   54.532296] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
-[   54.532299] commit_state     rotation=1
-[   54.532300] commit_state     normalized-zpos=0
-[   54.532301] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.532302] commit_state     color-range=YCbCr limited range
-[   54.532304] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000be61ca7b
-[   54.532308] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000be61ca7b
-[   54.532312] [drm:dm_plane_helper_prepare_fb] No FB bound
-[   54.532367] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000be61ca7b
-[   54.532371] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000be61ca7b
-[   54.532376] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.532380] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000be61ca7b
-[   54.532384] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:74:plane-8] 00000000b7a58adf state to 00000000be61ca7b
-[   54.532388] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:74:plane-8] state 00000000b7a58adf
-[   54.532393] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000be61ca7b
-[   54.532396] commit_state plane[74]: plane-8
-[   54.532397] commit_state     crtc=(null)
-[   54.532399] commit_state     fb=0
-[   54.532400] commit_state     crtc-pos=0x0+0+0
-[   54.532401] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
-[   54.532404] commit_state     rotation=1
-[   54.532405] commit_state     normalized-zpos=0
-[   54.532406] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.532407] commit_state     color-range=YCbCr limited range
-[   54.532409] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000be61ca7b
-[   54.532413] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000be61ca7b
-[   54.532417] [drm:dm_plane_helper_prepare_fb] No FB bound
-[   54.532468] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000be61ca7b
-[   54.532471] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000be61ca7b
-[   54.532476] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.532480] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000be61ca7b
-[   54.532483] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:74:plane-8] 0000000063f0b5f3 state to 00000000be61ca7b
-[   54.532487] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:74:plane-8] state 0000000063f0b5f3
-[   54.532492] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000be61ca7b
-[   54.532495] commit_state plane[74]: plane-8
-[   54.532497] commit_state     crtc=(null)
-[   54.532498] commit_state     fb=0
-[   54.532499] commit_state     crtc-pos=0x0+0+0
-[   54.532501] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
-[   54.532503] commit_state     rotation=1
-[   54.532504] commit_state     normalized-zpos=0
-[   54.532505] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.532507] commit_state     color-range=YCbCr limited range
-[   54.532508] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000be61ca7b
-[   54.532512] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000be61ca7b
-[   54.532516] [drm:dm_plane_helper_prepare_fb] No FB bound
-[   54.532561] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000be61ca7b
-[   54.532564] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000be61ca7b
+
+
 [   54.532719] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.532725] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000be61ca7b
 [   54.532730] [drm:drm_mode_object_get] OBJ ID: 115 (2)
@@ -4710,73 +4001,7 @@
 [   54.532908] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:55] PSR FFU dirty rect size (1920, 1080)
 [   54.532916] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x2200000
 [   54.532930] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1026
-[   54.533361] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180640, wptr 180672
-[   54.533914] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533922] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533927] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533931] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533934] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533937] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533939] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533941] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533944] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533946] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533948] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533950] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533952] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533955] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533957] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533960] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533963] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533965] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533967] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533969] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533971] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533973] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533975] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533978] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.533981] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   54.533988] [drm:drm_mode_object_put] OBJ ID: 114 (3)
-[   54.533990] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   54.533995] [drm:drm_mode_object_put] OBJ ID: 114 (3)
-[   54.534651] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.534663] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 000000003b004700
-[   54.534670] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:68:plane-6] 000000006a5b7bb5 state to 000000003b004700
-[   54.534675] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:68:plane-6] state 000000006a5b7bb5
-[   54.534678] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 000000003b004700
-[   54.534681] commit_state plane[68]: plane-6
-[   54.534683] commit_state     crtc=(null)
-[   54.534684] commit_state     fb=0
-[   54.534685] commit_state     crtc-pos=0x0+0+0
-[   54.534686] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
-[   54.534688] commit_state     rotation=1
-[   54.534689] commit_state     normalized-zpos=0
-[   54.534690] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.534691] commit_state     color-range=YCbCr limited range
-[   54.534693] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 000000003b004700
-[   54.534704] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 000000003b004700
-[   54.534708] [drm:dm_plane_helper_prepare_fb] No FB bound
-[   54.534816] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 000000003b004700
-[   54.534819] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 000000003b004700
-[   54.534824] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.534826] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 000000003b004700
-[   54.534827] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:68:plane-6] 00000000c6da6bc5 state to 000000003b004700
-[   54.534829] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:68:plane-6] state 00000000c6da6bc5
-[   54.534831] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 000000003b004700
-[   54.534833] commit_state plane[68]: plane-6
-[   54.534834] commit_state     crtc=(null)
-[   54.534834] commit_state     fb=0
-[   54.534835] commit_state     crtc-pos=0x0+0+0
-[   54.534836] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
-[   54.534837] commit_state     rotation=1
-[   54.534837] commit_state     normalized-zpos=0
-[   54.534838] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.534838] commit_state     color-range=YCbCr limited range
-[   54.534839] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 000000003b004700
-[   54.534841] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 000000003b004700
-[   54.534843] [drm:dm_plane_helper_prepare_fb] No FB bound
-[   54.534884] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 000000003b004700
-[   54.534886] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 000000003b004700
+
 [   54.534902] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
 [   54.534914] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.534916] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 000000003b004700
@@ -4856,44 +4081,7 @@
 [   54.550156] [drm:drm_mode_object_put] OBJ ID: 127 (2)
 [   54.550160] [drm:drm_mode_object_put] OBJ ID: 106 (3)
 [   54.550173] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 000000003b004700
-[   54.550485] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.550498] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
-[   54.550504] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:71:plane-7] 00000000b52e09b7 state to 00000000c51d2dc1
-[   54.550510] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:71:plane-7] state 00000000b52e09b7
-[   54.550516] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000c51d2dc1
-[   54.550520] commit_state plane[71]: plane-7
-[   54.550523] commit_state     crtc=(null)
-[   54.550525] commit_state     fb=0
-[   54.550526] commit_state     crtc-pos=0x0+0+0
-[   54.550529] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
-[   54.550532] commit_state     rotation=1
-[   54.550534] commit_state     normalized-zpos=0
-[   54.550536] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.550538] commit_state     color-range=YCbCr limited range
-[   54.550540] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000c51d2dc1
-[   54.550551] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000c51d2dc1
-[   54.550556] [drm:dm_plane_helper_prepare_fb] No FB bound
-[   54.550673] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000c51d2dc1
-[   54.550678] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
-[   54.550685] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.550690] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
-[   54.550693] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:71:plane-7] 0000000059c311a3 state to 00000000c51d2dc1
-[   54.550698] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:71:plane-7] state 0000000059c311a3
-[   54.550703] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000c51d2dc1
-[   54.550706] commit_state plane[71]: plane-7
-[   54.550707] commit_state     crtc=(null)
-[   54.550709] commit_state     fb=0
-[   54.550710] commit_state     crtc-pos=0x0+0+0
-[   54.550712] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
-[   54.550715] commit_state     rotation=1
-[   54.550716] commit_state     normalized-zpos=0
-[   54.550717] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.550718] commit_state     color-range=YCbCr limited range
-[   54.550720] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000c51d2dc1
-[   54.550725] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000c51d2dc1
-[   54.550729] [drm:dm_plane_helper_prepare_fb] No FB bound
-[   54.550803] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000c51d2dc1
-[   54.550807] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
+
 [   54.550831] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
 [   54.550847] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.550849] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
@@ -4973,47 +4161,7 @@
 [   54.565260] [drm:drm_mode_object_put] OBJ ID: 128 (2)
 [   54.565270] [drm:drm_mode_object_put] OBJ ID: 124 (3)
 [   54.565283] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
-[   54.565395] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.565410] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
-[   54.565415] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:74:plane-8] 000000001a2bdf23 state to 00000000c51d2dc1
-[   54.565422] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:74:plane-8] state 000000001a2bdf23
-[   54.565428] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000c51d2dc1
-[   54.565432] commit_state plane[74]: plane-8
-[   54.565435] commit_state     crtc=(null)
-[   54.565439] commit_state     fb=0
-[   54.565442] commit_state     crtc-pos=0x0+0+0
-[   54.565448] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
-[   54.565456] commit_state     rotation=1
-[   54.565458] commit_state     normalized-zpos=0
-[   54.565460] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.565462] commit_state     color-range=YCbCr limited range
-[   54.565465] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000c51d2dc1
-[   54.565480] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000c51d2dc1
-[   54.565485] [drm:dm_plane_helper_prepare_fb] No FB bound
-[   54.565518] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180992, wptr 181024
-[   54.565523] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.565723] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000c51d2dc1
-[   54.565729] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
-[   54.565737] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CURSOR
-[   54.565742] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
-[   54.565746] amdgpu 0000:04:00.0: [drm:drm_atomic_get_plane_state] Added [PLANE:74:plane-8] 000000006b33bfe7 state to 00000000c51d2dc1
-[   54.565750] amdgpu 0000:04:00.0: [drm:drm_atomic_set_fb_for_plane] Set [NOFB] for [PLANE:74:plane-8] state 000000006b33bfe7
-[   54.565750] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
-[   54.565755] amdgpu 0000:04:00.0: [drm:drm_atomic_print_new_state] checking 00000000c51d2dc1
-[   54.565759] commit_state plane[74]: plane-8
-[   54.565760] commit_state     crtc=(null)
-[   54.565762] commit_state     fb=0
-[   54.565763] commit_state     crtc-pos=0x0+0+0
-[   54.565765] commit_state     src-pos=0.000000x0.000000+0.000000+0.000000
-[   54.565768] commit_state     rotation=1
-[   54.565769] commit_state     normalized-zpos=0
-[   54.565770] commit_state     color-encoding=ITU-R BT.601 YCbCr
-[   54.565772] commit_state     color-range=YCbCr limited range
-[   54.565773] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000c51d2dc1
-[   54.565779] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000c51d2dc1
-[   54.565783] [drm:dm_plane_helper_prepare_fb] No FB bound
-[   54.565841] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000c51d2dc1
-[   54.565845] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
+
 [   54.565866] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
 [   54.565884] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.565889] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
@@ -5928,96 +5076,12 @@
 [   54.732210] [drm:drm_mode_object_put] OBJ ID: 129 (2)
 [   54.732211] [drm:drm_mode_object_put] OBJ ID: 133 (3)
 [   54.732212] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000abee9405
-[   54.732231] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732235] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732239] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732242] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732245] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732248] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732251] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732253] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732256] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732258] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732260] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732262] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732264] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732268] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732270] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732273] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732275] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732277] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732280] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732282] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732284] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732286] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732288] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732292] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.732295] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   54.732299] [drm:drm_mode_object_put] OBJ ID: 117 (3)
-[   54.732301] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   54.732305] [drm:drm_mode_object_put] OBJ ID: 117 (3)
-[   54.732619] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
-[   54.733115] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   54.733183] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   54.733239] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.733243] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b640 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.733247] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b640)
-[   54.733363] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183456, wptr 183520
+
 [   54.733385] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2217
 [   54.733394] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(3756,-56)@ 54.743571 -> 54.743984 [e 2 us, 0 rep]
 [   54.733404] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2214
 [   54.733406] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=14, diff=1, hw=95 hw_last=94
-[   54.733740] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183520, wptr 183552
-[   54.733744] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.734524] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.734528] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b6c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.734531] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b6c0)
-[   54.734549] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.734550] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b740 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.734552] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b740)
-[   54.734586] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183552, wptr 183584
-[   54.734590] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.734595] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183584, wptr 183616
-[   54.734597] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.734602] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183616, wptr 183616
-[   54.734640] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.734754] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183616, wptr 183648
-[   54.734758] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.734794] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183648, wptr 183680
-[   54.734796] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.735387] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.735528] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183680, wptr 183712
-[   54.735533] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.742309] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742330] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742337] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742341] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742344] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742348] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742352] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742354] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742356] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742359] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742361] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742364] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742366] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742369] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742372] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742375] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742378] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742380] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742383] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742385] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742387] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742390] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742392] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742395] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETPROPERTY
-[   54.742398] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   54.742407] [drm:drm_mode_object_put] OBJ ID: 119 (3)
-[   54.742410] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_OBJ_GETPROPERTIES
-[   54.742417] [drm:drm_mode_object_put] OBJ ID: 119 (3)
-[   54.744011] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_MMAP
-[   54.744201] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
+
 [   54.748041] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183712, wptr 183744
 [   54.748074] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.748086] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(2129,-47)@ 54.758269 -> 54.758947 [e 2 us, 0 rep]
@@ -6084,22 +5148,7 @@
 [   54.783456] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(1271,-48)@ 54.793655 -> 54.794012 [e 2 us, 0 rep]
 [   54.783469] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2206
 [   54.783471] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=17, diff=1, hw=98 hw_last=97
-[   54.795094] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   54.795213] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.795219] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b7c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.795223] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b7c0)
-[   54.795312] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.795417] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   54.795421] [drm:amdgpu_gem_metadata_ioctl] 31
-[   54.795427] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   54.795459] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   54.795473] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   54.795476] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   54.795478] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   54.795481] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   54.795497] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   54.795503] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   54.795506] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+
 [   54.795520] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   54.795542] [drm:drm_mode_addfb2] [FB:130]
 [   54.795555] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
@@ -6147,25 +5196,7 @@
 [   54.816758] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(257,-52)@ 54.826975 -> 54.827364 [e 2 us, 0 rep]
 [   54.816768] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2211
 [   54.816770] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=19, diff=1, hw=100 hw_last=99
-[   54.817530] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   54.817631] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.817638] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b840 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.817642] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b840)
-[   54.817657] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.817657] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b8c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.817659] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b8c0)
-[   54.817691] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.817774] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_METADATA
-[   54.817781] [drm:amdgpu_gem_metadata_ioctl] 32
-[   54.817790] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   54.817816] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   54.817829] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   54.817831] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   54.817834] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   54.817836] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_FD_TO_HANDLE
-[   54.817844] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   54.817850] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
-[   54.817853] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_PRIME_HANDLE_TO_FD
+
 [   54.817863] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   54.817876] [drm:drm_mode_addfb2] [FB:135]
 [   54.817888] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
