@@ -4,7 +4,7 @@
 [   44.602265] usb 3-1: Product: 3-Port USB-C Multi-Monitor Hub
 [   44.602274] usb 3-1: Manufacturer: VIA Technologies Inc.
 [   44.602281] usb 3-1: SerialNumber: 0000000000000001
-[   46.721642] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173056, wptr 173088
+
 [   46.721789] [drm] DP Alt mode state on HPD: 1
 [   46.726885] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   46.727285] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0xf0000 AUX -> (ret=  8) 00 00 00 00 00 00 00 00
@@ -96,7 +96,7 @@
 [   46.788979] [dp_mst]         type=CLEAR_PAYLOAD_ID_TABLE contents:
 [   46.788981] [dp_mst]                 ???
 [   46.789331] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  5) 16 c2 cf 14 ac
-[   46.833834] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173088, wptr 173120
+
 [   46.833912] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   46.834245] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   46.834709] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -114,7 +114,7 @@
 [   46.837261] [dp_mst] txmsg cur_offset=0 cur_len=1 seqno=0 state=QUEUED path_msg=0 dst=00
 [   46.837272] [dp_mst]         type=LINK_ADDRESS
 [   46.837636] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  5) 10 02 cb 01 d5
-[   47.021943] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173120, wptr 173152
+
 [   47.022029] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   47.022364] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   47.022833] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -133,7 +133,7 @@
 [   47.026581] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   47.026925] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   47.026938] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   47.210360] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173152, wptr 173184
+
 [   47.210439] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   47.210771] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   47.211241] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -167,7 +167,7 @@
 [   47.215880] [dp_mst]         type=ENUM_PATH_RESOURCES contents:
 [   47.215886] [dp_mst]                 port=1
 [   47.216263] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  6) 10 43 c7 10 10 e2
-[   47.398783] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173184, wptr 173216
+
 [   47.398875] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   47.399208] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   47.399672] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -199,7 +199,7 @@
 [   47.412393] [dp_mst] txmsg cur_offset=0 cur_len=5 seqno=0 state=QUEUED path_msg=0 dst=00
 [   47.412396] [dp_mst]         type=REMOTE_DPCD_READ contents:
 [   47.412398] [dp_mst]                 port=1 dpcd_addr=004b0 len=1
-[   47.586700] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173216, wptr 173248
+
 [   47.586794] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   47.587127] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   47.587591] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -227,7 +227,7 @@
 [   47.591674] [dp_mst] txmsg cur_offset=0 cur_len=2 seqno=0 state=QUEUED path_msg=1 dst=00
 [   47.591685] [dp_mst]         type=ENUM_PATH_RESOURCES contents:
 [   47.591691] [dp_mst]                 port=3
-[   47.774289] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173248, wptr 173280
+
 [   47.774363] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   47.774681] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   47.775133] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -253,7 +253,7 @@
 [   47.789162] [dp_mst] txmsg cur_offset=0 cur_len=5 seqno=0 state=QUEUED path_msg=0 dst=00
 [   47.789166] [dp_mst]         type=REMOTE_DPCD_READ contents:
 [   47.789167] [dp_mst]                 port=2 dpcd_addr=004b0 len=1
-[   47.962336] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173280, wptr 173312
+
 [   47.962374] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   47.962689] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   47.963142] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -278,7 +278,7 @@
 [   47.967136] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 00000000f516890f (1)
 [   47.967141] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_mstb] mstb 000000002ea1743f (2)
 [   47.967145] [drm:drm_sysfs_hotplug_event] generating hotplug event
-[   48.150549] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173312, wptr 173344
+
 [   48.150644] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   48.150976] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   48.151463] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -300,7 +300,7 @@
 [   48.164522] [dp_mst]         type=REMOTE_DPCD_READ contents:
 [   48.164524] [dp_mst]                 port=3 dpcd_addr=004b0 len=1
 [   48.164925] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 30 04 b0 01 3c
-[   48.338251] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173344, wptr 173376
+
 [   48.338336] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   48.338689] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   48.339155] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -378,7 +378,7 @@
 [   48.989039] [dp_mst]         type=REMOTE_DPCD_READ contents:
 [   48.989043] [dp_mst]                 port=1 dpcd_addr=02200 len=1
 [   48.989438] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 10 22 00 01 89
-[   49.000841] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173408, wptr 173440
+
 [   49.000875] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   49.001193] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   49.001652] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -408,7 +408,7 @@
 [   49.004912] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   49.004924] [drm:handle_hpd_rx_irq] ESI 03 00 00
 [   49.005375] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 11 50 01 00 10 50 01 cb
-[   49.189400] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173440, wptr 173472
+
 [   49.189494] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   49.189826] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   49.190293] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -430,7 +430,7 @@
 [   49.192882] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   49.193234] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   49.193248] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   49.376162] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173472, wptr 173504
+
 [   49.376199] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   49.376524] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   49.376972] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -449,7 +449,7 @@
 [   49.380572] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   49.380910] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   49.380913] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   49.564609] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173504, wptr 173536
+
 [   49.564653] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   49.564973] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   49.565425] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -494,7 +494,7 @@
 [   49.757473] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   49.757802] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   49.757808] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   49.940800] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173824, wptr 173856
+
 [   49.940836] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   49.941156] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   49.941614] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -513,7 +513,7 @@
 [   49.945209] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   49.945552] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   49.945558] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   50.128539] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173856, wptr 173888
+
 [   50.128581] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   50.128898] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   50.129348] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -532,7 +532,7 @@
 [   50.132941] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   50.133270] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   50.133276] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   50.316144] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173888, wptr 173920
+
 [   50.316185] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   50.316507] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   50.316958] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -727,7 +727,7 @@
 [   50.328094] [dp_mst]                 port=2 num_tx=1 id=80 size=1:
 [   50.328096] [dp_mst]                         0: id=080 size=001 no_stop_bit=0 tx_delay=000: 00
 [   50.328527] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 21 50 01 00 10 50 01 da
-[   50.504367] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173920, wptr 173952
+
 [   50.504403] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   50.504715] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   50.505166] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -749,7 +749,7 @@
 [   50.507638] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   50.507980] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   50.507985] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   50.692163] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173952, wptr 173984
+
 [   50.692200] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   50.692516] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   50.692967] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -768,8 +768,7 @@
 [   50.696556] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   50.696885] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   50.696891] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   50.719984] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
-[   50.880019] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 173984, wptr 174016
+
 [   50.880060] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   50.880384] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   50.880835] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -788,7 +787,7 @@
 [   50.884421] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   50.884762] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   50.884768] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   51.068170] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174016, wptr 174048
+
 [   51.068210] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   51.068527] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   51.068988] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -814,7 +813,7 @@
 [   51.072981] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   51.073321] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   51.073327] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   51.255504] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174048, wptr 174080
+
 [   51.255535] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   51.255851] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   51.256299] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -833,7 +832,7 @@
 [   51.259842] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   51.260170] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   51.260172] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   51.444070] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174080, wptr 174112
+
 [   51.444110] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   51.444427] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   51.444874] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -852,7 +851,7 @@
 [   51.448449] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   51.448792] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   51.448798] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   51.631868] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174112, wptr 174144
+
 [   51.631909] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   51.632227] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   51.632680] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1029,7 +1028,7 @@
 [   51.643301] [dp_mst]                         0: id=080 size=001 no_stop_bit=0 tx_delay=000: 00
 [   51.643731] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 31 50 01 00 10 50 01 66
 [   51.727478] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
-[   51.819536] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174144, wptr 174176
+
 [   51.819578] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   51.819900] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   51.820351] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1051,7 +1050,7 @@
 [   51.822820] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   51.823161] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   51.823166] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   52.007727] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174176, wptr 174208
+
 [   52.007768] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   52.008085] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   52.008543] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1070,7 +1069,7 @@
 [   52.012122] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   52.012451] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   52.012457] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   52.195579] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174208, wptr 174240
+
 [   52.195619] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   52.195936] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   52.196389] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1089,7 +1088,7 @@
 [   52.199990] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   52.200330] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   52.200336] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   52.383618] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174240, wptr 174272
+
 [   52.383659] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   52.383977] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   52.384427] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1115,7 +1114,7 @@
 [   52.388405] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   52.388734] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   52.388740] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   52.571738] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174272, wptr 174304
+
 [   52.571775] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   52.572089] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   52.572541] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1134,8 +1133,7 @@
 [   52.576488] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   52.576828] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   52.576834] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   52.734974] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
-[   52.759934] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174304, wptr 174336
+
 [   52.759969] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   52.760284] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   52.760735] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1154,7 +1152,7 @@
 [   52.764323] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   52.764663] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   52.764669] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   52.947033] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174336, wptr 174368
+
 [   52.947074] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   52.947390] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   52.947841] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1434,12 +1432,12 @@
 [   52.997130] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:73:crtc-2] needs all connectors, enable: y, active: y
 [   52.997132] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:73:crtc-2] to 0000000080a9401e
 [   52.997134] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:73:crtc-2] to 0000000080a9401e
-[   52.997132] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174912, wptr 174944
+
 [   52.997136] amdgpu 0000:04:00.0: [drm:drm_atomic_helper_check_modeset] [CRTC:76:crtc-3] needs all connectors, enable: y, active: y
 [   52.997138] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_connectors] Adding all current connectors for [CRTC:76:crtc-3] to 0000000080a9401e
 [   52.997140] amdgpu 0000:04:00.0: [drm:drm_atomic_add_affected_planes] Adding all current planes for [CRTC:76:crtc-3] to 0000000080a9401e
 [   52.997142] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 0000000080a9401e
-[   52.997142] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+
 [   52.997144] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:77:TMDS-77] to 0000000080a9401e
 [   52.997146] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:98:DP MST-98] to 0000000080a9401e
 [   52.997148] amdgpu 0000:04:00.0: [drm:drm_atomic_add_encoder_bridges] Adding all bridges for [encoder:99:DP MST-99] to 0000000080a9401e
@@ -1454,19 +1452,12 @@
 [   52.997209] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:119:DP-5] [MST PORT:00000000f516890f] VCPI 0 -> 33
 [   52.997211] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] [CONNECTOR:119:DP-5] [MST PORT:00000000f516890f] PBN 0 -> 1858
 [   52.997212] amdgpu 0000:04:00.0: [drm:drm_dp_atomic_find_vcpi_slots] port 00000000f516890f (3)
-[   52.997332] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 174944, wptr 175008
-[   52.997340] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   52.997351] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   52.997351] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   52.997353] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000a6c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   52.997354] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000a6c0)
-[   52.997394] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175008, wptr 175040
-[   52.997399] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+
 [   52.997527] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   52.997934] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
 [   52.997938] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
 [   52.998234] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
-[   52.998254] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175040, wptr 175072
+
 [   52.998271] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
 [   52.998281] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1819,-49)@ 53.007590 -> 53.008300 [e 2 us, 0 rep]
 [   52.998294] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
@@ -1547,7 +1538,7 @@
 [   53.014797] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 15 01 83 2a 3f 04 00 00 00 84
 [   53.014800] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 15 01 83 2a 3f 04 00 00 00 84
 [   53.014802] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_affected_dsc_crtcs] [MST MGR:00000000691e4d14] Setting mode_changed flag on CRTC 00000000003563fa
-[   53.014936] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175072, wptr 175104
+
 [   53.014957] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.014967] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(670,-47)@ 53.024285 -> 53.024972 [e 2 us, 0 rep]
 [   53.014980] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
@@ -1777,17 +1768,16 @@
 
 [   53.040929] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   53.040988] [drm:drm_mode_addfb2] [FB:106]
-[   53.041017] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175840, wptr 175872
-[   53.041021] [drm:gfx_v10_0_eop_irq] IH: CP EOP
+
 [   53.041045] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   53.048262] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 175872, wptr 175904
+
 [   53.048292] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.048302] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1289,-47)@ 53.057635 -> 53.058318 [e 2 us, 0 rep]
 [   53.048313] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   53.048315] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3068, diff=1, hw=3709 hw_last=3708
 
 [   53.063719] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCRTC
-[   53.064925] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176032, wptr 176064
+
 [   53.064953] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.064966] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1155,-47)@ 53.074307 -> 53.074991 [e 2 us, 0 rep]
 [   53.064981] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
@@ -1818,7 +1808,7 @@
 [   53.131602] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(466,-48)@ 53.140979 -> 53.141682 [e 2 us, 0 rep]
 [   53.131615] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.131619] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3073, diff=1, hw=3714 hw_last=3713
-[   53.134804] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176640, wptr 176672
+
 [   53.134832] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   53.135144] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 
@@ -2190,7 +2180,7 @@
 [   53.147814] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 15 01 83 2a 3f 04 00 00 00 84
 [   53.147817] amdgpu 0000:04:00.0: [drm:drm_dp_mst_add_affected_dsc_crtcs] [MST MGR:00000000691e4d14] Setting mode_changed flag on CRTC 00000000003563fa
 [   53.148117] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
-[   53.148246] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176704, wptr 176736
+
 [   53.148271] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.148282] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(505,-47)@ 53.157666 -> 53.158355 [e 2 us, 0 rep]
 [   53.148296] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
@@ -2240,13 +2230,7 @@
 [   53.157638] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   53.158077] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 15 01 83 2a 3f 04 00 00 00 84
 [   53.158378] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
-[   53.158586] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176736, wptr 176768
-[   53.158595] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   53.158607] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   53.158608] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b1c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   53.158610] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b1c0)
-[   53.158695] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176768, wptr 176800
-[   53.158704] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
+
 [   53.158815] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 15 01 83 2a 3f 04 00 00 00 84
 [   53.158818] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 15 01 83 2a 3f 04 00 00 00 84
 [   53.158820] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 15 01 83 2a 3f 04 00 00 00 84
@@ -2448,7 +2432,7 @@
 [   53.164035] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:000000002ea1743f] [MST PORT:00000000f69cc436] uses 1210 out of 2560 PBN
 [   53.164037] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:000000002ea1743f] [MST PORT:0000000036ddce08] uses 1214 out of 2160 PBN
 [   53.164107] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000d2f0919b
-[   53.164902] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176800, wptr 176832
+
 [   53.164924] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
 [   53.164933] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(731,-48)@ 53.174326 -> 53.175028 [e 2 us, 0 rep]
 [   53.164947] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
@@ -2633,7 +2617,7 @@
 [   53.174309] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00101 AUX <- (ret=  1) 84
 [   53.174735] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00100 AUX <- (ret=  1) 1e
 [   53.175510] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00102 AUX <- (ret=  5) 21 00 00 00 00
-[   53.181579] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176832, wptr 176864
+
 [   53.181596] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.181604] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1729,-48)@ 53.191005 -> 53.191701 [e 2 us, 0 rep]
 [   53.181616] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
@@ -2641,7 +2625,7 @@
 [   53.193250] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   53.193612] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00202 AUX -> (ret=  6) 00 11 00 00 22 22
 [   53.194254] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00103 AUX <- (ret=  4) 02 02 02 02
-[   53.198243] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176864, wptr 176896
+
 [   53.198259] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.198267] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1477,-48)@ 53.207676 -> 53.208373 [e 2 us, 0 rep]
 [   53.198279] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
@@ -2649,13 +2633,13 @@
 [   53.212233] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   53.212594] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00202 AUX -> (ret=  6) 11 11 00 00 22 22
 [   53.213368] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00102 AUX <- (ret=  5) 07 02 02 02 02
-[   53.214909] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176896, wptr 176928
+
 [   53.214924] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.214932] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1633,-48)@ 53.224350 -> 53.225046 [e 2 us, 0 rep]
 [   53.214944] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.214948] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3078, diff=1, hw=3719 hw_last=3718
 [   53.231227] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
-[   53.231709] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176928, wptr 176960
+
 [   53.231724] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1119
 [   53.231732] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(2099,-39)@ 53.241159 -> 53.241719 [e 2 us, 0 rep]
 [   53.231744] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1118
@@ -2668,66 +2652,66 @@
 [   53.240592] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00200 AUX -> (ret=  6) 03 00 77 77 01 00
 [   53.240599] [drm:print_status_message] HBR3x4 pass VS=2, PE=0, DS=0.5% 30KHz
 [   53.240615] [drm:enc2_fec_set_enable] Enabling FEC at link encoder inst 1
-[   53.248240] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176960, wptr 176992
+
 [   53.248266] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.248277] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1630,-47)@ 53.257711 -> 53.258392 [e 2 us, 0 rep]
 [   53.248291] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   53.248295] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3080, diff=1, hw=3721 hw_last=3720
-[   53.264902] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 176992, wptr 177024
+
 [   53.264917] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.264925] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1492,-48)@ 53.274368 -> 53.275065 [e 2 us, 0 rep]
 [   53.264937] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.264941] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3081, diff=1, hw=3722 hw_last=3721
-[   53.281566] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177024, wptr 177056
+
 [   53.281581] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.281589] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1485,-48)@ 53.291041 -> 53.291738 [e 2 us, 0 rep]
 [   53.281601] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.281606] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3082, diff=1, hw=3723 hw_last=3722
-[   53.298230] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177056, wptr 177088
+
 [   53.298246] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.298254] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1472,-48)@ 53.307713 -> 53.308410 [e 2 us, 0 rep]
 [   53.298266] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.298270] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3083, diff=1, hw=3724 hw_last=3723
-[   53.314895] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177088, wptr 177120
+
 [   53.314910] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.314918] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1474,-48)@ 53.324386 -> 53.325083 [e 2 us, 0 rep]
 [   53.314930] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.314934] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3084, diff=1, hw=3725 hw_last=3724
-[   53.323774] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177120, wptr 177152
+
 [   53.323802] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   53.324112] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   53.324570] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 00 00 00 00 00 00 00 00 00 77 77 01 00
-[   53.331560] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177152, wptr 177184
+
 [   53.331575] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.331583] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1477,-48)@ 53.341059 -> 53.341756 [e 2 us, 0 rep]
 [   53.331595] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.331599] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3085, diff=1, hw=3726 hw_last=3725
-[   53.348224] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177184, wptr 177216
+
 [   53.348239] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.348247] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1476,-48)@ 53.357732 -> 53.358429 [e 2 us, 0 rep]
 [   53.348259] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.348263] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3086, diff=1, hw=3727 hw_last=3726
-[   53.364888] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177216, wptr 177248
+
 [   53.364904] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.364912] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1485,-48)@ 53.374405 -> 53.375102 [e 2 us, 0 rep]
 [   53.364924] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.364928] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3087, diff=1, hw=3728 hw_last=3727
-[   53.381554] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177248, wptr 177280
+
 [   53.381571] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.381580] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(2087,-48)@ 53.391082 -> 53.391775 [e 2 us, 0 rep]
 [   53.381592] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.381597] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3088, diff=1, hw=3729 hw_last=3728
-[   53.398266] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177280, wptr 177312
+
 [   53.398282] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   53.398290] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(17,-44)@ 53.407800 -> 53.408447 [e 2 us, 0 rep]
 [   53.398302] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1124
 [   53.398306] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3089, diff=1, hw=3730 hw_last=3729
-[   53.414883] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177312, wptr 177344
+
 [   53.414898] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.414906] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1607,-48)@ 53.424424 -> 53.425120 [e 2 us, 0 rep]
 [   53.414918] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.414922] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3090, diff=1, hw=3731 hw_last=3730
-[   53.431547] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177344, wptr 177376
+
 [   53.431562] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.431570] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1478,-48)@ 53.441096 -> 53.441793 [e 2 us, 0 rep]
 [   53.431582] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
@@ -2845,7 +2829,7 @@
 [   53.447644] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_put_port] port 0000000036ddce08 (1)
 [   53.447651] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 0000000036ddce08 (2)
 [   53.447945] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x002c0 AUX <- (ret=  1) 01
-[   53.448195] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177376, wptr 177408
+
 [   53.448214] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
 [   53.448223] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1937,-49)@ 53.457757 -> 53.458466 [e 2 us, 0 rep]
 [   53.448235] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
@@ -2870,22 +2854,22 @@
 [   53.449590] [dp_mst]         type=ALLOCATE_PAYLOAD contents:
 [   53.449594] [dp_mst]                 port=1 vcpi=1 pbn=1214 sdp_streams=1 00
 [   53.449994] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 10) 10 47 c0 11 11 01 04 be 00 4b
-[   53.464876] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177408, wptr 177440
+
 [   53.464891] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.464900] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1649,-48)@ 53.474443 -> 53.475139 [e 2 us, 0 rep]
 [   53.464912] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.464916] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3093, diff=1, hw=3734 hw_last=3733
-[   53.481528] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177440, wptr 177472
+
 [   53.481543] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
 [   53.481552] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1967,-49)@ 53.491103 -> 53.491812 [e 2 us, 0 rep]
 [   53.481564] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.481568] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3094, diff=1, hw=3735 hw_last=3734
-[   53.498205] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177472, wptr 177504
+
 [   53.498220] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.498228] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1482,-48)@ 53.507787 -> 53.508484 [e 2 us, 0 rep]
 [   53.498240] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.498244] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3095, diff=1, hw=3736 hw_last=3735
-[   53.510745] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177504, wptr 177536
+
 [   53.510772] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   53.511074] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   53.511532] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 77 77 01 00
@@ -2906,7 +2890,7 @@
 [   53.514440] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   53.514442] [drm:handle_hpd_rx_irq] ESI 03 00 00
 [   53.514670] [drm:mod_hdcp_add_display] [Link 0] > HDCP_INITIALIZED
-[   53.514848] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177536, wptr 177568
+
 [   53.514856] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start 2
 [   53.514861] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1235,-50)@ 53.524429 -> 53.525157 [e 2 us, 0 rep]
 [   53.514871] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
@@ -3024,66 +3008,66 @@
 [   53.515332] [drm:dsc_optc_config_log]        bytes_per_pixel 0x1e000000 (1.8750000)
 [   53.515334] [drm:dsc_optc_config_log]        is_pixel_format_444 1
 [   53.515336] [drm:dp_set_dsc_on_stream]       slice_width 1920
-[   53.531536] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177568, wptr 177600
+
 [   53.531560] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.531570] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1148,-47)@ 53.541146 -> 53.541830 [e 2 us, 0 rep]
 [   53.531583] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   53.531587] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3097, diff=1, hw=3738 hw_last=3737
-[   53.548188] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177600, wptr 177632
+
 [   53.548207] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
 [   53.548216] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(601,-48)@ 53.557800 -> 53.558503 [e 2 us, 0 rep]
 [   53.548228] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.548232] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3098, diff=1, hw=3739 hw_last=3738
-[   53.564865] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177632, wptr 177664
+
 [   53.564891] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.564902] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1510,-47)@ 53.574494 -> 53.575176 [e 2 us, 0 rep]
 [   53.564916] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   53.564920] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3099, diff=1, hw=3740 hw_last=3739
-[   53.581527] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177664, wptr 177696
+
 [   53.581542] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.581551] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1567,-48)@ 53.591152 -> 53.591849 [e 2 us, 0 rep]
 [   53.581563] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.581567] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3100, diff=1, hw=3741 hw_last=3740
-[   53.598191] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177696, wptr 177728
+
 [   53.598207] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.598215] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1473,-48)@ 53.607824 -> 53.608521 [e 2 us, 0 rep]
 [   53.598227] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.598231] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3101, diff=1, hw=3742 hw_last=3741
-[   53.614857] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177728, wptr 177760
+
 [   53.614872] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.614880] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1609,-48)@ 53.624498 -> 53.625194 [e 2 us, 0 rep]
 [   53.614892] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.614896] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3102, diff=1, hw=3743 hw_last=3742
-[   53.631521] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177760, wptr 177792
+
 [   53.631536] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.631544] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1470,-48)@ 53.641170 -> 53.641867 [e 2 us, 0 rep]
 [   53.631556] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.631560] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3103, diff=1, hw=3744 hw_last=3743
-[   53.648185] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177792, wptr 177824
+
 [   53.648200] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.648208] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1468,-48)@ 53.657843 -> 53.658540 [e 2 us, 0 rep]
 [   53.648220] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.648224] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3104, diff=1, hw=3745 hw_last=3744
-[   53.664850] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177824, wptr 177856
+
 [   53.664865] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.664873] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1482,-48)@ 53.674516 -> 53.675213 [e 2 us, 0 rep]
 [   53.664885] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.664889] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3105, diff=1, hw=3746 hw_last=3745
-[   53.681514] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177856, wptr 177888
+
 [   53.681529] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.681537] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1485,-48)@ 53.691189 -> 53.691886 [e 2 us, 0 rep]
 [   53.681549] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.681554] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3106, diff=1, hw=3747 hw_last=3746
-[   53.698178] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177888, wptr 177920
+
 [   53.698194] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.698202] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1470,-48)@ 53.707861 -> 53.708558 [e 2 us, 0 rep]
 [   53.698214] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.698218] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3107, diff=1, hw=3748 hw_last=3747
-[   53.698715] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177920, wptr 177952
+
 [   53.698742] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   53.699048] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   53.699507] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 00 00 00 00 00 00 00 00 00 77 77 01 00
-[   53.714843] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177952, wptr 177984
+
 [   53.714858] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.714866] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1515,-48)@ 53.724535 -> 53.725231 [e 2 us, 0 rep]
 [   53.714879] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
@@ -3224,57 +3208,57 @@
 [   53.721442] [dp_mst]         type=ALLOCATE_PAYLOAD contents:
 [   53.721446] [dp_mst]                 port=2 vcpi=2 pbn=1210 sdp_streams=1 00
 [   53.721845] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 10) 10 47 c0 11 21 02 04 ba 00 58
-[   53.731508] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 177984, wptr 178016
+
 [   53.731523] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.731531] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1484,-48)@ 53.741207 -> 53.741904 [e 2 us, 0 rep]
 [   53.731543] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.731547] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3109, diff=1, hw=3750 hw_last=3749
-[   53.748172] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178016, wptr 178048
+
 [   53.748187] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.748195] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1499,-48)@ 53.757880 -> 53.758577 [e 2 us, 0 rep]
 [   53.748207] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.748212] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3110, diff=1, hw=3751 hw_last=3750
-[   53.764837] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178048, wptr 178080
+
 [   53.764852] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.764860] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1514,-48)@ 53.774553 -> 53.775250 [e 2 us, 0 rep]
 [   53.764872] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.764876] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3111, diff=1, hw=3752 hw_last=3751
-[   53.781501] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178080, wptr 178112
+
 [   53.781516] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.781524] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1497,-48)@ 53.791226 -> 53.791923 [e 2 us, 0 rep]
 [   53.781536] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.781541] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3112, diff=1, hw=3753 hw_last=3752
-[   53.798166] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178112, wptr 178144
+
 [   53.798181] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.798189] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1476,-48)@ 53.807898 -> 53.808595 [e 2 us, 0 rep]
 [   53.798201] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.798205] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3113, diff=1, hw=3754 hw_last=3753
-[   53.814830] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178144, wptr 178176
+
 [   53.814845] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.814853] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1473,-48)@ 53.824571 -> 53.825268 [e 2 us, 0 rep]
 [   53.814865] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.814869] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3114, diff=1, hw=3755 hw_last=3754
-[   53.831494] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178176, wptr 178208
+
 [   53.831510] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.831518] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1480,-48)@ 53.841244 -> 53.841941 [e 2 us, 0 rep]
 [   53.831530] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.831534] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3115, diff=1, hw=3756 hw_last=3755
-[   53.848159] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178208, wptr 178240
+
 [   53.848174] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.848182] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1475,-48)@ 53.857917 -> 53.858614 [e 2 us, 0 rep]
 [   53.848194] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.848198] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3116, diff=1, hw=3757 hw_last=3756
-[   53.864824] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178240, wptr 178272
+
 [   53.864839] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.864847] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1563,-48)@ 53.874590 -> 53.875287 [e 2 us, 0 rep]
 [   53.864859] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.864864] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3117, diff=1, hw=3758 hw_last=3757
-[   53.881488] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178272, wptr 178304
+
 [   53.881503] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.881511] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1476,-48)@ 53.891263 -> 53.891960 [e 2 us, 0 rep]
 [   53.881523] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.881527] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3118, diff=1, hw=3759 hw_last=3758
-[   53.887061] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178304, wptr 178336
+
 [   53.887087] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   53.887385] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   53.887841] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 77 77 01 00
@@ -3407,42 +3391,42 @@
 [   53.891590] [drm:dsc_optc_config_log]        bytes_per_pixel 0x1e000000 (1.8750000)
 [   53.891595] [drm:dsc_optc_config_log]        is_pixel_format_444 1
 [   53.891599] [drm:dp_set_dsc_on_stream]       slice_width 1920
-[   53.898152] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178336, wptr 178368
+
 [   53.898168] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.898176] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1502,-48)@ 53.907936 -> 53.908632 [e 2 us, 0 rep]
 [   53.898188] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.898192] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3119, diff=1, hw=3760 hw_last=3759
-[   53.914817] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178368, wptr 178400
+
 [   53.914832] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.914840] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1489,-48)@ 53.924608 -> 53.925305 [e 2 us, 0 rep]
 [   53.914852] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.914856] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3120, diff=1, hw=3761 hw_last=3760
-[   53.931481] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178400, wptr 178432
+
 [   53.931497] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.931505] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1479,-48)@ 53.941281 -> 53.941978 [e 2 us, 0 rep]
 [   53.931517] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.931521] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3121, diff=1, hw=3762 hw_last=3761
-[   53.948146] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178432, wptr 178464
+
 [   53.948161] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.948169] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1477,-48)@ 53.957954 -> 53.958651 [e 2 us, 0 rep]
 [   53.948181] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.948185] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3122, diff=1, hw=3763 hw_last=3762
-[   53.964817] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178464, wptr 178496
+
 [   53.964850] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.964863] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1200,-46)@ 53.974654 -> 53.975324 [e 2 us, 0 rep]
 [   53.964878] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   53.964882] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3123, diff=1, hw=3764 hw_last=3763
-[   53.981480] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178496, wptr 178528
+
 [   53.981511] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.981523] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(496,-46)@ 53.991323 -> 53.991997 [e 2 us, 0 rep]
 [   53.981537] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   53.981541] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3124, diff=1, hw=3765 hw_last=3764
-[   53.998140] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178528, wptr 178560
+
 [   53.998156] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   53.998164] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1707,-48)@ 54.007974 -> 54.008669 [e 2 us, 0 rep]
 [   53.998177] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.998181] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3125, diff=1, hw=3766 hw_last=3765
-[   54.014805] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178560, wptr 178592
+
 [   54.014821] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.014829] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1700,-48)@ 54.024647 -> 54.025342 [e 2 us, 0 rep]
 [   54.014841] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
@@ -3460,22 +3444,22 @@
 [   54.017182] [dp_mst]         type=REMOTE_DPCD_READ contents:
 [   54.017186] [dp_mst]                 port=1 dpcd_addr=004b0 len=1
 [   54.017581] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 10 04 b0 01 b5
-[   54.031472] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178592, wptr 178624
+
 [   54.031496] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.031507] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1438,-47)@ 54.041333 -> 54.042015 [e 2 us, 0 rep]
 [   54.031520] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.031524] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3127, diff=1, hw=3768 hw_last=3767
-[   54.048156] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178624, wptr 178656
+
 [   54.048200] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.048220] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1740,-44)@ 54.058052 -> 54.058688 [e 2 us, 0 rep]
 [   54.048244] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1122
 [   54.048254] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3128, diff=1, hw=3769 hw_last=3768
-[   54.064823] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178656, wptr 178688
+
 [   54.064867] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.064887] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(2120,-44)@ 54.074727 -> 54.075361 [e 2 us, 0 rep]
 [   54.064912] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1122
 [   54.064920] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3129, diff=1, hw=3770 hw_last=3769
-[   54.075303] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178688, wptr 178720
+
 [   54.075366] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   54.075688] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   54.076158] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 77 77 01 00
@@ -3501,7 +3485,7 @@
 [   54.079276] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   54.079609] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   54.079615] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   54.081468] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178720, wptr 178752
+
 [   54.081488] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.081498] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1067,-47)@ 54.091349 -> 54.092034 [e 2 us, 0 rep]
 [   54.081510] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
@@ -3644,64 +3628,64 @@
 [   54.097273] [dp_mst] txmsg cur_offset=0 cur_len=6 seqno=0 state=QUEUED path_msg=1 dst=00
 [   54.097279] [dp_mst]         type=ALLOCATE_PAYLOAD contents:
 [   54.097282] [dp_mst]                 port=3 vcpi=3 pbn=1210 sdp_streams=1 00
-[   54.098125] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178752, wptr 178784
+
 [   54.098161] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.098180] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1367,-46)@ 54.108038 -> 54.108706 [e 2 us, 0 rep]
 [   54.098204] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1124
 [   54.098214] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3131, diff=1, hw=3772 hw_last=3771
-[   54.114807] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178784, wptr 178816
+
 [   54.114851] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.114871] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(644,-44)@ 54.124736 -> 54.125380 [e 3 us, 0 rep]
 [   54.114895] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1122
 [   54.114904] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3132, diff=1, hw=3773 hw_last=3772
-[   54.131464] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178816, wptr 178848
+
 [   54.131499] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.131512] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1756,-46)@ 54.141387 -> 54.142052 [e 2 us, 0 rep]
 [   54.131527] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.131532] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3133, diff=1, hw=3774 hw_last=3773
-[   54.148126] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178848, wptr 178880
+
 [   54.148161] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.148174] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1391,-46)@ 54.158057 -> 54.158725 [e 2 us, 0 rep]
 [   54.148189] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.148193] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3134, diff=1, hw=3775 hw_last=3774
-[   54.164793] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178880, wptr 178912
+
 [   54.164825] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.164838] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1308,-46)@ 54.174729 -> 54.175398 [e 2 us, 0 rep]
 [   54.164852] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.164856] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3135, diff=1, hw=3776 hw_last=3775
-[   54.181454] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178912, wptr 178944
+
 [   54.181491] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.181504] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1499,-46)@ 54.191403 -> 54.192071 [e 2 us, 0 rep]
 [   54.181518] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.181523] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3136, diff=1, hw=3777 hw_last=3776
-[   54.198142] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178944, wptr 178976
+
 [   54.198190] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1124
 [   54.198205] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(271,-43)@ 54.208112 -> 54.208743 [e 2 us, 0 rep]
 [   54.198221] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1122
 [   54.198225] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3137, diff=1, hw=3778 hw_last=3777
-[   54.214803] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 178976, wptr 179008
+
 [   54.214851] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1124
 [   54.214867] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1954,-44)@ 54.224781 -> 54.225416 [e 2 us, 0 rep]
 [   54.214882] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1122
 [   54.214886] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3138, diff=1, hw=3779 hw_last=3778
-[   54.231452] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179008, wptr 179040
+
 [   54.231484] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.231497] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1375,-46)@ 54.241421 -> 54.242089 [e 2 us, 0 rep]
 [   54.231511] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.231515] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3139, diff=1, hw=3780 hw_last=3779
-[   54.248117] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179040, wptr 179072
+
 [   54.248148] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.248161] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1376,-46)@ 54.258094 -> 54.258762 [e 2 us, 0 rep]
 [   54.248175] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.248179] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3140, diff=1, hw=3781 hw_last=3780
-[   54.263149] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179072, wptr 179104
+
 [   54.263191] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   54.263507] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   54.263969] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 77 77 01 00
 [   54.264266] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   54.264598] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
 [   54.264604] [drm:handle_hpd_rx_irq] ESI 03 10 00
-[   54.264760] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179104, wptr 179136
+
 [   54.264775] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
 [   54.264784] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(2174,-49)@ 54.274728 -> 54.275435 [e 2 us, 0 rep]
 [   54.264797] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
@@ -3721,62 +3705,62 @@
 [   54.266354] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   54.266360] [drm:handle_hpd_rx_irq] ESI 03 00 00
 [   54.266772] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 10) 10 47 c0 11 31 03 04 ba 00 fe
-[   54.281465] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179136, wptr 179168
+
 [   54.281511] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1124
 [   54.281528] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(252,-43)@ 54.291476 -> 54.292108 [e 2 us, 0 rep]
 [   54.281543] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1122
 [   54.281548] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3142, diff=1, hw=3783 hw_last=3782
-[   54.298111] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179168, wptr 179200
+
 [   54.298143] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.298156] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1587,-46)@ 54.308114 -> 54.308780 [e 2 us, 0 rep]
 [   54.298170] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.298174] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3143, diff=1, hw=3784 hw_last=3783
-[   54.314775] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179200, wptr 179232
+
 [   54.314806] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.314819] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1393,-46)@ 54.324785 -> 54.325453 [e 2 us, 0 rep]
 [   54.314833] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.314838] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3144, diff=1, hw=3785 hw_last=3784
-[   54.331437] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179232, wptr 179264
+
 [   54.331469] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.331482] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1099,-46)@ 54.341456 -> 54.342126 [e 2 us, 0 rep]
 [   54.331496] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.331500] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3145, diff=1, hw=3786 hw_last=3785
-[   54.348121] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179264, wptr 179296
+
 [   54.348168] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1124
 [   54.348184] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(2184,-44)@ 54.358165 -> 54.358799 [e 2 us, 0 rep]
 [   54.348199] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1122
 [   54.348203] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3146, diff=1, hw=3787 hw_last=3786
-[   54.364769] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179296, wptr 179328
+
 [   54.364801] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.364814] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1585,-46)@ 54.374805 -> 54.375472 [e 2 us, 0 rep]
 [   54.364828] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.364832] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3147, diff=1, hw=3788 hw_last=3787
-[   54.381419] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179328, wptr 179360
+
 [   54.381446] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.381459] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(909,-47)@ 54.391459 -> 54.392145 [e 2 us, 0 rep]
 [   54.381474] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.381478] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3148, diff=1, hw=3789 hw_last=3788
-[   54.398084] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179360, wptr 179392
+
 [   54.398111] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.398122] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(768,-47)@ 54.408130 -> 54.408817 [e 2 us, 0 rep]
 [   54.398135] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.398139] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3149, diff=1, hw=3790 hw_last=3789
-[   54.414745] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179392, wptr 179424
+
 [   54.414773] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.414783] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(98,-47)@ 54.424799 -> 54.425490 [e 2 us, 0 rep]
 [   54.414793] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.414795] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3150, diff=1, hw=3791 hw_last=3790
-[   54.431412] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179424, wptr 179456
+
 [   54.431437] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.431446] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(2215,-48)@ 54.441471 -> 54.442163 [e 2 us, 0 rep]
 [   54.431454] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.431456] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3151, diff=1, hw=3792 hw_last=3791
-[   54.448075] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179456, wptr 179488
+
 [   54.448098] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.448105] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1482,-48)@ 54.458139 -> 54.458836 [e 2 us, 0 rep]
 [   54.448113] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.448114] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3152, diff=1, hw=3793 hw_last=3792
-[   54.451350] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179488, wptr 179520
+
 [   54.451361] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   54.451667] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   54.452121] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 77 77 01 00
@@ -3799,7 +3783,7 @@
 [   54.455168] [drm:dcn10_enable_timing_synchronization] Setting up OTG reset trigger
 [   54.455179] [drm:dcn10_enable_timing_synchronization] Waiting for trigger
 [   54.455425] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 30 04 b0 01 3c
-[   54.464747] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179520, wptr 179552
+
 [   54.464768] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.464778] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(585,-47)@ 54.474821 -> 54.475509 [e 2 us, 0 rep]
 [   54.464791] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
@@ -3808,27 +3792,26 @@
 [   54.465091] [drm:dcn10_enable_timing_synchronization] GSL: reset occurred at wait count: 2
 [   54.465097] [drm:dcn10_enable_timing_synchronization] Sync complete
 [   54.467133] [drm:dcn20_program_pipe] Un-gated front end for pipe 1
-[   54.481403] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179552, wptr 179584
+
 [   54.481425] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.481435] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1451,-48)@ 54.491484 -> 54.492182 [e 2 us, 0 rep]
 [   54.481445] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.481447] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3154, diff=1, hw=3795 hw_last=3794
 [   54.481729] [drm:optc1_wait_for_state] REG_WAIT taking a while: 6ms in optc1_wait_for_state line:821
 [   54.482205] [drm:dcn20_program_pipe] Un-gated front end for pipe 2
-[   54.498079] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179584, wptr 179616
+
 [   54.498104] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.498116] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1765,-47)@ 54.508174 -> 54.508854 [e 2 us, 0 rep]
 [   54.498130] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.498134] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3155, diff=1, hw=3796 hw_last=3795
 [   54.498396] [drm:optc1_wait_for_state] REG_WAIT taking a while: 7ms in optc1_wait_for_state line:821
 [   54.498872] [drm:dcn20_program_pipe] Un-gated front end for pipe 3
-[   54.500016] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179616, wptr 179648
-[   54.514730] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179648, wptr 179712
+
 [   54.514749] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1129
 [   54.514760] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(751,-48)@ 54.524825 -> 54.525527 [e 2 us, 0 rep]
 [   54.514771] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.514772] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3156, diff=1, hw=3797 hw_last=3796
-[   54.515097] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179712, wptr 179776
+
 [   54.515153] [drm:dc_commit_state_no_check] {3840x2160, 3920x2222@522580Khz}
 [   54.515224] [drm:dc_commit_state_no_check] {3840x2160, 3896x2222@519380Khz}
 [   54.515301] [drm:dc_commit_state_no_check] {3840x2160, 3896x2222@519380Khz}
@@ -3848,7 +3831,7 @@
 [   54.515568] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:55] PSR FFU dirty rect size (1920, 1080)
 [   54.515577] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x2c00000
 [   54.515583] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1072
-[   54.516689] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179776, wptr 179808
+
 [   54.518011] [drm:amdgpu_dm_audio_eld_notify] Notify ELD: -1
 [   54.518018] [drm:amdgpu_dm_audio_eld_notify] Notify ELD: -1
 [   54.518020] [drm:amdgpu_dm_audio_eld_notify] Notify ELD: -1
@@ -3861,104 +3844,7 @@
 [   54.518906] [drm:amdgpu_dm_audio_component_get_eld] Get ELD : idx=1 ret=0 en=0
 [   54.518912] [drm:amdgpu_dm_audio_component_get_eld] Get ELD : idx=2 ret=0 en=0
 [   54.518917] [drm:amdgpu_dm_audio_component_get_eld] Get ELD : idx=3 ret=36 en=1
-[   54.524349] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
-[   54.524576] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   54.524614] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   54.524631] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.524643] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b240 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.524649] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b240)
-[   54.524830] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   54.524842] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   54.524852] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.524857] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b2c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.524861] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b2c0)
-[   54.525060] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   54.525072] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_GEM_CLOSE
-[   54.525166] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.525232] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179808, wptr 179840
-[   54.525238] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.525246] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179840, wptr 179872
-[   54.525248] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.525261] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179872, wptr 179872
-[   54.525271] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.525274] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b340 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.525279] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b340)
-[   54.525305] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179872, wptr 179904
-[   54.525309] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.525442] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179904, wptr 179968
-[   54.525446] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.525451] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.526476] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.526632] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 179968, wptr 180000
-[   54.526638] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.526667] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180000, wptr 180032
-[   54.526668] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.526782] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.526845] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180032, wptr 180064
-[   54.526847] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.527111] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.527179] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180064, wptr 180096
-[   54.527182] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.528074] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.528257] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180096, wptr 180128
-[   54.528264] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.528449] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_SYNCOBJ_CREATE
-[   54.528461] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_SYNCOBJ_FD_TO_HANDLE
-[   54.528514] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.528599] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_SYNCOBJ_WAIT
-[   54.528609] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_SYNCOBJ_DESTROY
-[   54.528743] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   54.528770] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   54.528803] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.528810] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.528813] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b3c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.528819] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b3c0)
-[   54.528862] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180128, wptr 180160
-[   54.528866] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.528872] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180160, wptr 180192
-[   54.528873] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   54.528875] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.528880] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180192, wptr 180192
-[   54.528911] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   54.528921] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180192, wptr 180224
-[   54.528923] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.528930] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.528933] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b440 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.528935] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b440)
-[   54.528938] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.528939] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b4c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.528940] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b4c0)
-[   54.528961] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.528975] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180224, wptr 180256
-[   54.528977] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.528984] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.528985] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b540 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.528987] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b540)
-[   54.529015] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180256, wptr 180288
-[   54.529016] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.529039] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180288, wptr 180320
-[   54.529041] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.529080] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.529091] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180320, wptr 180352
-[   54.529093] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.529130] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.529136] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180352, wptr 180384
-[   54.529137] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.529171] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180384, wptr 180416
-[   54.529173] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.529352] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   54.529677] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_VA
-[   54.529700] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.529703] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b5c0 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.529706] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b5c0)
-[   54.529715] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.529778] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180416, wptr 180448
-[   54.529781] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.529851] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180448, wptr 180480
-[   54.529854] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.530303] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.530374] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_FENCE_TO_HANDLE
-[   54.531391] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180480, wptr 180544
+
 [   54.531426] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.531441] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(909,-47)@ 54.541514 -> 54.542200 [e 2 us, 0 rep]
 [   54.531454] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
@@ -4036,7 +3922,7 @@
 [   54.534996] amdgpu 0000:04:00.0: [drm:drm_atomic_get_private_obj_state] Added new private object 000000000060514d state 000000008c532b4d to 000000003b004700
 [   54.535067] [drm:dm_update_plane_state] Enabling DRM plane: 50 on DRM crtc 70
 [   54.535148] [drm:create_validate_stream_for_sink] Destination Rectangle x:0  y:0  width:3840  height:2160
-[   54.548064] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180672, wptr 180736
+
 [   54.548095] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.548106] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1205,-47)@ 54.558189 -> 54.558873 [e 2 us, 0 rep]
 [   54.548117] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
@@ -4065,7 +3951,7 @@
 [   54.548521] [drm:drm_mode_object_put] OBJ ID: 115 (2)
 [   54.548524] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000be61ca7b
 [   54.548530] [drm:vblank_control_worker] Allow idle optimizations (MALL): 0
-[   54.550024] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180736, wptr 180800
+
 [   54.550043] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2216
 [   54.550050] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(225,-55)@ 54.560134 -> 54.560547 [e 2 us, 0 rep]
 [   54.550058] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2214
@@ -4082,7 +3968,6 @@
 [   54.550160] [drm:drm_mode_object_put] OBJ ID: 106 (3)
 [   54.550173] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 000000003b004700
 
-[   54.550831] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
 [   54.550847] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.550849] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
 [   54.550854] [drm:drm_mode_object_get] OBJ ID: 128 (1)
@@ -4130,22 +4015,12 @@
 [   54.551251] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -1842
 [   54.551252] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 2: current=1, diff=2, hw=63 hw_last=61
 [   54.551268] [drm:vblank_control_worker] Allow idle optimizations (MALL): 0
-[   54.560301] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
-[   54.560558] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_SYNCOBJ_CREATE
-[   54.560568] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_SYNCOBJ_FD_TO_HANDLE
-[   54.560616] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.561011] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_SYNCOBJ_WAIT
-[   54.561030] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, DRM_IOCTL_SYNCOBJ_DESTROY
-[   54.561617] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180800, wptr 180832
-[   54.561626] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.562158] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.562554] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_FENCE_TO_HANDLE
-[   54.564711] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180832, wptr 180896
+
 [   54.564746] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.564756] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1280,-48)@ 54.574847 -> 54.575546 [e 2 us, 0 rep]
 [   54.564766] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.564768] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3159, diff=1, hw=3800 hw_last=3799
-[   54.565097] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 180896, wptr 180992
+
 [   54.565107] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.565111] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(3301,-57)@ 54.575204 -> 54.575626 [e 2 us, 0 rep]
 [   54.565117] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
@@ -4210,17 +4085,17 @@
 [   54.566407] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 3 : v p(2502,116)@ 54.576501 -> 54.575626 [e 2 us, 0 rep]
 [   54.566419] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2042
 [   54.566422] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=1, diff=3, hw=42 hw_last=39
-[   54.566691] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 181024, wptr 181088
+
 [   54.566705] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2217
 [   54.566710] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(769,-56)@ 54.576804 -> 54.577223 [e 2 us, 0 rep]
 [   54.566716] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2215
 [   54.566718] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=4, diff=1, hw=85 hw_last=84
-[   54.581396] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 181088, wptr 181152
+
 [   54.581434] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.581447] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(717,-46)@ 54.591546 -> 54.592218 [e 2 us, 0 rep]
 [   54.581458] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.581461] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3160, diff=1, hw=3801 hw_last=3800
-[   54.581762] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 181152, wptr 181280
+
 [   54.581774] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.581779] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(3423,-57)@ 54.591881 -> 54.592302 [e 2 us, 0 rep]
 [   54.581785] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
@@ -4240,10 +4115,7 @@
 [   54.581869] [drm:drm_mode_object_put] OBJ ID: 129 (2)
 [   54.581873] [drm:drm_mode_object_put] OBJ ID: 125 (3)
 [   54.581883] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
-[   54.581966] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
-[   54.581976] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   54.581979] [drm:drm_mode_object_put] OBJ ID: 108 (3)
-[   54.581980] [drm:drm_mode_object_put] OBJ ID: 108 (2)
+
 [   54.581990] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.581994] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
 [   54.582001] [drm:drm_mode_object_get] OBJ ID: 126 (1)
@@ -4288,12 +4160,12 @@
 [   54.582327] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:55] PSR FFU dirty rect size (1920, 1080)
 [   54.582335] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x2200000
 [   54.582347] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1065
-[   54.583368] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 181280, wptr 181344
+
 [   54.583394] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2214
 [   54.583403] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(1395,-53)@ 54.593504 -> 54.593899 [e 2 us, 0 rep]
 [   54.583412] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2212
 [   54.583414] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=5, diff=1, hw=86 hw_last=85
-[   54.598063] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 181344, wptr 181408
+
 [   54.598109] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.598124] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(187,-45)@ 54.608230 -> 54.608891 [e 2 us, 0 rep]
 [   54.598135] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1124
@@ -4310,7 +4182,7 @@
 [   54.598418] [drm:drm_mode_object_put] OBJ ID: 108 (1)
 [   54.598424] [drm:drm_mode_object_put] OBJ ID: 111 (3)
 [   54.598427] [drm:drm_mode_object_put] OBJ ID: 107 (2)
-[   54.598430] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 181408, wptr 181536
+
 [   54.598441] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.598444] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
 [   54.598445] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(2627,-57)@ 54.608555 -> 54.608978 [e 2 us, 0 rep]
@@ -4367,17 +4239,17 @@
 [   54.599133] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:50] PSR FFU dirty rect size (3840, 2160)
 [   54.599136] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x7a00000
 [   54.599149] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -114
-[   54.600027] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 181536, wptr 181568
+
 [   54.600061] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2214
 [   54.600072] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(1778,-53)@ 54.610181 -> 54.610575 [e 2 us, 0 rep]
 [   54.600086] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2211
 [   54.600088] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=6, diff=1, hw=87 hw_last=86
-[   54.614729] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 181568, wptr 181632
+
 [   54.614780] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.614795] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1231,-45)@ 54.624910 -> 54.625564 [e 2 us, 0 rep]
 [   54.614807] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1124
 [   54.614809] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3162, diff=1, hw=3803 hw_last=3802
-[   54.615099] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 181632, wptr 181760
+
 [   54.615116] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
 [   54.615121] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(2751,-56)@ 54.625239 -> 54.625654 [e 2 us, 0 rep]
 [   54.615129] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2215
@@ -4386,7 +4258,7 @@
 [   54.615149] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 3 : v p(2119,-52)@ 54.625268 -> 54.625654 [e 2 us, 0 rep]
 [   54.615156] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2211
 [   54.615158] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=6, diff=1, hw=45 hw_last=44
-[   54.616706] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 181760, wptr 181824
+
 [   54.616753] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2211
 [   54.616767] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(3541,-50)@ 54.626883 -> 54.627251 [e 2 us, 0 rep]
 [   54.616780] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2207
@@ -4403,10 +4275,7 @@
 [   54.616957] [drm:drm_mode_object_put] OBJ ID: 109 (1)
 [   54.616964] [drm:drm_mode_object_put] OBJ ID: 106 (3)
 [   54.616985] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
-[   54.617121] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
-[   54.617134] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   54.617138] [drm:drm_mode_object_put] OBJ ID: 130 (3)
-[   54.617139] [drm:drm_mode_object_put] OBJ ID: 130 (2)
+
 [   54.617154] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.617159] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
 [   54.617169] [drm:drm_mode_object_get] OBJ ID: 128 (1)
@@ -4450,12 +4319,12 @@
 [   54.617669] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:45] PSR FFU dirty rect size (3840, 2160)
 [   54.617673] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x5800000
 [   54.617686] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -1874
-[   54.631389] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 181824, wptr 181888
+
 [   54.631419] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.631430] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1414,-47)@ 54.641554 -> 54.642237 [e 2 us, 0 rep]
 [   54.631441] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.631443] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3163, diff=1, hw=3804 hw_last=3803
-[   54.631765] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 181888, wptr 182016
+
 [   54.631775] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2218
 [   54.631780] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(2480,-57)@ 54.641907 -> 54.642330 [e 2 us, 0 rep]
 [   54.631787] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
@@ -4476,10 +4345,7 @@
 [   54.631870] [drm:drm_mode_object_put] OBJ ID: 130 (1)
 [   54.631875] [drm:drm_mode_object_put] OBJ ID: 124 (3)
 [   54.631887] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
-[   54.631974] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
-[   54.631981] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   54.631983] [drm:drm_mode_object_put] OBJ ID: 131 (3)
-[   54.631984] [drm:drm_mode_object_put] OBJ ID: 131 (2)
+
 [   54.631993] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.631996] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
 [   54.632002] [drm:drm_mode_object_get] OBJ ID: 129 (1)
@@ -4523,12 +4389,12 @@
 [   54.633002] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:40] PSR FFU dirty rect size (3840, 2160)
 [   54.633006] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x3600000
 [   54.633019] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2052
-[   54.633369] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182016, wptr 182080
+
 [   54.633386] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2216
 [   54.633391] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(2190,-55)@ 54.643519 -> 54.643927 [e 2 us, 0 rep]
 [   54.633399] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2214
 [   54.633401] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=8, diff=1, hw=89 hw_last=88
-[   54.638487] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182080, wptr 182112
+
 [   54.638517] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   54.638828] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   54.639287] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 77 77 01 00
@@ -4545,12 +4411,12 @@
 [   54.641291] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   54.641611] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
 [   54.641614] [drm:handle_hpd_rx_irq] ESI 03 00 00
-[   54.648055] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182112, wptr 182176
+
 [   54.648087] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.648098] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1884,-47)@ 54.658230 -> 54.658910 [e 2 us, 0 rep]
 [   54.648108] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.648110] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3164, diff=1, hw=3805 hw_last=3804
-[   54.648434] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182176, wptr 182304
+
 [   54.648447] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.648451] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(272,-56)@ 54.658587 -> 54.659006 [e 2 us, 0 rep]
 [   54.648458] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
@@ -4585,10 +4451,9 @@
 [   54.649177] [drm:drm_mode_object_put] OBJ ID: 113 (3)
 [   54.649529] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000c51d2dc1
 [   54.649553] amdgpu 0000:04:00.0: [drm:drm_atomic_nonblocking_commit] committing 00000000c51d2dc1 nonblocking
-[   54.649672] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
+
 [   54.649674] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 67: hwmode: htotal 2250, vtotal 1132, vdisplay 1080
-[   54.649678] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   54.649681] [drm:drm_mode_object_put] OBJ ID: 132 (4)
+
 [   54.649680] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 67: clock 152840 kHz framedur 16664485 linedur 14721
 [   54.649682] [drm:drm_mode_object_put] OBJ ID: 132 (3)
 [   54.649683] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:0 crtc_state_flags: enable:1, active:1, planes_changed:1, mode_changed:0,active_changed:0,connectors_changed:0
@@ -4632,13 +4497,13 @@
 [   54.649747] [drm:dm_update_plane_state] Disabling DRM plane: 55 on DRM crtc 67
 [   54.649806] amdgpu 0000:04:00.0: [drm:drm_atomic_get_private_obj_state] Added new private object 000000000060514d state 000000006eb722eb to 00000000cb03e075
 [   54.649864] [drm:dm_update_plane_state] Enabling DRM plane: 55 on DRM crtc 67
-[   54.650044] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182304, wptr 182368
+
 [   54.650064] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2214
 [   54.650070] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(370,-53)@ 54.660206 -> 54.660603 [e 2 us, 0 rep]
 [   54.650078] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2212
 [   54.650080] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=9, diff=1, hw=90 hw_last=89
 [   54.650529] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
-[   54.664721] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182368, wptr 182432
+
 [   54.664751] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.664760] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1681,-47)@ 54.674902 -> 54.675583 [e 2 us, 0 rep]
 [   54.664772] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
@@ -4662,7 +4527,7 @@
 [   54.664965] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x1800000
 [   54.664977] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1112
 [   54.664985] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1111
-[   54.665102] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182432, wptr 182496
+
 [   54.665111] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2218
 [   54.665116] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(2478,-57)@ 54.675260 -> 54.675682 [e 2 us, 0 rep]
 [   54.665123] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
@@ -4671,12 +4536,12 @@
 [   54.665139] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 3 : v p(2661,-54)@ 54.675283 -> 54.675683 [e 2 us, 0 rep]
 [   54.665146] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2213
 [   54.665147] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=9, diff=1, hw=48 hw_last=47
-[   54.666708] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182496, wptr 182528
+
 [   54.666730] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2214
 [   54.666739] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(121,-53)@ 54.676882 -> 54.677279 [e 2 us, 0 rep]
 [   54.666749] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2212
 [   54.666751] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=10, diff=1, hw=91 hw_last=90
-[   54.681382] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182528, wptr 182592
+
 [   54.681413] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.681424] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1477,-47)@ 54.691573 -> 54.692255 [e 2 us, 0 rep]
 [   54.681435] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
@@ -4715,7 +4580,7 @@
 [   54.681678] commit_state     mode: "1920x1080": 60 152840 1920 1968 2000 2250 1080 1083 1088 1132 0x48 0xa
 [   54.681680] amdgpu 0000:04:00.0: [drm:drm_atomic_check_only] checking 00000000abee9405
 [   54.681694] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000abee9405
-[   54.681771] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182592, wptr 182720
+
 [   54.681782] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.681784] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 67: hwmode: htotal 2250, vtotal 1132, vdisplay 1080
 [   54.681787] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(198,-56)@ 54.691939 -> 54.692359 [e 2 us, 0 rep]
@@ -4778,7 +4643,7 @@
 [   54.682126] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:50] PSR FFU dirty rect size (3840, 2160)
 [   54.682130] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x7a00000
 [   54.682145] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -160
-[   54.683375] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182720, wptr 182784
+
 [   54.683392] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2215
 [   54.683398] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(8,-54)@ 54.693550 -> 54.693956 [e 2 us, 0 rep]
 [   54.683407] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2213
@@ -4870,12 +4735,12 @@
 [   54.685776] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:45] PSR FFU dirty rect size (3840, 2160)
 [   54.685779] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x5800000
 [   54.685795] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -1682
-[   54.698055] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182784, wptr 182848
+
 [   54.698107] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.698124] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(2067,-45)@ 54.708279 -> 54.708928 [e 2 us, 0 rep]
 [   54.698139] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1123
 [   54.698142] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3167, diff=1, hw=3808 hw_last=3807
-[   54.698438] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182848, wptr 182976
+
 [   54.698448] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.698453] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(3318,-57)@ 54.708614 -> 54.709035 [e 2 us, 0 rep]
 [   54.698461] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
@@ -4896,7 +4761,7 @@
 [   54.698985] [drm:drm_mode_object_put] OBJ ID: 109 (1)
 [   54.698992] [drm:drm_mode_object_put] OBJ ID: 124 (3)
 [   54.699011] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000abee9405
-[   54.700044] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 182976, wptr 183040
+
 [   54.700050] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
 [   54.700090] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2211
 [   54.700100] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(1769,-50)@ 54.710260 -> 54.710632 [e 2 us, 0 rep]
@@ -4944,12 +4809,12 @@
 [   54.702086] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:45] PSR FFU dirty rect size (3840, 2160)
 [   54.702091] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x5800000
 [   54.702107] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -1730
-[   54.714711] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183040, wptr 183104
+
 [   54.714741] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.714751] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1217,-47)@ 54.724917 -> 54.725601 [e 2 us, 0 rep]
 [   54.714762] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.714764] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3168, diff=1, hw=3809 hw_last=3808
-[   54.715104] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183104, wptr 183232
+
 [   54.715116] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.715121] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(3207,-57)@ 54.725289 -> 54.725711 [e 2 us, 0 rep]
 [   54.715128] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
@@ -5017,17 +4882,17 @@
 [   54.715782] [drm:amdgpu_dm_atomic_commit_tail] [PLANE:40] PSR FFU dirty rect size (3840, 2160)
 [   54.715786] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x3600000
 [   54.715797] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2127
-[   54.716706] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183232, wptr 183264
+
 [   54.716726] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2216
 [   54.716734] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(3623,-55)@ 54.726902 -> 54.727308 [e 2 us, 0 rep]
 [   54.716743] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2213
 [   54.716745] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=13, diff=1, hw=94 hw_last=93
-[   54.731373] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183264, wptr 183328
+
 [   54.731402] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.731412] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(720,-47)@ 54.741587 -> 54.742274 [e 2 us, 0 rep]
 [   54.731423] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.731426] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3169, diff=1, hw=3810 hw_last=3809
-[   54.731772] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183328, wptr 183456
+
 [   54.731783] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.731789] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(3445,-57)@ 54.741966 -> 54.742387 [e 2 us, 0 rep]
 [   54.731796] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
@@ -5082,12 +4947,12 @@
 [   54.733404] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2214
 [   54.733406] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=14, diff=1, hw=95 hw_last=94
 
-[   54.748041] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183712, wptr 183744
+
 [   54.748074] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.748086] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(2129,-47)@ 54.758269 -> 54.758947 [e 2 us, 0 rep]
 [   54.748097] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.748099] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3170, diff=1, hw=3811 hw_last=3810
-[   54.748440] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183744, wptr 183808
+
 [   54.748451] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.748456] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(2972,-57)@ 54.758641 -> 54.759063 [e 2 us, 0 rep]
 [   54.748463] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
@@ -5096,18 +4961,17 @@
 [   54.748479] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 3 : v p(3601,-54)@ 54.758665 -> 54.759063 [e 2 us, 0 rep]
 [   54.748486] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2213
 [   54.748488] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=14, diff=1, hw=53 hw_last=52
-[   54.750044] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183808, wptr 183840
+
 [   54.750068] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2215
 [   54.750076] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(3223,-54)@ 54.760261 -> 54.760660 [e 2 us, 0 rep]
 [   54.750086] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2212
 [   54.750089] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=15, diff=1, hw=96 hw_last=95
-[   54.764710] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183840, wptr 183872
+
 [   54.764759] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.764772] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(833,-45)@ 54.774963 -> 54.775620 [e 2 us, 0 rep]
 [   54.764785] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1124
 [   54.764788] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3171, diff=1, hw=3812 hw_last=3811
-[   54.765086] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_GEM_MMAP
-[   54.765110] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183872, wptr 183936
+
 [   54.765122] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.765127] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(670,-56)@ 54.775320 -> 54.775739 [e 2 us, 0 rep]
 [   54.765134] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2215
@@ -5116,25 +4980,17 @@
 [   54.765153] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 3 : v p(2506,-53)@ 54.775347 -> 54.775739 [e 2 us, 0 rep]
 [   54.765160] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2212
 [   54.765162] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=15, diff=1, hw=54 hw_last=53
-[   54.765705] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
-[   54.766717] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183936, wptr 183968
+
 [   54.766756] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2212
 [   54.766768] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(3087,-51)@ 54.776959 -> 54.777336 [e 2 us, 0 rep]
 [   54.766782] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2208
 [   54.766785] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=16, diff=1, hw=97 hw_last=96
-[   54.768478] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.768774] [drm:drm_ioctl] comm="chrome:cs0" pid=1891, dev=0xe280, auth=0, AMDGPU_CS
-[   54.769387] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 183968, wptr 184032
-[   54.769404] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.769425] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.770963] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
-[   54.774477] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   54.781376] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184032, wptr 184064
+
 [   54.781434] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.781450] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(351,-44)@ 54.791647 -> 54.792292 [e 2 us, 0 rep]
 [   54.781464] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1123
 [   54.781467] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3172, diff=1, hw=3813 hw_last=3812
-[   54.781777] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184064, wptr 184128
+
 [   54.781788] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.781794] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(268,-56)@ 54.791996 -> 54.792415 [e 2 us, 0 rep]
 [   54.781802] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2215
@@ -5143,7 +4999,7 @@
 [   54.781819] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 3 : v p(1592,-53)@ 54.792021 -> 54.792415 [e 2 us, 0 rep]
 [   54.781826] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2212
 [   54.781827] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=16, diff=1, hw=55 hw_last=54
-[   54.783390] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184128, wptr 184160
+
 [   54.783440] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2210
 [   54.783456] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(1271,-48)@ 54.793655 -> 54.794012 [e 2 us, 0 rep]
 [   54.783469] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2206
@@ -5153,17 +5009,12 @@
 [   54.795542] [drm:drm_mode_addfb2] [FB:130]
 [   54.795555] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   54.795557] [drm:drm_mode_addfb2] [FB:134]
-[   54.795759] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184160, wptr 184192
-[   54.795770] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.795842] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   54.795958] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184192, wptr 184224
-[   54.795961] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.798035] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184224, wptr 184256
+
 [   54.798070] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.798082] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(224,-46)@ 54.808290 -> 54.808965 [e 2 us, 0 rep]
 [   54.798094] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.798096] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3173, diff=1, hw=3814 hw_last=3813
-[   54.798444] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184256, wptr 184320
+
 [   54.798456] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.798462] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(255,-56)@ 54.808672 -> 54.809092 [e 2 us, 0 rep]
 [   54.798469] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
@@ -5172,17 +5023,17 @@
 [   54.798485] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 3 : v p(745,-53)@ 54.808695 -> 54.809092 [e 2 us, 0 rep]
 [   54.798491] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2213
 [   54.798493] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=17, diff=1, hw=56 hw_last=55
-[   54.800051] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184320, wptr 184352
+
 [   54.800091] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2212
 [   54.800103] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(2996,-51)@ 54.810311 -> 54.810688 [e 2 us, 0 rep]
 [   54.800114] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2209
 [   54.800117] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=18, diff=1, hw=99 hw_last=98
-[   54.814702] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184352, wptr 184384
+
 [   54.814741] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.814755] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1383,-46)@ 54.824970 -> 54.825638 [e 2 us, 0 rep]
 [   54.814767] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.814769] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3174, diff=1, hw=3815 hw_last=3814
-[   54.815112] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184384, wptr 184448
+
 [   54.815122] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2218
 [   54.815126] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(2463,-57)@ 54.825345 -> 54.825768 [e 2 us, 0 rep]
 [   54.815133] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
@@ -5191,7 +5042,7 @@
 [   54.815147] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 3 : v p(1871,-54)@ 54.825366 -> 54.825768 [e 2 us, 0 rep]
 [   54.815154] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2213
 [   54.815155] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=18, diff=1, hw=57 hw_last=56
-[   54.816717] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184448, wptr 184480
+
 [   54.816748] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2213
 [   54.816758] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(257,-52)@ 54.826975 -> 54.827364 [e 2 us, 0 rep]
 [   54.816768] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2211
@@ -5201,33 +5052,16 @@
 [   54.817876] [drm:drm_mode_addfb2] [FB:135]
 [   54.817888] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   54.817891] [drm:drm_mode_addfb2] [FB:136]
-[   54.818048] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   54.818144] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184480, wptr 184512
-[   54.818152] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.818162] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184512, wptr 184544
-[   54.818164] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.818169] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184544, wptr 184544
-[   54.818172] [drm:sdma_v5_2_ring_set_wptr] Setting write pointer
-[   54.818174] [drm:sdma_v5_2_ring_set_wptr] Using doorbell -- wptr_offs == 0x000001a8 lower_32_bits(ring->wptr << 2) == 0x0000b940 upper_32_bits(ring->wptr << 2) == 0x00000000
-[   54.818177] [drm:sdma_v5_2_ring_set_wptr] calling WDOORBELL64(0x00000200, 0x000000000000b940)
-[   54.818210] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184544, wptr 184576
-[   54.818212] [drm:sdma_v5_2_process_trap_irq] IH: SDMA trap
-[   54.818369] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184576, wptr 184608
-[   54.818373] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.818379] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184608, wptr 184640
-[   54.818380] [drm:gfx_v10_0_eop_irq] IH: CP EOP
-[   54.818389] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184640, wptr 184640
-[   54.822305] [drm:drm_ioctl] comm="v_gpu" pid=4923, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
-[   54.827080] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184640, wptr 184672
+
 [   54.827153] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   54.827476] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
 [   54.827929] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 00 00 00 00 00 00 00 00 00 77 77 01 00
-[   54.831365] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184672, wptr 184704
+
 [   54.831401] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.831413] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(416,-46)@ 54.841636 -> 54.842311 [e 2 us, 0 rep]
 [   54.831423] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1125
 [   54.831425] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3175, diff=1, hw=3816 hw_last=3815
-[   54.831779] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184704, wptr 184768
+
 [   54.831792] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.831797] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 2 : v p(114,-56)@ 54.842024 -> 54.842444 [e 2 us, 0 rep]
 [   54.831804] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2216
@@ -5236,7 +5070,7 @@
 [   54.831818] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 3 : v p(3568,-54)@ 54.842046 -> 54.842444 [e 2 us, 0 rep]
 [   54.831825] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2213
 [   54.831826] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=19, diff=1, hw=58 hw_last=57
-[   54.833381] [drm:amdgpu_ih_process] amdgpu_ih_process: rptr 184768, wptr 184800
+
 [   54.833401] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2215
 [   54.833409] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(3715,-55)@ 54.843635 -> 54.844041 [e 2 us, 0 rep]
 [   54.833416] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2213
