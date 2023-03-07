@@ -352,23 +352,17 @@
 
 [   48.988907] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:85:HDMI-A-1]
 [   48.988913] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:85:HDMI-A-1] disconnected
-[   48.988920] [drm:drm_mode_object_put] OBJ ID: 85 (2)
-[   48.988923] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
-[   48.988928] [drm:drm_mode_object_put] OBJ ID: 85 (2)
+
 [   48.988932] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
 [   48.988935] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:89:DP-1]
 [   48.988941] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:89:DP-1] disconnected
 [   48.988946] [drm:drm_mode_object_put] OBJ ID: 89 (2)
-[   48.988949] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
-[   48.988954] [drm:drm_mode_object_put] OBJ ID: 89 (2)
+
 [   48.988957] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
 [   48.988961] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:94:DP-2]
 [   48.988966] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:94:DP-2] disconnected
 [   48.988972] amdgpu 0000:04:00.0: [drm:_drm_edid_connector_property_update] [CONNECTOR:94:DP-2] EDID changed, epoch counter 2
-[   48.988979] [drm:drm_mode_object_put] OBJ ID: 106 (1)
-[   48.988983] [drm:drm_mode_object_put] OBJ ID: 94 (2)
-[   48.988986] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
-[   48.988991] [drm:drm_mode_object_put] OBJ ID: 94 (2)
+
 [   48.988995] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
 [   48.988998] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:114:DP-3]
 [   48.989007] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 0000000036ddce08 (2)
@@ -712,9 +706,8 @@
 [   50.327898] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 25175 640 656 752 800 480 490 492 525 0x40 0xa
 [   50.327901] [drm:drm_mode_debug_printmodeline] Modeline "640x480": 60 25175 640 656 752 800 480 490 492 525 0x40 0xa
 [   50.327905] [drm:drm_mode_debug_printmodeline] Modeline "720x400": 70 28320 720 738 846 900 400 412 414 449 0x40 0x6
-[   50.327910] [drm:drm_mode_object_put] OBJ ID: 114 (2)
-[   50.327934] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
-[   50.327949] [drm:drm_mode_object_put] OBJ ID: 114 (2)
+
+
 [   50.328059] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_GETCONNECTOR
 [   50.328062] [drm:drm_helper_probe_single_connector_modes] [CONNECTOR:117:DP-4]
 [   50.328068] amdgpu 0000:04:00.0: [drm:drm_dp_mst_topology_try_get_port] port 00000000f69cc436 (2)
@@ -1027,7 +1020,6 @@
 [   51.643297] [dp_mst]                 port=3 num_tx=1 id=80 size=1:
 [   51.643301] [dp_mst]                         0: id=080 size=001 no_stop_bit=0 tx_delay=000: 00
 [   51.643731] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 31 50 01 00 10 50 01 66
-[   51.727478] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
 
 [   51.819578] [drm:dc_link_handle_hpd_rx_irq] dc_link_handle_hpd_rx_irq: Got short pulse HPD on link 3
 [   51.819900] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
@@ -1319,9 +1311,7 @@
 [   52.965011] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3064, diff=0, hw=3704 hw_last=3704
 [   52.965030] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1123
 [   52.965109] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000cd11de2d
-[   52.965122] [drm:drm_mode_object_put] OBJ ID: 107 (2)
-[   52.965125] [drm:drm_mode_object_put] OBJ ID: 108 (3)
-[   52.965128] [drm:drm_mode_object_put] OBJ ID: 113 (2)
+
 [   52.965130] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000cd11de2d
 
 [   52.974934] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
@@ -1731,23 +1721,7 @@
 [   53.017783] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:000000002ea1743f] [MST PORT:00000000f69cc436] uses 1210 out of 2560 PBN
 [   53.017785] amdgpu 0000:04:00.0: [drm:drm_dp_mst_atomic_check_mstb_bw_limit] [MSTB:000000002ea1743f] [MST PORT:0000000036ddce08] uses 1214 out of 2160 PBN
 [   53.017854] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 0000000080a9401e
-[   53.017856] [drm:drm_mode_object_put] OBJ ID: 78 (4)
-[   53.017858] [drm:drm_mode_object_put] OBJ ID: 78 (3)
-[   53.017859] [drm:drm_mode_object_put] OBJ ID: 114 (3)
-[   53.017860] [drm:drm_mode_object_put] OBJ ID: 114 (2)
-[   53.017861] [drm:drm_mode_object_put] OBJ ID: 117 (3)
-[   53.017862] [drm:drm_mode_object_put] OBJ ID: 117 (2)
-[   53.017863] [drm:drm_mode_object_put] OBJ ID: 119 (3)
-[   53.017864] [drm:drm_mode_object_put] OBJ ID: 119 (2)
-[   53.017866] [drm:drm_mode_object_put] OBJ ID: 126 (2)
-[   53.017867] [drm:drm_mode_object_put] OBJ ID: 108 (3)
-[   53.017868] [drm:drm_mode_object_put] OBJ ID: 127 (2)
-[   53.017869] [drm:drm_mode_object_put] OBJ ID: 128 (2)
-[   53.017869] [drm:drm_mode_object_put] OBJ ID: 129 (2)
-[   53.017871] [drm:drm_mode_object_put] OBJ ID: 125 (2)
-[   53.017872] [drm:drm_mode_object_put] OBJ ID: 124 (2)
-[   53.017873] [drm:drm_mode_object_put] OBJ ID: 106 (2)
-[   53.017874] [drm:drm_mode_object_put] OBJ ID: 115 (3)
+
 [   53.017875] amdgpu 0000:04:00.0: [drm:drm_dp_mst_put_port_malloc] port 00000000f516890f (2)
 [   53.017880] amdgpu 0000:04:00.0: [drm:drm_dp_mst_put_port_malloc] port 00000000f69cc436 (2)
 [   53.017882] amdgpu 0000:04:00.0: [drm:drm_dp_mst_put_port_malloc] port 0000000036ddce08 (2)
@@ -1769,7 +1743,6 @@
 [   53.040929] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ADDFB2
 [   53.040988] [drm:drm_mode_addfb2] [FB:106]
 
-[   53.041045] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe280, auth=0, AMDGPU_GEM_CREATE
 
 [   53.048292] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   53.048302] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1289,-47)@ 53.057635 -> 53.058318 [e 2 us, 0 rep]
@@ -3855,14 +3828,7 @@
 [   54.531488] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3158, diff=0, hw=3798 hw_last=3798
 [   54.531500] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1123
 [   54.531522] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000d2f0919b
-[   54.531531] [drm:drm_mode_object_put] OBJ ID: 78 (4)
-[   54.531534] [drm:drm_mode_object_put] OBJ ID: 78 (3)
-[   54.531537] [drm:drm_mode_object_put] OBJ ID: 114 (3)
-[   54.531538] [drm:drm_mode_object_put] OBJ ID: 117 (3)
-[   54.531540] [drm:drm_mode_object_put] OBJ ID: 119 (3)
-[   54.531542] [drm:drm_mode_object_put] OBJ ID: 107 (1)
-[   54.531546] [drm:drm_mode_object_put] OBJ ID: 108 (3)
-[   54.531556] [drm:drm_mode_object_put] OBJ ID: 115 (3)
+
 [   54.531573] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000d2f0919b
 
 
@@ -3888,7 +3854,7 @@
 [   54.532916] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x2200000
 [   54.532930] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1026
 
-[   54.534902] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
+
 [   54.534914] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.534916] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 000000003b004700
 [   54.534921] [drm:drm_mode_object_get] OBJ ID: 127 (1)
@@ -4031,13 +3997,10 @@
 [   54.565139] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 2: current=4, diff=0, hw=64 hw_last=64
 [   54.565147] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2212
 [   54.565182] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000c51d2dc1
-[   54.565249] [drm:drm_mode_object_put] OBJ ID: 117 (4)
-[   54.565256] [drm:drm_mode_object_put] OBJ ID: 117 (3)
-[   54.565260] [drm:drm_mode_object_put] OBJ ID: 128 (2)
-[   54.565270] [drm:drm_mode_object_put] OBJ ID: 124 (3)
+
 [   54.565283] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
 
-[   54.565866] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
+
 [   54.565884] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.565889] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
 [   54.565895] [drm:drm_mode_object_get] OBJ ID: 129 (1)
@@ -4110,10 +4073,7 @@
 [   54.581830] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=5, diff=0, hw=43 hw_last=43
 [   54.581843] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2208
 [   54.581854] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000c51d2dc1
-[   54.581863] [drm:drm_mode_object_put] OBJ ID: 119 (4)
-[   54.581866] [drm:drm_mode_object_put] OBJ ID: 119 (3)
-[   54.581869] [drm:drm_mode_object_put] OBJ ID: 129 (2)
-[   54.581873] [drm:drm_mode_object_put] OBJ ID: 125 (3)
+
 [   54.581883] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
 
 [   54.581990] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
@@ -4176,12 +4136,6 @@
 [   54.598166] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3162, diff=0, hw=3802 hw_last=3802
 [   54.598180] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1121
 [   54.598198] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000c51d2dc1
-[   54.598211] [drm:drm_mode_object_put] OBJ ID: 78 (4)
-[   54.598412] [drm:drm_mode_object_put] OBJ ID: 78 (3)
-[   54.598417] [drm:drm_mode_object_put] OBJ ID: 126 (2)
-[   54.598418] [drm:drm_mode_object_put] OBJ ID: 108 (1)
-[   54.598424] [drm:drm_mode_object_put] OBJ ID: 111 (3)
-[   54.598427] [drm:drm_mode_object_put] OBJ ID: 107 (2)
 
 [   54.598441] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2217
 [   54.598444] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
@@ -4192,10 +4146,7 @@
 [   54.598468] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 3 : v p(2769,-54)@ 54.608578 -> 54.608978 [e 2 us, 0 rep]
 [   54.598474] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2213
 [   54.598476] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=5, diff=1, hw=44 hw_last=43
-[   54.598558] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
-[   54.598570] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   54.598574] [drm:drm_mode_object_put] OBJ ID: 109 (3)
-[   54.598574] [drm:drm_mode_object_put] OBJ ID: 109 (2)
+
 [   54.598591] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.598599] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
 [   54.598608] [drm:drm_mode_object_get] OBJ ID: 127 (1)
@@ -4269,11 +4220,7 @@
 [   54.616810] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=8, diff=0, hw=88 hw_last=88
 [   54.616825] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2201
 [   54.616931] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000c51d2dc1
-[   54.616946] [drm:drm_mode_object_put] OBJ ID: 114 (4)
-[   54.616951] [drm:drm_mode_object_put] OBJ ID: 114 (3)
-[   54.616956] [drm:drm_mode_object_put] OBJ ID: 127 (2)
-[   54.616957] [drm:drm_mode_object_put] OBJ ID: 109 (1)
-[   54.616964] [drm:drm_mode_object_put] OBJ ID: 106 (3)
+
 [   54.616985] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
 
 [   54.617154] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
@@ -4339,11 +4286,7 @@
 [   54.631832] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 2: current=8, diff=0, hw=68 hw_last=68
 [   54.631842] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2209
 [   54.631853] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000c51d2dc1
-[   54.631862] [drm:drm_mode_object_put] OBJ ID: 117 (4)
-[   54.631865] [drm:drm_mode_object_put] OBJ ID: 117 (3)
-[   54.631868] [drm:drm_mode_object_put] OBJ ID: 128 (2)
-[   54.631870] [drm:drm_mode_object_put] OBJ ID: 130 (1)
-[   54.631875] [drm:drm_mode_object_put] OBJ ID: 124 (3)
+
 [   54.631887] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
 
 [   54.631993] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
@@ -4431,11 +4374,7 @@
 [   54.648502] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=9, diff=0, hw=47 hw_last=47
 [   54.648514] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2208
 [   54.648998] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000c51d2dc1
-[   54.649011] [drm:drm_mode_object_put] OBJ ID: 119 (4)
-[   54.649016] [drm:drm_mode_object_put] OBJ ID: 119 (3)
-[   54.649019] [drm:drm_mode_object_put] OBJ ID: 129 (2)
-[   54.649020] [drm:drm_mode_object_put] OBJ ID: 131 (1)
-[   54.649025] [drm:drm_mode_object_put] OBJ ID: 125 (3)
+
 [   54.649039] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
 [   54.649142] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.649148] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000c51d2dc1
@@ -4502,7 +4441,6 @@
 [   54.650070] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 1 : v p(370,-53)@ 54.660206 -> 54.660603 [e 2 us, 0 rep]
 [   54.650078] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2212
 [   54.650080] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=9, diff=1, hw=90 hw_last=89
-[   54.650529] [drm:drm_ioctl] comm="chrome" pid=1854, dev=0xe280, auth=0, AMDGPU_CTX
 
 [   54.664751] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1127
 [   54.664760] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1681,-47)@ 54.674902 -> 54.675583 [e 2 us, 0 rep]
@@ -4514,9 +4452,7 @@
 [   54.664800] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3166, diff=0, hw=3806 hw_last=3806
 [   54.664819] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1123
 [   54.664829] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000c51d2dc1
-[   54.664838] [drm:drm_mode_object_put] OBJ ID: 126 (3)
-[   54.664841] [drm:drm_mode_object_put] OBJ ID: 132 (2)
-[   54.664845] [drm:drm_mode_object_put] OBJ ID: 111 (2)
+
 [   54.664846] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000c51d2dc1
 [   54.664912] amdgpu 0000:04:00.0: [drm:drm_atomic_commit] committing 00000000cb03e075
 [   54.664935] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 67: hwmode: htotal 2250, vtotal 1132, vdisplay 1080
@@ -4596,9 +4532,7 @@
 [   54.681810] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 3 : v p(367,-53)@ 54.691962 -> 54.692359 [e 2 us, 0 rep]
 [   54.681816] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2213
 [   54.681817] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=10, diff=1, hw=49 hw_last=48
-[   54.681819] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
-[   54.681824] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   54.681826] [drm:drm_mode_object_put] OBJ ID: 108 (3)
+
 [   54.681827] [drm:drm_mode_object_put] OBJ ID: 108 (2)
 [   54.681829] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.681831] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000abee9405
@@ -4654,11 +4588,7 @@
 [   54.683431] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 1: current=12, diff=0, hw=92 hw_last=92
 [   54.683439] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2209
 [   54.683939] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000abee9405
-[   54.683947] [drm:drm_mode_object_put] OBJ ID: 114 (4)
-[   54.683950] [drm:drm_mode_object_put] OBJ ID: 114 (3)
-[   54.683952] [drm:drm_mode_object_put] OBJ ID: 127 (2)
-[   54.683953] [drm:drm_mode_object_put] OBJ ID: 108 (1)
-[   54.683958] [drm:drm_mode_object_put] OBJ ID: 106 (3)
+
 [   54.683967] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000abee9405
 [   54.684064] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.684068] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000abee9405
@@ -4688,10 +4618,7 @@
 [   54.685327] [drm:drm_mode_object_put] OBJ ID: 127 (2)
 [   54.685329] [drm:drm_mode_object_put] OBJ ID: 132 (3)
 [   54.685330] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000abee9405
-[   54.685404] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
-[   54.685412] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   54.685414] [drm:drm_mode_object_put] OBJ ID: 109 (3)
-[   54.685415] [drm:drm_mode_object_put] OBJ ID: 109 (2)
+
 [   54.685425] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.685427] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000abee9405
 [   54.685433] [drm:drm_mode_object_get] OBJ ID: 128 (1)
@@ -4755,11 +4682,7 @@
 [   54.698510] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 2: current=12, diff=0, hw=72 hw_last=72
 [   54.698528] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2207
 [   54.698963] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000abee9405
-[   54.698976] [drm:drm_mode_object_put] OBJ ID: 117 (4)
-[   54.698980] [drm:drm_mode_object_put] OBJ ID: 117 (3)
-[   54.698983] [drm:drm_mode_object_put] OBJ ID: 128 (2)
-[   54.698985] [drm:drm_mode_object_put] OBJ ID: 109 (1)
-[   54.698992] [drm:drm_mode_object_put] OBJ ID: 124 (3)
+
 [   54.699011] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000abee9405
 
 [   54.700050] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
@@ -4810,7 +4733,6 @@
 [   54.702091] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_dm_commit_planes Flipping to hi: 0x0, low: 0x5800000
 [   54.702107] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -1730
 
-[   54.714741] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1128
 [   54.714751] amdgpu 0000:04:00.0: [drm:drm_crtc_vblank_helper_get_vblank_timestamp_internal] crtc 0 : v p(1217,-47)@ 54.724917 -> 54.725601 [e 2 us, 0 rep]
 [   54.714762] [drm:amdgpu_get_vblank_counter_kms] crtc 0: dist from vblank start -1126
 [   54.714764] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 0: current=3168, diff=1, hw=3809 hw_last=3808
@@ -4829,16 +4751,9 @@
 [   54.715176] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 2: current=13, diff=0, hw=73 hw_last=73
 [   54.715191] [drm:amdgpu_get_vblank_counter_kms] crtc 2: dist from vblank start -2207
 [   54.715206] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000abee9405
-[   54.715215] [drm:drm_mode_object_put] OBJ ID: 117 (4)
-[   54.715219] [drm:drm_mode_object_put] OBJ ID: 117 (3)
-[   54.715222] [drm:drm_mode_object_put] OBJ ID: 128 (2)
-[   54.715223] [drm:drm_mode_object_put] OBJ ID: 108 (3)
-[   54.715227] [drm:drm_mode_object_put] OBJ ID: 124 (3)
+
 [   54.715239] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000abee9405
-[   54.715378] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_CREATEPROPBLOB
-[   54.715388] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_DESTROYPROPBLOB
-[   54.715391] [drm:drm_mode_object_put] OBJ ID: 130 (3)
-[   54.715392] [drm:drm_mode_object_put] OBJ ID: 130 (2)
+
 [   54.715402] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.715404] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000abee9405
 [   54.715411] [drm:drm_mode_object_get] OBJ ID: 129 (1)
@@ -4907,11 +4822,7 @@
 [   54.731842] amdgpu 0000:04:00.0: [drm:drm_update_vblank_count] updating vblank count on crtc 3: current=14, diff=0, hw=52 hw_last=52
 [   54.731855] [drm:amdgpu_get_vblank_counter_kms] crtc 3: dist from vblank start -2208
 [   54.731870] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000abee9405
-[   54.731880] [drm:drm_mode_object_put] OBJ ID: 119 (4)
-[   54.731883] [drm:drm_mode_object_put] OBJ ID: 119 (3)
-[   54.731886] [drm:drm_mode_object_put] OBJ ID: 129 (2)
-[   54.731887] [drm:drm_mode_object_put] OBJ ID: 130 (1)
-[   54.731892] [drm:drm_mode_object_put] OBJ ID: 125 (3)
+
 [   54.731904] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000abee9405
 [   54.732023] [drm:drm_ioctl] comm="DrmThread" pid=1897, dev=0xe200, auth=1, DRM_IOCTL_MODE_ATOMIC
 [   54.732029] amdgpu 0000:04:00.0: [drm:drm_atomic_state_init] Allocated atomic state 00000000abee9405
@@ -4938,8 +4849,7 @@
 [   54.732194] amdgpu 0000:04:00.0: [drm:drm_calc_timestamping_constants] crtc 76: clock 519380 kHz framedur 16667780 linedur 7501
 [   54.732197] amdgpu 0000:04:00.0: [drm:amdgpu_dm_atomic_commit_tail] amdgpu_crtc id:3 crtc_state_flags: enable:1, active:1, planes_changed:0, mode_changed:0,active_changed:0,connectors_changed:0
 [   54.732208] amdgpu 0000:04:00.0: [drm:drm_atomic_state_default_clear] Clearing atomic state 00000000abee9405
-[   54.732210] [drm:drm_mode_object_put] OBJ ID: 129 (2)
-[   54.732211] [drm:drm_mode_object_put] OBJ ID: 133 (3)
+
 [   54.732212] amdgpu 0000:04:00.0: [drm:__drm_atomic_state_free] Freeing atomic state 00000000abee9405
 
 [   54.733385] [drm:amdgpu_get_vblank_counter_kms] crtc 1: dist from vblank start -2217
