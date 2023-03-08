@@ -1,0 +1,762 @@
+  \\10.138.129.9\srishanm\appusony_DRM\Linux-DRM-Display-subsystem\amdgpu_DRM_learnings\MST_logs\study_dal_hub+DP_BEnq+dell_Dp+Asus_hdmi_C1_port_S_P3_c3_\1K\TC2_hotplug3displays\MobaXterm_10.138.129.9srishanm_20230226_152722.txt (702 hits)
+	Line   1271: [    1.148683] [drm:drm_dp_aux_register_devnode] drm_dp_aux_dev: aux [AMDGPU DM aux hw bus 3] registered as minor 2
+	Line  11309: [    6.528833] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_access] AMDGPU DM aux hw bus 3: Too many retries, giving up. First error: -5
+	Line  11310: [    6.528846] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= -5)
+	Line  61073: [   34.927379] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61074: [   34.927766] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0xf0000 AUX -> (ret=  8) 00 00 00 00 00 00 00 00
+	Line  61075: [   34.928069] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61076: [   34.928398] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0xe000d AUX -> (ret=  3) 00 00 00
+	Line  61077: [   34.928698] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61078: [   34.929035] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0xe001b AUX -> (ret=  5) 00 00 00 00 00
+	Line  61079: [   34.929334] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61080: [   34.929629] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00600 AUX -> (ret=  1) 01
+	Line  61081: [   34.929930] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61082: [   34.930249] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00300 AUX -> (ret=  3) 00 00 00
+	Line  61083: [   34.930573] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00300 AUX <- (ret=  3) 00 00 1a
+	Line  61084: [   34.930965] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00303 AUX <- (ret=  9) 06 15 00 00 00 00 19 00 00
+	Line  61085: [   34.931267] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00340 AUX <- (ret=  1) 50
+	
+	
+	Line  61096: [   34.963321] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61097: [   34.963782] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 16) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84 00
+	Line  61098: [   34.964084] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61099: [   34.964531] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 16) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84 00
+	Line  61100: [   34.964828] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61101: [   34.965128] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02210 AUX -> (ret=  1) f8
+	Line  61102: [   34.965424] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61103: [   34.965796] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret=  9) 90 cc 24 53 59 4e 41 53 20
+	Line  61104: [   34.966093] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61105: [   34.966388] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61111: [   34.966683] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61112: [   34.966980] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00021 AUX -> (ret=  1) 01
+	Line  61113: [   34.967280] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61114: [   34.967727] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00080 AUX -> (ret= 16) 08 00 00 00 08 00 00 00 08 00 00 00 00 00 00 00
+	Line  61115: [   34.968024] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61116: [   34.968346] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00509 AUX -> (ret=  3) 10 05 05
+	Line  61117: [   34.968642] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61118: [   34.968938] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00200 AUX -> (ret=  1) 03
+	Line  61119: [   34.969236] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61120: [   34.969608] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00400 AUX -> (ret=  9) 00 00 00 00 00 00 00 00 00
+	Line  61121: [   34.969904] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61122: [   34.970219] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00409 AUX -> (ret=  3) 00 00 00
+	Line  61123: [   34.970519] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61124: [   34.970814] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00090 AUX -> (ret=  1) 0f
+	Line  61125: [   34.971110] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61126: [   34.971557] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00060 AUX -> (ret= 16) 01 21 00 14 0b 00 00 00 01 03 02 11 08 00 00 04
+	Line  61127: [   34.971853] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61128: [   34.972149] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00317 AUX -> (ret=  1) 00
+	Line  61129: [   34.972444] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	
+	
+	Line  61130: [   34.972740] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02217 AUX -> (ret=  1) 00
+	
+	
+	Line  61135: [   34.979047] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61136: [   34.979343] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00201 AUX -> (ret=  1) 00
+	Line  61137: [   34.979638] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61138: [   34.979934] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00218 AUX -> (ret=  1) 00
+	Line  61139: [   34.979940] amdgpu 0000:04:00.0: [drm:drm_dp_send_real_edid_checksum] AMDGPU DM aux hw bus 3: Source DUT does not support TEST_EDID_READ
+	Line  61140: [   34.980236] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61141: [   34.980545] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x6921d AUX -> (ret=  3) 02 00 03
+	Line  61142: [   34.980842] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61143: [   34.981137] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x68028 AUX -> (ret=  1) 03
+	
+	
+	
+	Line  61149: [   34.981510] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61150: [   34.981942] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  61151: [   34.982237] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61152: [   34.982668] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  61153: [   34.982671] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  61154: [   34.982674] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  61161: [   34.983283] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00111 AUX <- (ret=  1) 07
+	Line  61162: [   34.983578] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x002c0 AUX <- (ret=  1) 01
+	Line  61163: [   34.983897] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x001c0 AUX <- (ret=  3) 00 00 3f
+	Line  61164: [   34.984192] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61165: [   34.984487] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x002c0 AUX -> (ret=  1) 01
+	
+	
+	Line  61172: [   34.984847] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  5) 16 c2 cf 14 ac
+	
+	Line  61190: [   35.033972] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61191: [   35.034411] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  61192: [   35.034709] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61193: [   35.035045] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	
+	Line  61195: [   35.035348] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61196: [   35.035807] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 c3 c6 14 00 9c 00 00 00 00 00 00 00 00 00 00
+	Line  61199: [   35.036149] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	
+	Line  61200: [   35.036446] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61201: [   35.036779] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  61205: [   35.037144] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  5) 10 02 cb 01 d5
+	
+	Line  61264: [   35.221497] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61265: [   35.221939] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  61266: [   35.222235] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61267: [   35.222556] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	
+	Line  61269: [   35.222855] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61270: [   35.223312] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 8c 01 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  61272: [   35.223612] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61273: [   35.224059] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 00 00 00 00 04 90 c0 41 60 00 00 00 00 00 00 00
+	Line  61274: [   35.224355] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61275: [   35.224808] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 00 00 00 00 00 00 00 00 00 00 11 32 40 11 00 42
+	
+	Line  61277: [   35.225135] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  61278: [   35.225431] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61279: [   35.225751] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	
+	Line  61338: [   35.410196] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61339: [   35.410651] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  61340: [   35.410967] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61341: [   35.411306] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  61343: [   35.411629] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61344: [   35.412101] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 25 45 00 00 00 00 00 00 00 00 00 00 00 00 00
+	
+	
+	Line  61346: [   35.412427] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61347: [   35.412899] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 00 00 11 33 40 11 00 00 00 00 00 00 00 00 00 00
+	Line  61348: [   35.413205] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61349: [   35.413576] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret=  8) 00 00 00 00 00 00 11 26
+	
+	Line  61351: [   35.413909] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  61352: [   35.414205] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61353: [   35.414538] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  61360: [   35.415013] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00030 AUX <- (ret= 16) f5 f4 fb ff 00 00 00 00 f5 f4 fb ff 00 00 00 00
+	
+	Line  61369: [   35.415408] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  6) 10 43 c7 10 10 e2
+	
+	Line  61427: [   35.597654] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61428: [   35.598128] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  61429: [   35.598433] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61430: [   35.598769] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	
+	
+	Line  61432: [   35.599085] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61433: [   35.599545] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 47 c0 10 10 08 70 08 70 b4 00 00 00 00 00 00
+	Line  61441: [   35.599925] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  61442: [   35.600229] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61443: [   35.600569] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  61457: [   35.601657] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  6) 10 43 c7 10 20 14
+	
+	Line  61519: [   35.786273] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61520: [   35.786727] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  61521: [   35.787039] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61522: [   35.787372] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  61524: [   35.787677] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61525: [   35.788136] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 47 c0 10 20 05 00 05 00 cc 00 00 00 00 00 00
+	Line  61528: [   35.788476] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  61529: [   35.788773] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61530: [   35.789107] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	
+	
+	Line  61532: [   35.789512] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 10 04 b0 01 b5
+	Line  61602: [   35.973974] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61603: [   35.974429] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  61604: [   35.974740] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61605: [   35.975082] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  61607: [   35.975406] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61608: [   35.975866] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 14 c9 a0 f5 f4 fb ff 00 00 00 00 f5 f4 fb ff
+	
+	
+	Line  61610: [   35.976192] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61611: [   35.976560] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret=  7) 00 00 00 00 08 00 b0
+	Line  61617: [   35.976939] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  61618: [   35.977253] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61619: [   35.977596] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  61621: [   35.977998] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  6) 10 43 c7 10 30 46
+	Line  61684: [   36.161284] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61685: [   36.161724] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  61686: [   36.162023] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61687: [   36.162361] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  61689: [   36.162666] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61690: [   36.163118] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 47 c0 10 30 05 00 05 00 2f 00 00 00 00 00 00
+	Line  61693: [   36.163485] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  61694: [   36.163797] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61695: [   36.164135] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  61697: [   36.164563] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 20 04 b0 01 92
+	
+	
+	Line  61764: [   36.349627] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61770: [   36.350075] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  61771: [   36.350384] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61772: [   36.350726] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  61774: [   36.351038] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61775: [   36.351505] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 05 c3 20 02 01 00 51 00 00 00 00 00 00 00 00
+	Line  61780: [   36.351863] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  61781: [   36.352166] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61782: [   36.352501] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  61788: [   36.359774] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 30 04 b0 01 3c
+	
+	Line  61846: [   36.537343] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61847: [   36.537783] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  61848: [   36.538081] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61849: [   36.538414] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  61851: [   36.538717] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61852: [   36.539176] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 05 c3 20 03 01 00 d2 00 00 00 00 00 00 00 00
+	Line  61857: [   36.539519] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  61858: [   36.539816] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61859: [   36.540149] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  61918: [   36.725869] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  61919: [   36.726330] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 00 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  62276: [   37.189587] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 10 22 00 01 89
+	Line  62284: [   37.201034] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62285: [   37.201488] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  62286: [   37.201802] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62287: [   37.202143] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  62289: [   37.202469] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62290: [   37.202941] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 14 c9 a0 f5 f4 fb ff 00 00 00 00 f5 f4 fb ff
+	
+	Line  62292: [   37.203268] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62293: [   37.203645] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret=  7) 00 00 00 00 08 00 b0
+	Line  62307: [   37.204020] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	
+	
+	Line  62308: [   37.204440] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 11 50 01 00 10 50 01 cb
+	
+	Line  62309: [   37.204738] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62310: [   37.205086] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	
+	Line  62369: [   37.388901] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62370: [   37.389356] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	
+	
+	Line  62371: [   37.389670] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62372: [   37.390007] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  62374: [   37.390332] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62375: [   37.390811] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 05 c3 22 01 01 00 8b 00 00 00 00 00 00 00 00
+	Line  62384: [   37.391188] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	
+	
+	Line  62385: [   37.391609] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 11 50 01 00 10 50 80 f1
+	Line  62386: [   37.391907] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62387: [   37.392246] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  62446: [   37.576513] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62447: [   37.576950] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  62448: [   37.577246] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62449: [   37.577576] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  62451: [   37.577875] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62452: [   37.578328] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 8c 22 01 80 00 ff ff ff ff ff ff 00 22 0e
+	Line  62454: [   37.578627] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62455: [   37.579071] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 71 34 01 01 01 01 11 1d 01 03 80 3c 22 78 2a 48
+	Line  62456: [   37.579365] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62457: [   37.579818] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 15 a7 56 52 9c 27 0f 50 54 a1 08 00 d1 c0 81 49
+	Line  62459: [   37.580141] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  62460: [   37.580436] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62461: [   37.580767] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  62520: [   37.765139] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62521: [   37.765574] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  62522: [   37.765877] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62523: [   37.766198] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  62530: [   37.766501] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62531: [   37.766953] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 07 c0 a9 c0 b3 00 95 00 81 00 81 80 01 01
+	Line  62533: [   37.767253] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62534: [   37.767707] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 02 3a 80 18 71 38 2d 40 58 2c 45 00 56 50 21 00
+	Line  62535: [   37.768002] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62536: [   37.768455] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 00 1e 00 00 00 fd 00 32 3c 1e 50 11 00 0a 20 f6
+	Line  62538: [   37.768782] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  62539: [   37.769077] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62540: [   37.769398] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  62599: [   37.953400] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62600: [   37.953836] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  62601: [   37.954133] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62602: [   37.954454] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  62604: [   37.954752] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62605: [   37.955206] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2c 4e 20 20 20 20 20 00 00 00 fc 00 48 50 20
+	Line  62607: [   37.955509] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62608: [   37.955961] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 45 32 37 33 0a 20 20 20 20 20 00 00 00 ff 00 43
+	Line  62609: [   37.956257] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62610: [   37.956704] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 15) 4e 4b 39 31 37 30 33 42 52 0a 20 20 01 60 26
+	Line  62618: [   37.957033] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  62619: [   37.957454] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 11 50 01 80 10 50 80 aa
+	Line  62620: [   37.957746] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62621: [   37.958066] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  62680: [   38.140437] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62681: [   38.140876] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  62682: [   38.141174] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62683: [   38.141508] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  62685: [   38.141811] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62686: [   38.142270] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 8c 22 01 80 02 03 19 b1 49 90 1f 04 13 03
+	Line  62688: [   38.142574] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62689: [   38.143033] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 12 02 11 01 67 03 0c 00 10 00 00 22 e2 00 2b 02
+	Line  62690: [   38.143330] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62691: [   38.143787] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 3a 80 18 71 38 2d 40 58 2c 45 00 56 50 21 00 3b
+	Line  62693: [   38.144116] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  62695: [   38.144414] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62696: [   38.144747] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  62737: [   38.328990] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62738: [   38.329433] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  62739: [   38.329732] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62740: [   38.330066] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  62742: [   38.330371] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62743: [   38.330831] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 07 00 1e 02 3a 80 d0 72 38 2d 40 10 2c 45
+	Line  62745: [   38.331136] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62746: [   38.331587] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 80 56 50 21 00 00 1e 00 00 00 00 00 00 00 00 00
+	Line  62747: [   38.331883] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62748: [   38.332342] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 58
+	Line  62750: [   38.332673] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  62751: [   38.332969] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62752: [   38.333302] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  62756: [   38.516407] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62757: [   38.516843] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  62758: [   38.517141] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62759: [   38.517463] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  62761: [   38.517762] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62762: [   38.518222] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2c 4e 00 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  62764: [   38.518522] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62765: [   38.518968] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  62766: [   38.519264] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62767: [   38.519706] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 15) 00 00 00 00 00 00 00 00 00 00 00 00 00 23 0e
+	Line  62776: [   38.520033] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  62777: [   38.520322] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62778: [   38.520615] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62779: [   38.521024] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  62780: [   38.521028] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  62781: [   38.521342] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  62783: [   38.521635] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62784: [   38.522070] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  62785: [   38.522366] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62786: [   38.522797] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  62787: [   38.522800] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  62788: [   38.522803] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  62789: [   38.523099] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62790: [   38.523536] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00060 AUX -> (ret= 16) 01 21 00 14 0b 00 00 00 01 03 02 11 08 00 00 04
+	Line  62791: [   38.523835] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62792: [   38.524144] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x000a0 AUX -> (ret=  3) 09 1e 10
+	Line  62793: [   38.524444] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62794: [   38.524741] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00005 AUX -> (ret=  1) 11
+	Line  62875: [   38.526534] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 21 50 01 00 10 50 01 da
+	Line  62878: [   38.704177] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62879: [   38.704611] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  62880: [   38.704908] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62881: [   38.705231] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  62883: [   38.705532] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62884: [   38.705987] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 05 c3 22 02 01 00 db 00 00 00 00 00 00 00 00
+	Line  62893: [   38.706321] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  62894: [   38.706746] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 21 50 01 00 10 50 80 e0
+	Line  62895: [   38.707039] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  62896: [   38.707363] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  63030: [   38.892130] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63031: [   38.892565] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  63032: [   38.892862] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63033: [   38.893186] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  63035: [   38.893486] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63036: [   38.893939] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 8c 22 02 80 00 ff ff ff ff ff ff 00 22 0e
+	Line  63038: [   38.894240] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63039: [   38.894695] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 68 34 00 00 00 00 0b 1d 01 04 a5 35 1e 78 3a a1
+	Line  63040: [   38.894990] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63041: [   38.895437] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 35 a3 5b 4f a3 27 11 50 54 a1 08 00 d1 c0 81 12
+	Line  63043: [   38.895761] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  63044: [   38.896057] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63045: [   38.896378] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  63153: [   39.080035] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63154: [   39.080469] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  63155: [   39.080767] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63156: [   39.081088] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  63158: [   39.081388] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63159: [   39.081843] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 07 c0 a9 c0 b3 00 95 00 81 00 81 80 01 01
+	Line  63161: [   39.082144] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63162: [   39.082598] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 02 3a 80 18 71 38 2d 40 58 2c 45 00 0f 28 21 00
+	Line  63163: [   39.082894] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63164: [   39.083351] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 00 1e 00 00 00 fd 00 32 3c 1e 50 11 01 0a 20 ef
+	Line  63166: [   39.083703] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  63167: [   39.084001] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63168: [   39.084333] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  63172: [   39.268645] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63173: [   39.269091] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  63174: [   39.269391] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63175: [   39.269725] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  63177: [   39.270030] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63178: [   39.270479] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2c 4e 20 20 20 20 20 00 00 00 fc 00 48 50 20
+	Line  63180: [   39.270784] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63181: [   39.271233] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 45 32 34 33 0a 20 20 20 20 20 00 00 00 ff 00 43
+	Line  63182: [   39.271531] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63183: [   39.271971] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 15) 4e 4b 39 31 31 30 51 44 52 0a 20 20 00 20 c5
+	Line  63190: [   39.272306] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  63191: [   39.272601] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63192: [   39.272892] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63193: [   39.273227] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  63195: [   39.273634] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  63196: [   39.273641] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  63197: [   39.273934] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63198: [   39.274366] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  63199: [   39.274662] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63200: [   39.275093] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  63201: [   39.275096] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  63202: [   39.275100] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  63203: [   39.275396] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63204: [   39.276022] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00060 AUX -> (ret= 16) 01 21 00 14 0b 00 00 00 01 03 02 11 08 00 00 04
+	Line  63205: [   39.276321] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63206: [   39.276630] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x000a0 AUX -> (ret=  3) 09 1e 10
+	Line  63207: [   39.276983] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63208: [   39.277282] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00005 AUX -> (ret=  1) 11
+	Line  63254: [   39.278514] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 31 50 01 00 10 50 01 66
+	Line  63297: [   39.455904] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63299: [   39.456337] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  63300: [   39.456635] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63301: [   39.456955] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  63303: [   39.457256] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63307: [   39.457699] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 05 c3 22 03 01 00 58 00 00 00 00 00 00 00 00
+	Line  63316: [   39.458030] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  63317: [   39.458454] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 12) 10 09 ca 22 31 50 01 00 10 50 80 5c
+	Line  63318: [   39.458750] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63319: [   39.459071] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  63363: [   39.643694] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63364: [   39.644128] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  63365: [   39.644424] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63366: [   39.644745] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  63368: [   39.645044] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63369: [   39.645498] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 8c 22 03 80 00 ff ff ff ff ff ff 00 22 0e
+	Line  63371: [   39.645801] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63372: [   39.646254] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 68 34 00 00 00 00 1c 1c 01 04 a5 35 1e 78 3a a1
+	Line  63373: [   39.646550] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63374: [   39.647003] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 35 a3 5b 4f a3 27 11 50 54 a1 08 00 d1 c0 81 81
+	Line  63376: [   39.647325] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  63377: [   39.647621] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63378: [   39.647941] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  63383: [   39.832452] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63384: [   39.832910] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  63385: [   39.833215] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63386: [   39.833564] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  63388: [   39.833877] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63389: [   39.834338] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2d 07 c0 a9 c0 b3 00 95 00 81 00 81 80 01 01
+	Line  63391: [   39.834643] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63392: [   39.835102] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 02 3a 80 18 71 38 2d 40 58 2c 45 00 0f 28 21 00
+	Line  63393: [   39.835398] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63394: [   39.835856] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 16) 00 1e 00 00 00 fd 00 32 3c 1e 50 11 01 0a 20 ef
+	Line  63396: [   39.836186] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  63397: [   39.836483] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63398: [   39.836809] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  63402: [   40.019847] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63403: [   40.020300] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 00 00 00 00
+	Line  63404: [   40.020608] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63405: [   40.020949] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  63407: [   40.021267] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63408: [   40.021730] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 2c 4e 20 20 20 20 20 00 00 00 fc 00 48 50 20
+	Line  63410: [   40.022044] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63411: [   40.022508] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret= 16) 45 32 34 33 0a 20 20 20 20 20 00 00 00 ff 00 43
+	Line  63412: [   40.022811] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63413: [   40.023262] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01420 AUX -> (ret= 15) 4e 4b 38 32 38 32 47 33 4b 0a 20 20 00 29 09
+	Line  63420: [   40.023596] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  63421: [   40.023895] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63422: [   40.024184] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63423: [   40.024590] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  63424: [   40.024599] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  63425: [   40.024917] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  63427: [   40.025206] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63428: [   40.025642] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  63429: [   40.025939] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63430: [   40.026372] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  63431: [   40.026378] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  63432: [   40.026385] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  63433: [   40.026680] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63434: [   40.027127] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00060 AUX -> (ret= 16) 01 21 00 14 0b 00 00 00 01 03 02 11 08 00 00 04
+	Line  63435: [   40.027423] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63436: [   40.027736] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x000a0 AUX -> (ret=  3) 09 1e 10
+	Line  63437: [   40.028032] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  63438: [   40.028328] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00005 AUX -> (ret=  1) 11
+	Line  65262: [   40.045981] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65263: [   40.046382] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  65264: [   40.046386] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  65265: [   40.046677] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65266: [   40.047098] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65267: [   40.047394] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65268: [   40.047830] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65269: [   40.047833] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65270: [   40.047836] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65272: [   40.048133] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65273: [   40.048532] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  65274: [   40.048536] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  65275: [   40.048832] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65276: [   40.049263] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65292: [   40.049555] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65293: [   40.049987] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65294: [   40.049990] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65295: [   40.049992] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65297: [   40.050287] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65298: [   40.050939] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  65299: [   40.050942] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  65300: [   40.051239] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65301: [   40.051668] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65302: [   40.051967] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65303: [   40.052398] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65304: [   40.052401] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65305: [   40.052403] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65307: [   40.052699] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65308: [   40.053107] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  65309: [   40.053110] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  65310: [   40.053408] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65311: [   40.053833] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65312: [   40.054131] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65313: [   40.054564] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65314: [   40.054569] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65315: [   40.054571] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65317: [   40.054872] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65318: [   40.055277] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  65319: [   40.055280] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  65320: [   40.055579] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65321: [   40.056011] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65322: [   40.056307] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65323: [   40.056734] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65324: [   40.056740] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65325: [   40.056742] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65327: [   40.057042] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65328: [   40.057488] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  65329: [   40.057493] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  65330: [   40.057791] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65331: [   40.058221] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65332: [   40.058517] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65333: [   40.058949] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65334: [   40.058952] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65335: [   40.058956] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65337: [   40.059256] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65338: [   40.059662] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  65339: [   40.059667] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  65340: [   40.059964] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65341: [   40.060395] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65342: [   40.060693] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65343: [   40.061124] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65344: [   40.061127] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65345: [   40.061129] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65347: [   40.061428] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65348: [   40.061877] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  65349: [   40.061883] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  65350: [   40.062181] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65351: [   40.062607] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65352: [   40.062904] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65353: [   40.063335] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65354: [   40.063337] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65355: [   40.063340] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65357: [   40.063641] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65358: [   40.064048] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  65359: [   40.064052] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  65360: [   40.064349] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65361: [   40.064779] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65362: [   40.065078] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  65363: [   40.065514] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65364: [   40.065517] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  65365: [   40.065519] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66186: [   40.098795] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66187: [   40.099198] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  66188: [   40.099206] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  66194: [   40.099499] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66195: [   40.099924] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66196: [   40.100226] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66197: [   40.100657] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66198: [   40.100664] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66199: [   40.100670] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66201: [   40.100974] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66202: [   40.101377] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  66203: [   40.101380] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  66204: [   40.101672] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66205: [   40.102091] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66213: [   40.102380] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66214: [   40.102803] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66215: [   40.102806] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66216: [   40.102809] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66218: [   40.103100] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66219: [   40.103492] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  66220: [   40.103495] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  66228: [   40.103787] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66234: [   40.104212] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66235: [   40.104502] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66242: [   40.104924] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66243: [   40.104926] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66244: [   40.104929] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66246: [   40.105222] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66247: [   40.105627] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  66248: [   40.105630] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  66249: [   40.105926] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66250: [   40.106357] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66251: [   40.106652] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66252: [   40.107081] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66253: [   40.107085] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66254: [   40.107087] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66256: [   40.107377] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66257: [   40.107778] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  66258: [   40.107781] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  66259: [   40.108136] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66260: [   40.108562] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66261: [   40.108863] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66264: [   40.109292] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66265: [   40.109295] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66266: [   40.109297] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66268: [   40.109597] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66273: [   40.109995] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  66274: [   40.110001] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  66275: [   40.110298] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66281: [   40.110727] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66283: [   40.111023] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66284: [   40.111457] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66285: [   40.111460] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66286: [   40.111462] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66288: [   40.111757] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66289: [   40.112157] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  66290: [   40.112160] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  66291: [   40.112456] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66292: [   40.112886] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66293: [   40.113182] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66294: [   40.113612] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66295: [   40.113614] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66296: [   40.113617] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66298: [   40.113914] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66299: [   40.114311] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  66301: [   40.114315] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  66304: [   40.114605] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66305: [   40.115025] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66306: [   40.115313] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66311: [   40.115736] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66312: [   40.115739] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66313: [   40.115742] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66320: [   40.116034] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66321: [   40.116439] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret= 12) 90 cc 24 53 59 4e 41 53 20 10 05 05
+	Line  66322: [   40.116442] amdgpu 0000:04:00.0: [drm:drm_dp_read_desc] AMDGPU DM aux hw bus 3: DP branch: OUI 90-cc-24 dev-ID SYNAS  HW-rev 1.0 SW-rev 5.5 quirks 0x0008
+	Line  66323: [   40.116740] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66324: [   40.117170] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret= 15) 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66325: [   40.117466] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66326: [   40.117896] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02200 AUX -> (ret= 15) 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66327: [   40.117899] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: Base DPCD: 12 14 c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66328: [   40.117901] amdgpu 0000:04:00.0: [drm:drm_dp_read_dpcd_caps] AMDGPU DM aux hw bus 3: DPCD: 14 1e c4 81 01 11 01 83 2a 3f 04 00 00 00 84
+	Line  66468: [   40.121235] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66469: [   40.121525] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00111 AUX -> (ret=  1) 07
+	Line  66470: [   40.121848] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00111 AUX <- (ret=  1) 07
+	Line  66471: [   40.122148] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66472: [   40.122457] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00300 AUX -> (ret=  3) 00 00 00
+	Line  66473: [   40.122775] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00300 AUX <- (ret=  3) 00 00 1a
+	Line  66475: [   40.123164] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00303 AUX <- (ret=  9) 06 15 00 00 00 00 19 00 00
+	Line  66476: [   40.123465] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00340 AUX <- (ret=  1) 50
+	Line  66481: [   40.125049] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00600 AUX <- (ret=  1) 01
+	Line  66483: [   40.125348] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66484: [   40.125645] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x0000e AUX -> (ret=  1) 84
+	Line  66485: [   40.125940] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66486: [   40.126236] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x0000e AUX -> (ret=  1) 84
+	Line  66487: [   40.126543] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00102 AUX <- (ret=  1) 00
+	Line  66488: [   40.126838] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66489: [   40.127134] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00205 AUX -> (ret=  1) 00
+	Line  66490: [   40.127430] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00120 AUX <- (ret=  1) 01
+	Line  66491: [   40.127728] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00108 AUX <- (ret=  1) 01
+	Line  66492: [   40.128024] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00107 AUX <- (ret=  1) 10
+	Line  66493: [   40.128330] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00101 AUX <- (ret=  1) 84
+	Line  66494: [   40.128750] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00100 AUX <- (ret=  1) 1e
+	Line  66495: [   40.129518] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00102 AUX <- (ret=  5) 21 00 00 00 00
+	Line  66533: [   40.148726] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66537: [   40.149085] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00202 AUX -> (ret=  6) 00 11 00 00 22 22
+	Line  66543: [   40.149719] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00103 AUX <- (ret=  4) 02 02 02 02
+	Line  66559: [   40.167710] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66560: [   40.168082] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00202 AUX -> (ret=  6) 11 11 00 00 22 22
+	Line  66561: [   40.168857] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00102 AUX <- (ret=  5) 07 02 02 02 02
+	Line  66567: [   40.186700] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66568: [   40.188015] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00202 AUX -> (ret=  6) 77 77 81 00 22 22
+	Line  66569: [   40.188335] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x00102 AUX <- (ret=  1) 00
+	Line  66570: [   40.188641] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66571: [   40.188942] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00205 AUX -> (ret=  1) 00
+	Line  66572: [   40.195709] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66573: [   40.196082] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00200 AUX -> (ret=  6) 03 00 77 77 01 00
+	Line  66641: [   40.398710] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x002c0 AUX <- (ret=  1) 01
+	Line  66642: [   40.399050] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x001c0 AUX <- (ret=  3) 01 01 0a
+	Line  66648: [   40.399361] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66649: [   40.399673] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x002c0 AUX -> (ret=  1) 01
+	Line  66659: [   40.400131] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66660: [   40.400446] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x002c0 AUX -> (ret=  1) 03
+	Line  66666: [   40.400918] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 10) 10 47 c0 11 11 01 02 14 00 bb
+	Line  66669: [   40.412128] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66670: [   40.412601] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 77 77 01 00
+	Line  66671: [   40.412905] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66672: [   40.413245] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  66674: [   40.413562] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66675: [   40.414023] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 46 c5 11 10 01 02 14 c2 00 00 00 00 00 00 00
+	Line  66680: [   40.414384] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  66681: [   40.414680] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66682: [   40.414971] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66683: [   40.415261] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00107 AUX -> (ret=  1) 10
+	Line  66685: [   40.415598] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  66761: [   40.622570] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x002c0 AUX <- (ret=  1) 01
+	Line  66762: [   40.622892] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x001c0 AUX <- (ret=  3) 02 0b 0a
+	Line  66763: [   40.623196] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66764: [   40.623492] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x002c0 AUX -> (ret=  1) 01
+	Line  66774: [   40.623875] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66775: [   40.624181] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x002c0 AUX -> (ret=  1) 03
+	Line  66782: [   40.624618] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 10) 10 47 c0 11 21 02 02 14 00 84
+	Line  66790: [   40.635945] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66791: [   40.636407] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 77 77 01 00
+	Line  66792: [   40.636705] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66793: [   40.637039] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  66795: [   40.637347] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66796: [   40.637807] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 46 c5 11 20 02 02 14 b5 00 00 00 00 00 00 00
+	Line  66801: [   40.638145] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  66802: [   40.638444] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66803: [   40.638733] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66804: [   40.639023] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00107 AUX -> (ret=  1) 10
+	
+	
+	
+	Line  66806: [   40.639357] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  66892: [   40.846926] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x002c0 AUX <- (ret=  1) 01
+	Line  66893: [   40.847271] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x001c0 AUX <- (ret=  3) 03 15 0a
+	Line  66894: [   40.847590] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66895: [   40.847905] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x002c0 AUX -> (ret=  1) 01
+	Line  66905: [   40.848368] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66906: [   40.848680] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x002c0 AUX -> (ret=  1) 03
+	Line  66915: [   40.849180] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret= 10) 10 47 c0 11 31 03 02 14 00 22
+	Line  66922: [   40.860608] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66923: [   40.861085] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 77 77 01 00
+	Line  66924: [   40.861392] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66925: [   40.861736] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  66927: [   40.862061] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66928: [   40.862520] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 46 c5 11 30 03 02 14 98 00 00 00 00 00 00 00
+	Line  66933: [   40.862875] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  66934: [   40.863169] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66935: [   40.863461] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  66936: [   40.863753] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00107 AUX -> (ret=  1) 10
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	Line  66938: [   40.864077] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  72682: [   42.022276] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  72683: [   42.022579] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x004b0 AUX -> (ret=  1) 94
+	Line  72686: [   42.022882] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  72687: [   42.023196] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x00500 AUX -> (ret=  3) 90 cc 24
+	Line  72694: [   42.024320] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 10 04 b0 01 b5
+	Line  72702: [   42.035548] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  72703: [   42.035993] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 77 77 01 00
+	Line  72704: [   42.036290] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  72705: [   42.036621] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  72707: [   42.036921] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  72723: [   42.037375] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 14 c9 a0 f5 f4 fb ff 00 00 00 00 f5 f4 fb ff
+	Line  72741: [   42.037675] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  72744: [   42.038031] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01410 AUX -> (ret=  7) 00 00 00 00 08 00 b0
+	Line  72755: [   42.038366] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  72756: [   42.038752] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 20 04 b0 01 92
+	Line  72757: [   42.039043] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  72759: [   42.039368] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  73798: [   42.223396] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  73799: [   42.223841] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 77 77 01 01
+	Line  73800: [   42.224138] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  73801: [   42.224458] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  73803: [   42.224756] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  73804: [   42.225210] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 05 c3 20 02 01 00 51 00 00 00 00 00 00 00 00
+	Line  73813: [   42.225538] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  73814: [   42.225925] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x01000 AUX <- (ret=  9) 10 06 cc 20 30 04 b0 01 3c
+	Line  73815: [   42.226218] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  73816: [   42.226549] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	Line  74190: [   42.412586] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  74191: [   42.413063] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret= 14) 03 10 00 00 00 00 00 00 00 00 77 77 01 01
+	Line  74192: [   42.413376] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  74193: [   42.413716] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 10 00 00
+	Line  74195: [   42.414039] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  74196: [   42.414510] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x01400 AUX -> (ret= 16) 10 05 c3 20 03 01 00 d2 00 00 00 00 00 00 00 00
+	Line  74201: [   42.414880] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_write] AMDGPU DM aux hw bus 3: 0x02003 AUX <- (ret=  3) 10 00 00
+	Line  74202: [   42.415192] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_probe] AMDGPU DM aux hw bus 3: 0x00000 AUX -> (ret=  1) 12
+	Line  74203: [   42.415535] amdgpu 0000:04:00.0: [drm:drm_dp_dpcd_read] AMDGPU DM aux hw bus 3: 0x02002 AUX -> (ret=  4) 03 00 00 00
+	
